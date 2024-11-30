@@ -15,5 +15,24 @@ export interface IFSWrap {
     pathJoin(...paths: string[]): string;
     pathRelative(from: string, to: string): string;
     pathBasename(p: string, ext?: string): string;
+    getFilesize(fpath: string): Promise<number>;
     readonly pathSep: string;
+}
+
+
+export interface ImgInfo {
+    name: string;
+    path: string;
+    extension: string;
+    relPath: string;
+    width: number;
+    height: number;
+    lossless: boolean;
+    thumbPath: string;
+    filesize: number;
+}
+
+
+export interface DirInfo {
+    fullPath: string;
 }

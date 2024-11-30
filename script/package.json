@@ -11,6 +11,8 @@
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.10.0",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "image-size": "^1.1.1",
+    "webpinfo": "^2.0.0"
   }
 }

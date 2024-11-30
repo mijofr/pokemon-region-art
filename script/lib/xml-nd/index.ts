@@ -1,10 +1,14 @@
-export class XmlNd {
+export interface IXmlNd {
+    getOutput(depth: number): string;
+}
+
+export class XmlNd implements IXmlNd {
     constructor(
         private tag: string, 
         public selfTerminating: boolean = false,
         private attributes: [string, string][] = [],
         private properties: string[] = [],
-        private children: XmlNd[] = []) {
+        private children: IXmlNd[] = []) {
 
     }
 
@@ -36,17 +40,42 @@ export class XmlNd {
         } 
     }
 
-    public addAttr(name: string, value: string) {
+    public addAttr(name: string, value: string): XmlNd {
         this.attributes.push([name, value]);
+        return this;
     }
 
-    public addProp(name: string) {
+    public addProp(name: string): XmlNd {
         this.properties.push(name);
+        return this;
     }
 
-    public addChild(c: XmlNd) {
+    public addChild(c: IXmlNd): XmlNd {
         this.children.push(c);
+        return this;
     }
+
+    public addTextChild(text: string): XmlNd {
+        this.addChild(new XmlNdText(text));
+        return this;
+    }
+
+
 
 }
 
+export class XmlNdText implements IXmlNd {
+    constructor(public text: string) {
+        
+    }
+    public getOutput(depth: number = 0, splitTextTabs = true): string {
+        let tabs: string = "\t".repeat(depth);
+
+
+        if (splitTextTabs) {
+            let splText = this.text.split("\n").map(n => tabs + n).join("\n");
+        }
+
+        return tabs + this.text;
+    }
+}

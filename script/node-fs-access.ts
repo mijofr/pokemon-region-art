@@ -63,6 +63,11 @@ export class NodeFsAccess implements IFSWrap {
         return path.sep;
     }
 
+    public async getFilesize(fpath: string): Promise<number> {
+        let stat = await fs.stat(fpath);
+        return stat.size;
+    }
+
     
 
 }
