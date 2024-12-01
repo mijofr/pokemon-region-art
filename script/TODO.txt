@@ -1,0 +1,31 @@
+Flip the ordering of images and sub-nodes in the first level.
+
+add ID values
+add an index
+
+tint filesize slightly red if file is massive. Or add a ⚠ before the ⚠️
+
+add icons for small-medium-large-xl? List Megapixels in title?
+
+export interface ImgInfo {
+    name: string;
+    thumbPath: string;
+    note: string;
+    imgVersions: ImgLink[];
+}
+
+export interface ImgLink {
+    linkPath: string;
+    filesize: number;
+    width: number;
+    height: number;
+    extension: string;
+    lossless: boolean;
+    megapixels: number;
+}
+
+
+export interface DirInfo {
+    fullPath: string;
+    uniqueId: string;
+}

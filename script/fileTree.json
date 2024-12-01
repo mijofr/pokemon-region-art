@@ -6,28 +6,6 @@
 	},
 	"items": [
 		{
-			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia 2.webp",
-			"relPath": "Almia 2.webp",
-			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Almia 2.jpg",
-			"name": "Almia 2",
-			"extension": "webp",
-			"width": 4252,
-			"height": 2126,
-			"lossless": true,
-			"filesize": 4990680
-		},
-		{
-			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia.webp",
-			"relPath": "Almia.webp",
-			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Almia.jpg",
-			"name": "Almia",
-			"extension": "webp",
-			"width": 1083,
-			"height": 1000,
-			"lossless": true,
-			"filesize": 1325624
-		},
-		{
 			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Carmonte Island.webp",
 			"relPath": "Carmonte Island.webp",
 			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Carmonte Island.jpg",
@@ -169,6 +147,40 @@
 					"height": 3971,
 					"lossless": true,
 					"filesize": 21521850
+				}
+			],
+			"children": []
+		},
+		{
+			"name": "Almia",
+			"path": [
+				"Almia"
+			],
+			"metadata": {
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia"
+			},
+			"items": [
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\Almia 2.webp",
+					"relPath": "Almia\\Almia 2.webp",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Almia\\Almia 2.jpg",
+					"name": "Almia 2",
+					"extension": "webp",
+					"width": 4252,
+					"height": 2126,
+					"lossless": true,
+					"filesize": 4990680
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\Almia.webp",
+					"relPath": "Almia\\Almia.webp",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Almia\\Almia.jpg",
+					"name": "Almia",
+					"extension": "webp",
+					"width": 1083,
+					"height": 1000,
+					"lossless": true,
+					"filesize": 1325624
 				}
 			],
 			"children": []
@@ -887,17 +899,6 @@
 			},
 			"items": [
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\a.jpg",
-					"relPath": "Mystery Dungeon\\a.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Mystery Dungeon\\a.jpg",
-					"name": "a",
-					"extension": "jpg",
-					"width": 360,
-					"height": 270,
-					"lossless": false,
-					"filesize": 180756
-				},
-				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
 					"relPath": "Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
 					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Mystery Dungeon\\Air Continent (Rescue Team DX).jpg",
@@ -1019,17 +1020,6 @@
 					"filesize": 31320
 				},
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\img_story_03_19.jpg",
-					"relPath": "Mystery Dungeon\\img_story_03_19.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Mystery Dungeon\\img_story_03_19.jpg",
-					"name": "img_story_03_19",
-					"extension": "jpg",
-					"width": 640,
-					"height": 480,
-					"lossless": false,
-					"filesize": 81190
-				},
-				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
 					"relPath": "Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
 					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.jpg",
@@ -1061,6 +1051,17 @@
 					"height": 1143,
 					"lossless": true,
 					"filesize": 2361426
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Pokemon Paradise.jpg",
+					"relPath": "Mystery Dungeon\\Pokemon Paradise.jpg",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Mystery Dungeon\\Pokemon Paradise.jpg",
+					"name": "Pokemon Paradise",
+					"extension": "jpg",
+					"width": 640,
+					"height": 480,
+					"lossless": false,
+					"filesize": 81190
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Super Mystery Dungeon.webp",
@@ -1119,6 +1120,17 @@
 					"filesize": 244676
 				}
 			],
+			"children": []
+		},
+		{
+			"name": "Other",
+			"path": [
+				"Other"
+			],
+			"metadata": {
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Other"
+			},
+			"items": [],
 			"children": []
 		},
 		{

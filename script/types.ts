@@ -5,6 +5,17 @@ export interface DEnt {
     isDirectory: boolean;
 }
 
+
+export interface Size2 {
+    w: number;
+    h: number;
+}
+
+export interface FileSizeDesc {
+    size: number;
+    unit: string;
+}
+
 export interface IFSWrap {
     readDirectory(fpath: string): Promise<DEnt[]>;
     readFile(fpath): Promise<string>;

@@ -73,7 +73,7 @@ export class XmlNdText implements IXmlNd {
 
 
         if (splitTextTabs) {
-            let splText = this.text.split("\n").map(n => tabs + n).join("\n");
+            this.text = this.text.split("\n").map(n => tabs + n).join("\n");
         }
 
         return tabs + this.text;
