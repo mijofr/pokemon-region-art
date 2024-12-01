@@ -29,6 +29,46 @@ body {
   --file-type-color: #673466;
 }
 
+svg {
+  shape-rendering: geometricPrecision;
+}
+svg * {
+  shape-rendering: geometricPrecision;
+}
+
+.warning {
+  display: inline-block;
+  width: 17px;
+  height: 16px;
+  background-image: url("./../triangle2-opt-render-4x.png");
+  background-position: 0 0;
+  background-size: contain;
+  position: relative;
+  top: 2px;
+}
+
+.warning2 {
+  display: inline-block;
+  width: 17px;
+  height: 16px;
+  background-image: url("./../triangle2-red-opt-render-4x.png");
+  background-position: 0 0;
+  background-size: contain;
+  position: relative;
+  top: 2px;
+}
+
+.warning3 {
+  display: inline-block;
+  width: 17px;
+  height: 16px;
+  background-image: url("./../triangle2-opt-render-upside-4x.png");
+  background-position: 0 0;
+  background-size: contain;
+  position: relative;
+  top: 2px;
+}
+
 h1, h2 {
   color: #e0e3e7;
 }
@@ -247,10 +287,10 @@ span.format {
   padding: 0 0.5em;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #e0e3e7;
   line-height: 1;
   border-radius: 1em;
-  background-color: var(--file-type-color);
+  border: 1px solid var(--file-type-color);
 }
 span.format > span {
   font-family: "PT Sans";

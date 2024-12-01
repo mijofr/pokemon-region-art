@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="warningColor"
+   width="170"
+   height="160"
+   version="1.1"
+   viewBox="0 0 170.0000001 160"
+   sodipodi:docname="triangle2-opt-render.svg"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter6"
+       x="-0.178852275"
+       y="-0.2099999934"
+       width="1.35770452"
+       height="1.419999957">
+      <feGaussianBlur
+         stdDeviation="2.5 2.5"
+         result="blur"
+         id="feGaussianBlur6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter1"
+       x="-0.2716858365"
+       y="-0.319"
+       width="1.543371666"
+       height="1.638">
+      <feGaussianBlur
+         stdDeviation="6 6"
+         result="blur"
+         id="feGaussianBlur1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.820799964"
+     inkscape:cx="-158.4468397"
+     inkscape:cy="197.7152939"
+     inkscape:window-width="2401"
+     inkscape:window-height="1417"
+     inkscape:window-x="1672"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="warningColor" />
+  <path
+     d="m 78.42001625,30 -52.21,88.93 6.497,11.07 H 137.1070163 l 6.517,-11.07 L 91.41401625,30 Z"
+     fill="#806600"
+     stroke="#ffffff"
+     stroke-linejoin="round"
+     stroke-width="20"
+     style="fill:#000000;stroke:#000000;stroke-width:35;stroke-dasharray:none;paint-order:markers stroke fill;filter:url(#filter1)"
+     id="path1" />
+  <path
+     d="m 78.42001625,30 -52.21,88.93 6.497,11.07 H 137.1070163 l 6.517,-11.07 L 91.41401625,30 Z"
+     fill="#806600"
+     stroke="#ffffff"
+     stroke-linejoin="round"
+     stroke-width="20"
+     style="paint-order:markers stroke fill"
+     id="path3" />
+  <path
+     d="m 75.40001625,50 h 19.13 l -3.791,45 h -11.54 z"
+     fill="#ffffff"
+     id="path4" />
+  <rect
+     x="77.46001434"
+     y="105"
+     width="15"
+     height="15"
+     ry="5"
+     fill="#ffffff"
+     id="rect4" />
+</svg>
