@@ -154,6 +154,19 @@ div.group-children {
 
 }
 
+
+
+.groupNode.locations {
+    div.img-container {
+        width: 500px;
+        .img-frame {
+            width: 175px;
+            height: 140px;
+            flex-basis: 175px;
+        }
+    }    
+}
+
 div.img-container {
 
     background-color: #161922;
@@ -215,14 +228,12 @@ div.img-container {
 
         h3 {
             margin: 0.1em 0 0.25em 0;
-            padding-bottom: 0.2em;
             font-weight: 600;
-            border-bottom: 2px solid #1c212c;
             text-transform: uppercase;
         }
 
         div.line {
-            display: none;
+            margin: 0.5em 0;
             height:2px;
             width:100%;
             background-color: #1c212c;
@@ -364,4 +375,20 @@ span.format {
 
 .normal-weight {
     font-weight: 400;
+}
+
+.half-em-right-margin {
+    margin-right: 0.5em;
+}
+
+.megapix {
+    span:nth-child(1) {
+        font-size: 0.9em;
+        font-weight: 200;
+    }
+    span:nth-child(2) {
+        font-size: 0.8em;
+        font-weight: 200;
+        margin-left: 0.25ch;
+    }
 }

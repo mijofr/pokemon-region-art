@@ -83,15 +83,15 @@
 			"filesize": 118862
 		},
 		{
-			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ransei.webp",
-			"relPath": "Ransei.webp",
+			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ransei.png",
+			"relPath": "Ransei.png",
 			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Ransei.jpg",
 			"name": "Ransei",
-			"extension": "webp",
+			"extension": "png",
 			"width": 544,
 			"height": 448,
 			"lossless": true,
-			"filesize": 95604
+			"filesize": 115817
 		},
 		{
 			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Tumblecube Island.webp",
@@ -242,54 +242,6 @@
 					"children": []
 				},
 				{
-					"name": "Sun",
-					"path": [
-						"Alola",
-						"Sun"
-					],
-					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Sun"
-					},
-					"items": [
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Sun\\Alola.jpg",
-							"relPath": "Alola\\Sun\\Alola.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\Sun\\Alola.jpg",
-							"name": "Alola",
-							"extension": "jpg",
-							"width": 7096,
-							"height": 5016,
-							"lossless": false,
-							"filesize": 5402529
-						}
-					],
-					"children": []
-				},
-				{
-					"name": "SunMoon",
-					"path": [
-						"Alola",
-						"SunMoon"
-					],
-					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\SunMoon"
-					},
-					"items": [
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\SunMoon\\Verylarge.webp",
-							"relPath": "Alola\\SunMoon\\Verylarge.webp",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\SunMoon\\Verylarge.jpg",
-							"name": "Verylarge",
-							"extension": "webp",
-							"width": 14192,
-							"height": 10032,
-							"lossless": true,
-							"filesize": 103022914
-						}
-					],
-					"children": []
-				},
-				{
 					"name": "UltraSun",
 					"path": [
 						"Alola",
@@ -309,6 +261,52 @@
 							"height": 2408,
 							"lossless": false,
 							"filesize": 6253295
+						}
+					],
+					"children": []
+				},
+				{
+					"name": "_SunMoon",
+					"path": [
+						"Alola",
+						"_SunMoon"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon"
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\largeish.jpg",
+							"relPath": "Alola\\_SunMoon\\largeish.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\_SunMoon\\largeish.jpg",
+							"name": "largeish",
+							"extension": "jpg",
+							"width": 14192,
+							"height": 10032,
+							"lossless": false,
+							"filesize": 12211610
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\mid.jpg",
+							"relPath": "Alola\\_SunMoon\\mid.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\_SunMoon\\mid.jpg",
+							"name": "mid",
+							"extension": "jpg",
+							"width": 7096,
+							"height": 5016,
+							"lossless": false,
+							"filesize": 3400892
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\Verylarge.webp",
+							"relPath": "Alola\\_SunMoon\\Verylarge.webp",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\_SunMoon\\Verylarge.jpg",
+							"name": "Verylarge",
+							"extension": "webp",
+							"width": 14192,
+							"height": 10032,
+							"lossless": true,
+							"filesize": 103022914
 						}
 					],
 					"children": []

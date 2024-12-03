@@ -81,6 +81,11 @@ function generateLink(itemUrl: string,
             fileFormatDesc = `webp <span class="normal-weight">lossless</span>`
         }
 
+        let sizeWarning = "";
+        if (size.unit.toLocaleLowerCase() == "mb" && size.size > 45) {
+            sizeWarning = `<div class="warning half-em-right-margin"></div>`
+        }
+
 return `
 <a href="${itemUrl}" class="fileLink ${fileFormat}">
     <div class="pageIcon">
@@ -92,7 +97,7 @@ return `
             <span class="format"><span>${fileFormatDesc}</span></span>
         </div>
         <div>
-            <span class="size">${size.size}<span>${size.unit}</span></span>
+            <span class="size">${sizeWarning}${size.size}<span>${size.unit}</span></span>
         </div>
     </div>
 </a>
@@ -125,6 +130,17 @@ function getSizeString(fsize: number): FileSizeDesc {
 
 function translateImage(img: ImgInfo): XmlNd {
 
+
+    let megaPixels: number = img.width * img.height / 1000000
+
+    if (megaPixels > 10) {
+        megaPixels = Math.round(megaPixels);
+    } else if (megaPixels < 1) {
+        megaPixels = Math.round(megaPixels * 100) / 100
+    } else {
+        megaPixels = Math.round(megaPixels * 10) / 10
+    }
+
     let imgContainerNode = new XmlNd("div").addAttr("class", "img-container");
 
     let imgNode = new XmlNd("div")
@@ -143,8 +159,13 @@ function translateImage(img: ImgInfo): XmlNd {
 
     let descNode = new XmlNd("div")
         .addAttr("class", "img-desc")
-        .addChild((new XmlNd("h3")).addChild(new XmlNdText(img.name)))
+        .addChild(
+            (new XmlNd("h3")).addChild(new XmlNdText(img.name)))
         
+    descNode.addChild(new XmlNd("div", false, [["class", "megapix"]])
+    .addTextChild(`<span>${megaPixels}</span><span>megapixels</span>`));
+
+    descNode.addChild(new XmlNd("div", false, [["class", "line"]]));
 
     let fformat = img.extension.toLocaleLowerCase();
     if (fformat == "webp" && img.lossless) {
