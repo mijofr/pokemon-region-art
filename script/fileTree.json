@@ -2,7 +2,8 @@
 	"name": "regions",
 	"path": [],
 	"metadata": {
-		"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions"
+		"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions",
+		"uniqueIdString": "10004"
 	},
 	"items": [
 		{
@@ -22,10 +23,10 @@
 			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Ferrum.jpg",
 			"name": "Ferrum",
 			"extension": "webp",
-			"width": 1280,
-			"height": 720,
+			"width": 2700,
+			"height": 2000,
 			"lossless": true,
-			"filesize": 765692
+			"filesize": 3602486
 		},
 		{
 			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental.webp",
@@ -99,10 +100,10 @@
 			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Tumblecube Island.jpg",
 			"name": "Tumblecube Island",
 			"extension": "webp",
-			"width": 1280,
-			"height": 720,
+			"width": 3072,
+			"height": 1440,
 			"lossless": true,
-			"filesize": 426594
+			"filesize": 1081518
 		}
 	],
 	"children": [
@@ -112,7 +113,8 @@
 				"Aeos Island"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island",
+				"uniqueIdString": "10006"
 			},
 			"items": [
 				{
@@ -157,7 +159,8 @@
 				"Almia"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia",
+				"uniqueIdString": "10005"
 			},
 			"items": [
 				{
@@ -191,7 +194,8 @@
 				"Alola"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola",
+				"uniqueIdString": "10008"
 			},
 			"items": [],
 			"children": [
@@ -202,7 +206,8 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations",
+						"uniqueIdString": "10028"
 					},
 					"items": [
 						{
@@ -248,7 +253,8 @@
 						"UltraSun"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\UltraSun"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\UltraSun",
+						"uniqueIdString": "10030"
 					},
 					"items": [
 						{
@@ -272,7 +278,8 @@
 						"_SunMoon"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon",
+						"uniqueIdString": "10029"
 					},
 					"items": [
 						{
@@ -319,7 +326,8 @@
 				"Blueberry Academy"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy",
+				"uniqueIdString": "10007"
 			},
 			"items": [
 				{
@@ -342,7 +350,8 @@
 						"Map"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\Map"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\Map",
+						"uniqueIdString": "10027"
 					},
 					"items": [
 						{
@@ -389,7 +398,8 @@
 				"Fiore"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore",
+				"uniqueIdString": "10009"
 			},
 			"items": [
 				{
@@ -423,7 +433,8 @@
 				"Galar"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar",
+				"uniqueIdString": "10010"
 			},
 			"items": [
 				{
@@ -479,7 +490,8 @@
 				"Hisui"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui",
+				"uniqueIdString": "10011"
 			},
 			"items": [
 				{
@@ -513,7 +525,8 @@
 				"Hoenn"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn",
+				"uniqueIdString": "10012"
 			},
 			"items": [
 				{
@@ -547,7 +560,8 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations",
+						"uniqueIdString": "10031"
 					},
 					"items": [
 						{
@@ -594,7 +608,8 @@
 				"Johto"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto",
+				"uniqueIdString": "10014"
 			},
 			"items": [],
 			"children": [
@@ -605,7 +620,8 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Locations"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Locations",
+						"uniqueIdString": "10032"
 					},
 					"items": [
 						{
@@ -641,7 +657,8 @@
 				"Kalos"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos",
+				"uniqueIdString": "10013"
 			},
 			"items": [
 				{
@@ -697,7 +714,8 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Locations"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Locations",
+						"uniqueIdString": "10033"
 					},
 					"items": [
 						{
@@ -744,7 +762,8 @@
 				"Kanto"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto",
+				"uniqueIdString": "10015"
 			},
 			"items": [
 				{
@@ -789,7 +808,8 @@
 				"Kanto & Johto"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto & Johto"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto & Johto",
+				"uniqueIdString": "10016"
 			},
 			"items": [
 				{
@@ -823,7 +843,8 @@
 				"Kitakami"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami",
+				"uniqueIdString": "10017"
 			},
 			"items": [
 				{
@@ -846,7 +867,8 @@
 						"Map"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\Map"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\Map",
+						"uniqueIdString": "10034"
 					},
 					"items": [
 						{
@@ -893,7 +915,8 @@
 				"Mystery Dungeon"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon",
+				"uniqueIdString": "10020"
 			},
 			"items": [
 				{
@@ -1103,9 +1126,43 @@
 				"Orre"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre",
+				"uniqueIdString": "10018"
 			},
 			"items": [
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\arrows-view.webp",
+					"relPath": "Orre\\arrows-view.webp",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Orre\\arrows-view.jpg",
+					"name": "arrows-view",
+					"extension": "webp",
+					"width": 6418,
+					"height": 3840,
+					"lossless": true,
+					"filesize": 18843744
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\clean map.png",
+					"relPath": "Orre\\clean map.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Orre\\clean map.jpg",
+					"name": "clean map",
+					"extension": "png",
+					"width": 640,
+					"height": 480,
+					"lossless": true,
+					"filesize": 384173
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\clean-view.webp",
+					"relPath": "Orre\\clean-view.webp",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Orre\\clean-view.jpg",
+					"name": "clean-view",
+					"extension": "webp",
+					"width": 6418,
+					"height": 3840,
+					"lossless": true,
+					"filesize": 18842528
+				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\map.webp",
 					"relPath": "Orre\\map.webp",
@@ -1115,7 +1172,18 @@
 					"width": 640,
 					"height": 480,
 					"lossless": true,
-					"filesize": 244676
+					"filesize": 241572
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\upscaled map.jpg",
+					"relPath": "Orre\\upscaled map.jpg",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Orre\\upscaled map.jpg",
+					"name": "upscaled map",
+					"extension": "jpg",
+					"width": 960,
+					"height": 900,
+					"lossless": false,
+					"filesize": 328354
 				}
 			],
 			"children": []
@@ -1126,7 +1194,8 @@
 				"Other"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Other"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Other",
+				"uniqueIdString": "10019"
 			},
 			"items": [],
 			"children": []
@@ -1137,7 +1206,8 @@
 				"Paldea"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea",
+				"uniqueIdString": "10021"
 			},
 			"items": [
 				{
@@ -1160,7 +1230,8 @@
 						"Map"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\Map"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\Map",
+						"uniqueIdString": "10035"
 					},
 					"items": [
 						{
@@ -1207,7 +1278,8 @@
 				"Pokemon Island"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pokemon Island"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pokemon Island",
+				"uniqueIdString": "10024"
 			},
 			"items": [
 				{
@@ -1241,7 +1313,8 @@
 				"Poketopia"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Poketopia"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Poketopia",
+				"uniqueIdString": "10022"
 			},
 			"items": [
 				{
@@ -1275,7 +1348,8 @@
 				"Sevii Islands"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sevii Islands"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sevii Islands",
+				"uniqueIdString": "10025"
 			},
 			"items": [
 				{
@@ -1309,7 +1383,8 @@
 				"Sinnoh"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh",
+				"uniqueIdString": "10023"
 			},
 			"items": [
 				{
@@ -1368,6 +1443,17 @@
 					"filesize": 35439160
 				},
 				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Sinnoh Map.png",
+					"relPath": "Sinnoh\\Sinnoh Map.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Sinnoh\\Sinnoh Map.jpg",
+					"name": "Sinnoh Map",
+					"extension": "png",
+					"width": 1268,
+					"height": 734,
+					"lossless": true,
+					"filesize": 436649
+				},
+				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Sinnoh Unlabelled.webp",
 					"relPath": "Sinnoh\\Sinnoh Unlabelled.webp",
 					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Sinnoh\\Sinnoh Unlabelled.jpg",
@@ -1387,7 +1473,8 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations",
+						"uniqueIdString": "10036"
 					},
 					"items": [
 						{
@@ -1434,7 +1521,8 @@
 				"Unova"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova"
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova",
+				"uniqueIdString": "10026"
 			},
 			"items": [
 				{
@@ -1479,7 +1567,8 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Locations"
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Locations",
+						"uniqueIdString": "10037"
 					},
 					"items": [
 						{

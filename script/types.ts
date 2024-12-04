@@ -46,4 +46,5 @@ export interface ImgInfo {
 
 export interface DirInfo {
     fullPath: string;
+    uniqueIdString: string;
 }

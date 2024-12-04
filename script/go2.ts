@@ -32,6 +32,14 @@ function execPromise(command, opts): Promise<string> {
 }
 
 const sizeOfPromise = promisify(sizeOf.imageSize)
+
+let idStart = 10003;
+
+function getUniqueId() {
+    let returnVal = idStart;
+    idStart = idStart + 1;
+    return idStart;
+}
   
 
 export interface FormatInfo {
@@ -122,7 +130,8 @@ async function WalkDir(d: string, treePath: string[], isRoot: boolean = false): 
     }
 
     let meta: DirInfo = {
-        fullPath: path.resolve(d)
+        fullPath: path.resolve(d),
+        uniqueIdString: getUniqueId().toString()
     }
     
     let childDirs = await Promise.all(fileList
