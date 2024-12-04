@@ -78,7 +78,10 @@ function generateLink(itemUrl: string,
 
         let fileFormatDesc = fileFormat;
         if (fileFormat == "webp-lossless") {
-            fileFormatDesc = `webp <span class="normal-weight">lossless</span>`
+            fileFormatDesc = `webp <span class="normal-weight">(lossless)</span>`
+        }
+        if (fileFormat == "png") {
+                fileFormatDesc = `png <span class="normal-weight">(lossless)</span>`
         }
 
         let sizeWarning = "";
