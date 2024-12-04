@@ -91,7 +91,7 @@ function generateLink(itemUrl: string,
 
         let sizeWarning = "";
         if (size.unit.toLocaleLowerCase() == "mb" && size.size > 45) {
-            sizeWarning = `<div class="warning half-em-right-margin"></div>`
+            sizeWarning = `<div class="warning"></div>`
         }
 
 return `
@@ -105,7 +105,7 @@ return `
             <span class="format"><span>${fileFormatDesc}</span></span>
         </div>
         <div>
-            <span class="size">${sizeWarning}${size.size}<span>${size.unit}</span></span>
+            <span class="size">${sizeWarning}${size.size}<span>${size.unit}</span>${sizeWarning}</span>
         </div>
     </div>
 </a>

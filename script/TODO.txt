@@ -29,3 +29,5 @@ export interface DirInfo {
     fullPath: string;
     uniqueId: string;
 }
+
+Redo warning sign for height 17;
