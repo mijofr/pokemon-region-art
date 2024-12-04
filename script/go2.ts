@@ -1,5 +1,5 @@
 import { exec } from "child_process";
-import { convertTreeAsync, flattenTree, TreeNode } from "./lib/tree-node";
+import { cleanTree, convertTreeAsync, flattenTree, TreeNode } from "./lib/tree-node";
 import { NodeFsAccess } from "./node-fs-access";
 import * as path from "path";
 import { WebPInfo } from "webpinfo";
@@ -118,7 +118,7 @@ async function getImageInfoTree(tree: TreeNode<string, DirInfo>): Promise<TreeNo
     return updatedTree;
 }
 
-async function WalkDir(d: string, treePath: string[], isRoot: boolean = false): Promise<TreeNode<string, DirInfo>> {
+async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boolean = false): Promise<TreeNode<string, DirInfo>> {
     
 
     let currentDir = path.basename(d);
@@ -131,13 +131,15 @@ async function WalkDir(d: string, treePath: string[], isRoot: boolean = false): 
 
     let meta: DirInfo = {
         fullPath: path.resolve(d),
-        uniqueIdString: getUniqueId().toString()
+        uniqueIdString: getUniqueId().toString(),
+        depth: depth,
+        isMinor: (currentDir.toLocaleLowerCase().trim() == "locations")
     }
     
     let childDirs = await Promise.all(fileList
         .filter(m => m.isDirectory == true)
         .map(m => m.name)
-        .map(m => WalkDir(path.join(d, m), treePath)));
+        .map(m => WalkDir(path.join(d, m), treePath, depth + 1)));
 
     let fileItems = fileList.filter(n => n.isFile).map(n => n.name).map(n => path.join(path.resolve(d), n));
 
@@ -183,7 +185,8 @@ async function createThumbnails(tree: TreeNode<ImgInfo, DirInfo>): Promise<null>
 
 
 async function WalkTest() {
-    let res = await WalkDir("D:\\Users\\Michael\\repos\\pokemon-regions\\regions", [], true);
+    let res = await WalkDir("D:\\Users\\Michael\\repos\\pokemon-regions\\regions", [], 0, true);
+    res = cleanTree(res);
 
     let res2 = await getImageInfoTree(res);
     console.log(JSON.stringify(res, null, "\t"));

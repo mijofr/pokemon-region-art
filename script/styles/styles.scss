@@ -1,9 +1,21 @@
+$main-font-family: "Open Sans";
+
 html, body {
-    font-family: 'Open Sans';
+    font-family: $main-font-family;
 
     background-color: #14171f;
     color: #c3c7d0;
     padding: 12px;
+
+
+    font-family: $main-font-family, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+
 }
 
 body {
@@ -325,7 +337,6 @@ div.img-container {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        font-family: "DM Mono";
 
         & > div {
             display: flex;
@@ -349,6 +360,7 @@ span.size {
 
 span.resolution {
     font-weight: 700;
+    font-family: "DM Mono";
 }
 
 span.format {
@@ -364,17 +376,29 @@ span.format {
     border: 1px solid var(--file-type-color);
     //background-color: var(--file-type-color);
 
+
+
+
     & > span {
-        font-family: "PT Sans";
+
+        
+        font-optical-sizing: auto;
+        font-variation-settings: "wdth" 90;
+        
+
+        /* font-family: "PT Sans"; */
+
         font-weight: 700;
-        font-size: 0.85em;
+        font-size: 12px;
         position: relative;
         top: -0.05em;
     }
 }
 
-.normal-weight {
+.lossless-tag {
     font-weight: 400;
+    font-family: $main-font-family;
+    font-variation-settings: "wdth" 75;
 }
 
 .half-em-right-margin {

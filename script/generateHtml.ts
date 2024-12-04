@@ -37,9 +37,14 @@ function wrapPage(content: string): string {
 		<link rel="stylesheet" type="text/css" href="./styles/styles.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:wght@400;700&family=Droid+Sans+Mono&display=block" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=block" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=block" rel="stylesheet">
 
+		<!--<link href="https://fonts.googleapis.com/css2?family=Droid+Sans+Mono&display=block" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=block" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wdth,wght@0,75..100,100..800;1,75..100,100..800&display=block" rel="stylesheet">-->
+        
         <svg width="60" height="85" version="1.1" viewBox="0 0 60 85" xmlns="http://www.w3.org/2000/svg">
 			<defs>
 				<filter id="shadowBlur"	color-interpolation-filters="sRGB">
@@ -78,10 +83,10 @@ function generateLink(itemUrl: string,
 
         let fileFormatDesc = fileFormat;
         if (fileFormat == "webp-lossless") {
-            fileFormatDesc = `webp <span class="normal-weight">(lossless)</span>`
+            fileFormatDesc = `webp <span class="lossless-tag">(lossless)</span>`
         }
         if (fileFormat == "png") {
-                fileFormatDesc = `png <span class="normal-weight">(lossless)</span>`
+                fileFormatDesc = `png <span class="lossless-tag">(lossless)</span>`
         }
 
         let sizeWarning = "";
@@ -241,16 +246,34 @@ function translateNode(dataNode: TreeNode<ImgInfo, DirInfo>, level: number = 0):
 
 }
 
+function getIndex(dataset: TreeNode<ImgInfo, DirInfo>): XmlNd {
+
+    let root = new XmlNd("div");
+    root.addChild(new XmlNd("h1").addTextChild("Pokemon Region Art and Whatnot"));
+    root.addChild(new XmlNd("h3").addTextChild("Index Goes Here"));
+    return root;
+
+}
+
 async function main() {
 
     let dataset: TreeNode<ImgInfo, DirInfo> = 
         JSON.parse((await fsAccess.readFile("./fileTree.json")).toString());
 
 
-    let htmlTree = translateNode(dataset);
+    let sectionsSet: XmlNd[] = [];
+
+    let indexTree: XmlNd = getIndex(dataset);
+    sectionsSet.push(indexTree);
+
+    let mainHtmlTree = translateNode(dataset);
+    sectionsSet.push(mainHtmlTree);
+
+    let contentString = sectionsSet.map(n => n.getOutput(2)).join("\n");
 
 
-    let resultString = wrapPage(htmlTree.getOutput(2));
+
+    let resultString = wrapPage(contentString);
 
     
     fsAccess.writeFile("./index.html", resultString);
