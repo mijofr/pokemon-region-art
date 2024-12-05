@@ -1,3 +1,4 @@
+import { HasInfo } from "lib/tree-node";
 
 export interface DEnt {
     name: string;
@@ -31,8 +32,9 @@ export interface IFSWrap {
 }
 
 
-export interface ImgInfo {
+export interface ImgInfo extends HasInfo {
     name: string;
+    enumeratedName: string;
     path: string;
     extension: string;
     relPath: string;

@@ -1,8 +1,8 @@
 import path from "path";
-import { NodeFsAccess } from "./node-fs-access";
-import { XmlNd, XmlNdText } from "./lib/xml-nd";
-import { TreeNode } from "./lib/tree-node";
-import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "types";
+import { NodeFsAccess } from "./bits/node-fs-access";
+import { XmlNd, XmlNdText } from "../lib/xml-nd";
+import { TreeNode } from "../lib/tree-node";
+import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
 
 
 let fsAccess = new NodeFsAccess();
@@ -191,7 +191,7 @@ function translateImage(img: ImgInfo): XmlNd {
 
 function translateNode(dataNode: TreeNode<ImgInfo, DirInfo>, level: number = 0): XmlNd {
 
-    let htmlNode = new XmlNd("div");
+    let htmlNode = new XmlNd("div").addAttr("id", dataNode.metadata.uniqueIdString);
 
 
     let classes: string[] = [];

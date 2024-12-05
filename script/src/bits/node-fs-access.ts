@@ -1,7 +1,7 @@
 import * as fs from "fs-extra";
 import path from "path";
 
-import { IFSWrap, DEnt } from "./types";
+import { IFSWrap, DEnt } from "../types";
 
 export class NodeFsAccess implements IFSWrap {
 

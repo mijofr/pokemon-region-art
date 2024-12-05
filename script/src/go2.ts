@@ -1,45 +1,20 @@
-import { exec } from "child_process";
-import { cleanTree, convertTreeAsync, flattenTree, TreeNode } from "./lib/tree-node";
-import { NodeFsAccess } from "./node-fs-access";
+import { cleanTree, convertTreeAsync, flattenTree, SetEnumeratedNames, TreeNode } from "../lib/tree-node";
+import { NodeFsAccess } from "./bits/node-fs-access";
 import * as path from "path";
 import { WebPInfo } from "webpinfo";
 import * as sizeOf from "image-size";
 import { promisify } from "util";
-import { DirInfo, ImgInfo } from "types";
-
-let fsAccess = new NodeFsAccess();
+import { DirInfo, ImgInfo } from "src/types";
+import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
+import { rootDirectory, regionsDir, thumbnailsDir } from "./bits/utils";
 
 //https://www.npmjs.com/package/calipers
 // https://www.npmjs.com/package/image-size
 // https://www.npmjs.com/package/webpinfo
 
-function execPromise(command, opts): Promise<string> {
-    return new Promise(function(resolve, reject) {
-        exec(command, opts, (error, stdout, stderr) => {
-            if (error) {
-                console.error(error)
-                reject(error);
-                return;
-            }
-            if (stdout != null) {
-                resolve(stdout.toString().trim());
-            } else {
-                return null;
-            }
-            
-        });
-    });
-}
 
 const sizeOfPromise = promisify(sizeOf.imageSize)
 
-let idStart = 10003;
-
-function getUniqueId() {
-    let returnVal = idStart;
-    idStart = idStart + 1;
-    return idStart;
-}
   
 
 export interface FormatInfo {
@@ -48,7 +23,7 @@ export interface FormatInfo {
     lossless: boolean;
 }
 
-async function getWebPInfo(filePath: string): Promise<FormatInfo> {
+async function getWebPImageInfo(filePath: string): Promise<FormatInfo> {
     const infoo = (await WebPInfo.from(filePath)).summary;
     return {
         width: infoo.width ?? -1,
@@ -57,7 +32,7 @@ async function getWebPInfo(filePath: string): Promise<FormatInfo> {
     };
 }
 
-async function getOtherInfo(filePath: string): Promise<FormatInfo> {
+async function getOtherImageInfo(filePath: string): Promise<FormatInfo> {
     const infoo = await sizeOfPromise(filePath);
     let imgType = (infoo.type ?? "").toLocaleLowerCase();
 
@@ -68,22 +43,20 @@ async function getOtherInfo(filePath: string): Promise<FormatInfo> {
     };
 }
 
-
-
-async function getImageInfo(nom: string): Promise<ImgInfo> {
+async function getImageFileInfo(nom: string): Promise<ImgInfo> {
 
     let ext: string = path.extname(nom).substring(1);
 
     let formatInfo: FormatInfo;
     if (ext.toLocaleLowerCase() == "webp") {
-        let info = await getWebPInfo(nom);
+        let info = await getWebPImageInfo(nom);
         formatInfo = {
             width: info.width,
             height: info.height,
             lossless: info.lossless
         }
     } else {
-        let info = await getOtherInfo(nom)
+        let info = await getOtherImageInfo(nom)
         formatInfo = {
             width: info.width,
             height: info.height,
@@ -94,14 +67,15 @@ async function getImageInfo(nom: string): Promise<ImgInfo> {
     let filesize = await fsAccess.getFilesize(nom);
 
     let name = path.basename(nom, path.extname(nom));
-    let relPath = path.relative(path.resolve("./../regions"),nom);
+    let relPath = path.relative(regionsDir,nom);
 
-    let thumbDir = path.dirname(path.resolve(path.join("./../thumbnails", relPath)));
+    let thumbDir = path.dirname(path.join(thumbnailsDir, relPath));
     let thumbPath = path.join(thumbDir, name + ".jpg");
 
 
     return {
         path: nom,
+        enumeratedName: "",
         relPath: relPath,
         thumbPath: thumbPath,
         name: name,
@@ -114,7 +88,7 @@ async function getImageInfo(nom: string): Promise<ImgInfo> {
 }
 
 async function getImageInfoTree(tree: TreeNode<string, DirInfo>): Promise<TreeNode<ImgInfo, DirInfo>> {
-    let updatedTree = await convertTreeAsync(tree, getImageInfo)
+    let updatedTree = await convertTreeAsync(tree, getImageFileInfo)
     return updatedTree;
 }
 
@@ -156,8 +130,8 @@ async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boo
 
 
 async function ensureThumbnailDirs(tree: TreeNode<ImgInfo, DirInfo>): Promise<null> {
-    let relPath = path.relative("./../regions", tree.metadata.fullPath);
-    let thumbPath = path.resolve(path.join("./../thumbnails", relPath));
+    let relPath = path.relative(regionsDir, tree.metadata.fullPath);
+    let thumbPath = path.join(thumbnailsDir, relPath);
     await fsAccess.ensureDir(thumbPath);
 
     for (let i of tree.children) {
@@ -176,8 +150,6 @@ async function createThumbnails(tree: TreeNode<ImgInfo, DirInfo>): Promise<null>
 
         let cmd = `magick convert \"${item.path}\"  -resize ${thumbWidth}x${thumbHeight} -quality 80 \"${item.thumbPath}\"`;
         let result = await execPromise(cmd, {'shell': 'powershell.exe'});
-    
-
     }
 
     return null;
@@ -185,22 +157,38 @@ async function createThumbnails(tree: TreeNode<ImgInfo, DirInfo>): Promise<null>
 
 
 async function WalkTest() {
-    let res = await WalkDir("D:\\Users\\Michael\\repos\\pokemon-regions\\regions", [], 0, true);
-    res = cleanTree(res);
+    let fileTree = await WalkDir(regionsDir, [], 0, true);
+    fileTree = cleanTree(fileTree);
 
-    let res2 = await getImageInfoTree(res);
-    console.log(JSON.stringify(res, null, "\t"));
 
-    fsAccess.writeFile("./fileTree.json", JSON.stringify(res2, null, "\t"));
+    console.log(JSON.stringify(fileTree, null, "\t"));
+
+    fsAccess.writeFile("./../rawFileTree.json", JSON.stringify(fileTree, null, "\t"));
+
+
+    console.log("retrieving image info");
+    let imgFileTree = await getImageInfoTree(fileTree);
+    console.log("image info retrieved");
+
+    SetEnumeratedNames(imgFileTree);
+
+    console.log(JSON.stringify(imgFileTree, null, "\t"));
+
+    fsAccess.writeFile("./../fileTree.json", JSON.stringify(imgFileTree, null, "\t"));
+
+    /*
 
     await ensureThumbnailDirs(res2);
+
+
+    console.log("generating thumbnails");
     await createThumbnails(res2);
+    console.log("thumbnail generation complete");
+    */
 
     console.log();
 }
-
-async function generatePage() {
-
+async function main() {
+    await WalkTest();
 }
-
-WalkTest();
+main();
