@@ -176,7 +176,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia",
-				"uniqueIdString": "10008",
+				"uniqueIdString": "10006",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -215,7 +215,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola",
-				"uniqueIdString": "10006",
+				"uniqueIdString": "10007",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -281,7 +281,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\UltraSun",
-						"uniqueIdString": "10028",
+						"uniqueIdString": "10029",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -309,7 +309,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon",
-						"uniqueIdString": "10029",
+						"uniqueIdString": "10028",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -362,7 +362,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy",
-				"uniqueIdString": "10009",
+				"uniqueIdString": "10008",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -442,7 +442,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore",
-				"uniqueIdString": "10007",
+				"uniqueIdString": "10009",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -595,7 +595,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn",
-				"uniqueIdString": "10013",
+				"uniqueIdString": "10012",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -634,7 +634,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations",
-						"uniqueIdString": "10032",
+						"uniqueIdString": "10031",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -687,7 +687,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto",
-				"uniqueIdString": "10012",
+				"uniqueIdString": "10013",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -701,7 +701,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Locations",
-						"uniqueIdString": "10031",
+						"uniqueIdString": "10032",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1414,7 +1414,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pokemon Island",
-				"uniqueIdString": "10023",
+				"uniqueIdString": "10022",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -1453,7 +1453,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Poketopia",
-				"uniqueIdString": "10022",
+				"uniqueIdString": "10023",
 				"depth": 1,
 				"isMinor": false
 			},

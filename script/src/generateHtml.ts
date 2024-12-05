@@ -15,7 +15,7 @@ function makeId(sectName: string, name: string) {
     return `${sName}_${nName}`;
 }
 
-function wrapPage(content: string): string {
+function wrapPage2(content: string): string {
     return `<html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -33,8 +33,7 @@ function wrapPage(content: string): string {
                 opacity: 0;
             }
         </style>
-		<link rel="stylesheet" type="text/css" href="./styles/normalize.css">
-		<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="./styles.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -155,7 +154,7 @@ function translateImage(img: ImgInfo): XmlNd {
         .addAttr("class", "img-frame")
         
     let thumbPath = path.relative(path.resolve("./"), img.thumbPath);
-    let linkPath = path.join("./../regions", img.relPath);
+    let linkPath = path.join("./../../regions", img.relPath);
 
     imgNode.addChild(new XmlNd("img", true)
         .addAttr("src", thumbPath)
@@ -255,10 +254,16 @@ function getIndex(dataset: TreeNode<ImgInfo, DirInfo>): XmlNd {
 
 }
 
+async function wrapPage(content: string): Promise<string> {
+    let templateString = (await fsAccess.readFile("./../html/template.html")).toString().split("<!--<TEMPLATE>-->");
+
+    return templateString[0] + content + templateString[2];
+}
+
 async function main() {
 
     let dataset: TreeNode<ImgInfo, DirInfo> = 
-        JSON.parse((await fsAccess.readFile("./fileTree.json")).toString());
+        JSON.parse((await fsAccess.readFile("./../fileTree.json")).toString());
 
 
     let sectionsSet: XmlNd[] = [];
@@ -273,10 +278,11 @@ async function main() {
 
 
 
-    let resultString = wrapPage(contentString);
+    let resultString = await wrapPage(contentString);
 
     
-    fsAccess.writeFile("./index.html", resultString);
+    fsAccess.writeFile("./../html/index.html", resultString);
+
 
 }
 

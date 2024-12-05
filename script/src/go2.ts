@@ -176,15 +176,12 @@ async function WalkTest() {
 
     fsAccess.writeFile("./../fileTree.json", JSON.stringify(imgFileTree, null, "\t"));
 
-    /*
-
-    await ensureThumbnailDirs(res2);
+    await ensureThumbnailDirs(imgFileTree);
 
 
     console.log("generating thumbnails");
-    await createThumbnails(res2);
+    await createThumbnails(imgFileTree);
     console.log("thumbnail generation complete");
-    */
 
     console.log();
 }
