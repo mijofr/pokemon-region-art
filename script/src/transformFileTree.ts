@@ -6,6 +6,7 @@ export interface Grouping {
     name: string;
     depth: number;
     uniqueId: string;
+    notes: string;
 
     childGroups: Grouping[];
     imgs: ImgSet[];
@@ -19,6 +20,8 @@ export interface ImgSet {
     files: ImgFile[];
     maxMegapixels: string;
     singular: boolean;
+    notes: string;
+    isMinor: boolean;
 }
 
 export interface ImgFile {
@@ -34,7 +37,45 @@ export interface ImgFile {
 }
 
 
+function transformSingularImage(img: ImgInfo) {
+
+}
+
+function transformImgGroupImg(img: ImgInfo) {
+
+
+    return {
+        files: [{
+            
+        }]
+    }
+}
+function transformImgGroup(dataset: TreeNode<ImgInfo, DirInfo>) {
+
+    for (let i of dataset.items) {
+        transformImgGroupImg(i);
+    }
+    if (dataset.children.length > 0) {
+        console.warn("Extra children of " + dataset.path.toString());
+    }
+    
+}
+
+
 function transformTree(dataset: TreeNode<ImgInfo, DirInfo>) {
+
+    for (let i of dataset.items) {
+        transformSingularImage(i);
+    }
+
+    for (let c of dataset.children) {
+        if (c.name.startsWith("_")) {
+            transformImgGroup(c);
+        } else {
+            transformTree(c);
+        }
+    }
+
 
 }
 
