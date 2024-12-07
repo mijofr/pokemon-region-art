@@ -7,6 +7,7 @@ export interface Grouping {
     depth: number;
     uniqueId: string;
     notes: string;
+    isMinor: boolean;
 
     childGroups: Grouping[];
     imgs: ImgSet[];
@@ -17,11 +18,12 @@ export interface ImgSet {
     name: string;
     enumeratedName: string;
     path: string;
-    files: ImgFile[];
-    maxMegapixels: string;
+    maxMegapixels: number;
     singular: boolean;
     notes: string;
     isMinor: boolean;
+
+    files: ImgFile[];
 }
 
 export interface ImgFile {
@@ -37,43 +39,101 @@ export interface ImgFile {
 }
 
 
-function transformSingularImage(img: ImgInfo) {
-
-}
-
-function transformImgGroupImg(img: ImgInfo) {
-
+function transformSingularImage(img: ImgInfo): ImgSet {
 
     return {
+        name: img.name,
+        enumeratedName: "",
+        path: img.path,
+        maxMegapixels: img.width * img.height,
+        singular: true,
+        notes: "",
+        isMinor: false,
         files: [{
-            
+            fileName: img.name,
+            filePath: img.relPath,
+            extension: img.extension,
+            width: img.width,
+            height: img.height,
+            filesize: img.filesize,
+            megapixels: img.width * img.height,
+            lossless: img.lossless
+        
         }]
     }
-}
-function transformImgGroup(dataset: TreeNode<ImgInfo, DirInfo>) {
 
+}
+
+function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>): ImgSet {
+
+
+    let files: ImgFile[] = [];
     for (let i of dataset.items) {
-        transformImgGroupImg(i);
+        files.push(transformImgSetImg(i));
     }
     if (dataset.children.length > 0) {
         console.warn("Extra children of " + dataset.path.toString());
     }
-    
+
+    let maxMegapixels = Math.max(...files.map(n => n.megapixels));
+
+    return {
+        name: dataset.name,
+        enumeratedName: "",
+        path: dataset.metadata.fullPath,
+        maxMegapixels: maxMegapixels,
+        singular: (dataset.items.length <= 1),
+        notes: "",
+        isMinor: false,
+        files: files
+    }
+}
+function transformImgSetImg(img: ImgInfo): ImgFile {
+    return {
+        fileName: img.name,
+        filePath: img.relPath,
+        extension: img.extension,
+        width: img.width,
+        height: img.height,
+        filesize: img.filesize,
+        megapixels: img.width * img.height,
+        lossless: img.lossless
+    }
+}
+
+function sortGroups(groups: Grouping[]) {
+
 }
 
 
-function transformTree(dataset: TreeNode<ImgInfo, DirInfo>) {
+function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
 
-    for (let i of dataset.items) {
+
+    let childGroups: Grouping[] = [];
+    let imgs: ImgSet[] = [];
+
+    for (let i of data.items) {
         transformSingularImage(i);
     }
 
-    for (let c of dataset.children) {
+    for (let c of data.children) {
         if (c.name.startsWith("_")) {
-            transformImgGroup(c);
+            transformImgSet(c);
         } else {
-            transformTree(c);
+            childGroups.push(transformTree(c));
         }
+    }
+
+    sortGroups(childGroups);
+
+    return {    
+        name: data.name,
+        depth: data.metadata.depth,
+        uniqueId: data.metadata.uniqueIdString,
+        notes: "",
+        childGroups: childGroups,
+        imgs: imgs,
+        isMinor: false
     }
 
 
