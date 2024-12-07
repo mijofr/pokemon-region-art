@@ -3,9 +3,8 @@ import { NodeFsAccess } from "./bits/node-fs-access";
 import { XmlNd, XmlNdText } from "../lib/xml-nd";
 import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
+import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
 
-
-let fsAccess = new NodeFsAccess();
 
 let outputLines: string[] = [];
 
