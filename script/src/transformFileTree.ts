@@ -3,11 +3,14 @@ import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
 import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
 
 export interface Grouping {
+    _: "GROUPING";
     name: string;
     depth: number;
     uniqueId: string;
     notes: string;
     isMinor: boolean;
+
+    path: string[];
 
     childGroups: Grouping[];
     imgs: ImgSet[];
@@ -15,18 +18,22 @@ export interface Grouping {
 }
 
 export interface ImgSet { 
+    _: "ImgSET";
     name: string;
     enumeratedName: string;
-    path: string;
     maxMegapixels: number;
     singular: boolean;
     notes: string;
     isMinor: boolean;
 
     files: ImgFile[];
+
+    thumbnailSrcPath: string;
+    thumbnailPath: string;
 }
 
 export interface ImgFile {
+    _: "ImgFILE";
     fileName: string;
     filePath: string;
     extension: string;
@@ -42,21 +49,24 @@ export interface ImgFile {
 function transformSingularImage(img: ImgInfo): ImgSet {
 
     return {
+        _: "ImgSET",
         name: img.name,
         enumeratedName: "",
-        path: img.path,
-        maxMegapixels: img.width * img.height,
+        maxMegapixels: (img.width * img.height) / 1000000,
         singular: true,
         notes: "",
         isMinor: false,
+        thumbnailSrcPath: "",
+        thumbnailPath: "",
         files: [{
+            _: "ImgFILE",
             fileName: img.name,
             filePath: img.relPath,
             extension: img.extension,
             width: img.width,
             height: img.height,
             filesize: img.filesize,
-            megapixels: img.width * img.height,
+            megapixels: (img.width * img.height) / 1000000,
             lossless: img.lossless
         
         }]
@@ -78,25 +88,28 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>): ImgSet {
     let maxMegapixels = Math.max(...files.map(n => n.megapixels));
 
     return {
+        _: "ImgSET",
         name: dataset.name,
         enumeratedName: "",
-        path: dataset.metadata.fullPath,
         maxMegapixels: maxMegapixels,
         singular: (dataset.items.length <= 1),
         notes: "",
         isMinor: false,
+        thumbnailSrcPath: "",
+        thumbnailPath: "",
         files: files
     }
 }
 function transformImgSetImg(img: ImgInfo): ImgFile {
     return {
+        _: "ImgFILE",
         fileName: img.name,
         filePath: img.relPath,
         extension: img.extension,
         width: img.width,
         height: img.height,
         filesize: img.filesize,
-        megapixels: img.width * img.height,
+        megapixels: (img.width * img.height) / 1000000,
         lossless: img.lossless
     }
 }
@@ -113,12 +126,12 @@ function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
     let imgs: ImgSet[] = [];
 
     for (let i of data.items) {
-        transformSingularImage(i);
+        imgs.push(transformSingularImage(i));
     }
 
     for (let c of data.children) {
         if (c.name.startsWith("_")) {
-            transformImgSet(c);
+            imgs.push(transformImgSet(c));
         } else {
             childGroups.push(transformTree(c));
         }
@@ -126,14 +139,16 @@ function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
 
     sortGroups(childGroups);
 
-    return {    
+    return {
+        _: "GROUPING",
         name: data.name,
         depth: data.metadata.depth,
+        path: [],
         uniqueId: data.metadata.uniqueIdString,
         notes: "",
-        childGroups: childGroups,
+        isMinor: false,
         imgs: imgs,
-        isMinor: false
+        childGroups: childGroups
     }
 
 

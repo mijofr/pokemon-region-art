@@ -1,0 +1,555 @@
+{
+	"_": "GROUPING",
+	"name": "regions",
+	"depth": 0,
+	"uniqueId": "10004",
+	"notes": "",
+	"isMinor": false,
+	"imgs": [
+		{
+			"_": "ImgSET",
+			"name": "Ferrum",
+			"enumeratedName": "",
+			"maxMegapixels": 5.4,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "",
+			"thumbnailPath": "",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"fileName": "Ferrum",
+					"filePath": "Ferrum.webp",
+					"extension": "webp",
+					"width": 2700,
+					"height": 2000,
+					"filesize": 3550452,
+					"megapixels": 5.4,
+					"lossless": true
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Pasio",
+			"enumeratedName": "",
+			"maxMegapixels": 0.367284,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "",
+			"thumbnailPath": "",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"fileName": "Pasio",
+					"filePath": "Pasio.webp",
+					"extension": "webp",
+					"width": 482,
+					"height": 762,
+					"filesize": 540082,
+					"megapixels": 0.367284,
+					"lossless": true
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Puzzle Village",
+			"enumeratedName": "",
+			"maxMegapixels": 0.0768,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "",
+			"thumbnailPath": "",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"fileName": "Puzzle Village",
+					"filePath": "Puzzle Village.webp",
+					"extension": "webp",
+					"width": 320,
+					"height": 240,
+					"filesize": 118862,
+					"megapixels": 0.0768,
+					"lossless": true
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Tumblecube Island",
+			"enumeratedName": "",
+			"maxMegapixels": 4.42368,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "",
+			"thumbnailPath": "",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"fileName": "Tumblecube Island",
+					"filePath": "Tumblecube Island.webp",
+					"extension": "webp",
+					"width": 3072,
+					"height": 1440,
+					"filesize": 1081518,
+					"megapixels": 4.42368,
+					"lossless": true
+				}
+			]
+		}
+	],
+	"childGroups": [
+		{
+			"_": "GROUPING",
+			"name": "Aeos Island",
+			"depth": 1,
+			"uniqueId": "10005",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Aeos Island 2",
+					"enumeratedName": "",
+					"maxMegapixels": 1.089246,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Aeos Island 2",
+							"filePath": "Aeos Island\\Aeos Island 2.jpg",
+							"extension": "jpg",
+							"width": 1437,
+							"height": 758,
+							"filesize": 150996,
+							"megapixels": 1.089246,
+							"lossless": false
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Aeos Island",
+					"enumeratedName": "",
+					"maxMegapixels": 18.837532,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Aeos Island",
+							"filePath": "Aeos Island\\Aeos Island.webp",
+							"extension": "webp",
+							"width": 5002,
+							"height": 3766,
+							"filesize": 18765600,
+							"megapixels": 18.837532,
+							"lossless": true
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Blueberry Academy",
+			"depth": 1,
+			"uniqueId": "10006",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Blueberry Academy",
+					"enumeratedName": "",
+					"maxMegapixels": 0.828,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Blueberry Academy",
+							"filePath": "Blueberry Academy\\Blueberry Academy.webp",
+							"extension": "webp",
+							"width": 900,
+							"height": 920,
+							"filesize": 170768,
+							"megapixels": 0.828,
+							"lossless": true
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "_Map",
+					"enumeratedName": "",
+					"maxMegapixels": 104.04,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Blueberry Academy (Large)",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).webp",
+							"extension": "webp",
+							"width": 10200,
+							"height": 10200,
+							"filesize": 10471416,
+							"megapixels": 104.04,
+							"lossless": true
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Blueberry Academy (Medium)",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Medium).webp",
+							"extension": "webp",
+							"width": 6600,
+							"height": 6600,
+							"filesize": 4881724,
+							"megapixels": 43.56,
+							"lossless": true
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Blueberry Academy (Small)",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Small).webp",
+							"extension": "webp",
+							"width": 3600,
+							"height": 3600,
+							"filesize": 1618250,
+							"megapixels": 12.96,
+							"lossless": true
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Fiore",
+			"depth": 1,
+			"uniqueId": "10007",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Fiore 2",
+					"enumeratedName": "",
+					"maxMegapixels": 0.935814,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Fiore 2",
+							"filePath": "Fiore\\Fiore 2.webp",
+							"extension": "webp",
+							"width": 1289,
+							"height": 726,
+							"filesize": 988678,
+							"megapixels": 0.935814,
+							"lossless": true
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Fiore",
+					"enumeratedName": "",
+					"maxMegapixels": 0.889,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Fiore",
+							"filePath": "Fiore\\Fiore.webp",
+							"extension": "webp",
+							"width": 1000,
+							"height": 889,
+							"filesize": 622570,
+							"megapixels": 0.889,
+							"lossless": true
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Hisui",
+			"depth": 1,
+			"uniqueId": "10010",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Hisui",
+					"enumeratedName": "",
+					"maxMegapixels": 18.079145,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Hisui",
+							"filePath": "Hisui\\Hisui.webp",
+							"extension": "webp",
+							"width": 5705,
+							"height": 3169,
+							"filesize": 27209756,
+							"megapixels": 18.079145,
+							"lossless": true
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Hisui2",
+					"enumeratedName": "",
+					"maxMegapixels": 0.9216,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Hisui2",
+							"filePath": "Hisui\\Hisui2.webp",
+							"extension": "webp",
+							"width": 1280,
+							"height": 720,
+							"filesize": 1125232,
+							"megapixels": 0.9216,
+							"lossless": true
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Sinnoh",
+			"depth": 1,
+			"uniqueId": "10012",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Grand Underground",
+					"enumeratedName": "",
+					"maxMegapixels": 34.65,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Grand Underground",
+							"filePath": "Sinnoh\\Grand Underground.webp",
+							"extension": "webp",
+							"width": 7000,
+							"height": 4950,
+							"filesize": 44607506,
+							"megapixels": 34.65,
+							"lossless": true
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Platinum",
+					"enumeratedName": "",
+					"maxMegapixels": 39.161983,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Platinum",
+							"filePath": "Sinnoh\\Platinum.jpg",
+							"extension": "jpg",
+							"width": 7441,
+							"height": 5263,
+							"filesize": 6240602,
+							"megapixels": 39.161983,
+							"lossless": false
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Sinnoh Map",
+					"enumeratedName": "",
+					"maxMegapixels": 0.930712,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Sinnoh Map",
+							"filePath": "Sinnoh\\Sinnoh Map.png",
+							"extension": "png",
+							"width": 1268,
+							"height": 734,
+							"filesize": 436649,
+							"megapixels": 0.930712,
+							"lossless": true
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "_Sinnoh Labelled",
+					"enumeratedName": "",
+					"maxMegapixels": 34.65,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "",
+					"thumbnailPath": "",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Al",
+							"filePath": "Sinnoh\\_Sinnoh Labelled\\Al.jpg",
+							"extension": "jpg",
+							"width": 3500,
+							"height": 2475,
+							"filesize": 2458502,
+							"megapixels": 8.6625,
+							"lossless": false
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Sinnoh Labelled",
+							"filePath": "Sinnoh\\_Sinnoh Labelled\\Sinnoh Labelled.jpg",
+							"extension": "jpg",
+							"width": 7000,
+							"height": 4950,
+							"filesize": 6877078,
+							"megapixels": 34.65,
+							"lossless": false
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Sinnoh Labelled",
+							"filePath": "Sinnoh\\_Sinnoh Labelled\\Sinnoh Labelled.webp",
+							"extension": "webp",
+							"width": 7000,
+							"height": 4950,
+							"filesize": 35439160,
+							"megapixels": 34.65,
+							"lossless": true
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"uniqueId": "10015",
+					"notes": "",
+					"isMinor": false,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Battle Frontier Sinnoh",
+							"enumeratedName": "",
+							"maxMegapixels": 1.888656,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "",
+							"thumbnailPath": "",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"fileName": "Battle Frontier Sinnoh",
+									"filePath": "Sinnoh\\Locations\\Battle Frontier Sinnoh.jpg",
+									"extension": "jpg",
+									"width": 1752,
+									"height": 1078,
+									"filesize": 200563,
+									"megapixels": 1.888656,
+									"lossless": false
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Distortion World",
+							"enumeratedName": "",
+							"maxMegapixels": 2.1048,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "",
+							"thumbnailPath": "",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"fileName": "Distortion World",
+									"filePath": "Sinnoh\\Locations\\Distortion World.jpg",
+									"extension": "jpg",
+									"width": 1200,
+									"height": 1754,
+									"filesize": 137715,
+									"megapixels": 2.1048,
+									"lossless": false
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		}
+	]
+}
