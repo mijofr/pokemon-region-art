@@ -2,6 +2,13 @@ import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
 import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
 
+
+let existingUniqueIds: Set<string> = new Set<string>;
+function ensureUniqueId(inp: string): string {
+    return inp;
+}
+
+
 export interface Grouping {
     _: "GROUPING";
     name: string;
@@ -143,7 +150,7 @@ function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
         _: "GROUPING",
         name: data.name,
         depth: data.metadata.depth,
-        path: [],
+        path: data.path,
         uniqueId: data.metadata.uniqueIdString,
         notes: "",
         isMinor: false,
