@@ -1,10 +1,20 @@
 import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
 import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
+import path from "path";
 
 
 let existingUniqueIds: Set<string> = new Set<string>;
 function ensureUniqueId(inp: string): string {
+
+    let checkInp = inp.toLocaleLowerCase();
+
+
+    if (!existingUniqueIds.has(checkInp)) {
+        existingUniqueIds.add(checkInp);
+        return inp;
+    }
+
     return inp;
 }
 
@@ -52,6 +62,10 @@ export interface ImgFile {
 
 }
 
+function filePathRelative(pth: string): string {
+    return "";
+}
+
 
 function transformSingularImage(img: ImgInfo): ImgSet {
 
@@ -84,6 +98,12 @@ function transformSingularImage(img: ImgInfo): ImgSet {
 function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>): ImgSet {
 
 
+    let name = dataset.name;
+    if (dataset.name.startsWith("_")) {
+        name = name.substring(1);
+    }
+
+
     let files: ImgFile[] = [];
     for (let i of dataset.items) {
         files.push(transformImgSetImg(i));
@@ -96,7 +116,7 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>): ImgSet {
 
     return {
         _: "ImgSET",
-        name: dataset.name,
+        name: name,
         enumeratedName: "",
         maxMegapixels: maxMegapixels,
         singular: (dataset.items.length <= 1),

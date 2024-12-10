@@ -204,7 +204,7 @@
 				},
 				{
 					"_": "ImgSET",
-					"name": "_Map",
+					"name": "Map",
 					"enumeratedName": "",
 					"maxMegapixels": 104.04,
 					"singular": false,
@@ -460,7 +460,7 @@
 				},
 				{
 					"_": "ImgSET",
-					"name": "_Sinnoh Labelled",
+					"name": "Sinnoh Labelled",
 					"enumeratedName": "",
 					"maxMegapixels": 34.65,
 					"singular": false,
