@@ -10,13 +10,13 @@
 		{
 			"_": "ImgSET",
 			"name": "Ferrum",
-			"enumeratedName": "",
+			"enumeratedName": "Ferrum",
 			"maxMegapixels": 5.4,
 			"singular": true,
 			"notes": "",
 			"isMinor": false,
-			"thumbnailSrcPath": "",
-			"thumbnailPath": "",
+			"thumbnailSrcPath": "regions\\Ferrum.webp",
+			"thumbnailPath": "thumbs\\Ferrum.jpg",
 			"files": [
 				{
 					"_": "ImgFILE",
@@ -34,13 +34,13 @@
 		{
 			"_": "ImgSET",
 			"name": "Pasio",
-			"enumeratedName": "",
+			"enumeratedName": "Pasio",
 			"maxMegapixels": 0.367284,
 			"singular": true,
 			"notes": "",
 			"isMinor": false,
-			"thumbnailSrcPath": "",
-			"thumbnailPath": "",
+			"thumbnailSrcPath": "regions\\Pasio.webp",
+			"thumbnailPath": "thumbs\\Pasio.jpg",
 			"files": [
 				{
 					"_": "ImgFILE",
@@ -58,13 +58,13 @@
 		{
 			"_": "ImgSET",
 			"name": "Puzzle Village",
-			"enumeratedName": "",
+			"enumeratedName": "Puzzle Village",
 			"maxMegapixels": 0.0768,
 			"singular": true,
 			"notes": "",
 			"isMinor": false,
-			"thumbnailSrcPath": "",
-			"thumbnailPath": "",
+			"thumbnailSrcPath": "regions\\Puzzle Village.webp",
+			"thumbnailPath": "thumbs\\Puzzle Village.jpg",
 			"files": [
 				{
 					"_": "ImgFILE",
@@ -82,13 +82,13 @@
 		{
 			"_": "ImgSET",
 			"name": "Tumblecube Island",
-			"enumeratedName": "",
+			"enumeratedName": "Tumblecube Island",
 			"maxMegapixels": 4.42368,
 			"singular": true,
 			"notes": "",
 			"isMinor": false,
-			"thumbnailSrcPath": "",
-			"thumbnailPath": "",
+			"thumbnailSrcPath": "regions\\Tumblecube Island.webp",
+			"thumbnailPath": "thumbs\\Tumblecube Island.jpg",
 			"files": [
 				{
 					"_": "ImgFILE",
@@ -119,13 +119,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Aeos Island 2",
-					"enumeratedName": "",
+					"enumeratedName": "Aeos Island\\Aeos Island 2",
 					"maxMegapixels": 1.089246,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Aeos Island\\Aeos Island 2.jpg",
+					"thumbnailPath": "thumbs\\Aeos Island\\Aeos Island 2.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -143,13 +143,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Aeos Island",
-					"enumeratedName": "",
+					"enumeratedName": "Aeos Island\\Aeos Island",
 					"maxMegapixels": 18.837532,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Aeos Island\\Aeos Island.webp",
+					"thumbnailPath": "thumbs\\Aeos Island\\Aeos Island.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -181,13 +181,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Blueberry Academy",
-					"enumeratedName": "",
+					"enumeratedName": "Blueberry Academy\\Blueberry Academy",
 					"maxMegapixels": 0.828,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Blueberry Academy\\Blueberry Academy.webp",
+					"thumbnailPath": "thumbs\\Blueberry Academy\\Blueberry Academy.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -205,13 +205,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Map",
-					"enumeratedName": "",
+					"enumeratedName": "Blueberry Academy\\_Map",
 					"maxMegapixels": 104.04,
 					"singular": false,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).webp",
+					"thumbnailPath": "thumbs\\Blueberry Academy\\_Map.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -265,13 +265,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Fiore 2",
-					"enumeratedName": "",
+					"enumeratedName": "Fiore\\Fiore 2",
 					"maxMegapixels": 0.935814,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Fiore\\Fiore 2.webp",
+					"thumbnailPath": "thumbs\\Fiore\\Fiore 2.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -289,13 +289,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Fiore",
-					"enumeratedName": "",
+					"enumeratedName": "Fiore\\Fiore",
 					"maxMegapixels": 0.889,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Fiore\\Fiore.webp",
+					"thumbnailPath": "thumbs\\Fiore\\Fiore.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -327,13 +327,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Hisui",
-					"enumeratedName": "",
+					"enumeratedName": "Hisui\\Hisui",
 					"maxMegapixels": 18.079145,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Hisui\\Hisui.webp",
+					"thumbnailPath": "thumbs\\Hisui\\Hisui.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -351,13 +351,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Hisui2",
-					"enumeratedName": "",
+					"enumeratedName": "Hisui\\Hisui2",
 					"maxMegapixels": 0.9216,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Hisui\\Hisui2.webp",
+					"thumbnailPath": "thumbs\\Hisui\\Hisui2.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -389,13 +389,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Grand Underground",
-					"enumeratedName": "",
+					"enumeratedName": "Sinnoh\\Grand Underground",
 					"maxMegapixels": 34.65,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Sinnoh\\Grand Underground.webp",
+					"thumbnailPath": "thumbs\\Sinnoh\\Grand Underground.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -413,13 +413,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Platinum",
-					"enumeratedName": "",
+					"enumeratedName": "Sinnoh\\Platinum",
 					"maxMegapixels": 39.161983,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Sinnoh\\Platinum.jpg",
+					"thumbnailPath": "thumbs\\Sinnoh\\Platinum.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -437,13 +437,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Sinnoh Map",
-					"enumeratedName": "",
+					"enumeratedName": "Sinnoh\\Sinnoh Map",
 					"maxMegapixels": 0.930712,
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "regions\\Sinnoh\\Sinnoh Map.png",
+					"thumbnailPath": "thumbs\\Sinnoh\\Sinnoh Map.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -461,13 +461,13 @@
 				{
 					"_": "ImgSET",
 					"name": "Sinnoh Labelled",
-					"enumeratedName": "",
+					"enumeratedName": "Sinnoh\\_Sinnoh Labelled",
 					"maxMegapixels": 34.65,
 					"singular": false,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "",
-					"thumbnailPath": "",
+					"thumbnailSrcPath": "Sinnoh\\_Sinnoh Labelled\\Al.jpg",
+					"thumbnailPath": "thumbs\\Sinnoh\\_Sinnoh Labelled.jpg",
 					"files": [
 						{
 							"_": "ImgFILE",
@@ -521,13 +521,13 @@
 						{
 							"_": "ImgSET",
 							"name": "Battle Frontier Sinnoh",
-							"enumeratedName": "",
+							"enumeratedName": "Sinnoh\\Locations\\Battle Frontier Sinnoh",
 							"maxMegapixels": 1.888656,
 							"singular": true,
 							"notes": "",
 							"isMinor": false,
-							"thumbnailSrcPath": "",
-							"thumbnailPath": "",
+							"thumbnailSrcPath": "regions\\Sinnoh\\Locations\\Battle Frontier Sinnoh.jpg",
+							"thumbnailPath": "thumbs\\Sinnoh\\Locations\\Battle Frontier Sinnoh.jpg",
 							"files": [
 								{
 									"_": "ImgFILE",
@@ -545,13 +545,13 @@
 						{
 							"_": "ImgSET",
 							"name": "Distortion World",
-							"enumeratedName": "",
+							"enumeratedName": "Sinnoh\\Locations\\Distortion World",
 							"maxMegapixels": 2.1048,
 							"singular": true,
 							"notes": "",
 							"isMinor": false,
-							"thumbnailSrcPath": "",
-							"thumbnailPath": "",
+							"thumbnailSrcPath": "regions\\Sinnoh\\Locations\\Distortion World.jpg",
+							"thumbnailPath": "thumbs\\Sinnoh\\Locations\\Distortion World.jpg",
 							"files": [
 								{
 									"_": "ImgFILE",

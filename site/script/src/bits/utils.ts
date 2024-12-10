@@ -6,9 +6,10 @@ import path from "path";
 
 export const fsAccess = new NodeFsAccess();
 
-export const rootDirectory = path.resolve("./../../");
+export const rootDirectory = path.resolve("./../../../");
 export const regionsDir = path.join(rootDirectory, "regions");
 export const thumbnailsDir = path.join(rootDirectory, "thumbnails");
+export const htmlRoot = path.join(rootDirectory, "site");
 
 
 let idStart = 10003;

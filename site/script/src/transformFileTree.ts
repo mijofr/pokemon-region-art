@@ -67,18 +67,20 @@ function filePathRelative(pth: string): string {
 }
 
 
-function transformSingularImage(img: ImgInfo): ImgSet {
+function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
+
+    let enumeratedName = pth.concat([img.name]).join("\\");
 
     return {
         _: "ImgSET",
         name: img.name,
-        enumeratedName: "",
+        enumeratedName: enumeratedName,
         maxMegapixels: (img.width * img.height) / 1000000,
         singular: true,
         notes: "",
         isMinor: false,
-        thumbnailSrcPath: "",
-        thumbnailPath: "",
+        thumbnailSrcPath: path.join("regions", img.relPath),
+        thumbnailPath: path.join("thumbs", enumeratedName + ".jpg"),
         files: [{
             _: "ImgFILE",
             fileName: img.name,
@@ -95,7 +97,7 @@ function transformSingularImage(img: ImgInfo): ImgSet {
 
 }
 
-function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>): ImgSet {
+function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): ImgSet {
 
 
     let name = dataset.name;
@@ -114,16 +116,18 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>): ImgSet {
 
     let maxMegapixels = Math.max(...files.map(n => n.megapixels));
 
+    let enumeratedName = pth.concat([dataset.name]).join("\\");
+
     return {
         _: "ImgSET",
         name: name,
-        enumeratedName: "",
+        enumeratedName: enumeratedName,
         maxMegapixels: maxMegapixels,
         singular: (dataset.items.length <= 1),
         notes: "",
         isMinor: false,
-        thumbnailSrcPath: "",
-        thumbnailPath: "",
+        thumbnailSrcPath: files[0].filePath,
+        thumbnailPath: path.join("thumbs", enumeratedName + ".jpg"),
         files: files
     }
 }
@@ -153,12 +157,12 @@ function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
     let imgs: ImgSet[] = [];
 
     for (let i of data.items) {
-        imgs.push(transformSingularImage(i));
+        imgs.push(transformSingularImage(i, data.path));
     }
 
     for (let c of data.children) {
         if (c.name.startsWith("_")) {
-            imgs.push(transformImgSet(c));
+            imgs.push(transformImgSet(c, data.path));
         } else {
             childGroups.push(transformTree(c));
         }
