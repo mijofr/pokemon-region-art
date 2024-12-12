@@ -33,14 +33,23 @@ async function getWebPImageInfo(filePath: string): Promise<FormatInfo> {
 }
 
 async function getOtherImageInfo(filePath: string): Promise<FormatInfo> {
-    const infoo = await sizeOfPromise(filePath);
-    let imgType = (infoo.type ?? "").toLocaleLowerCase();
 
-    return {
-        width: infoo.width ?? -1,
-        height: infoo.height ?? -1,
-        lossless: imgType == "png"
-    };
+    try {
+        const infoo = await sizeOfPromise(filePath);
+        let imgType = (infoo.type ?? "").toLocaleLowerCase();
+
+        return {
+            width: infoo.width ?? -1,
+            height: infoo.height ?? -1,
+            lossless: imgType == "png"
+        };
+
+    } catch (e) {
+        console.error("Error processing " + filePath);
+        console.error(e);
+        throw(e);
+    }
+
 }
 
 async function getImageFileInfo(nom: string): Promise<ImgInfo> {
@@ -176,6 +185,8 @@ async function WalkTest() {
 
     fsAccess.writeFile("./../fileTree.json", JSON.stringify(imgFileTree, null, "\t"));
 
+
+    /*
     await ensureThumbnailDirs(imgFileTree);
 
 
@@ -184,6 +195,8 @@ async function WalkTest() {
     console.log("thumbnail generation complete");
 
     console.log();
+
+    */
 }
 async function main() {
     await WalkTest();

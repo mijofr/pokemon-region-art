@@ -23,7 +23,7 @@ export interface Grouping {
     _: "GROUPING";
     name: string;
     depth: number;
-    uniqueId: string;
+    id: string;
     notes: string;
     isMinor: boolean;
 
@@ -38,6 +38,7 @@ export interface ImgSet {
     _: "ImgSET";
     name: string;
     enumeratedName: string;
+    id: string;
     maxMegapixels: number;
     singular: boolean;
     notes: string;
@@ -51,6 +52,7 @@ export interface ImgSet {
 
 export interface ImgFile {
     _: "ImgFILE";
+    id: string;
     fileName: string;
     filePath: string;
     extension: string;
@@ -74,6 +76,7 @@ function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
     return {
         _: "ImgSET",
         name: img.name,
+        id: `SET_${getUniqueId()}`,
         enumeratedName: enumeratedName,
         maxMegapixels: (img.width * img.height) / 1000000,
         singular: true,
@@ -83,6 +86,7 @@ function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
         thumbnailPath: path.join("thumbs", enumeratedName + ".jpg"),
         files: [{
             _: "ImgFILE",
+            id: `IMG_${getUniqueId()}`,
             fileName: img.name,
             filePath: img.relPath,
             extension: img.extension,
@@ -116,17 +120,18 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): Im
 
     let maxMegapixels = Math.max(...files.map(n => n.megapixels));
 
-    let enumeratedName = pth.concat([dataset.name]).join("\\");
+    let enumeratedName = pth.concat([name]).join("\\");
 
     return {
         _: "ImgSET",
         name: name,
+        id: `SET_${getUniqueId()}`,
         enumeratedName: enumeratedName,
         maxMegapixels: maxMegapixels,
         singular: (dataset.items.length <= 1),
         notes: "",
         isMinor: false,
-        thumbnailSrcPath: files[0].filePath,
+        thumbnailSrcPath: path.join("regions", files[0].filePath),
         thumbnailPath: path.join("thumbs", enumeratedName + ".jpg"),
         files: files
     }
@@ -135,6 +140,7 @@ function transformImgSetImg(img: ImgInfo): ImgFile {
     return {
         _: "ImgFILE",
         fileName: img.name,
+        id: `IMG_${getUniqueId()}`,
         filePath: img.relPath,
         extension: img.extension,
         width: img.width,
@@ -175,7 +181,7 @@ function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
         name: data.name,
         depth: data.metadata.depth,
         path: data.path,
-        uniqueId: data.metadata.uniqueIdString,
+        id: `GRP_${getUniqueId()}`,
         notes: "",
         isMinor: false,
         imgs: imgs,

@@ -143,8 +143,10 @@ function translateImgLink(img: ImgFile): IXmlNd {
         fformat = "webp-lossless";
     }
 
+    let filePath = path.join("regions", img.filePath);
+
     return new XmlNdText(
-        generateLink(img.filePath ,{w: img.width, h: img.height}, getSizeString(img.filesize), fformat)
+        generateLink(filePath ,{w: img.width, h: img.height}, getSizeString(img.filesize), fformat)
     );
 }
 
@@ -199,7 +201,7 @@ function translateImage(imgSet: ImgSet): XmlNd {
 
 function translateNode(dataNode: Grouping, level: number = 0): XmlNd {
 
-    let htmlNode = new XmlNd("div").addAttr("id", dataNode.uniqueId);
+    let htmlNode = new XmlNd("div").addAttr("id", dataNode.id);
 
 
     let classes: string[] = [];
@@ -264,7 +266,7 @@ function getIndex(dataset: Grouping): XmlNd {
 }
 
 async function wrapPage(content: string): Promise<string> {
-    let templateString = (await fsAccess.readFile("./../html/template.html")).toString().split("<!--<TEMPLATE>-->");
+    let templateString = (await fsAccess.readFile("./../../template.html")).toString().split("<!--<TEMPLATE>-->");
 
     return templateString[0] + content + templateString[2];
 }
@@ -290,7 +292,7 @@ async function main() {
     let resultString = await wrapPage(contentString);
 
     
-    fsAccess.writeFile("./../html/indexMk2.html", resultString);
+    fsAccess.writeFile("./../../indexMk2.html", resultString);
 
 
 }

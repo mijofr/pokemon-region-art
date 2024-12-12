@@ -9,6 +9,9 @@ add icons for small-medium-large-xl? List Megapixels in title?
 
 also add an ID value to the 'other' section on the first level?
 
+add a check to make sure there aren't conflicting names wtih folders and formats.
+
+
 export interface ImgInfo {
     name: string;
     thumbPath: string;

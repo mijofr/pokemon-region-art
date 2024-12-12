@@ -343,6 +343,20 @@ body {
   --file-type-color: #673466;
 }
 
+h1 {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+.ticket-img {
+  margin: auto;
+  width: 100%;
+  height: 8em;
+  object-fit: contain;
+}
+
 svg {
   shape-rendering: geometricPrecision;
 }
