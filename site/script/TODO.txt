@@ -11,6 +11,9 @@ also add an ID value to the 'other' section on the first level?
 
 add a check to make sure there aren't conflicting names wtih folders and formats.
 
+some kind of dividing line between the categories and the standalones
+
+
 
 export interface ImgInfo {
     name: string;

@@ -312,6 +312,7 @@ html, body {
   background-color: #14171f;
   color: #c3c7d0;
   padding: 12px;
+  scroll-behavior: smooth;
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -321,6 +322,14 @@ html, body {
 
 body {
   opacity: 1;
+}
+
+#svgDefs {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
 :root {
@@ -355,6 +364,7 @@ h1 {
   width: 100%;
   height: 8em;
   object-fit: contain;
+  margin-bottom: 2em;
 }
 
 svg {
@@ -368,7 +378,7 @@ svg * {
   display: inline-block;
   width: 20px;
   height: 18px;
-  background-image: url("./warning-triangle.png");
+  background-image: url("./warning-triangle-m2.png");
   background-position: 0 0;
   background-size: contain;
   position: relative;
@@ -380,28 +390,6 @@ svg * {
 }
 .warning:last-child {
   margin-left: 0.3em;
-}
-
-.warning2 {
-  display: inline-block;
-  width: 17px;
-  height: 16px;
-  background-image: url("./triangle2-red-opt-render-4x.png");
-  background-position: 0 0;
-  background-size: contain;
-  position: relative;
-  top: 2px;
-}
-
-.warning3 {
-  display: inline-block;
-  width: 17px;
-  height: 16px;
-  background-image: url("./triangle2-opt-render-upside-4x.png");
-  background-position: 0 0;
-  background-size: contain;
-  position: relative;
-  top: 2px;
 }
 
 h1, h2 {
@@ -450,9 +438,15 @@ div.group-children div.groupNode {
 
 .groupNode.node-level-0 > .group-children {
   gap: 2rem;
+  order: 0;
 }
 .groupNode.node-level-0 > h2 {
   display: none;
+}
+.groupNode.node-level-0 > .group-imgs {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  order: 1;
 }
 
 .groupNode.node-level-1 > h2 {
@@ -662,6 +656,62 @@ span.format > span {
   font-size: 0.8em;
   font-weight: 200;
   margin-left: 0.25ch;
+}
+
+.center {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.globe {
+  margin-top: 0;
+  width: 600px;
+  max-width: 60%;
+  margin-bottom: 10px;
+}
+
+/* ======================== */
+#pageContents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pageContents > div {
+  display: inline-block;
+}
+#pageContents > div li {
+  margin-top: 0.6em;
+}
+#pageContents > div li a {
+  text-decoration: none;
+  color: #c3c7d0;
+  font-weight: 700;
+}
+#pageContents > div li a .count {
+  position: relative;
+  top: -1px;
+  background-color: #c3c7d0;
+  color: #14171f;
+  font-weight: 900;
+  border-radius: 2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.666em;
+  padding: 0 0.5em;
+  vertical-align: middle;
+  margin-left: 0.5em;
+}
+#pageContents > div li a:hover, #pageContents > div li a:focus {
+  color: #e0e3e7;
+}
+#pageContents > div li a:hover .count, #pageContents > div li a:focus .count {
+  background-color: #c3c7d0;
+}
+#pageContents > div li.singleImgIndexLink a {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=styles.css.map */

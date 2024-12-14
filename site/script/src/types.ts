@@ -31,7 +31,7 @@ export interface IFSWrap {
     readonly pathSep: string;
 }
 
-
+ 
 export interface ImgInfo extends HasInfo {
     name: string;
     enumeratedName: string;
@@ -50,5 +50,6 @@ export interface DirInfo {
     fullPath: string;
     uniqueIdString: string;
     depth: number;
-    isMinor: boolean
+    isMinor: boolean;
+    note?: string;
 }

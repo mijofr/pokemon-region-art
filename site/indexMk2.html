@@ -4,9 +4,8 @@
 
 		<title>Pokémon World Map Art</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="./site/assets/favicon.png" />
+        <link rel="icon" type="image/png" href="./assets/favicon.png" />
 
-		<base href="./../" />
 
 
         <style>
@@ -17,7 +16,7 @@
                 opacity: 0;
             }
         </style>
-		<link rel="stylesheet" type="text/css" href="./site/assets/styles.css">
+		<link rel="stylesheet" type="text/css" href="./assets/styles.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -25,7 +24,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=block" rel="stylesheet">
 
       
-        <svg width="60" height="85" version="1.1" viewBox="0 0 60 85" xmlns="http://www.w3.org/2000/svg">
+        <svg id="svgDefs" width="60" height="85" version="1.1" viewBox="0 0 60 85" xmlns="http://www.w3.org/2000/svg">
 			<defs>
 				<filter id="shadowBlur"	color-interpolation-filters="sRGB">
 					<feGaussianBlur id="feGaussianBlur15" result="blur" stdDeviation="2 2" />
@@ -57,26 +56,146 @@
 			Pokémon Region Art and Whatnot
 		</h1>
 
-		<img class="ticket-img" src="./site/assets/ticket.webp" />
+		<img class="ticket-img" src="./assets/ticket.webp" />
 
 
-		<div>
-			<h1>
-								Pokemon Region Art and Whatnot
-			</h1>
-			<h3>
-								Index Goes Here
-			</h3>
+		<div id="pageContents">
+			<div>
+				<ul>
+					<li>
+						<a href="#GRP_10014">
+														Aeos Island
+							<span class="count">
+																3
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#GRP_10019">
+														Almia
+							<span class="count">
+																2
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#GRP_10038">
+														Alola
+							<span class="count">
+																3
+							</span>
+						</a>
+						<ul>
+							<li>
+								<a class="isMinor" href="#GRP_10030">
+																		Locations
+									<span class="count">
+																				3
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#GRP_10033">
+																		UltraSun
+									<span class="count">
+																				1
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#GRP_10045">
+														Blueberry Academy
+							<span class="count">
+																2
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#GRP_10050">
+														Fiore
+							<span class="count">
+																2
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#GRP_10064">
+														Galar
+							<span class="count">
+																5
+							</span>
+						</a>
+						<ul>
+							<li>
+								<a class="isMinor" href="#GRP_10063">
+																		Locations
+									<span class="count">
+																				1
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#GRP_10076">
+														Hisui
+							<span class="count">
+																2
+							</span>
+						</a>
+						<ul>
+							<li>
+								<a class="isMinor" href="#GRP_10073">
+																		Locations
+									<span class="count">
+																				3
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#GRP_10094">
+														Hoenn
+							<span class="count">
+																4
+							</span>
+						</a>
+						<ul>
+							<li>
+								<a class="isMinor" href="#GRP_10093">
+																		Locations
+									<span class="count">
+																				4
+									</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="singleImgIndexLink">
+						<a href="#SET_10004">
+														Carmonte Island
+						</a>
+					</li>
+					<li class="singleImgIndexLink">
+						<a href="#SET_10006">
+														Ferrum
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div id="GRP_10321" class="groupNode node-level-0">
+		<div id="GRP_10095" class="groupNode node-level-0">
 			<h2>
 								regions
 			</h2>
 			<div class="group-imgs">
-				<div class="img-container">
+				<div class="img-container" id="SET_10004">
 					<div class="img-frame">
-						<img src="thumbs\Carmonte Island.jpg" class="thumb-bg" />
-						<img src="thumbs\Carmonte Island.jpg" class="thumb" />
+						<img src="..\thumbs\Carmonte Island.jpg" class="thumb-bg" />
+						<img src="..\thumbs\Carmonte Island.jpg" class="thumb" />
 					</div>
 					<div class="img-desc">
 						<h3>
@@ -88,7 +207,7 @@
 						<div class="line">
 						</div>
 												
-						<a href="regions\Carmonte Island.webp" class="fileLink webp-lossless">
+						<a href="..\regions\Carmonte Island.webp" class="fileLink webp-lossless">
 						    <div class="pageIcon">
 						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 						    </div>
@@ -105,10 +224,10 @@
 						
 					</div>
 				</div>
-				<div class="img-container">
+				<div class="img-container" id="SET_10006">
 					<div class="img-frame">
-						<img src="thumbs\Ferrum.jpg" class="thumb-bg" />
-						<img src="thumbs\Ferrum.jpg" class="thumb" />
+						<img src="..\thumbs\Ferrum.jpg" class="thumb-bg" />
+						<img src="..\thumbs\Ferrum.jpg" class="thumb" />
 					</div>
 					<div class="img-desc">
 						<h3>
@@ -120,7 +239,7 @@
 						<div class="line">
 						</div>
 												
-						<a href="regions\Ferrum.webp" class="fileLink webp-lossless">
+						<a href="..\regions\Ferrum.webp" class="fileLink webp-lossless">
 						    <div class="pageIcon">
 						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 						    </div>
@@ -137,241 +256,17 @@
 						
 					</div>
 				</div>
-				<div class="img-container">
-					<div class="img-frame">
-						<img src="thumbs\Lental.jpg" class="thumb-bg" />
-						<img src="thumbs\Lental.jpg" class="thumb" />
-					</div>
-					<div class="img-desc">
-						<h3>
-														Lental
-						</h3>
-						<div class="megapix">
-														<span>2.1</span><span>megapixels</span>
-						</div>
-						<div class="line">
-						</div>
-												
-						<a href="regions\Lental.webp" class="fileLink webp-lossless">
-						    <div class="pageIcon">
-						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-						    </div>
-						    <div class="fileData">
-						        <div>
-						            <span class="resolution">1920×1080</span>
-						            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-						        </div>
-						        <div>
-						            <span class="size">1.13<span>MB</span></span>
-						        </div>
-						    </div>
-						</a>
-						
-					</div>
-				</div>
-				<div class="img-container">
-					<div class="img-frame">
-						<img src="thumbs\Oblivia.jpg" class="thumb-bg" />
-						<img src="thumbs\Oblivia.jpg" class="thumb" />
-					</div>
-					<div class="img-desc">
-						<h3>
-														Oblivia
-						</h3>
-						<div class="megapix">
-														<span>6.4</span><span>megapixels</span>
-						</div>
-						<div class="line">
-						</div>
-												
-						<a href="regions\Oblivia.webp" class="fileLink webp">
-						    <div class="pageIcon">
-						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-						    </div>
-						    <div class="fileData">
-						        <div>
-						            <span class="resolution">3000×2121</span>
-						            <span class="format"><span>webp</span></span>
-						        </div>
-						        <div>
-						            <span class="size">363.33<span>kB</span></span>
-						        </div>
-						    </div>
-						</a>
-						
-					</div>
-				</div>
-				<div class="img-container">
-					<div class="img-frame">
-						<img src="thumbs\Orange Islands.jpg" class="thumb-bg" />
-						<img src="thumbs\Orange Islands.jpg" class="thumb" />
-					</div>
-					<div class="img-desc">
-						<h3>
-														Orange Islands
-						</h3>
-						<div class="megapix">
-														<span>2.1</span><span>megapixels</span>
-						</div>
-						<div class="line">
-						</div>
-												
-						<a href="regions\Orange Islands.webp" class="fileLink webp-lossless">
-						    <div class="pageIcon">
-						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-						    </div>
-						    <div class="fileData">
-						        <div>
-						            <span class="resolution">1231×1694</span>
-						            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-						        </div>
-						        <div>
-						            <span class="size">3.06<span>MB</span></span>
-						        </div>
-						    </div>
-						</a>
-						
-					</div>
-				</div>
-				<div class="img-container">
-					<div class="img-frame">
-						<img src="thumbs\Pasio.jpg" class="thumb-bg" />
-						<img src="thumbs\Pasio.jpg" class="thumb" />
-					</div>
-					<div class="img-desc">
-						<h3>
-														Pasio
-						</h3>
-						<div class="megapix">
-														<span>0.37</span><span>megapixels</span>
-						</div>
-						<div class="line">
-						</div>
-												
-						<a href="regions\Pasio.webp" class="fileLink webp-lossless">
-						    <div class="pageIcon">
-						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-						    </div>
-						    <div class="fileData">
-						        <div>
-						            <span class="resolution">482×762</span>
-						            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-						        </div>
-						        <div>
-						            <span class="size">527.42<span>kB</span></span>
-						        </div>
-						    </div>
-						</a>
-						
-					</div>
-				</div>
-				<div class="img-container">
-					<div class="img-frame">
-						<img src="thumbs\PokéPark.jpg" class="thumb-bg" />
-						<img src="thumbs\PokéPark.jpg" class="thumb" />
-					</div>
-					<div class="img-desc">
-						<h3>
-														PokéPark
-						</h3>
-						<div class="megapix">
-														<span>1.9</span><span>megapixels</span>
-						</div>
-						<div class="line">
-						</div>
-												
-						<a href="regions\PokéPark.jpg" class="fileLink jpg">
-						    <div class="pageIcon">
-						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-						    </div>
-						    <div class="fileData">
-						        <div>
-						            <span class="resolution">1584×1200</span>
-						            <span class="format"><span>jpg</span></span>
-						        </div>
-						        <div>
-						            <span class="size">648.07<span>kB</span></span>
-						        </div>
-						    </div>
-						</a>
-						
-					</div>
-				</div>
-				<div class="img-container">
-					<div class="img-frame">
-						<img src="thumbs\Puzzle Village.jpg" class="thumb-bg" />
-						<img src="thumbs\Puzzle Village.jpg" class="thumb" />
-					</div>
-					<div class="img-desc">
-						<h3>
-														Puzzle Village
-						</h3>
-						<div class="megapix">
-														<span>0.08</span><span>megapixels</span>
-						</div>
-						<div class="line">
-						</div>
-												
-						<a href="regions\Puzzle Village.webp" class="fileLink webp-lossless">
-						    <div class="pageIcon">
-						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-						    </div>
-						    <div class="fileData">
-						        <div>
-						            <span class="resolution">320×240</span>
-						            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-						        </div>
-						        <div>
-						            <span class="size">116.08<span>kB</span></span>
-						        </div>
-						    </div>
-						</a>
-						
-					</div>
-				</div>
-				<div class="img-container">
-					<div class="img-frame">
-						<img src="thumbs\Tumblecube Island.jpg" class="thumb-bg" />
-						<img src="thumbs\Tumblecube Island.jpg" class="thumb" />
-					</div>
-					<div class="img-desc">
-						<h3>
-														Tumblecube Island
-						</h3>
-						<div class="megapix">
-														<span>4.4</span><span>megapixels</span>
-						</div>
-						<div class="line">
-						</div>
-												
-						<a href="regions\Tumblecube Island.webp" class="fileLink webp-lossless">
-						    <div class="pageIcon">
-						        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-						    </div>
-						    <div class="fileData">
-						        <div>
-						            <span class="resolution">3072×1440</span>
-						            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-						        </div>
-						        <div>
-						            <span class="size">1.03<span>MB</span></span>
-						        </div>
-						    </div>
-						</a>
-						
-					</div>
-				</div>
 			</div>
 			<div class="group-children">
-				<div id="GRP_10028" class="groupNode node-level-1">
+				<div id="GRP_10014" class="groupNode node-level-1">
 					<h2>
 												Aeos Island
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10008">
 							<div class="img-frame">
-								<img src="thumbs\Aeos Island\Aeos Island 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Aeos Island\Aeos Island 2.jpg" class="thumb" />
+								<img src="..\thumbs\Aeos Island\Aeos Island 2.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Aeos Island\Aeos Island 2.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -383,7 +278,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Aeos Island\Aeos Island 2.jpg" class="fileLink jpg">
+								<a href="..\regions\Aeos Island\Aeos Island 2.jpg" class="fileLink jpg">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -400,10 +295,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10010">
 							<div class="img-frame">
-								<img src="thumbs\Aeos Island\Aeos Island.jpg" class="thumb-bg" />
-								<img src="thumbs\Aeos Island\Aeos Island.jpg" class="thumb" />
+								<img src="..\thumbs\Aeos Island\Aeos Island.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Aeos Island\Aeos Island.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -415,7 +310,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Aeos Island\Aeos Island.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Aeos Island\Aeos Island.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -432,10 +327,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10012">
 							<div class="img-frame">
-								<img src="thumbs\Aeos Island\Remoat Stadium.jpg" class="thumb-bg" />
-								<img src="thumbs\Aeos Island\Remoat Stadium.jpg" class="thumb" />
+								<img src="..\thumbs\Aeos Island\Remoat Stadium.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Aeos Island\Remoat Stadium.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -447,7 +342,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Aeos Island\Remoat Stadium.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Aeos Island\Remoat Stadium.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -466,15 +361,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10033" class="groupNode node-level-1">
+				<div id="GRP_10019" class="groupNode node-level-1">
 					<h2>
 												Almia
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10015">
 							<div class="img-frame">
-								<img src="thumbs\Almia\Almia 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Almia\Almia 2.jpg" class="thumb" />
+								<img src="..\thumbs\Almia\Almia 2.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Almia\Almia 2.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -486,7 +381,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Almia\Almia 2.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Almia\Almia 2.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -503,10 +398,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10017">
 							<div class="img-frame">
-								<img src="thumbs\Almia\Almia.jpg" class="thumb-bg" />
-								<img src="thumbs\Almia\Almia.jpg" class="thumb" />
+								<img src="..\thumbs\Almia\Almia.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Almia\Almia.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -518,7 +413,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Almia\Almia.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Almia\Almia.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -537,15 +432,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10052" class="groupNode node-level-1">
+				<div id="GRP_10038" class="groupNode node-level-1">
 					<h2>
 												Alola
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10020">
 							<div class="img-frame">
-								<img src="thumbs\Alola\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Alola\Mindscape.jpg" class="thumb" />
+								<img src="..\thumbs\Alola\Mindscape.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Alola\Mindscape.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -557,7 +452,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Alola\Mindscape.jpg" class="fileLink jpg">
+								<a href="..\regions\Alola\Mindscape.jpg" class="fileLink jpg">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -574,10 +469,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10022">
 							<div class="img-frame">
-								<img src="thumbs\Alola\Poke_Pelago.jpg" class="thumb-bg" />
-								<img src="thumbs\Alola\Poke_Pelago.jpg" class="thumb" />
+								<img src="..\thumbs\Alola\Poke_Pelago.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Alola\Poke_Pelago.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -589,7 +484,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Alola\Poke_Pelago.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Alola\Poke_Pelago.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -606,10 +501,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10037">
 							<div class="img-frame">
-								<img src="thumbs\Alola\SunMoon.jpg" class="thumb-bg" />
-								<img src="thumbs\Alola\SunMoon.jpg" class="thumb" />
+								<img src="..\thumbs\Alola\SunMoon.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Alola\SunMoon.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -621,7 +516,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Alola\_SunMoon\largeish.jpg" class="fileLink jpg">
+								<a href="..\regions\Alola\_SunMoon\largeish.jpg" class="fileLink jpg">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -637,7 +532,7 @@
 								</a>
 								
 																
-								<a href="regions\Alola\_SunMoon\mid.jpg" class="fileLink jpg">
+								<a href="..\regions\Alola\_SunMoon\mid.jpg" class="fileLink jpg">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -653,7 +548,7 @@
 								</a>
 								
 																
-								<a href="regions\Alola\_SunMoon\Verylarge.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Alola\_SunMoon\Verylarge.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -672,15 +567,15 @@
 						</div>
 					</div>
 					<div class="group-children">
-						<div id="GRP_10047" class="groupNode node-level-2">
+						<div id="GRP_10033" class="groupNode node-level-2">
 							<h2>
 																UltraSun
 							</h2>
 							<div class="group-imgs">
-								<div class="img-container">
+								<div class="img-container" id="SET_10031">
 									<div class="img-frame">
-										<img src="thumbs\Alola\UltraSun\Alola USUM.jpg" class="thumb-bg" />
-										<img src="thumbs\Alola\UltraSun\Alola USUM.jpg" class="thumb" />
+										<img src="..\thumbs\Alola\UltraSun\Alola USUM.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Alola\UltraSun\Alola USUM.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -692,7 +587,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Alola\UltraSun\Alola USUM.jpg" class="fileLink jpg">
+										<a href="..\regions\Alola\UltraSun\Alola USUM.jpg" class="fileLink jpg">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -711,15 +606,15 @@
 								</div>
 							</div>
 						</div>
-						<div id="GRP_10044" class="groupNode node-level-2 locations">
+						<div id="GRP_10030" class="groupNode node-level-2 locations">
 							<h2>
 																Locations
 							</h2>
 							<div class="group-imgs">
-								<div class="img-container">
+								<div class="img-container" id="SET_10024">
 									<div class="img-frame">
-										<img src="thumbs\Alola\Locations\Hau'oli City.jpg" class="thumb-bg" />
-										<img src="thumbs\Alola\Locations\Hau'oli City.jpg" class="thumb" />
+										<img src="..\thumbs\Alola\Locations\Hau'oli City.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Alola\Locations\Hau'oli City.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -731,7 +626,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Alola\Locations\Hau'oli City.jpg" class="fileLink jpg">
+										<a href="..\regions\Alola\Locations\Hau'oli City.jpg" class="fileLink jpg">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -748,10 +643,10 @@
 										
 									</div>
 								</div>
-								<div class="img-container">
+								<div class="img-container" id="SET_10026">
 									<div class="img-frame">
-										<img src="thumbs\Alola\Locations\Iki Town.jpg" class="thumb-bg" />
-										<img src="thumbs\Alola\Locations\Iki Town.jpg" class="thumb" />
+										<img src="..\thumbs\Alola\Locations\Iki Town.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Alola\Locations\Iki Town.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -763,7 +658,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Alola\Locations\Iki Town.jpg" class="fileLink jpg">
+										<a href="..\regions\Alola\Locations\Iki Town.jpg" class="fileLink jpg">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -780,10 +675,10 @@
 										
 									</div>
 								</div>
-								<div class="img-container">
+								<div class="img-container" id="SET_10028">
 									<div class="img-frame">
-										<img src="thumbs\Alola\Locations\Ultra Megaopolis.jpg" class="thumb-bg" />
-										<img src="thumbs\Alola\Locations\Ultra Megaopolis.jpg" class="thumb" />
+										<img src="..\thumbs\Alola\Locations\Ultra Megaopolis.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Alola\Locations\Ultra Megaopolis.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -795,7 +690,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Alola\Locations\Ultra Megaopolis.jpg" class="fileLink jpg">
+										<a href="..\regions\Alola\Locations\Ultra Megaopolis.jpg" class="fileLink jpg">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -816,15 +711,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10059" class="groupNode node-level-1">
+				<div id="GRP_10045" class="groupNode node-level-1">
 					<h2>
 												Blueberry Academy
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10039">
 							<div class="img-frame">
-								<img src="thumbs\Blueberry Academy\Blueberry Academy.jpg" class="thumb-bg" />
-								<img src="thumbs\Blueberry Academy\Blueberry Academy.jpg" class="thumb" />
+								<img src="..\thumbs\Blueberry Academy\Blueberry Academy.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Blueberry Academy\Blueberry Academy.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -836,7 +731,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Blueberry Academy\Blueberry Academy.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Blueberry Academy\Blueberry Academy.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -853,10 +748,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10044">
 							<div class="img-frame">
-								<img src="thumbs\Blueberry Academy\Map.jpg" class="thumb-bg" />
-								<img src="thumbs\Blueberry Academy\Map.jpg" class="thumb" />
+								<img src="..\thumbs\Blueberry Academy\Map.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Blueberry Academy\Map.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -868,7 +763,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Blueberry Academy\_Map\Blueberry Academy (Large).webp" class="fileLink webp-lossless">
+								<a href="..\regions\Blueberry Academy\_Map\Blueberry Academy (Large).webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -884,7 +779,7 @@
 								</a>
 								
 																
-								<a href="regions\Blueberry Academy\_Map\Blueberry Academy (Medium).webp" class="fileLink webp-lossless">
+								<a href="..\regions\Blueberry Academy\_Map\Blueberry Academy (Medium).webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -900,7 +795,7 @@
 								</a>
 								
 																
-								<a href="regions\Blueberry Academy\_Map\Blueberry Academy (Small).webp" class="fileLink webp-lossless">
+								<a href="..\regions\Blueberry Academy\_Map\Blueberry Academy (Small).webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -919,15 +814,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10064" class="groupNode node-level-1">
+				<div id="GRP_10050" class="groupNode node-level-1">
 					<h2>
 												Fiore
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10046">
 							<div class="img-frame">
-								<img src="thumbs\Fiore\Fiore 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Fiore\Fiore 2.jpg" class="thumb" />
+								<img src="..\thumbs\Fiore\Fiore 2.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Fiore\Fiore 2.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -939,7 +834,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Fiore\Fiore 2.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Fiore\Fiore 2.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -956,10 +851,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10048">
 							<div class="img-frame">
-								<img src="thumbs\Fiore\Fiore.jpg" class="thumb-bg" />
-								<img src="thumbs\Fiore\Fiore.jpg" class="thumb" />
+								<img src="..\thumbs\Fiore\Fiore.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Fiore\Fiore.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -971,7 +866,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Fiore\Fiore.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Fiore\Fiore.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -990,15 +885,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10078" class="groupNode node-level-1">
+				<div id="GRP_10064" class="groupNode node-level-1">
 					<h2>
 												Galar
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10051">
 							<div class="img-frame">
-								<img src="thumbs\Galar\Art.jpg" class="thumb-bg" />
-								<img src="thumbs\Galar\Art.jpg" class="thumb" />
+								<img src="..\thumbs\Galar\Art.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Galar\Art.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1010,7 +905,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Galar\Art.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Galar\Art.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1027,10 +922,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10053">
 							<div class="img-frame">
-								<img src="thumbs\Galar\Crown Tundra.jpg" class="thumb-bg" />
-								<img src="thumbs\Galar\Crown Tundra.jpg" class="thumb" />
+								<img src="..\thumbs\Galar\Crown Tundra.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Galar\Crown Tundra.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1042,7 +937,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Galar\Crown Tundra.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Galar\Crown Tundra.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1059,10 +954,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10055">
 							<div class="img-frame">
-								<img src="thumbs\Galar\Isle Of Armor.jpg" class="thumb-bg" />
-								<img src="thumbs\Galar\Isle Of Armor.jpg" class="thumb" />
+								<img src="..\thumbs\Galar\Isle Of Armor.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Galar\Isle Of Armor.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1074,7 +969,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Galar\Isle Of Armor.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Galar\Isle Of Armor.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1091,10 +986,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10057">
 							<div class="img-frame">
-								<img src="thumbs\Galar\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Galar\Mindscape.jpg" class="thumb" />
+								<img src="..\thumbs\Galar\Mindscape.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Galar\Mindscape.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1106,7 +1001,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Galar\Mindscape.jpg" class="fileLink jpg">
+								<a href="..\regions\Galar\Mindscape.jpg" class="fileLink jpg">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1123,10 +1018,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10059">
 							<div class="img-frame">
-								<img src="thumbs\Galar\Overmap.jpg" class="thumb-bg" />
-								<img src="thumbs\Galar\Overmap.jpg" class="thumb" />
+								<img src="..\thumbs\Galar\Overmap.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Galar\Overmap.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1138,7 +1033,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Galar\Overmap.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Galar\Overmap.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1157,15 +1052,15 @@
 						</div>
 					</div>
 					<div class="group-children">
-						<div id="GRP_10077" class="groupNode node-level-2 locations">
+						<div id="GRP_10063" class="groupNode node-level-2 locations">
 							<h2>
 																Locations
 							</h2>
 							<div class="group-imgs">
-								<div class="img-container">
+								<div class="img-container" id="SET_10061">
 									<div class="img-frame">
-										<img src="thumbs\Galar\Locations\Wild Area.jpg" class="thumb-bg" />
-										<img src="thumbs\Galar\Locations\Wild Area.jpg" class="thumb" />
+										<img src="..\thumbs\Galar\Locations\Wild Area.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Galar\Locations\Wild Area.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1177,7 +1072,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Galar\Locations\Wild Area.png" class="fileLink png">
+										<a href="..\regions\Galar\Locations\Wild Area.png" class="fileLink png">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1198,15 +1093,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10090" class="groupNode node-level-1">
+				<div id="GRP_10076" class="groupNode node-level-1">
 					<h2>
 												Hisui
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10065">
 							<div class="img-frame">
-								<img src="thumbs\Hisui\Hisui.jpg" class="thumb-bg" />
-								<img src="thumbs\Hisui\Hisui.jpg" class="thumb" />
+								<img src="..\thumbs\Hisui\Hisui.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Hisui\Hisui.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1218,7 +1113,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Hisui\Hisui.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Hisui\Hisui.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1235,10 +1130,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10075">
 							<div class="img-frame">
-								<img src="thumbs\Hisui\Hisui 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Hisui\Hisui 2.jpg" class="thumb" />
+								<img src="..\thumbs\Hisui\Hisui 2.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Hisui\Hisui 2.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1250,7 +1145,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Hisui\_Hisui 2\Hisui2.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Hisui\_Hisui 2\Hisui2.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1269,15 +1164,15 @@
 						</div>
 					</div>
 					<div class="group-children">
-						<div id="GRP_10087" class="groupNode node-level-2 locations">
+						<div id="GRP_10073" class="groupNode node-level-2 locations">
 							<h2>
 																Locations
 							</h2>
 							<div class="group-imgs">
-								<div class="img-container">
+								<div class="img-container" id="SET_10067">
 									<div class="img-frame">
-										<img src="thumbs\Hisui\Locations\Base Camp.jpg" class="thumb-bg" />
-										<img src="thumbs\Hisui\Locations\Base Camp.jpg" class="thumb" />
+										<img src="..\thumbs\Hisui\Locations\Base Camp.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Hisui\Locations\Base Camp.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1289,7 +1184,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Hisui\Locations\Base Camp.png" class="fileLink png">
+										<a href="..\regions\Hisui\Locations\Base Camp.png" class="fileLink png">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1306,10 +1201,10 @@
 										
 									</div>
 								</div>
-								<div class="img-container">
+								<div class="img-container" id="SET_10069">
 									<div class="img-frame">
-										<img src="thumbs\Hisui\Locations\Cobalt Coastlands.jpg" class="thumb-bg" />
-										<img src="thumbs\Hisui\Locations\Cobalt Coastlands.jpg" class="thumb" />
+										<img src="..\thumbs\Hisui\Locations\Cobalt Coastlands.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Hisui\Locations\Cobalt Coastlands.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1321,7 +1216,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Hisui\Locations\Cobalt Coastlands.png" class="fileLink png">
+										<a href="..\regions\Hisui\Locations\Cobalt Coastlands.png" class="fileLink png">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1338,10 +1233,10 @@
 										
 									</div>
 								</div>
-								<div class="img-container">
+								<div class="img-container" id="SET_10071">
 									<div class="img-frame">
-										<img src="thumbs\Hisui\Locations\Mount Coronet.jpg" class="thumb-bg" />
-										<img src="thumbs\Hisui\Locations\Mount Coronet.jpg" class="thumb" />
+										<img src="..\thumbs\Hisui\Locations\Mount Coronet.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Hisui\Locations\Mount Coronet.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1353,7 +1248,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Hisui\Locations\Mount Coronet.jpg" class="fileLink jpg">
+										<a href="..\regions\Hisui\Locations\Mount Coronet.jpg" class="fileLink jpg">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1374,15 +1269,15 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10108" class="groupNode node-level-1">
+				<div id="GRP_10094" class="groupNode node-level-1">
 					<h2>
 												Hoenn
 					</h2>
 					<div class="group-imgs">
-						<div class="img-container">
+						<div class="img-container" id="SET_10077">
 							<div class="img-frame">
-								<img src="thumbs\Hoenn\Hoenn 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Hoenn\Hoenn 2.jpg" class="thumb" />
+								<img src="..\thumbs\Hoenn\Hoenn 2.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Hoenn\Hoenn 2.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1394,7 +1289,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Hoenn\Hoenn 2.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Hoenn\Hoenn 2.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1411,10 +1306,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10079">
 							<div class="img-frame">
-								<img src="thumbs\Hoenn\Hoenn.jpg" class="thumb-bg" />
-								<img src="thumbs\Hoenn\Hoenn.jpg" class="thumb" />
+								<img src="..\thumbs\Hoenn\Hoenn.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Hoenn\Hoenn.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1426,7 +1321,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Hoenn\Hoenn.webp" class="fileLink webp-lossless">
+								<a href="..\regions\Hoenn\Hoenn.webp" class="fileLink webp-lossless">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1443,10 +1338,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10081">
 							<div class="img-frame">
-								<img src="thumbs\Hoenn\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Hoenn\Mindscape.jpg" class="thumb" />
+								<img src="..\thumbs\Hoenn\Mindscape.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Hoenn\Mindscape.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1458,7 +1353,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Hoenn\Mindscape.jpg" class="fileLink jpg">
+								<a href="..\regions\Hoenn\Mindscape.jpg" class="fileLink jpg">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1475,10 +1370,10 @@
 								
 							</div>
 						</div>
-						<div class="img-container">
+						<div class="img-container" id="SET_10083">
 							<div class="img-frame">
-								<img src="thumbs\Hoenn\Soaring Texture.jpg" class="thumb-bg" />
-								<img src="thumbs\Hoenn\Soaring Texture.jpg" class="thumb" />
+								<img src="..\thumbs\Hoenn\Soaring Texture.jpg" class="thumb-bg" />
+								<img src="..\thumbs\Hoenn\Soaring Texture.jpg" class="thumb" />
 							</div>
 							<div class="img-desc">
 								<h3>
@@ -1490,7 +1385,7 @@
 								<div class="line">
 								</div>
 																
-								<a href="regions\Hoenn\Soaring Texture.png" class="fileLink png">
+								<a href="..\regions\Hoenn\Soaring Texture.png" class="fileLink png">
 								    <div class="pageIcon">
 								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 								    </div>
@@ -1509,15 +1404,15 @@
 						</div>
 					</div>
 					<div class="group-children">
-						<div id="GRP_10107" class="groupNode node-level-2 locations">
+						<div id="GRP_10093" class="groupNode node-level-2 locations">
 							<h2>
 																Locations
 							</h2>
 							<div class="group-imgs">
-								<div class="img-container">
+								<div class="img-container" id="SET_10085">
 									<div class="img-frame">
-										<img src="thumbs\Hoenn\Locations\Battle Frontier.jpg" class="thumb-bg" />
-										<img src="thumbs\Hoenn\Locations\Battle Frontier.jpg" class="thumb" />
+										<img src="..\thumbs\Hoenn\Locations\Battle Frontier.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Hoenn\Locations\Battle Frontier.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1529,7 +1424,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Hoenn\Locations\Battle Frontier.jpg" class="fileLink jpg">
+										<a href="..\regions\Hoenn\Locations\Battle Frontier.jpg" class="fileLink jpg">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1546,10 +1441,10 @@
 										
 									</div>
 								</div>
-								<div class="img-container">
+								<div class="img-container" id="SET_10087">
 									<div class="img-frame">
-										<img src="thumbs\Hoenn\Locations\Mauville City.jpg" class="thumb-bg" />
-										<img src="thumbs\Hoenn\Locations\Mauville City.jpg" class="thumb" />
+										<img src="..\thumbs\Hoenn\Locations\Mauville City.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Hoenn\Locations\Mauville City.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1561,7 +1456,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Hoenn\Locations\Mauville City.webp" class="fileLink webp-lossless">
+										<a href="..\regions\Hoenn\Locations\Mauville City.webp" class="fileLink webp-lossless">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1578,10 +1473,10 @@
 										
 									</div>
 								</div>
-								<div class="img-container">
+								<div class="img-container" id="SET_10089">
 									<div class="img-frame">
-										<img src="thumbs\Hoenn\Locations\Slateport City & Mt Chimney.jpg" class="thumb-bg" />
-										<img src="thumbs\Hoenn\Locations\Slateport City & Mt Chimney.jpg" class="thumb" />
+										<img src="..\thumbs\Hoenn\Locations\Slateport City & Mt Chimney.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Hoenn\Locations\Slateport City & Mt Chimney.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1593,7 +1488,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Hoenn\Locations\Slateport City & Mt Chimney.webp" class="fileLink webp-lossless">
+										<a href="..\regions\Hoenn\Locations\Slateport City & Mt Chimney.webp" class="fileLink webp-lossless">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1610,10 +1505,10 @@
 										
 									</div>
 								</div>
-								<div class="img-container">
+								<div class="img-container" id="SET_10091">
 									<div class="img-frame">
-										<img src="thumbs\Hoenn\Locations\Wilderness.jpg" class="thumb-bg" />
-										<img src="thumbs\Hoenn\Locations\Wilderness.jpg" class="thumb" />
+										<img src="..\thumbs\Hoenn\Locations\Wilderness.jpg" class="thumb-bg" />
+										<img src="..\thumbs\Hoenn\Locations\Wilderness.jpg" class="thumb" />
 									</div>
 									<div class="img-desc">
 										<h3>
@@ -1625,7 +1520,7 @@
 										<div class="line">
 										</div>
 																				
-										<a href="regions\Hoenn\Locations\Wilderness.webp" class="fileLink webp-lossless">
+										<a href="..\regions\Hoenn\Locations\Wilderness.webp" class="fileLink webp-lossless">
 										    <div class="pageIcon">
 										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
 										    </div>
@@ -1646,3198 +1541,13 @@
 						</div>
 					</div>
 				</div>
-				<div id="GRP_10120" class="groupNode node-level-1">
-					<h2>
-												Johto
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Johto\Gold & Silver.jpg" class="thumb-bg" />
-								<img src="thumbs\Johto\Gold & Silver.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Gold & Silver
-								</h3>
-								<div class="megapix">
-																		<span>24</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Johto\Gold & Silver.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">5824×4142</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">2.17<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Johto\Johto.jpg" class="thumb-bg" />
-								<img src="thumbs\Johto\Johto.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Johto
-								</h3>
-								<div class="megapix">
-																		<span>41</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Johto\Johto.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">7840×5261</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">12.63<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Johto\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Johto\Mindscape.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mindscape
-								</h3>
-								<div class="megapix">
-																		<span>0.39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Johto\Mindscape.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">768×512</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">232.1<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-					<div class="group-children">
-						<div id="GRP_10119" class="groupNode node-level-2 locations">
-							<h2>
-																Locations
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Johto\Locations\Ecruteak City.jpg" class="thumb-bg" />
-										<img src="thumbs\Johto\Locations\Ecruteak City.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Ecruteak City
-										</h3>
-										<div class="megapix">
-																						<span>48</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Johto\Locations\Ecruteak City.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">7244×6567</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">11.62<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Johto\Locations\Mt Silver.jpg" class="thumb-bg" />
-										<img src="thumbs\Johto\Locations\Mt Silver.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Mt Silver
-										</h3>
-										<div class="megapix">
-																						<span>0.95</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Johto\Locations\Mt Silver.webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">800×1190</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">1.09<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10138" class="groupNode node-level-1">
-					<h2>
-												Kalos
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kalos\Kalos Clear.jpg" class="thumb-bg" />
-								<img src="thumbs\Kalos\Kalos Clear.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Kalos Clear
-								</h3>
-								<div class="megapix">
-																		<span>0.7</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kalos\Kalos Clear.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1032×676</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.22<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kalos\Kalos.jpg" class="thumb-bg" />
-								<img src="thumbs\Kalos\Kalos.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Kalos
-								</h3>
-								<div class="megapix">
-																		<span>2.7</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kalos\Kalos.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2038×1335</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.01<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kalos\lumiose 1.jpg" class="thumb-bg" />
-								<img src="thumbs\Kalos\lumiose 1.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		lumiose 1
-								</h3>
-								<div class="megapix">
-																		<span>6.7</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kalos\lumiose 1.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3078×2192</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">8.07<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kalos\lumiose 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Kalos\lumiose 2.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		lumiose 2
-								</h3>
-								<div class="megapix">
-																		<span>6.7</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kalos\lumiose 2.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3078×2192</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">5.39<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kalos\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Kalos\Mindscape.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mindscape
-								</h3>
-								<div class="megapix">
-																		<span>0.39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kalos\Mindscape.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">768×512</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">228.09<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-					<div class="group-children">
-						<div id="GRP_10137" class="groupNode node-level-2 locations">
-							<h2>
-																Locations
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Kalos\Locations\Lumiose City 2.jpg" class="thumb-bg" />
-										<img src="thumbs\Kalos\Locations\Lumiose City 2.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Lumiose City 2
-										</h3>
-										<div class="megapix">
-																						<span>0.92</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Kalos\Locations\Lumiose City 2.webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">1500×610</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">1.21<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Kalos\Locations\Lumiose City.jpg" class="thumb-bg" />
-										<img src="thumbs\Kalos\Locations\Lumiose City.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Lumiose City
-										</h3>
-										<div class="megapix">
-																						<span>4</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Kalos\Locations\Lumiose City.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">1733×2329</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">1000.43<span>kB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Kalos\Locations\Lumiose Scene.jpg" class="thumb-bg" />
-										<img src="thumbs\Kalos\Locations\Lumiose Scene.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Lumiose Scene
-										</h3>
-										<div class="megapix">
-																						<span>5</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Kalos\Locations\Lumiose Scene.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">2621×1901</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">1008.28<span>kB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10149" class="groupNode node-level-1">
-					<h2>
-												Kanto
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kanto\31695378059.jpg" class="thumb-bg" />
-								<img src="thumbs\Kanto\31695378059.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		31695378059
-								</h3>
-								<div class="megapix">
-																		<span>5</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kanto\31695378059.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2560×1951</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.02<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kanto\Kanto (Go).jpg" class="thumb-bg" />
-								<img src="thumbs\Kanto\Kanto (Go).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Kanto (Go)
-								</h3>
-								<div class="megapix">
-																		<span>4.7</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kanto\Kanto (Go).webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2571×1818</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">6.47<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kanto\Kanto.jpg" class="thumb-bg" />
-								<img src="thumbs\Kanto\Kanto.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Kanto
-								</h3>
-								<div class="megapix">
-																		<span>0.75</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kanto\Kanto.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1000×750</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">317.12<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kanto\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Kanto\Mindscape.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mindscape
-								</h3>
-								<div class="megapix">
-																		<span>0.39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kanto\Mindscape.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">768×512</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">215.08<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kanto\Pokemon Green Map.jpg" class="thumb-bg" />
-								<img src="thumbs\Kanto\Pokemon Green Map.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Pokemon Green Map
-								</h3>
-								<div class="megapix">
-																		<span>6.1</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kanto\Pokemon Green Map.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2891×2113</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">3.47<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10154" class="groupNode node-level-1">
-					<h2>
-												Kanto & Johto
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kanto & Johto\Kanto & Johto 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Kanto & Johto\Kanto & Johto 2.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Kanto & Johto 2
-								</h3>
-								<div class="megapix">
-																		<span>16</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kanto & Johto\Kanto & Johto 2.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">6000×2630</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.63<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kanto & Johto\Kanto & Johto.jpg" class="thumb-bg" />
-								<img src="thumbs\Kanto & Johto\Kanto & Johto.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Kanto & Johto
-								</h3>
-								<div class="megapix">
-																		<span>4.8</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kanto & Johto\Kanto & Johto.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3370×1427</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">5.7<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10164" class="groupNode node-level-1">
-					<h2>
-												Kitakami
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Kitakami\Kitakami.jpg" class="thumb-bg" />
-								<img src="thumbs\Kitakami\Kitakami.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Kitakami
-								</h3>
-								<div class="megapix">
-																		<span>11</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Kitakami\Kitakami.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2621×4096</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.8<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-					<div class="group-children">
-						<div id="GRP_10163" class="groupNode node-level-2">
-							<h2>
-																Map
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Kitakami\Map\Kitakami (Large).jpg" class="thumb-bg" />
-										<img src="thumbs\Kitakami\Map\Kitakami (Large).jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Kitakami (Large)
-										</h3>
-										<div class="megapix">
-																						<span>104</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Kitakami\Map\Kitakami (Large).webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">10200×10200</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">10.64<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Kitakami\Map\Kitakami (Medium).jpg" class="thumb-bg" />
-										<img src="thumbs\Kitakami\Map\Kitakami (Medium).jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Kitakami (Medium)
-										</h3>
-										<div class="megapix">
-																						<span>44</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Kitakami\Map\Kitakami (Medium).webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">6600×6600</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">4.39<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Kitakami\Map\Kitakami (Small).jpg" class="thumb-bg" />
-										<img src="thumbs\Kitakami\Map\Kitakami (Small).jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Kitakami (Small)
-										</h3>
-										<div class="megapix">
-																						<span>13</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Kitakami\Map\Kitakami (Small).webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">3600×3600</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">1.64<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10201" class="groupNode node-level-1">
-					<h2>
-												Mystery Dungeon
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Air Continent (Rescue Team DX).jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Air Continent (Rescue Team DX).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Air Continent (Rescue Team DX)
-								</h3>
-								<div class="megapix">
-																		<span>42</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Air Continent (Rescue Team DX).webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">7000×6000</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">25.15<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Air Continent (Rescue Team).jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Air Continent (Rescue Team).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Air Continent (Rescue Team)
-								</h3>
-								<div class="megapix">
-																		<span>0.15</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Air Continent (Rescue Team).webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">479×320</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">25.94<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Air Continent - Baram Town.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Air Continent - Baram Town.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Air Continent - Baram Town
-								</h3>
-								<div class="megapix">
-																		<span>0.34</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Air Continent - Baram Town.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">600×563</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">623.47<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Air Continent - Pokemon Square.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Air Continent - Pokemon Square.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Air Continent - Pokemon Square
-								</h3>
-								<div class="megapix">
-																		<span>0.45</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Air Continent - Pokemon Square.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">800×566</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">797.31<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Air Continent Friend Area.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Air Continent Friend Area.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Air Continent Friend Area
-								</h3>
-								<div class="megapix">
-																		<span>1.2</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Air Continent Friend Area.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1458×820</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.85<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Blizzard Island (Future).jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Blizzard Island (Future).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Grass Continent - Blizzard Island (Future)
-								</h3>
-								<div class="megapix">
-																		<span>0.05</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Grass Continent - Blizzard Island (Future).webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">256×192</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">20.84<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Hidden Land (Future).jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Hidden Land (Future).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Grass Continent - Hidden Land (Future)
-								</h3>
-								<div class="megapix">
-																		<span>0.05</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Grass Continent - Hidden Land (Future).webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">256×192</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">21.97<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Prairie.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Prairie.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Grass Continent - Prairie
-								</h3>
-								<div class="megapix">
-																		<span>0.07</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Grass Continent - Prairie.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">384×192</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">24.68<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Treasure Town.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Grass Continent - Treasure Town.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Grass Continent - Treasure Town
-								</h3>
-								<div class="megapix">
-																		<span>2.8</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Grass Continent - Treasure Town.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2000×1414</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1000.81<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Grass Continent 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Grass Continent 2.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Grass Continent 2
-								</h3>
-								<div class="megapix">
-																		<span>0.16</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Grass Continent 2.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">503×324</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">30.71<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Grass Continent.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Grass Continent.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Grass Continent
-								</h3>
-								<div class="megapix">
-																		<span>0.17</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Grass Continent.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">504×336</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">30.59<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Mist Continent (Gates to Infinity) v2.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Mist Continent (Gates to Infinity) v2.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mist Continent (Gates to Infinity) v2
-								</h3>
-								<div class="megapix">
-																		<span>1</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Mist Continent (Gates to Infinity) v2.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1024×1024</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.06<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Mist Continent (Gates to Infinity).jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Mist Continent (Gates to Infinity).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mist Continent (Gates to Infinity)
-								</h3>
-								<div class="megapix">
-																		<span>1</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Mist Continent (Gates to Infinity).webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1024×1024</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.06<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Mist Continent - Post Town.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Mist Continent - Post Town.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mist Continent - Post Town
-								</h3>
-								<div class="megapix">
-																		<span>1.7</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Mist Continent - Post Town.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1500×1143</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">2.25<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Pokemon Paradise.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Pokemon Paradise.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Pokemon Paradise
-								</h3>
-								<div class="megapix">
-																		<span>0.31</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Pokemon Paradise.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">640×480</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">79.29<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Super Mystery Dungeon.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Super Mystery Dungeon.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Super Mystery Dungeon
-								</h3>
-								<div class="megapix">
-																		<span>3.1</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Super Mystery Dungeon.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2048×1536</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">3.83<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Water Continent - Lively Town.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Water Continent - Lively Town.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Water Continent - Lively Town
-								</h3>
-								<div class="megapix">
-																		<span>0.27</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Water Continent - Lively Town.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">600×451</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">88.52<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Mystery Dungeon\Water Continent - Serene Village.jpg" class="thumb-bg" />
-								<img src="thumbs\Mystery Dungeon\Water Continent - Serene Village.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Water Continent - Serene Village
-								</h3>
-								<div class="megapix">
-																		<span>10</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Mystery Dungeon\Water Continent - Serene Village.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">4096×2560</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">2.29<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10212" class="groupNode node-level-1">
-					<h2>
-												Orre
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Orre\arrows-view.jpg" class="thumb-bg" />
-								<img src="thumbs\Orre\arrows-view.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		arrows-view
-								</h3>
-								<div class="megapix">
-																		<span>25</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Orre\arrows-view.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">6418×3840</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">17.97<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Orre\clean map.jpg" class="thumb-bg" />
-								<img src="thumbs\Orre\clean map.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		clean map
-								</h3>
-								<div class="megapix">
-																		<span>0.31</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Orre\clean map.png" class="fileLink png">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">640×480</span>
-								            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">375.17<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Orre\clean-view.jpg" class="thumb-bg" />
-								<img src="thumbs\Orre\clean-view.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		clean-view
-								</h3>
-								<div class="megapix">
-																		<span>25</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Orre\clean-view.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">6418×3840</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">17.97<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Orre\map.jpg" class="thumb-bg" />
-								<img src="thumbs\Orre\map.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		map
-								</h3>
-								<div class="megapix">
-																		<span>0.31</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Orre\map.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">640×480</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">235.91<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Orre\upscaled map.jpg" class="thumb-bg" />
-								<img src="thumbs\Orre\upscaled map.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		upscaled map
-								</h3>
-								<div class="megapix">
-																		<span>0.86</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Orre\upscaled map.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">960×900</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">320.66<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10225" class="groupNode node-level-1">
-					<h2>
-												Paldea
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Paldea\Paldea.jpg" class="thumb-bg" />
-								<img src="thumbs\Paldea\Paldea.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Paldea
-								</h3>
-								<div class="megapix">
-																		<span>47</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Paldea\Paldea.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">8185×5787</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">8.32<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-					<div class="group-children">
-						<div id="GRP_10224" class="groupNode node-level-2">
-							<h2>
-																Map
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Paldea\Map\Paldea (Large).jpg" class="thumb-bg" />
-										<img src="thumbs\Paldea\Map\Paldea (Large).jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Paldea (Large)
-										</h3>
-										<div class="megapix">
-																						<span>243</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Paldea\Map\Paldea (Large).webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">15600×15600</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">26.78<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Paldea\Map\Paldea (Medium).jpg" class="thumb-bg" />
-										<img src="thumbs\Paldea\Map\Paldea (Medium).jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Paldea (Medium)
-										</h3>
-										<div class="megapix">
-																						<span>71</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Paldea\Map\Paldea (Medium).webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">8400×8400</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">6.82<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Paldea\Map\Paldea (Small).jpg" class="thumb-bg" />
-										<img src="thumbs\Paldea\Map\Paldea (Small).jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Paldea (Small)
-										</h3>
-										<div class="megapix">
-																						<span>13</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Paldea\Map\Paldea (Small).webp" class="fileLink webp-lossless">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">3600×3600</span>
-										            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">2.3<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="GRP_10217" class="groupNode node-level-2 locations">
-							<h2>
-																Locations
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Paldea\Locations\Academy.jpg" class="thumb-bg" />
-										<img src="thumbs\Paldea\Locations\Academy.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Academy
-										</h3>
-										<div class="megapix">
-																						<span>0.51</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Paldea\Locations\Academy.png" class="fileLink png">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">640×800</span>
-										            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">234.3<span>kB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10232" class="groupNode node-level-1">
-					<h2>
-												Pokemon Island
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Pokemon Island\Drawing (large).jpg" class="thumb-bg" />
-								<img src="thumbs\Pokemon Island\Drawing (large).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Drawing (large)
-								</h3>
-								<div class="megapix">
-																		<span>1.1</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Pokemon Island\Drawing (large).jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1303×835</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">497.82<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Pokemon Island\Drawing (small).jpg" class="thumb-bg" />
-								<img src="thumbs\Pokemon Island\Drawing (small).jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Drawing (small)
-								</h3>
-								<div class="megapix">
-																		<span>0.11</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Pokemon Island\Drawing (small).webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">400×271</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">151.58<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Pokemon Island\Texture.jpg" class="thumb-bg" />
-								<img src="thumbs\Pokemon Island\Texture.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Texture
-								</h3>
-								<div class="megapix">
-																		<span>0.08</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Pokemon Island\Texture.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">320×240</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">51.76<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10237" class="groupNode node-level-1">
-					<h2>
-												Poketopia
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Poketopia\PokeTopia.jpg" class="thumb-bg" />
-								<img src="thumbs\Poketopia\PokeTopia.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		PokeTopia
-								</h3>
-								<div class="megapix">
-																		<span>0.36</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Poketopia\PokeTopia.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">760×480</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">172.93<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Poketopia\View.jpg" class="thumb-bg" />
-								<img src="thumbs\Poketopia\View.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		View
-								</h3>
-								<div class="megapix">
-																		<span>6.7</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Poketopia\View.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3491×1914</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">2.66<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10242" class="groupNode node-level-1">
-					<h2>
-												Ransei
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Ransei\Ransei.jpg" class="thumb-bg" />
-								<img src="thumbs\Ransei\Ransei.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Ransei
-								</h3>
-								<div class="megapix">
-																		<span>0.24</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Ransei\Ransei.png" class="fileLink png">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">544×448</span>
-								            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">113.1<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Ransei\Southwest.jpg" class="thumb-bg" />
-								<img src="thumbs\Ransei\Southwest.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Southwest
-								</h3>
-								<div class="megapix">
-																		<span>0.24</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Ransei\Southwest.png" class="fileLink png">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">544×448</span>
-								            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">98.04<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10251" class="groupNode node-level-1">
-					<h2>
-												Ryme City
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Ryme City\alleyway.jpg" class="thumb-bg" />
-								<img src="thumbs\Ryme City\alleyway.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		alleyway
-								</h3>
-								<div class="megapix">
-																		<span>11</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Ryme City\alleyway.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">2765×4096</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.01<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Ryme City\approach.jpg" class="thumb-bg" />
-								<img src="thumbs\Ryme City\approach.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		approach
-								</h3>
-								<div class="megapix">
-																		<span>6.2</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Ryme City\approach.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3840×1610</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1016.33<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Ryme City\city.jpg" class="thumb-bg" />
-								<img src="thumbs\Ryme City\city.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		city
-								</h3>
-								<div class="megapix">
-																		<span>6.2</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Ryme City\city.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3840×1610</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.34<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Ryme City\Island.jpg" class="thumb-bg" />
-								<img src="thumbs\Ryme City\Island.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Island
-								</h3>
-								<div class="megapix">
-																		<span>3.9</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Ryme City\Island.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3025×1280</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">803.38<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10256" class="groupNode node-level-1">
-					<h2>
-												Sevii Islands
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sevii Islands\Sevii_Islands.jpg" class="thumb-bg" />
-								<img src="thumbs\Sevii Islands\Sevii_Islands.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Sevii_Islands
-								</h3>
-								<div class="megapix">
-																		<span>0.44</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sevii Islands\Sevii_Islands.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">556×800</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">441.62<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sevii Islands\Sevii_Islands_upscale.jpg" class="thumb-bg" />
-								<img src="thumbs\Sevii Islands\Sevii_Islands_upscale.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Sevii_Islands_upscale
-								</h3>
-								<div class="megapix">
-																		<span>1.8</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sevii Islands\Sevii_Islands_upscale.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1112×1600</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.29<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10302" class="groupNode node-level-1">
-					<h2>
-												Sinnoh
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Grand Underground.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Grand Underground.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Grand Underground
-								</h3>
-								<div class="megapix">
-																		<span>35</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\Grand Underground.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">7000×4950</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">42.54<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Mindscape.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mindscape
-								</h3>
-								<div class="megapix">
-																		<span>0.39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\Mindscape.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">768×512</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">260.22<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Overview.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Overview.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Overview
-								</h3>
-								<div class="megapix">
-																		<span>11</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\Overview.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3898×2756</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">4.93<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Platinum.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Platinum.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Platinum
-								</h3>
-								<div class="megapix">
-																		<span>39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\Platinum.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">7441×5263</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">5.95<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Sinnoh Map.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Sinnoh Map.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Sinnoh Map
-								</h3>
-								<div class="megapix">
-																		<span>0.93</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\Sinnoh Map.png" class="fileLink png">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1268×734</span>
-								            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">426.42<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Sinnoh Unlabelled.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Sinnoh Unlabelled.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Sinnoh Unlabelled
-								</h3>
-								<div class="megapix">
-																		<span>35</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\Sinnoh Unlabelled.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">7000×4950</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">33.79<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Diamond-Pearl.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Diamond-Pearl.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Diamond-Pearl
-								</h3>
-								<div class="megapix">
-																		<span>39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\_Diamond-Pearl\Orig 1.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1753×1240</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">330.03<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-																
-								<a href="regions\Sinnoh\_Diamond-Pearl\Orig 2.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">7441×5263</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">8.5<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Sinnoh\Sinnoh Labelled.jpg" class="thumb-bg" />
-								<img src="thumbs\Sinnoh\Sinnoh Labelled.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Sinnoh Labelled
-								</h3>
-								<div class="megapix">
-																		<span>35</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Sinnoh\_Sinnoh Labelled\Orig.png" class="fileLink png">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">1355×958</span>
-								            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">1.91<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-																
-								<a href="regions\Sinnoh\_Sinnoh Labelled\Sinnoh Labelled.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">7000×4950</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">33.8<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-					<div class="group-children">
-						<div id="GRP_10284" class="groupNode node-level-2">
-							<h2>
-																Battle Frontier
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Sinnoh\Battle Frontier\Battle Frontier.jpg" class="thumb-bg" />
-										<img src="thumbs\Sinnoh\Battle Frontier\Battle Frontier.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Battle Frontier
-										</h3>
-										<div class="megapix">
-																						<span>23</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Sinnoh\Battle Frontier\Battle Frontier.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">6142×3780</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">5.76<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-							<div class="group-children">
-								<div id="GRP_10283" class="groupNode node-level-3">
-									<h2>
-																				Facilities
-									</h2>
-									<div class="group-imgs">
-										<div class="img-container">
-											<div class="img-frame">
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Arcade.jpg" class="thumb-bg" />
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Arcade.jpg" class="thumb" />
-											</div>
-											<div class="img-desc">
-												<h3>
-																										Battle Arcade
-												</h3>
-												<div class="megapix">
-																										<span>4.6</span><span>megapixels</span>
-												</div>
-												<div class="line">
-												</div>
-																								
-												<a href="regions\Sinnoh\Battle Frontier\Facilities\Battle Arcade.jpg" class="fileLink jpg">
-												    <div class="pageIcon">
-												        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-												    </div>
-												    <div class="fileData">
-												        <div>
-												            <span class="resolution">2622×1772</span>
-												            <span class="format"><span>jpg</span></span>
-												        </div>
-												        <div>
-												            <span class="size">3.46<span>MB</span></span>
-												        </div>
-												    </div>
-												</a>
-												
-											</div>
-										</div>
-										<div class="img-container">
-											<div class="img-frame">
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Castle.jpg" class="thumb-bg" />
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Castle.jpg" class="thumb" />
-											</div>
-											<div class="img-desc">
-												<h3>
-																										Battle Castle
-												</h3>
-												<div class="megapix">
-																										<span>4.6</span><span>megapixels</span>
-												</div>
-												<div class="line">
-												</div>
-																								
-												<a href="regions\Sinnoh\Battle Frontier\Facilities\Battle Castle.jpg" class="fileLink jpg">
-												    <div class="pageIcon">
-												        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-												    </div>
-												    <div class="fileData">
-												        <div>
-												            <span class="resolution">2622×1772</span>
-												            <span class="format"><span>jpg</span></span>
-												        </div>
-												        <div>
-												            <span class="size">3.58<span>MB</span></span>
-												        </div>
-												    </div>
-												</a>
-												
-											</div>
-										</div>
-										<div class="img-container">
-											<div class="img-frame">
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Factory.jpg" class="thumb-bg" />
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Factory.jpg" class="thumb" />
-											</div>
-											<div class="img-desc">
-												<h3>
-																										Battle Factory
-												</h3>
-												<div class="megapix">
-																										<span>2.1</span><span>megapixels</span>
-												</div>
-												<div class="line">
-												</div>
-																								
-												<a href="regions\Sinnoh\Battle Frontier\Facilities\Battle Factory.jpg" class="fileLink jpg">
-												    <div class="pageIcon">
-												        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-												    </div>
-												    <div class="fileData">
-												        <div>
-												            <span class="resolution">1748×1181</span>
-												            <span class="format"><span>jpg</span></span>
-												        </div>
-												        <div>
-												            <span class="size">1.84<span>MB</span></span>
-												        </div>
-												    </div>
-												</a>
-												
-											</div>
-										</div>
-										<div class="img-container">
-											<div class="img-frame">
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Hall.jpg" class="thumb-bg" />
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Hall.jpg" class="thumb" />
-											</div>
-											<div class="img-desc">
-												<h3>
-																										Battle Hall
-												</h3>
-												<div class="megapix">
-																										<span>4.6</span><span>megapixels</span>
-												</div>
-												<div class="line">
-												</div>
-																								
-												<a href="regions\Sinnoh\Battle Frontier\Facilities\Battle Hall.jpg" class="fileLink jpg">
-												    <div class="pageIcon">
-												        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-												    </div>
-												    <div class="fileData">
-												        <div>
-												            <span class="resolution">2622×1772</span>
-												            <span class="format"><span>jpg</span></span>
-												        </div>
-												        <div>
-												            <span class="size">3.6<span>MB</span></span>
-												        </div>
-												    </div>
-												</a>
-												
-											</div>
-										</div>
-										<div class="img-container">
-											<div class="img-frame">
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Tower.jpg" class="thumb-bg" />
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Battle Tower.jpg" class="thumb" />
-											</div>
-											<div class="img-desc">
-												<h3>
-																										Battle Tower
-												</h3>
-												<div class="megapix">
-																										<span>4.6</span><span>megapixels</span>
-												</div>
-												<div class="line">
-												</div>
-																								
-												<a href="regions\Sinnoh\Battle Frontier\Facilities\Battle Tower.jpg" class="fileLink jpg">
-												    <div class="pageIcon">
-												        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-												    </div>
-												    <div class="fileData">
-												        <div>
-												            <span class="resolution">2622×1772</span>
-												            <span class="format"><span>jpg</span></span>
-												        </div>
-												        <div>
-												            <span class="size">3.44<span>MB</span></span>
-												        </div>
-												    </div>
-												</a>
-												
-											</div>
-										</div>
-										<div class="img-container">
-											<div class="img-frame">
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Entrance.jpg" class="thumb-bg" />
-												<img src="thumbs\Sinnoh\Battle Frontier\Facilities\Entrance.jpg" class="thumb" />
-											</div>
-											<div class="img-desc">
-												<h3>
-																										Entrance
-												</h3>
-												<div class="megapix">
-																										<span>5.9</span><span>megapixels</span>
-												</div>
-												<div class="line">
-												</div>
-																								
-												<a href="regions\Sinnoh\Battle Frontier\Facilities\Entrance.jpg" class="fileLink jpg">
-												    <div class="pageIcon">
-												        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-												    </div>
-												    <div class="fileData">
-												        <div>
-												            <span class="resolution">2240×2624</span>
-												            <span class="format"><span>jpg</span></span>
-												        </div>
-												        <div>
-												            <span class="size">2.74<span>MB</span></span>
-												        </div>
-												    </div>
-												</a>
-												
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="GRP_10295" class="groupNode node-level-2 locations">
-							<h2>
-																Locations
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Sinnoh\Locations\Amity Square.jpg" class="thumb-bg" />
-										<img src="thumbs\Sinnoh\Locations\Amity Square.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Amity Square
-										</h3>
-										<div class="megapix">
-																						<span>12</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Sinnoh\Locations\Amity Square.png" class="fileLink png">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">4093×2894</span>
-										            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">12.45<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Sinnoh\Locations\Distortion World.jpg" class="thumb-bg" />
-										<img src="thumbs\Sinnoh\Locations\Distortion World.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Distortion World
-										</h3>
-										<div class="megapix">
-																						<span>2.1</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Sinnoh\Locations\Distortion World.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">1200×1754</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">134.49<span>kB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Sinnoh\Locations\Flower Paradise.jpg" class="thumb-bg" />
-										<img src="thumbs\Sinnoh\Locations\Flower Paradise.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Flower Paradise
-										</h3>
-										<div class="megapix">
-																						<span>8.7</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Sinnoh\Locations\Flower Paradise.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">3508×2481</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">4.28<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Sinnoh\Locations\Mt Coronet.jpg" class="thumb-bg" />
-										<img src="thumbs\Sinnoh\Locations\Mt Coronet.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Mt Coronet
-										</h3>
-										<div class="megapix">
-																						<span>1.5</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Sinnoh\Locations\Mt Coronet.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">1232×1241</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">122.28<span>kB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Sinnoh\Locations\Stratospheric Room.jpg" class="thumb-bg" />
-										<img src="thumbs\Sinnoh\Locations\Stratospheric Room.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Stratospheric Room
-										</h3>
-										<div class="megapix">
-																						<span>0.69</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Sinnoh\Locations\Stratospheric Room.png" class="fileLink png">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">700×990</span>
-										            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">913.49<span>kB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="GRP_10320" class="groupNode node-level-1">
-					<h2>
-												Unova
-					</h2>
-					<div class="group-imgs">
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Unova\Mindscape 2.jpg" class="thumb-bg" />
-								<img src="thumbs\Unova\Mindscape 2.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mindscape 2
-								</h3>
-								<div class="megapix">
-																		<span>0.39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Unova\Mindscape 2.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">768×512</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">194.18<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Unova\Mindscape.jpg" class="thumb-bg" />
-								<img src="thumbs\Unova\Mindscape.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Mindscape
-								</h3>
-								<div class="megapix">
-																		<span>0.39</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Unova\Mindscape.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">768×512</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">225.31<span>kB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Unova\Unova BW cloudy.jpg" class="thumb-bg" />
-								<img src="thumbs\Unova\Unova BW cloudy.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Unova BW cloudy
-								</h3>
-								<div class="megapix">
-																		<span>78</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Unova\Unova BW cloudy.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">11144×7025</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size"><div class="warning"></div>46.99<span>MB</span><div class="warning"></div></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Unova\Unova BW2 Frosted.jpg" class="thumb-bg" />
-								<img src="thumbs\Unova\Unova BW2 Frosted.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Unova BW2 Frosted
-								</h3>
-								<div class="megapix">
-																		<span>25</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Unova\Unova BW2 Frosted.jpg" class="fileLink jpg">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">6068×4117</span>
-								            <span class="format"><span>jpg</span></span>
-								        </div>
-								        <div>
-								            <span class="size">6.05<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-						<div class="img-container">
-							<div class="img-frame">
-								<img src="thumbs\Unova\Unova BW2.jpg" class="thumb-bg" />
-								<img src="thumbs\Unova\Unova BW2.jpg" class="thumb" />
-							</div>
-							<div class="img-desc">
-								<h3>
-																		Unova BW2
-								</h3>
-								<div class="megapix">
-																		<span>7.1</span><span>megapixels</span>
-								</div>
-								<div class="line">
-								</div>
-																
-								<a href="regions\Unova\Unova BW2.webp" class="fileLink webp-lossless">
-								    <div class="pageIcon">
-								        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-								    </div>
-								    <div class="fileData">
-								        <div>
-								            <span class="resolution">3276×2164</span>
-								            <span class="format"><span>webp <span class="lossless-tag">(lossless)</span></span></span>
-								        </div>
-								        <div>
-								            <span class="size">7.51<span>MB</span></span>
-								        </div>
-								    </div>
-								</a>
-								
-							</div>
-						</div>
-					</div>
-					<div class="group-children">
-						<div id="GRP_10319" class="groupNode node-level-2 locations">
-							<h2>
-																Locations
-							</h2>
-							<div class="group-imgs">
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Unova\Locations\Battle Subway.jpg" class="thumb-bg" />
-										<img src="thumbs\Unova\Locations\Battle Subway.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Battle Subway
-										</h3>
-										<div class="megapix">
-																						<span>16</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Unova\Locations\Battle Subway.png" class="fileLink png">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">4709×3339</span>
-										            <span class="format"><span>png <span class="lossless-tag">(lossless)</span></span></span>
-										        </div>
-										        <div>
-										            <span class="size">10.28<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Unova\Locations\Black City & White Forest.jpg" class="thumb-bg" />
-										<img src="thumbs\Unova\Locations\Black City & White Forest.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Black City & White Forest
-										</h3>
-										<div class="megapix">
-																						<span>54</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Unova\Locations\Black City & White Forest.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">8100×6653</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">6.32<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-								<div class="img-container">
-									<div class="img-frame">
-										<img src="thumbs\Unova\Locations\Castelia City.jpg" class="thumb-bg" />
-										<img src="thumbs\Unova\Locations\Castelia City.jpg" class="thumb" />
-									</div>
-									<div class="img-desc">
-										<h3>
-																						Castelia City
-										</h3>
-										<div class="megapix">
-																						<span>52</span><span>megapixels</span>
-										</div>
-										<div class="line">
-										</div>
-																				
-										<a href="regions\Unova\Locations\Castelia City.jpg" class="fileLink jpg">
-										    <div class="pageIcon">
-										        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-										    </div>
-										    <div class="fileData">
-										        <div>
-										            <span class="resolution">8352×6247</span>
-										            <span class="format"><span>jpg</span></span>
-										        </div>
-										        <div>
-										            <span class="size">9.64<span>MB</span></span>
-										        </div>
-										    </div>
-										</a>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
+
+	<div class="center">
+		<img class="globe" src="./assets/pokeearth-2.webp" />
+	</div>
+
 
 	</body>
 </html>
