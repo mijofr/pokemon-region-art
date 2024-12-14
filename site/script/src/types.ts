@@ -43,6 +43,7 @@ export interface ImgInfo extends HasInfo {
     lossless: boolean;
     thumbPath: string;
     filesize: number;
+    quality: number;
 }
 
 

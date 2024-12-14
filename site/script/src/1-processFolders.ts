@@ -25,6 +25,7 @@ export interface FormatInfo {
     width: number;
     height: number;
     lossless: boolean;
+    quality: number;
 }
 
 function isImgExtension(ext: string): boolean {
@@ -43,20 +44,23 @@ async function getWebPImageInfo(filePath: string): Promise<FormatInfo> {
     return {
         width: infoo.width ?? -1,
         height: infoo.height ?? -1,
-        lossless: infoo.isLossless
+        lossless: infoo.isLossless,
+        quality: -1
     };
 }
 
 async function getOtherImageInfo(filePath: string): Promise<FormatInfo> {
 
     try {
+
         const infoo = await sizeOfPromise(filePath);
         let imgType = (infoo.type ?? "").toLocaleLowerCase();
 
         return {
             width: infoo.width ?? -1,
             height: infoo.height ?? -1,
-            lossless: imgType == "png"
+            lossless: imgType == "png",
+            quality: -1
         };
 
     } catch (e) {
@@ -77,14 +81,16 @@ async function getImageFileInfo(nom: string): Promise<ImgInfo> {
         formatInfo = {
             width: info.width,
             height: info.height,
-            lossless: info.lossless
+            lossless: info.lossless,
+            quality: info.quality
         }
     } else {
         let info = await getOtherImageInfo(nom)
         formatInfo = {
             width: info.width,
             height: info.height,
-            lossless: info.lossless
+            lossless: info.lossless,
+            quality: info.quality
         }
     }
 
@@ -107,7 +113,8 @@ async function getImageFileInfo(nom: string): Promise<ImgInfo> {
         width: formatInfo.width,
         height: formatInfo.height,
         lossless: formatInfo.lossless,
-        filesize: filesize
+        filesize: filesize,
+        quality: formatInfo.quality
     }
 }
 
@@ -116,9 +123,15 @@ async function getImageInfoTree(tree: TreeNode<string, DirInfo>): Promise<TreeNo
     return updatedTree;
 }
 
+async function readNote(noteFile: string): Promise<string> {
+    return (await fsAccess.readFile(noteFile)).toString();
+}
+
 async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boolean = false): Promise<TreeNode<string, DirInfo>> {
     
     let currentDir = path.basename(d);
+
+    console.log("doing dir", d, currentDir);
 
     let fileList = await fsAccess.readDirectory(d);
 
@@ -131,7 +144,7 @@ async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boo
     }
 
     if (!isRoot) {
-        treePath = treePath.concat(currentDir);
+        treePath = treePath.concat([currentDir]);
     }
 
     let meta: DirInfo = {
@@ -152,13 +165,14 @@ async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boo
 
     if (hasNotesItem) {
 
+        console.log("has notes", currentDir)
+        meta.note = await readNote(path.join(d, "notes.txt"))
     };
 
     let fileItems = 
         fileList.filter(n => n.isFile)
         .filter(n => {
-            let ext = path.extname(n.name).toLocaleLowerCase();
-
+            return isImgExtension(path.extname(n.name))
         })
         .map(n => n.name)
         .map(n => path.join(path.resolve(d), n));
@@ -176,10 +190,12 @@ async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boo
 
 
 async function WalkFolders() {
+
     let fileTree = await WalkDir(regionsDir, [], 0, true);
     fileTree = cleanTree(fileTree);
 
 
+    
 
     fsAccess.writeFile("./../rawFileTree.json", JSON.stringify(fileTree, null, "\t"));
 
