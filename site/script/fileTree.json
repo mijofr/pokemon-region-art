@@ -18,7 +18,8 @@
 			"width": 1600,
 			"height": 835,
 			"lossless": true,
-			"filesize": 1080394
+			"filesize": 1080394,
+			"quality": -1
 		},
 		{
 			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ferrum.webp",
@@ -30,19 +31,8 @@
 			"width": 2700,
 			"height": 2000,
 			"lossless": true,
-			"filesize": 3550452
-		},
-		{
-			"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Holon.jpg",
-			"enumeratedName": "holon",
-			"relPath": "Holon.jpg",
-			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Holon.jpg",
-			"name": "Holon",
-			"extension": "jpg",
-			"width": 2339,
-			"height": 1654,
-			"lossless": false,
-			"filesize": 1366944
+			"filesize": 3550452,
+			"quality": -1
 		}
 	],
 	"children": [
@@ -68,46 +58,91 @@
 					"width": 1437,
 					"height": 758,
 					"lossless": false,
-					"filesize": 150996
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Remoat Stadium.webp",
-					"enumeratedName": "Aeos Island\\remoat-stadium",
-					"relPath": "Aeos Island\\Remoat Stadium.webp",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Aeos Island\\Remoat Stadium.jpg",
-					"name": "Remoat Stadium",
-					"extension": "webp",
-					"width": 7308,
-					"height": 3971,
-					"lossless": true,
-					"filesize": 21521850
+					"filesize": 150996,
+					"quality": -1
 				}
 			],
 			"children": [
 				{
-					"name": "Comic",
+					"name": "Stadiums",
 					"path": [
 						"Aeos Island",
-						"Comic"
+						"Stadiums"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Comic",
-						"uniqueIdString": "10013",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums",
+						"uniqueIdString": "10014",
 						"depth": 2,
 						"isMinor": false
 					},
 					"items": [
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Comic\\Aeos Island.webp",
-							"enumeratedName": "Aeos Island\\Comic\\aeos-island",
-							"relPath": "Aeos Island\\Comic\\Aeos Island.webp",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Aeos Island\\Comic\\Aeos Island.jpg",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\Remoat Stadium - Night.jpg",
+							"enumeratedName": "Aeos Island\\Stadiums\\remoat-stadium---night",
+							"relPath": "Aeos Island\\Stadiums\\Remoat Stadium - Night.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Aeos Island\\Stadiums\\Remoat Stadium - Night.jpg",
+							"name": "Remoat Stadium - Night",
+							"extension": "jpg",
+							"width": 3840,
+							"height": 2148,
+							"lossless": false,
+							"filesize": 1449713,
+							"quality": -1
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\Remoat Stadium - Sunset.jpg",
+							"enumeratedName": "Aeos Island\\Stadiums\\remoat-stadium---sunset",
+							"relPath": "Aeos Island\\Stadiums\\Remoat Stadium - Sunset.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Aeos Island\\Stadiums\\Remoat Stadium - Sunset.jpg",
+							"name": "Remoat Stadium - Sunset",
+							"extension": "jpg",
+							"width": 3840,
+							"height": 2148,
+							"lossless": false,
+							"filesize": 1698348,
+							"quality": -1
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\Remoat Stadium.webp",
+							"enumeratedName": "Aeos Island\\Stadiums\\remoat-stadium",
+							"relPath": "Aeos Island\\Stadiums\\Remoat Stadium.webp",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Aeos Island\\Stadiums\\Remoat Stadium.jpg",
+							"name": "Remoat Stadium",
+							"extension": "webp",
+							"width": 7308,
+							"height": 3971,
+							"lossless": true,
+							"filesize": 21521850,
+							"quality": -1
+						}
+					],
+					"children": []
+				},
+				{
+					"name": "_Comic",
+					"path": [
+						"Aeos Island",
+						"_Comic"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic",
+						"uniqueIdString": "10015",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic\\Aeos Island.webp",
+							"enumeratedName": "Aeos Island\\_Comic\\aeos-island",
+							"relPath": "Aeos Island\\_Comic\\Aeos Island.webp",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Aeos Island\\_Comic\\Aeos Island.jpg",
 							"name": "Aeos Island",
 							"extension": "webp",
 							"width": 5002,
 							"height": 3766,
 							"lossless": true,
-							"filesize": 18765600
+							"filesize": 18765600,
+							"quality": -1
 						}
 					],
 					"children": []
@@ -136,7 +171,8 @@
 					"width": 4252,
 					"height": 3927,
 					"lossless": false,
-					"filesize": 3425957
+					"filesize": 3425957,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\Almia.webp",
@@ -148,7 +184,8 @@
 					"width": 1083,
 					"height": 1000,
 					"lossless": true,
-					"filesize": 1325624
+					"filesize": 1325624,
+					"quality": -1
 				}
 			],
 			"children": []
@@ -166,18 +203,6 @@
 			},
 			"items": [
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Mindscape.jpg",
-					"enumeratedName": "Alola\\mindscape",
-					"relPath": "Alola\\Mindscape.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\Mindscape.jpg",
-					"name": "Mindscape",
-					"extension": "jpg",
-					"width": 768,
-					"height": 512,
-					"lossless": false,
-					"filesize": 201239
-				},
-				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Poke_Pelago.webp",
 					"enumeratedName": "Alola\\poke_pelago",
 					"relPath": "Alola\\Poke_Pelago.webp",
@@ -187,7 +212,8 @@
 					"width": 3508,
 					"height": 2480,
 					"lossless": true,
-					"filesize": 5859514
+					"filesize": 5859514,
+					"quality": -1
 				}
 			],
 			"children": [
@@ -199,7 +225,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations",
-						"uniqueIdString": "10014",
+						"uniqueIdString": "10016",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -214,7 +240,8 @@
 							"width": 2551,
 							"height": 3579,
 							"lossless": false,
-							"filesize": 1625494
+							"filesize": 1625494,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations\\Iki Town.jpg",
@@ -226,7 +253,8 @@
 							"width": 6614,
 							"height": 4680,
 							"lossless": false,
-							"filesize": 19410459
+							"filesize": 19410459,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations\\Ultra Megaopolis.jpg",
@@ -238,7 +266,8 @@
 							"width": 4242,
 							"height": 6000,
 							"lossless": false,
-							"filesize": 1804647
+							"filesize": 1804647,
+							"quality": -1
 						}
 					],
 					"children": []
@@ -251,7 +280,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\UltraSun",
-						"uniqueIdString": "10015",
+						"uniqueIdString": "10017",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -266,7 +295,50 @@
 							"width": 14192,
 							"height": 10032,
 							"lossless": false,
-							"filesize": 21190237
+							"filesize": 21190237,
+							"quality": -1
+						}
+					],
+					"children": []
+				},
+				{
+					"name": "_Mindscape",
+					"path": [
+						"Alola",
+						"_Mindscape"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_Mindscape",
+						"uniqueIdString": "10018",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_Mindscape\\original.png",
+							"enumeratedName": "Alola\\_Mindscape\\original",
+							"relPath": "Alola\\_Mindscape\\original.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\_Mindscape\\original.jpg",
+							"name": "original",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"lossless": true,
+							"filesize": 392811,
+							"quality": -1
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_Mindscape\\Upscale.jpg",
+							"enumeratedName": "Alola\\_Mindscape\\upscale",
+							"relPath": "Alola\\_Mindscape\\Upscale.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Alola\\_Mindscape\\Upscale.jpg",
+							"name": "Upscale",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"lossless": false,
+							"filesize": 201239,
+							"quality": -1
 						}
 					],
 					"children": []
@@ -279,7 +351,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon",
-						"uniqueIdString": "10016",
+						"uniqueIdString": "10019",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -294,7 +366,8 @@
 							"width": 14192,
 							"height": 10032,
 							"lossless": false,
-							"filesize": 12211610
+							"filesize": 12211610,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\mid.jpg",
@@ -306,7 +379,8 @@
 							"width": 7096,
 							"height": 5016,
 							"lossless": false,
-							"filesize": 3400892
+							"filesize": 3400892,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\Verylarge.webp",
@@ -318,7 +392,8 @@
 							"width": 14192,
 							"height": 10032,
 							"lossless": true,
-							"filesize": 103022914
+							"filesize": 103022914,
+							"quality": -1
 						}
 					],
 					"children": []
@@ -347,7 +422,8 @@
 					"width": 900,
 					"height": 920,
 					"lossless": true,
-					"filesize": 170768
+					"filesize": 170768,
+					"quality": -1
 				}
 			],
 			"children": [
@@ -359,7 +435,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map",
-						"uniqueIdString": "10017",
+						"uniqueIdString": "10020",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -374,7 +450,8 @@
 							"width": 10200,
 							"height": 10200,
 							"lossless": true,
-							"filesize": 10471416
+							"filesize": 10471416,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Medium).webp",
@@ -386,7 +463,8 @@
 							"width": 6600,
 							"height": 6600,
 							"lossless": true,
-							"filesize": 4881724
+							"filesize": 4881724,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).webp",
@@ -398,7 +476,8 @@
 							"width": 3600,
 							"height": 3600,
 							"lossless": true,
-							"filesize": 1618250
+							"filesize": 1618250,
+							"quality": -1
 						}
 					],
 					"children": []
@@ -428,7 +507,8 @@
 					"width": 3858,
 					"height": 1976,
 					"lossless": false,
-					"filesize": 2489048
+					"filesize": 2489048,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore\\Fiore.webp",
@@ -440,7 +520,8 @@
 					"width": 1000,
 					"height": 889,
 					"lossless": true,
-					"filesize": 622570
+					"filesize": 622570,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore\\Fiore_-_Pokemon_Ranger-COLORFIX-Fiore.png",
@@ -452,7 +533,8 @@
 					"width": 4500,
 					"height": 4000,
 					"lossless": true,
-					"filesize": 14802487
+					"filesize": 14802487,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore\\Fiore_-_Pokemon_Ranger.jpg",
@@ -464,7 +546,8 @@
 					"width": 4500,
 					"height": 4000,
 					"lossless": false,
-					"filesize": 3577700
+					"filesize": 3577700,
+					"quality": -1
 				}
 			],
 			"children": []
@@ -491,7 +574,8 @@
 					"width": 3508,
 					"height": 4962,
 					"lossless": true,
-					"filesize": 16523038
+					"filesize": 16523038,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Crown Tundra.webp",
@@ -503,7 +587,8 @@
 					"width": 4962,
 					"height": 3508,
 					"lossless": true,
-					"filesize": 17305352
+					"filesize": 17305352,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Isle Of Armor.webp",
@@ -515,19 +600,8 @@
 					"width": 4962,
 					"height": 3508,
 					"lossless": true,
-					"filesize": 20758848
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Mindscape.jpg",
-					"enumeratedName": "Galar\\mindscape",
-					"relPath": "Galar\\Mindscape.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Galar\\Mindscape.jpg",
-					"name": "Mindscape",
-					"extension": "jpg",
-					"width": 768,
-					"height": 512,
-					"lossless": false,
-					"filesize": 225433
+					"filesize": 20758848,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Overmap.webp",
@@ -539,7 +613,8 @@
 					"width": 3488,
 					"height": 6992,
 					"lossless": true,
-					"filesize": 769844
+					"filesize": 769844,
+					"quality": -1
 				}
 			],
 			"children": [
@@ -551,7 +626,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Locations",
-						"uniqueIdString": "10018",
+						"uniqueIdString": "10021",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -566,7 +641,50 @@
 							"width": 5853,
 							"height": 3762,
 							"lossless": true,
-							"filesize": 23039084
+							"filesize": 23039084,
+							"quality": -1
+						}
+					],
+					"children": []
+				},
+				{
+					"name": "_Mindscape",
+					"path": [
+						"Galar",
+						"_Mindscape"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\_Mindscape",
+						"uniqueIdString": "10022",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\_Mindscape\\original.png",
+							"enumeratedName": "Galar\\_Mindscape\\original",
+							"relPath": "Galar\\_Mindscape\\original.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Galar\\_Mindscape\\original.jpg",
+							"name": "original",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"lossless": true,
+							"filesize": 383457,
+							"quality": -1
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\_Mindscape\\Upscale.jpg",
+							"enumeratedName": "Galar\\_Mindscape\\upscale",
+							"relPath": "Galar\\_Mindscape\\Upscale.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Galar\\_Mindscape\\Upscale.jpg",
+							"name": "Upscale",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"lossless": false,
+							"filesize": 225433,
+							"quality": -1
 						}
 					],
 					"children": []
@@ -595,7 +713,8 @@
 					"width": 5705,
 					"height": 3169,
 					"lossless": true,
-					"filesize": 27209756
+					"filesize": 27209756,
+					"quality": -1
 				}
 			],
 			"children": [
@@ -607,7 +726,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Locations",
-						"uniqueIdString": "10019",
+						"uniqueIdString": "10023",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -622,7 +741,8 @@
 							"width": 4093,
 							"height": 2894,
 							"lossless": true,
-							"filesize": 8707335
+							"filesize": 8707335,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Locations\\Cobalt Coastlands.png",
@@ -634,7 +754,8 @@
 							"width": 5925,
 							"height": 3555,
 							"lossless": true,
-							"filesize": 28793777
+							"filesize": 28793777,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Locations\\Mount Coronet.jpg",
@@ -646,7 +767,8 @@
 							"width": 4130,
 							"height": 2466,
 							"lossless": false,
-							"filesize": 2841393
+							"filesize": 2841393,
+							"quality": -1
 						}
 					],
 					"children": []
@@ -659,7 +781,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\_Hisui 2",
-						"uniqueIdString": "10020",
+						"uniqueIdString": "10024",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -674,7 +796,8 @@
 							"width": 1280,
 							"height": 720,
 							"lossless": true,
-							"filesize": 1125232
+							"filesize": 1125232,
+							"quality": -1
 						}
 					],
 					"children": [
@@ -687,7 +810,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\_Hisui 2\\Upscale",
-								"uniqueIdString": "10022",
+								"uniqueIdString": "10027",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -702,7 +825,8 @@
 									"width": 5120,
 									"height": 2880,
 									"lossless": false,
-									"filesize": 4163176
+									"filesize": 4163176,
+									"quality": -1
 								}
 							],
 							"children": []
@@ -733,7 +857,8 @@
 					"width": 2560,
 					"height": 1809,
 					"lossless": true,
-					"filesize": 5744708
+					"filesize": 5744708,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Hoenn.webp",
@@ -745,19 +870,8 @@
 					"width": 1280,
 					"height": 833,
 					"lossless": true,
-					"filesize": 1039992
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Mindscape.jpg",
-					"enumeratedName": "Hoenn\\mindscape",
-					"relPath": "Hoenn\\Mindscape.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Hoenn\\Mindscape.jpg",
-					"name": "Mindscape",
-					"extension": "jpg",
-					"width": 768,
-					"height": 512,
-					"lossless": false,
-					"filesize": 229182
+					"filesize": 1039992,
+					"quality": -1
 				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Soaring Texture.png",
@@ -769,7 +883,8 @@
 					"width": 4472,
 					"height": 2795,
 					"lossless": true,
-					"filesize": 13052252
+					"filesize": 13052252,
+					"quality": -1
 				}
 			],
 			"children": [
@@ -781,7 +896,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations",
-						"uniqueIdString": "10021",
+						"uniqueIdString": "10025",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -796,7 +911,8 @@
 							"width": 2158,
 							"height": 1281,
 							"lossless": false,
-							"filesize": 1936472
+							"filesize": 1936472,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Fortree_City.png",
@@ -808,7 +924,8 @@
 							"width": 660,
 							"height": 457,
 							"lossless": true,
-							"filesize": 472786
+							"filesize": 472786,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Mauville City.webp",
@@ -820,7 +937,8 @@
 							"width": 1920,
 							"height": 1296,
 							"lossless": true,
-							"filesize": 2742362
+							"filesize": 2742362,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Slateport City & Mt Chimney.webp",
@@ -832,7 +950,8 @@
 							"width": 2481,
 							"height": 3508,
 							"lossless": true,
-							"filesize": 8537014
+							"filesize": 8537014,
+							"quality": -1
 						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Wilderness.webp",
@@ -844,12 +963,96 @@
 							"width": 4093,
 							"height": 5786,
 							"lossless": true,
-							"filesize": 19360626
+							"filesize": 19360626,
+							"quality": -1
+						}
+					],
+					"children": []
+				},
+				{
+					"name": "_Mindscape",
+					"path": [
+						"Hoenn",
+						"_Mindscape"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\_Mindscape",
+						"uniqueIdString": "10026",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\_Mindscape\\original.png",
+							"enumeratedName": "Hoenn\\_Mindscape\\original",
+							"relPath": "Hoenn\\_Mindscape\\original.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Hoenn\\_Mindscape\\original.jpg",
+							"name": "original",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"lossless": true,
+							"filesize": 395501,
+							"quality": -1
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\_Mindscape\\Upscale.jpg",
+							"enumeratedName": "Hoenn\\_Mindscape\\upscale",
+							"relPath": "Hoenn\\_Mindscape\\Upscale.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Hoenn\\_Mindscape\\Upscale.jpg",
+							"name": "Upscale",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"lossless": false,
+							"filesize": 229182,
+							"quality": -1
 						}
 					],
 					"children": []
 				}
 			]
+		},
+		{
+			"name": "Holon",
+			"path": [
+				"Holon"
+			],
+			"metadata": {
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Holon",
+				"uniqueIdString": "10013",
+				"depth": 1,
+				"isMinor": false
+			},
+			"items": [
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Holon\\GZycC1iWkAAiUMA.jpg",
+					"enumeratedName": "Holon\\gzycc1iwkaaiuma",
+					"relPath": "Holon\\GZycC1iWkAAiUMA.jpg",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Holon\\GZycC1iWkAAiUMA.jpg",
+					"name": "GZycC1iWkAAiUMA",
+					"extension": "jpg",
+					"width": 2048,
+					"height": 1448,
+					"lossless": false,
+					"filesize": 749899,
+					"quality": -1
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Holon\\Holon.jpg",
+					"enumeratedName": "Holon\\holon",
+					"relPath": "Holon\\Holon.jpg",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\thumbnails\\Holon\\Holon.jpg",
+					"name": "Holon",
+					"extension": "jpg",
+					"width": 2339,
+					"height": 1654,
+					"lossless": false,
+					"filesize": 1366944,
+					"quality": -1
+				}
+			],
+			"children": []
 		}
 	]
 }

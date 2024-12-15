@@ -129,7 +129,7 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): Im
         enumeratedName: enumeratedName,
         maxMegapixels: maxMegapixels,
         singular: (dataset.items.length <= 1),
-        notes: "",
+        notes: dataset.metadata.note ?? "",
         isMinor: false,
         thumbnailSrcPath: path.join("regions", files[0].filePath),
         thumbnailPath: path.join("thumbs", enumeratedName + ".jpg"),
@@ -182,7 +182,7 @@ function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
         depth: data.metadata.depth,
         path: data.path,
         id: `GRP_${getUniqueId()}`,
-        notes: "",
+        notes: data.metadata.note ?? "",
         isMinor: data.metadata.isMinor,
         imgs: imgs,
         childGroups: childGroups
