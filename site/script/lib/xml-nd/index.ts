@@ -65,14 +65,19 @@ export class XmlNd implements IXmlNd {
 }
 
 export class XmlNdText implements IXmlNd {
-    constructor(public text: string) {
+
+
+    constructor(public text: string, public splitTextTabs: boolean | null = null) {
         
     }
-    public getOutput(depth: number = 0, splitTextTabs = true): string {
+    public getOutput(depth: number = 0, doSplitTextTabs = null): string {
         let tabs: string = "\t".repeat(depth);
 
+        if (doSplitTextTabs === null) {
+            doSplitTextTabs = this.splitTextTabs;
+        }
 
-        if (splitTextTabs) {
+        if (doSplitTextTabs) {
             this.text = this.text.split("\n").map(n => tabs + n).join("\n");
         }
 

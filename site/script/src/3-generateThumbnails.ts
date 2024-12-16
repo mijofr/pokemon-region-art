@@ -68,12 +68,15 @@ export async function generateThumbs() {
 
     let items = Array.from(thumbnailsFolders);
     items.sort((a,b) => { return a.length - b.length });
-    ensureThumbnailDirs(items);
+    await ensureThumbnailDirs(items);
 
-    createThumbnails(thumbnailsPaths);
+    await createThumbnails(thumbnailsPaths);
 
     console.log(items);
 
 }
+export async function main() {
+    await generateThumbs();
+}
 
-generateThumbs();
+main();

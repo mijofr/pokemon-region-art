@@ -189,7 +189,7 @@ async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boo
 }
 
 
-async function WalkFolders() {
+export async function WalkFolders() {
 
     let fileTree = await WalkDir(regionsDir, [], 0, true);
     fileTree = cleanTree(fileTree);
@@ -208,12 +208,12 @@ async function WalkFolders() {
 
     // console.log(JSON.stringify(imgFileTree, null, "\t"));
 
-    fsAccess.writeFile("./../fileTree.json", JSON.stringify(imgFileTree, null, "\t"));
+    await fsAccess.writeFile("./../fileTree.json", JSON.stringify(imgFileTree, null, "\t"));
 
 
 }
 
-async function main() {
+export async function main() {
     await WalkFolders();
 }
 main();

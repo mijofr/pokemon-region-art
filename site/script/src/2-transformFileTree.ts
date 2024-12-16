@@ -83,7 +83,7 @@ function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
         notes: "",
         isMinor: false,
         thumbnailSrcPath: path.join("regions", img.relPath),
-        thumbnailPath: path.join("thumbs", enumeratedName + ".jpg"),
+        thumbnailPath: path.join("thumbs", enumeratedName + ".webp"),
         files: [{
             _: "ImgFILE",
             id: `IMG_${getUniqueId()}`,
@@ -132,7 +132,7 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): Im
         notes: dataset.metadata.note ?? "",
         isMinor: false,
         thumbnailSrcPath: path.join("regions", files[0].filePath),
-        thumbnailPath: path.join("thumbs", enumeratedName + ".jpg"),
+        thumbnailPath: path.join("thumbs", enumeratedName + ".webp"),
         files: files
     }
 }
@@ -191,7 +191,7 @@ function transformTree(data: TreeNode<ImgInfo, DirInfo>): Grouping {
 
 }
 
-async function main() {
+export async function main() {
     let dataset: TreeNode<ImgInfo, DirInfo> = 
         JSON.parse((await fsAccess.readFile("./../fileTree.json")).toString());
 
@@ -199,7 +199,7 @@ async function main() {
 
     console.log(JSON.stringify(outputTree, null, "\t"));
 
-    fsAccess.writeFile("./../imageDisplayTree.json", JSON.stringify(outputTree, null, "\t"));
+    await fsAccess.writeFile("./../imageDisplayTree.json", JSON.stringify(outputTree, null, "\t"));
 
 
 }

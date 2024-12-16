@@ -5,6 +5,7 @@ import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
 import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
 import { Grouping, ImgFile, ImgSet } from "./2-transformFileTree";
+import { IsNullOrWhitespace } from "./bits/utils";
 
 
 let outputLines: string[] = [];
@@ -13,6 +14,15 @@ function makeId(sectName: string, name: string) {
     let sName = sectName.toLocaleLowerCase().split(" ").join("-");
     let nName = name.toLocaleLowerCase().split(" ").join("-");
     return `${sName}_${nName}`;
+}
+
+function addTextChunk(inp: string): string {
+
+    inp = inp.split("\r\n").join("\n");
+
+    inp = inp.split("\n").filter(n => n.trim() != "").map(n => `<p>${n}</p>`).join("");
+
+    return `<div class="notes">${inp}</div>`
 }
 
 function generateLink(itemUrl: string, 
@@ -125,6 +135,10 @@ function translateImage(imgSet: ImgSet): XmlNd {
     .addTextChild(`<span>${megaPixels}</span><span>megapixels</span>`));
 
     descNode.addChild(new XmlNd("div", false, [["class", "line"]]));
+
+    if (!IsNullOrWhitespace(imgSet.notes)) {
+        descNode.addChild(new XmlNdText(addTextChunk(imgSet.notes), false));
+    }
 
 
     for (let f of imgSet.files) {
@@ -259,7 +273,7 @@ async function wrapPage(content: string): Promise<string> {
     return templateString[0] + content + templateString[2];
 }
 
-async function main() {
+export async function main() {
 
     let dataset: Grouping = 
         JSON.parse((await fsAccess.readFile("./../imageDisplayTree.json")).toString());
@@ -280,7 +294,7 @@ async function main() {
     let resultString = await wrapPage(contentString);
 
     
-    fsAccess.writeFile("./../../indexMk2.html", resultString);
+    await fsAccess.writeFile("./../../indexMk2.html", resultString);
 
 
 }

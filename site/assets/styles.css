@@ -488,6 +488,7 @@ div.img-container .img-frame {
 }
 div.img-container .img-frame > .thumb-bg {
   position: absolute;
+  background-color: rgba(29, 33, 44, 0.4);
   top: -5%;
   left: -5%;
   width: 110%;
@@ -498,6 +499,7 @@ div.img-container .img-frame > .thumb-bg {
   -webkit-filter: blur(8px);
 }
 div.img-container .img-frame > .thumb {
+  background-color: rgba(29, 33, 44, 0.4);
   display: block;
   z-index: 1;
   border: 1px solid rgba(198, 201, 210, 0.4);
@@ -712,6 +714,24 @@ span.format > span {
 }
 #pageContents > div li.singleImgIndexLink a {
   font-weight: 500;
+}
+
+.notes {
+  width: 100%;
+  white-space: pre-line;
+  font-variation-settings: "wdth" 85;
+  font-size: 14px;
+  margin: 0 0 1em 0;
+}
+.notes p {
+  margin-block-start: 0.75em;
+  margin-block-end: 0.75em;
+}
+.notes > p:first-child {
+  margin-top: 0;
+}
+.notes > p:last-child {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

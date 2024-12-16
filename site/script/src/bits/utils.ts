@@ -20,6 +20,11 @@ export function getUniqueId() {
     return idStart;
 }
 
+export function IsNullOrWhitespace(str: string) {
+    return ((str == null) || str.trim() == "")
+  }
+  
+
 export function sortWithOrderedList<T>(toSort: T[], sortOrder: string[], cFunc: (c:T) => string ) {
 
  

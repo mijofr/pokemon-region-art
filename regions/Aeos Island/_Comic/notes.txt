@@ -1,0 +1,3 @@
+rescaled, some reconstruction on the left of the city
+
+also run through cleanup filters
