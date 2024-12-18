@@ -76,3 +76,17 @@ export function execPromise(command, opts): Promise<string> {
         });
     });
 }
+
+
+
+
+
+export function getSig(int: number): number {
+	return Math.floor(Math.log10(int) + 1);
+}
+export function roundTo(inp: number, order: number): number {
+	return Math.round((inp + Number.EPSILON) * Math.pow(10, order)) / Math.pow(10, order);
+}
+export function roundToSig(inp: number, order: number): number {
+	return roundTo(inp, 0 - getSig(inp) + order);
+}

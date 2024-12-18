@@ -44,6 +44,7 @@ export interface ImgInfo extends HasInfo {
     thumbPath: string;
     filesize: number;
     quality: number;
+    aspect: number;
 }
 
 

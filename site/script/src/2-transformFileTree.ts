@@ -2,6 +2,8 @@ import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
 import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
 import path from "path";
+import { XmlNd } from "lib/xml-nd";
+import { IsNullOrWhitespace } from "notes/util_set";
 
 
 let existingUniqueIds: Set<string> = new Set<string>;
@@ -61,6 +63,7 @@ export interface ImgFile {
     filesize: number;
     megapixels: number;
     lossless: boolean;
+    aspect: number;
 
 }
 
@@ -94,10 +97,26 @@ function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
             height: img.height,
             filesize: img.filesize,
             megapixels: (img.width * img.height) / 1000000,
-            lossless: img.lossless
+            lossless: img.lossless,
+            aspect: img.aspect
         
         }]
     }
+
+}
+
+function getThumbnailSrcPath(files: ImgFile[], maxMegapixels: number): string {
+    let item = files.find(n => n.megapixels == maxMegapixels);
+    if (!item) {
+        return files[0].filePath;
+    }
+    let nList = files.filter(n => n.aspect == item.aspect).sort((a,b) => {
+        if (b.megapixels == a.megapixels) {
+            return a.filesize - b.filesize;
+        }
+        return a.megapixels - b.megapixels;
+    })
+    return nList[0].filePath;
 
 }
 
@@ -122,6 +141,8 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): Im
 
     let enumeratedName = pth.concat([name]).join("\\");
 
+    let thumbSrcPath = getThumbnailSrcPath(files, maxMegapixels);
+
     return {
         _: "ImgSET",
         name: name,
@@ -131,7 +152,7 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): Im
         singular: (dataset.items.length <= 1),
         notes: dataset.metadata.note ?? "",
         isMinor: false,
-        thumbnailSrcPath: path.join("regions", files[0].filePath),
+        thumbnailSrcPath: path.join("regions", thumbSrcPath),
         thumbnailPath: path.join("thumbs", enumeratedName + ".webp"),
         files: files
     }
@@ -147,7 +168,8 @@ function transformImgSetImg(img: ImgInfo): ImgFile {
         height: img.height,
         filesize: img.filesize,
         megapixels: (img.width * img.height) / 1000000,
-        lossless: img.lossless
+        lossless: img.lossless,
+        aspect: img.aspect
     }
 }
 
@@ -197,7 +219,7 @@ export async function main() {
 
     let outputTree = transformTree(dataset);
 
-    console.log(JSON.stringify(outputTree, null, "\t"));
+    // console.log(JSON.stringify(outputTree, null, "\t"));
 
     await fsAccess.writeFile("./../imageDisplayTree.json", JSON.stringify(outputTree, null, "\t"));
 

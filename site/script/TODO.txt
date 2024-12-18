@@ -13,6 +13,8 @@ add a check to make sure there aren't conflicting names wtih folders and formats
 
 some kind of dividing line between the categories and the standalones
 
+indicate aspect ratio in the icons of files
+
 
 
 export interface ImgInfo {
@@ -31,6 +33,7 @@ export interface ImgLink {
     lossless: boolean;
     megapixels: number;
 }
+
 
 
 export interface DirInfo {

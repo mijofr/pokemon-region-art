@@ -5,7 +5,7 @@ import { WebPInfo } from "webpinfo";
 import * as sizeOf from "image-size";
 import { promisify } from "util";
 import { DirInfo, ImgInfo } from "src/types";
-import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
+import { execPromise, fsAccess, getUniqueId, roundToSig } from "./bits/utils";
 import { rootDirectory, regionsDir, thumbnailsDir } from "./bits/utils";
 
 //https://www.npmjs.com/package/calipers
@@ -16,7 +16,7 @@ import { rootDirectory, regionsDir, thumbnailsDir } from "./bits/utils";
 const sizeOfPromise = promisify(sizeOf.imageSize)
 
 const LIMITSIZE: boolean = true;
-
+const LIMITTO: number = 2;
 
 const imgFormats: string[] = 
     ["png", "avif", "gif", "jpg", "jpeg", "jfif", "pjpeg", "pjp", "webp", "bmp", "tif", "tiff", "heic"];
@@ -114,7 +114,8 @@ async function getImageFileInfo(nom: string): Promise<ImgInfo> {
         height: formatInfo.height,
         lossless: formatInfo.lossless,
         filesize: filesize,
-        quality: formatInfo.quality
+        quality: formatInfo.quality,
+        aspect: roundToSig(formatInfo.width / formatInfo.height, 4)
     }
 }
 
@@ -138,7 +139,7 @@ async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boo
     if (LIMITSIZE) {
         if (isRoot) {
             fileList = fileList.filter(n => { 
-                return n.name.toLocaleLowerCase().charCodeAt(0) - 97 <= 7;
+                return n.name.toLocaleLowerCase().charCodeAt(0) - 97 <= LIMITTO;
             })
         }
     }

@@ -63,6 +63,16 @@ function roundToThree(number): number {
     return (Math.round(number * 100)/100)
 }
 
+
+function addTextSpan(text: string, classStr: string = ""): XmlNd {
+    let n = new XmlNd("span").addTextChild(text);
+    if (!IsNullOrWhitespace(classStr)) {
+        n.addAttr("class", classStr);
+    }
+    return n;
+}
+
+
 function getSizeString(fsize: number): FileSizeDesc {
 
 
@@ -134,15 +144,17 @@ function translateImage(imgSet: ImgSet): XmlNd {
     descNode.addChild(new XmlNd("div", false, [["class", "megapix"]])
     .addTextChild(`<span>${megaPixels}</span><span>megapixels</span>`));
 
-    descNode.addChild(new XmlNd("div", false, [["class", "line"]]));
-
     if (!IsNullOrWhitespace(imgSet.notes)) {
         descNode.addChild(new XmlNdText(addTextChunk(imgSet.notes), false));
     }
 
-
+    let li = 0;
     for (let f of imgSet.files) {
+        if (li > 0) {
+            descNode.addChild(new XmlNd("div", false, [["class", "line"]]));
+        }
         descNode.addChild(translateImgLink(f));
+        li++;
     }
 
 
@@ -165,6 +177,11 @@ function translateNode(dataNode: Grouping, level: number = 0): XmlNd {
 
     htmlNode.addAttr("class", classes.join(" "));
     htmlNode.addChild((new XmlNd("h2")).addChild(new XmlNdText(dataNode.name)));
+
+    
+    if (!IsNullOrWhitespace(dataNode.notes)) {
+        htmlNode.addChild(new XmlNdText(addTextChunk(dataNode.notes), false));
+    }
 
     if (dataNode.imgs.length > 0) {
         let imgSetNode = new XmlNd("div")
@@ -218,7 +235,7 @@ function returnIndexEntry(dataset: Grouping): XmlNd {
     }
 
 
-    linkItem.addTextChild(dataset.name);
+    linkItem.addChild(addTextSpan(dataset.name, "idxItemName"));
     linkItem.addAttr("href", `#${dataset.id}`);
 
     if (dataset.imgs.length > 0) {
@@ -229,7 +246,7 @@ function returnIndexEntry(dataset: Grouping): XmlNd {
     root.addChild(linkItem);
     
     if (dataset.childGroups.length > 0) {
-        let subListRoot = new XmlNd("ul");
+        let subListRoot = new XmlNd("ul", false, [["class", `idxLevel${dataset.depth}`]]);
         for (let d of dataset.childGroups) {
             subListRoot.addChild(returnIndexEntry(d));
         }
@@ -248,7 +265,7 @@ function getIndex(dataset: Grouping): XmlNd {
     root.addChild(innerRoot);
 
 
-    let listRoot = new XmlNd("ul");
+    let listRoot = new XmlNd("ul", false, [["class", "idxLevel0"]]);
 
     for (let g of dataset.childGroups) {
         listRoot.addChild(returnIndexEntry(g));

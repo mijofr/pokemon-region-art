@@ -206,6 +206,24 @@ div.group-children {
 
 div.img-container {
 
+    &:before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        content: '';
+        background-color: #191C25;
+        height: 60px;
+        border-bottom: 1px solid #1c212c;
+    }
+
+    & > * {
+        position: relative;
+        z-index: 2;
+    }
+    
+    position: relative;
     background-color: #161922;
     border: 1px solid #1c212c;
     border-radius: 10px;
@@ -221,7 +239,7 @@ div.img-container {
         flex: 0 0 350px;
         border-radius: 8px;
         overflow: hidden;
-        background-color: #1d212c;
+        background-color: #30374a;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -230,7 +248,7 @@ div.img-container {
 
         & > .thumb-bg {
             position: absolute;
-            background-color: #1d212c66;
+            background-color: #30374a44;
             top: -5%;
             left: -5%;
             width: 110%;
@@ -242,7 +260,10 @@ div.img-container {
         }
 
         & > .thumb {
-            background-color: #1d212c66;
+
+            background-image:url("./pixel-grid.png");
+
+            background-color: #1d212c55;
             display: block;
             // width: 350px;
             // height: 280px;    
@@ -254,6 +275,7 @@ div.img-container {
 
             max-width: 100%;
             max-height: 100%;
+
 
         }
         
@@ -442,6 +464,7 @@ span.format {
         font-weight: 200;
         margin-left: 0.25ch;
     }
+    margin-bottom: 0.76em;
 }
 
 .center {
@@ -511,9 +534,19 @@ span.format {
             }
 
         }
+
+        ul.idxLevel1 li a .idxItemName {
+            font-size: 15px;
+            font-weight: 500;
+        }
         
     }
 
+}
+
+
+.groupNode > .notes {
+    margin-left: 16px;
 }
 
 .notes {

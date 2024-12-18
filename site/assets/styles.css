@@ -465,6 +465,7 @@ div.group-children div.groupNode {
 }
 
 div.img-container {
+  position: relative;
   background-color: #161922;
   border: 1px solid #1c212c;
   border-radius: 10px;
@@ -474,13 +475,28 @@ div.img-container {
   flex-direction: row;
   gap: 10px;
 }
+div.img-container:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+  background-color: #191C25;
+  height: 60px;
+  border-bottom: 1px solid #1c212c;
+}
+div.img-container > * {
+  position: relative;
+  z-index: 2;
+}
 div.img-container .img-frame {
   width: 350px;
   height: 280px;
   flex: 0 0 350px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #1d212c;
+  background-color: #30374a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -488,7 +504,7 @@ div.img-container .img-frame {
 }
 div.img-container .img-frame > .thumb-bg {
   position: absolute;
-  background-color: rgba(29, 33, 44, 0.4);
+  background-color: rgba(48, 55, 74, 0.2666666667);
   top: -5%;
   left: -5%;
   width: 110%;
@@ -499,7 +515,8 @@ div.img-container .img-frame > .thumb-bg {
   -webkit-filter: blur(8px);
 }
 div.img-container .img-frame > .thumb {
-  background-color: rgba(29, 33, 44, 0.4);
+  background-image: url("./pixel-grid.png");
+  background-color: rgba(29, 33, 44, 0.3333333333);
   display: block;
   z-index: 1;
   border: 1px solid rgba(198, 201, 210, 0.4);
@@ -650,6 +667,9 @@ span.format > span {
   margin-right: 0.5em;
 }
 
+.megapix {
+  margin-bottom: 0.76em;
+}
 .megapix span:nth-child(1) {
   font-size: 0.9em;
   font-weight: 200;
@@ -714,6 +734,14 @@ span.format > span {
 }
 #pageContents > div li.singleImgIndexLink a {
   font-weight: 500;
+}
+#pageContents > div ul.idxLevel1 li a .idxItemName {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.groupNode > .notes {
+  margin-left: 16px;
 }
 
 .notes {
