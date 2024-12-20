@@ -172,8 +172,11 @@ function translateNode(dataNode: Grouping, level: number = 0): XmlNd {
     classes.push("groupNode");
     classes.push(`node-level-${level.toString()}`);
     if (dataNode.name.toLocaleLowerCase().trim() == "locations") {
-        classes.push("locations")
+        classes.push("is-minor")
+    } else if (dataNode.isMinor) {
+        classes.push("is-minor")
     }
+
 
     htmlNode.addAttr("class", classes.join(" "));
     htmlNode.addChild((new XmlNd("h2")).addChild(new XmlNdText(dataNode.name)));

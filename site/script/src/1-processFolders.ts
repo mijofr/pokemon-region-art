@@ -148,11 +148,18 @@ async function WalkDir(d: string, treePath: string[], depth: number, isRoot: boo
         treePath = treePath.concat([currentDir]);
     }
 
+    let isMinor: boolean = (currentDir.toLocaleLowerCase().trim() == "locations");
+
+    isMinor = isMinor || fileList.filter(n => n.isFile)
+        .map(n=>n.name.toLocaleLowerCase().trim())
+        .includes("minor");
+
+
     let meta: DirInfo = {
         fullPath: path.resolve(d),
         uniqueIdString: getUniqueId().toString(),
         depth: depth,
-        isMinor: (currentDir.toLocaleLowerCase().trim() == "locations")
+        isMinor: isMinor
     }
     
     let childDirs = await Promise.all(fileList

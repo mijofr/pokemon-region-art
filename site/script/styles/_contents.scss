@@ -1,0 +1,81 @@
+@import "./variables";
+
+
+#pageContents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > div {
+        display: inline-block;
+
+        li {
+            margin-top: 0.6em;
+
+            a {
+                text-decoration: none;
+                color: $grey3;
+                font-weight: 700;
+        
+                &.isMinor {
+        
+                }
+        
+                .count {
+                    position: relative;
+                    top: -1px;
+                    background-color: $grey3;
+                    color: $background-color;
+                    font-weight: 900; 
+                    border-radius: 2em;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 0.666em;
+                    padding: 0 0.5em;
+                    vertical-align: middle;
+                    margin-left: 0.5em;
+                }
+        
+                &:hover, &:focus {
+                    color: $grey1;
+                    .count {
+                        background-color: $grey1;
+                    }
+                }
+        
+            }
+
+            &.singleImgIndexLink a {
+                font-weight: 500;
+            }
+
+        }
+
+        ul.idxLevel1 li a {
+            .idxItemName {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            span.count {
+                margin-left: 0.2em;
+                padding: 0 0.333em;
+                background-color: $grey4;
+            }
+
+            &:hover, &:focus {
+                span.count {
+                    background-color: $grey3;
+                }
+            }
+        } 
+
+                
+        ul.idxLevel1 {
+            display: flex;
+            list-style-type: none;
+            gap: 1em;
+        }
+                
+    }
+
+}

@@ -309,8 +309,8 @@ template {
 
 html, body {
   font-family: "Open Sans";
-  background-color: #14171f;
-  color: #c3c7d0;
+  background-color: hsl(222, 22%, 10%);
+  color: hsl(222, 12%, 79%);
   padding: 12px;
   scroll-behavior: smooth;
   font-family: "Open Sans", serif;
@@ -393,81 +393,25 @@ svg * {
 }
 
 h1, h2 {
-  color: #e0e3e7;
+  color: hsl(222, 12%, 89%);
 }
 
 h3 {
-  color: #c3c7d0;
+  color: hsl(222, 12%, 79%);
 }
 
 h4 {
-  color: #b4b9c5;
+  color: hsl(222, 12%, 74%);
 }
 
 h5 {
-  color: #a5acba;
-}
-
-div.groupNode {
-  display: flex;
-  flex-direction: column;
-}
-div.groupNode h2 {
-  margin-left: 16px;
-  text-transform: capitalize;
-  margin-top: 0;
-}
-div.group-imgs {
-  margin-left: 16px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-div.group-children {
-  margin-left: 16px;
-  margin-top: 2em;
-  display: flex;
-  flex-direction: column;
-}
-div.group-children div.groupNode {
-  margin-top: 10px;
-  border-left: 4px solid #212632;
-}
-
-.groupNode.node-level-0 > .group-children {
-  gap: 2rem;
-  order: 0;
-}
-.groupNode.node-level-0 > h2 {
-  display: none;
-}
-.groupNode.node-level-0 > .group-imgs {
-  margin-top: 4em;
-  margin-bottom: 4em;
-  order: 1;
-}
-
-.groupNode.node-level-1 > h2 {
-  margin-left: 0;
-  padding: 0.5em 0 16px 0.5em;
-  background-color: #212632;
-}
-
-.groupNode.locations div.img-container {
-  width: 500px;
-}
-.groupNode.locations div.img-container .img-frame {
-  width: 175px;
-  height: 140px;
-  flex-basis: 175px;
+  color: hsl(222, 12%, 69%);
 }
 
 div.img-container {
   position: relative;
-  background-color: #161922;
-  border: 1px solid #1c212c;
+  background-color: hsl(222, 21%, 11%);
+  border: 1px solid hsl(222, 21%, 14%);
   border-radius: 10px;
   padding: 6px;
   width: 700px;
@@ -482,9 +426,9 @@ div.img-container:before {
   left: 0;
   z-index: 1;
   content: "";
-  background-color: #191C25;
+  background-color: hsl(222, 21%, 12%);
   height: 60px;
-  border-bottom: 1px solid #1c212c;
+  border-bottom: 1px solid hsl(222, 21%, 14%);
 }
 div.img-container > * {
   position: relative;
@@ -496,7 +440,7 @@ div.img-container .img-frame {
   flex: 0 0 350px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #30374a;
+  background-color: hsl(222, 21%, 24%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -504,7 +448,7 @@ div.img-container .img-frame {
 }
 div.img-container .img-frame > .thumb-bg {
   position: absolute;
-  background-color: rgba(48, 55, 74, 0.2666666667);
+  background-color: rgba(48, 56, 74, 0.26);
   top: -5%;
   left: -5%;
   width: 110%;
@@ -516,7 +460,7 @@ div.img-container .img-frame > .thumb-bg {
 }
 div.img-container .img-frame > .thumb {
   background-image: url("./pixel-grid.png");
-  background-color: rgba(29, 33, 44, 0.3333333333);
+  background-color: rgba(28, 33, 43, 0.3);
   display: block;
   z-index: 1;
   border: 1px solid rgba(198, 201, 210, 0.4);
@@ -539,40 +483,9 @@ div.img-container .img-desc div.line {
   margin: 0.5em 0;
   height: 2px;
   width: 100%;
-  background-color: #1c212c;
+  background-color: hsl(222, 21%, 14%);
 }
 
-/*
-.filetype {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 40px;
-
-    width: 1em;
-    height: 1em;
-    border-radius: 0.1em;
-    background-color: green;
-    color: white;
-
-    text-shadow: 0 0 0.05em #000000;
-    font-family: "PT Sans", serif;
-
-    & > span {
-        font-size: 0.35em;
-        font-weight: 700;
-        letter-spacing: 0.02em;
-    }
-    & > span:nth-child(2) {
-        font-size: 0.18em;
-        font-weight: 700;
-        letter-spacing: 0.02em;
-    }
-}
-*/
 .svg.pageIcon-svg {
   overflow: visible;
 }
@@ -581,7 +494,7 @@ div.img-container .img-desc div.line {
   display: flex;
   flex-direction: row;
   gap: 1em;
-  color: #c3c7d0;
+  color: hsl(222, 12%, 79%);
   text-decoration: none;
   padding: 6px;
   border-radius: 6px;
@@ -624,7 +537,7 @@ div.img-container .img-desc div.line {
 }
 
 span.size {
-  color: #a5acba;
+  color: hsl(222, 12%, 69%);
   font-weight: 400;
 }
 span.size > span {
@@ -642,7 +555,7 @@ span.format {
   padding: 0 0.5em;
   align-items: center;
   justify-content: center;
-  color: #e0e3e7;
+  color: hsl(222, 12%, 89%);
   line-height: 1;
   border-radius: 1em;
   border: 1px solid var(--file-type-color);
@@ -663,10 +576,6 @@ span.format > span {
   font-variation-settings: "wdth" 75;
 }
 
-.half-em-right-margin {
-  margin-right: 0.5em;
-}
-
 .megapix {
   margin-bottom: 0.76em;
 }
@@ -678,6 +587,155 @@ span.format > span {
   font-size: 0.8em;
   font-weight: 200;
   margin-left: 0.25ch;
+}
+
+.groupNode.is-minor div.img-container {
+  width: 500px;
+}
+.groupNode.is-minor div.img-container .img-frame {
+  width: 175px;
+  height: 140px;
+  flex-basis: 175px;
+}
+
+.fileLink .pageIcon > div {
+  background-color: rgba(255, 255, 255, 0.6666666667);
+  border: 1px solid var(--file-type-color);
+  border-radius: 4px;
+  padding: 0 2px;
+  font-size: 10px;
+  font-weight: 900;
+  bottom: 2px;
+  position: absolute;
+  left: 3px;
+  line-height: 9px;
+  overflow: hidden;
+  min-width: 28px;
+  text-align: center;
+}
+
+.fileLink .pageIcon > div:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--file-type-color);
+  z-index: -1;
+}
+
+#pageContents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pageContents > div {
+  display: inline-block;
+}
+#pageContents > div li {
+  margin-top: 0.6em;
+}
+#pageContents > div li a {
+  text-decoration: none;
+  color: hsl(222, 12%, 79%);
+  font-weight: 700;
+}
+#pageContents > div li a .count {
+  position: relative;
+  top: -1px;
+  background-color: hsl(222, 12%, 79%);
+  color: hsl(222, 22%, 10%);
+  font-weight: 900;
+  border-radius: 2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.666em;
+  padding: 0 0.5em;
+  vertical-align: middle;
+  margin-left: 0.5em;
+}
+#pageContents > div li a:hover, #pageContents > div li a:focus {
+  color: hsl(222, 12%, 89%);
+}
+#pageContents > div li a:hover .count, #pageContents > div li a:focus .count {
+  background-color: hsl(222, 12%, 89%);
+}
+#pageContents > div li.singleImgIndexLink a {
+  font-weight: 500;
+}
+#pageContents > div ul.idxLevel1 li a .idxItemName {
+  font-size: 15px;
+  font-weight: 500;
+}
+#pageContents > div ul.idxLevel1 li a span.count {
+  margin-left: 0.2em;
+  padding: 0 0.333em;
+  background-color: hsl(222, 12%, 74%);
+}
+#pageContents > div ul.idxLevel1 li a:hover span.count, #pageContents > div ul.idxLevel1 li a:focus span.count {
+  background-color: hsl(222, 12%, 79%);
+}
+#pageContents > div ul.idxLevel1 {
+  display: flex;
+  list-style-type: none;
+  gap: 1em;
+}
+
+div.groupNode {
+  display: flex;
+  flex-direction: column;
+}
+div.groupNode h2 {
+  margin-left: 16px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+div.group-imgs {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+div.group-children {
+  margin-left: 16px;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+div.group-children div.groupNode {
+  margin-top: 10px;
+  border-left: 4px solid hsl(222, 21%, 16%);
+}
+
+.groupNode.node-level-0 > .group-children {
+  gap: 2rem;
+  order: 0;
+}
+.groupNode.node-level-0 > h2 {
+  display: none;
+}
+.groupNode.node-level-0 > .group-imgs {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  order: 1;
+}
+
+.groupNode.node-level-1 > h2 {
+  margin-left: 0;
+  padding: 0.5em 0 16px 0.5em;
+  background-color: hsl(222, 21%, 16%);
+}
+
+.groupNode > .notes {
+  margin-left: 16px;
+}
+
+.half-em-right-margin {
+  margin-right: 0.5em;
 }
 
 .center {
@@ -695,55 +753,6 @@ span.format > span {
 }
 
 /* ======================== */
-#pageContents {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#pageContents > div {
-  display: inline-block;
-}
-#pageContents > div li {
-  margin-top: 0.6em;
-}
-#pageContents > div li a {
-  text-decoration: none;
-  color: #c3c7d0;
-  font-weight: 700;
-}
-#pageContents > div li a .count {
-  position: relative;
-  top: -1px;
-  background-color: #c3c7d0;
-  color: #14171f;
-  font-weight: 900;
-  border-radius: 2em;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.666em;
-  padding: 0 0.5em;
-  vertical-align: middle;
-  margin-left: 0.5em;
-}
-#pageContents > div li a:hover, #pageContents > div li a:focus {
-  color: #e0e3e7;
-}
-#pageContents > div li a:hover .count, #pageContents > div li a:focus .count {
-  background-color: #c3c7d0;
-}
-#pageContents > div li.singleImgIndexLink a {
-  font-weight: 500;
-}
-#pageContents > div ul.idxLevel1 li a .idxItemName {
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.groupNode > .notes {
-  margin-left: 16px;
-}
-
 .notes {
   width: 100%;
   white-space: pre-line;

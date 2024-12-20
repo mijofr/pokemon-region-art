@@ -15,7 +15,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island",
-				"uniqueIdString": "10005",
+				"uniqueIdString": "10006",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -28,9 +28,9 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums",
-						"uniqueIdString": "10008",
+						"uniqueIdString": "10014",
 						"depth": 2,
-						"isMinor": false
+						"isMinor": true
 					},
 					"children": [
 						{
@@ -42,7 +42,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium",
-								"uniqueIdString": "10018",
+								"uniqueIdString": "10032",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -68,7 +68,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic",
-						"uniqueIdString": "10009",
+						"uniqueIdString": "10015",
 						"depth": 2,
 						"isMinor": false,
 						"note": "rescaled, some reconstruction on the left of the city\r\n\r\nalso run through cleanup filters"
@@ -90,7 +90,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia",
-				"uniqueIdString": "10006",
+				"uniqueIdString": "10007",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -103,7 +103,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\_Almia",
-						"uniqueIdString": "10010",
+						"uniqueIdString": "10016",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -125,7 +125,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola",
-				"uniqueIdString": "10007",
+				"uniqueIdString": "10008",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -138,9 +138,9 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Island Flat Art",
-						"uniqueIdString": "10013",
+						"uniqueIdString": "10017",
 						"depth": 2,
-						"isMinor": false
+						"isMinor": true
 					},
 					"children": [],
 					"items": [
@@ -159,7 +159,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations",
-						"uniqueIdString": "10014",
+						"uniqueIdString": "10018",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -178,7 +178,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\UltraSun",
-						"uniqueIdString": "10011",
+						"uniqueIdString": "10019",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -195,7 +195,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_Mindscape",
-						"uniqueIdString": "10015",
+						"uniqueIdString": "10020",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -213,7 +213,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon",
-						"uniqueIdString": "10016",
+						"uniqueIdString": "10021",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -236,7 +236,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy",
-				"uniqueIdString": "10012",
+				"uniqueIdString": "10009",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -249,14 +249,17 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map",
-						"uniqueIdString": "10017",
+						"uniqueIdString": "10022",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
+						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Large).jpg",
 						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Large).webp",
+						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Medium).jpg",
 						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Medium).webp",
+						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).jpg",
 						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).webp"
 					]
 				}

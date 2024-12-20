@@ -3,14 +3,14 @@
 	"name": "regions",
 	"depth": 0,
 	"path": [],
-	"id": "GRP_10065",
+	"id": "GRP_10163",
 	"notes": "",
 	"isMinor": false,
 	"imgs": [
 		{
 			"_": "ImgSET",
 			"name": "Carmonte Island",
-			"id": "SET_10004",
+			"id": "SET_10099",
 			"enumeratedName": "Carmonte Island",
 			"maxMegapixels": 1.336,
 			"singular": true,
@@ -21,7 +21,7 @@
 			"files": [
 				{
 					"_": "ImgFILE",
-					"id": "IMG_10005",
+					"id": "IMG_10100",
 					"fileName": "Carmonte Island",
 					"filePath": "Carmonte Island.webp",
 					"extension": "webp",
@@ -43,14 +43,14 @@
 			"path": [
 				"Aeos Island"
 			],
-			"id": "GRP_10020",
+			"id": "GRP_10115",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Aeos Island 2",
-					"id": "SET_10006",
+					"id": "SET_10101",
 					"enumeratedName": "Aeos Island\\Aeos Island 2",
 					"maxMegapixels": 1.089246,
 					"singular": true,
@@ -61,7 +61,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10007",
+							"id": "IMG_10102",
 							"fileName": "Aeos Island 2",
 							"filePath": "Aeos Island\\Aeos Island 2.jpg",
 							"extension": "jpg",
@@ -77,7 +77,7 @@
 				{
 					"_": "ImgSET",
 					"name": "Comic",
-					"id": "SET_10019",
+					"id": "SET_10114",
 					"enumeratedName": "Aeos Island\\Comic",
 					"maxMegapixels": 18.837532,
 					"singular": true,
@@ -89,7 +89,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Aeos Island",
-							"id": "IMG_10018",
+							"id": "IMG_10113",
 							"filePath": "Aeos Island\\_Comic\\Aeos Island.webp",
 							"extension": "webp",
 							"width": 5002,
@@ -111,14 +111,14 @@
 						"Aeos Island",
 						"Stadiums"
 					],
-					"id": "GRP_10017",
+					"id": "GRP_10112",
 					"notes": "",
-					"isMinor": false,
+					"isMinor": true,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Remoat Stadium - Night",
-							"id": "SET_10008",
+							"id": "SET_10103",
 							"enumeratedName": "Aeos Island\\Stadiums\\Remoat Stadium - Night",
 							"maxMegapixels": 8.24832,
 							"singular": true,
@@ -129,7 +129,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10009",
+									"id": "IMG_10104",
 									"fileName": "Remoat Stadium - Night",
 									"filePath": "Aeos Island\\Stadiums\\Remoat Stadium - Night.jpg",
 									"extension": "jpg",
@@ -145,7 +145,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Remoat Stadium - Sunset",
-							"id": "SET_10010",
+							"id": "SET_10105",
 							"enumeratedName": "Aeos Island\\Stadiums\\Remoat Stadium - Sunset",
 							"maxMegapixels": 8.24832,
 							"singular": true,
@@ -156,7 +156,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10011",
+									"id": "IMG_10106",
 									"fileName": "Remoat Stadium - Sunset",
 									"filePath": "Aeos Island\\Stadiums\\Remoat Stadium - Sunset.jpg",
 									"extension": "jpg",
@@ -172,7 +172,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Remoat Stadium",
-							"id": "SET_10016",
+							"id": "SET_10111",
 							"enumeratedName": "Aeos Island\\Stadiums\\Remoat Stadium",
 							"maxMegapixels": 29.020068,
 							"singular": false,
@@ -184,7 +184,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "croptest",
-									"id": "IMG_10012",
+									"id": "IMG_10107",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\croptest.jpg",
 									"extension": "jpg",
 									"width": 1754,
@@ -197,7 +197,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "half",
-									"id": "IMG_10013",
+									"id": "IMG_10108",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\half.jpg",
 									"extension": "jpg",
 									"width": 3654,
@@ -210,7 +210,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "Remoat Stadium",
-									"id": "IMG_10014",
+									"id": "IMG_10109",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.jpg",
 									"extension": "jpg",
 									"width": 7308,
@@ -223,7 +223,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "Remoat Stadium",
-									"id": "IMG_10015",
+									"id": "IMG_10110",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.webp",
 									"extension": "webp",
 									"width": 7308,
@@ -247,14 +247,14 @@
 			"path": [
 				"Almia"
 			],
-			"id": "GRP_10026",
+			"id": "GRP_10121",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Almia Cloudy",
-					"id": "SET_10021",
+					"id": "SET_10116",
 					"enumeratedName": "Almia\\Almia Cloudy",
 					"maxMegapixels": 16.697604,
 					"singular": true,
@@ -265,7 +265,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10022",
+							"id": "IMG_10117",
 							"fileName": "Almia Cloudy",
 							"filePath": "Almia\\Almia Cloudy.jpg",
 							"extension": "jpg",
@@ -281,7 +281,7 @@
 				{
 					"_": "ImgSET",
 					"name": "Almia",
-					"id": "SET_10025",
+					"id": "SET_10120",
 					"enumeratedName": "Almia\\Almia",
 					"maxMegapixels": 1.083,
 					"singular": false,
@@ -293,7 +293,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Almia",
-							"id": "IMG_10023",
+							"id": "IMG_10118",
 							"filePath": "Almia\\_Almia\\Almia.jpg",
 							"extension": "jpg",
 							"width": 1083,
@@ -306,7 +306,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Almia",
-							"id": "IMG_10024",
+							"id": "IMG_10119",
 							"filePath": "Almia\\_Almia\\Almia.webp",
 							"extension": "webp",
 							"width": 1083,
@@ -328,14 +328,14 @@
 			"path": [
 				"Alola"
 			],
-			"id": "GRP_10057",
+			"id": "GRP_10152",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Poke_Pelago",
-					"id": "SET_10027",
+					"id": "SET_10122",
 					"enumeratedName": "Alola\\Poke_Pelago",
 					"maxMegapixels": 8.69984,
 					"singular": true,
@@ -346,7 +346,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10028",
+							"id": "IMG_10123",
 							"fileName": "Poke_Pelago",
 							"filePath": "Alola\\Poke_Pelago.webp",
 							"extension": "webp",
@@ -362,7 +362,7 @@
 				{
 					"_": "ImgSET",
 					"name": "Mindscape",
-					"id": "SET_10052",
+					"id": "SET_10147",
 					"enumeratedName": "Alola\\Mindscape",
 					"maxMegapixels": 0.393216,
 					"singular": false,
@@ -374,7 +374,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "original",
-							"id": "IMG_10050",
+							"id": "IMG_10145",
 							"filePath": "Alola\\_Mindscape\\original.png",
 							"extension": "png",
 							"width": 512,
@@ -387,7 +387,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Upscale",
-							"id": "IMG_10051",
+							"id": "IMG_10146",
 							"filePath": "Alola\\_Mindscape\\Upscale.jpg",
 							"extension": "jpg",
 							"width": 768,
@@ -402,7 +402,7 @@
 				{
 					"_": "ImgSET",
 					"name": "SunMoon",
-					"id": "SET_10056",
+					"id": "SET_10151",
 					"enumeratedName": "Alola\\SunMoon",
 					"maxMegapixels": 142.374144,
 					"singular": false,
@@ -414,7 +414,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "largeish",
-							"id": "IMG_10053",
+							"id": "IMG_10148",
 							"filePath": "Alola\\_SunMoon\\largeish.jpg",
 							"extension": "jpg",
 							"width": 14192,
@@ -427,7 +427,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "mid",
-							"id": "IMG_10054",
+							"id": "IMG_10149",
 							"filePath": "Alola\\_SunMoon\\mid.jpg",
 							"extension": "jpg",
 							"width": 7096,
@@ -440,7 +440,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Verylarge",
-							"id": "IMG_10055",
+							"id": "IMG_10150",
 							"filePath": "Alola\\_SunMoon\\Verylarge.webp",
 							"extension": "webp",
 							"width": 14192,
@@ -462,14 +462,14 @@
 						"Alola",
 						"Island Flat Art"
 					],
-					"id": "GRP_10039",
+					"id": "GRP_10134",
 					"notes": "",
-					"isMinor": false,
+					"isMinor": true,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Aether",
-							"id": "SET_10029",
+							"id": "SET_10124",
 							"enumeratedName": "Alola\\Island Flat Art\\Aether",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -480,7 +480,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10030",
+									"id": "IMG_10125",
 									"fileName": "Aether",
 									"filePath": "Alola\\Island Flat Art\\Aether.png",
 									"extension": "png",
@@ -496,7 +496,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Akala",
-							"id": "SET_10031",
+							"id": "SET_10126",
 							"enumeratedName": "Alola\\Island Flat Art\\Akala",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -507,7 +507,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10032",
+									"id": "IMG_10127",
 									"fileName": "Akala",
 									"filePath": "Alola\\Island Flat Art\\Akala.png",
 									"extension": "png",
@@ -523,7 +523,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Melemele",
-							"id": "SET_10033",
+							"id": "SET_10128",
 							"enumeratedName": "Alola\\Island Flat Art\\Melemele",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -534,7 +534,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10034",
+									"id": "IMG_10129",
 									"fileName": "Melemele",
 									"filePath": "Alola\\Island Flat Art\\Melemele.png",
 									"extension": "png",
@@ -550,7 +550,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Poni",
-							"id": "SET_10035",
+							"id": "SET_10130",
 							"enumeratedName": "Alola\\Island Flat Art\\Poni",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -561,7 +561,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10036",
+									"id": "IMG_10131",
 									"fileName": "Poni",
 									"filePath": "Alola\\Island Flat Art\\Poni.png",
 									"extension": "png",
@@ -577,7 +577,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Ula'ula",
-							"id": "SET_10037",
+							"id": "SET_10132",
 							"enumeratedName": "Alola\\Island Flat Art\\Ula'ula",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -588,7 +588,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10038",
+									"id": "IMG_10133",
 									"fileName": "Ula'ula",
 									"filePath": "Alola\\Island Flat Art\\Ula'ula.png",
 									"extension": "png",
@@ -612,14 +612,14 @@
 						"Alola",
 						"Locations"
 					],
-					"id": "GRP_10046",
+					"id": "GRP_10141",
 					"notes": "",
 					"isMinor": true,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Hau'oli City",
-							"id": "SET_10040",
+							"id": "SET_10135",
 							"enumeratedName": "Alola\\Locations\\Hau'oli City",
 							"maxMegapixels": 9.130029,
 							"singular": true,
@@ -630,7 +630,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10041",
+									"id": "IMG_10136",
 									"fileName": "Hau'oli City",
 									"filePath": "Alola\\Locations\\Hau'oli City.jpg",
 									"extension": "jpg",
@@ -646,7 +646,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Iki Town",
-							"id": "SET_10042",
+							"id": "SET_10137",
 							"enumeratedName": "Alola\\Locations\\Iki Town",
 							"maxMegapixels": 30.95352,
 							"singular": true,
@@ -657,7 +657,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10043",
+									"id": "IMG_10138",
 									"fileName": "Iki Town",
 									"filePath": "Alola\\Locations\\Iki Town.jpg",
 									"extension": "jpg",
@@ -673,7 +673,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Ultra Megaopolis",
-							"id": "SET_10044",
+							"id": "SET_10139",
 							"enumeratedName": "Alola\\Locations\\Ultra Megaopolis",
 							"maxMegapixels": 25.452,
 							"singular": true,
@@ -684,7 +684,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10045",
+									"id": "IMG_10140",
 									"fileName": "Ultra Megaopolis",
 									"filePath": "Alola\\Locations\\Ultra Megaopolis.jpg",
 									"extension": "jpg",
@@ -708,14 +708,14 @@
 						"Alola",
 						"UltraSun"
 					],
-					"id": "GRP_10049",
+					"id": "GRP_10144",
 					"notes": "",
 					"isMinor": false,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Alola USUM",
-							"id": "SET_10047",
+							"id": "SET_10142",
 							"enumeratedName": "Alola\\UltraSun\\Alola USUM",
 							"maxMegapixels": 142.374144,
 							"singular": true,
@@ -726,7 +726,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10048",
+									"id": "IMG_10143",
 									"fileName": "Alola USUM",
 									"filePath": "Alola\\UltraSun\\Alola USUM.jpg",
 									"extension": "jpg",
@@ -751,14 +751,14 @@
 			"path": [
 				"Blueberry Academy"
 			],
-			"id": "GRP_10064",
+			"id": "GRP_10162",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Blueberry Academy",
-					"id": "SET_10058",
+					"id": "SET_10153",
 					"enumeratedName": "Blueberry Academy\\Blueberry Academy",
 					"maxMegapixels": 0.828,
 					"singular": true,
@@ -769,7 +769,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10059",
+							"id": "IMG_10154",
 							"fileName": "Blueberry Academy",
 							"filePath": "Blueberry Academy\\Blueberry Academy.webp",
 							"extension": "webp",
@@ -785,19 +785,32 @@
 				{
 					"_": "ImgSET",
 					"name": "Map",
-					"id": "SET_10063",
+					"id": "SET_10161",
 					"enumeratedName": "Blueberry Academy\\Map",
 					"maxMegapixels": 104.04,
 					"singular": false,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).webp",
+					"thumbnailSrcPath": "regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).jpg",
 					"thumbnailPath": "thumbs\\Blueberry Academy\\Map.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Large)",
-							"id": "IMG_10060",
+							"id": "IMG_10155",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).jpg",
+							"extension": "jpg",
+							"width": 10200,
+							"height": 10200,
+							"filesize": 3861523,
+							"megapixels": 104.04,
+							"lossless": false,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Blueberry Academy (Large)",
+							"id": "IMG_10156",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).webp",
 							"extension": "webp",
 							"width": 10200,
@@ -810,7 +823,20 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Medium)",
-							"id": "IMG_10061",
+							"id": "IMG_10157",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Medium).jpg",
+							"extension": "jpg",
+							"width": 6600,
+							"height": 6600,
+							"filesize": 2139611,
+							"megapixels": 43.56,
+							"lossless": false,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Blueberry Academy (Medium)",
+							"id": "IMG_10158",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Medium).webp",
 							"extension": "webp",
 							"width": 6600,
@@ -823,7 +849,20 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Small)",
-							"id": "IMG_10062",
+							"id": "IMG_10159",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Small).jpg",
+							"extension": "jpg",
+							"width": 3600,
+							"height": 3600,
+							"filesize": 955588,
+							"megapixels": 12.96,
+							"lossless": false,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Blueberry Academy (Small)",
+							"id": "IMG_10160",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Small).webp",
 							"extension": "webp",
 							"width": 3600,
