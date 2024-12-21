@@ -219,12 +219,15 @@ span.format {
 .megapix {
     span:nth-child(1) {
         font-size: 0.9em;
-        font-weight: 200;
+        // font-weight: 200;
     }
     span:nth-child(2) {
         font-size: 0.8em;
-        font-weight: 200;
+        font-weight: 500;
         margin-left: 0.25ch;
+        font-variation-settings: "wdth" 100;
+    
+        
     }
     margin-bottom: 0.76em;
 }
@@ -242,30 +245,88 @@ span.format {
 }
 
 
-.fileLink .pageIcon > div {
-    background-color: #ffffffAA;
-    border: 1px solid var(--file-type-color);
-    border-radius: 4px;
-    padding: 0 2px;
-    font-size: 10px;
-    font-weight: 900;
-    bottom: 2px;
-    position: absolute;
-    left: 3px;
-    line-height: 9px;
-    overflow: hidden;
-    min-width: 28px;
-    text-align: center;
+a.fileLink {
+
+    .pageIcon {
+       
+        
+    }
+    
 }
 
-.fileLink .pageIcon > div:before {
-    position: absolute;
-    content: '';
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--file-type-color);
-    z-index: -1;
-}
+.img-desc {
+    div.heading {
+        
+    }
+    .resolution-set {
+        .resolution-set-head {
+            .resolution {
 
+            }
+
+            margin: 4px 0 2px 0;
+        }
+        .resolution-set-files {
+            display: flex;
+            flex-direction: row;
+
+
+            a.fileLink {
+                display: flex;
+                flex: 1 1 auto;
+                gap: 6px;
+
+
+                .pageIcon {
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                    height: 35px;
+
+                    & > div {
+
+                        background-color: #ffffffAA;
+                        border: 1px solid var(--file-type-color);
+                        border-radius: 4px;
+                        padding: 0 3px;
+                        font-size: 12px;
+                        font-weight: 900;
+                        bottom: 3px;
+                        position: absolute;
+                        left: 3px;
+                        line-height: 12px;
+                        overflow: hidden;
+                        min-width: 20px;
+                        text-align: center;
+            
+                        font-variation-settings: "wdth" 90;
+            
+                        text-shadow: 0 0 1px #FFFFFFAA;
+                    
+                        &:before {
+            
+                            position: absolute;
+                            content: '';
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            background-color: var(--file-type-color);
+                            z-index: -1;
+                        
+            
+                        }
+            
+                    }
+
+                }
+                .fileData {
+                    flex: 1 1 auto;
+                    .size {
+                        padding-top: 1px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

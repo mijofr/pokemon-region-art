@@ -3,14 +3,14 @@
 	"name": "regions",
 	"depth": 0,
 	"path": [],
-	"id": "GRP_10163",
+	"id": "GRP_10421",
 	"notes": "",
 	"isMinor": false,
 	"imgs": [
 		{
 			"_": "ImgSET",
 			"name": "Carmonte Island",
-			"id": "SET_10099",
+			"id": "SET_10004",
 			"enumeratedName": "Carmonte Island",
 			"maxMegapixels": 1.336,
 			"singular": true,
@@ -21,7 +21,7 @@
 			"files": [
 				{
 					"_": "ImgFILE",
-					"id": "IMG_10100",
+					"id": "IMG_10005",
 					"fileName": "Carmonte Island",
 					"filePath": "Carmonte Island.webp",
 					"extension": "webp",
@@ -31,6 +31,222 @@
 					"megapixels": 1.336,
 					"lossless": true,
 					"aspect": 1.916
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Ferrum",
+			"id": "SET_10006",
+			"enumeratedName": "Ferrum",
+			"maxMegapixels": 5.4,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\Ferrum.webp",
+			"thumbnailPath": "thumbs\\Ferrum.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10007",
+					"fileName": "Ferrum",
+					"filePath": "Ferrum.webp",
+					"extension": "webp",
+					"width": 2700,
+					"height": 2000,
+					"filesize": 3550452,
+					"megapixels": 5.4,
+					"lossless": true,
+					"aspect": 1.35
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Oblivia",
+			"id": "SET_10008",
+			"enumeratedName": "Oblivia",
+			"maxMegapixels": 8.69984,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\Oblivia.jpg",
+			"thumbnailPath": "thumbs\\Oblivia.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10009",
+					"fileName": "Oblivia",
+					"filePath": "Oblivia.jpg",
+					"extension": "jpg",
+					"width": 3508,
+					"height": 2480,
+					"filesize": 1422681,
+					"megapixels": 8.69984,
+					"lossless": false,
+					"aspect": 1.415
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Orange Islands",
+			"id": "SET_10010",
+			"enumeratedName": "Orange Islands",
+			"maxMegapixels": 2.085314,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\Orange Islands.webp",
+			"thumbnailPath": "thumbs\\Orange Islands.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10011",
+					"fileName": "Orange Islands",
+					"filePath": "Orange Islands.webp",
+					"extension": "webp",
+					"width": 1231,
+					"height": 1694,
+					"filesize": 3207182,
+					"megapixels": 2.085314,
+					"lossless": true,
+					"aspect": 0.7267
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Pasio",
+			"id": "SET_10012",
+			"enumeratedName": "Pasio",
+			"maxMegapixels": 1.180872,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\Pasio.webp",
+			"thumbnailPath": "thumbs\\Pasio.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10013",
+					"fileName": "Pasio",
+					"filePath": "Pasio.webp",
+					"extension": "webp",
+					"width": 852,
+					"height": 1386,
+					"filesize": 1331946,
+					"megapixels": 1.180872,
+					"lossless": true,
+					"aspect": 0.6147
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "PokéPark",
+			"id": "SET_10014",
+			"enumeratedName": "PokéPark",
+			"maxMegapixels": 1.9008,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\PokéPark.jpg",
+			"thumbnailPath": "thumbs\\PokéPark.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10015",
+					"fileName": "PokéPark",
+					"filePath": "PokéPark.jpg",
+					"extension": "jpg",
+					"width": 1584,
+					"height": 1200,
+					"filesize": 663621,
+					"megapixels": 1.9008,
+					"lossless": false,
+					"aspect": 1.32
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Puzzle Village",
+			"id": "SET_10016",
+			"enumeratedName": "Puzzle Village",
+			"maxMegapixels": 0.0768,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\Puzzle Village.webp",
+			"thumbnailPath": "thumbs\\Puzzle Village.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10017",
+					"fileName": "Puzzle Village",
+					"filePath": "Puzzle Village.webp",
+					"extension": "webp",
+					"width": 320,
+					"height": 240,
+					"filesize": 118862,
+					"megapixels": 0.0768,
+					"lossless": true,
+					"aspect": 1.333
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Virtual Fest!",
+			"id": "SET_10018",
+			"enumeratedName": "Virtual Fest!",
+			"maxMegapixels": 3.6864,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\Virtual Fest!.jpg",
+			"thumbnailPath": "thumbs\\Virtual Fest!.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10019",
+					"fileName": "Virtual Fest!",
+					"filePath": "Virtual Fest!.jpg",
+					"extension": "jpg",
+					"width": 1920,
+					"height": 1920,
+					"filesize": 4465168,
+					"megapixels": 3.6864,
+					"lossless": false,
+					"aspect": 1
+				}
+			]
+		},
+		{
+			"_": "ImgSET",
+			"name": "Vivillon on Earth",
+			"id": "SET_10020",
+			"enumeratedName": "Vivillon on Earth",
+			"maxMegapixels": 5.65915,
+			"singular": true,
+			"notes": "",
+			"isMinor": false,
+			"thumbnailSrcPath": "regions\\Vivillon on Earth.png",
+			"thumbnailPath": "thumbs\\Vivillon on Earth.webp",
+			"files": [
+				{
+					"_": "ImgFILE",
+					"id": "IMG_10021",
+					"fileName": "Vivillon on Earth",
+					"filePath": "Vivillon on Earth.png",
+					"extension": "png",
+					"width": 3325,
+					"height": 1702,
+					"filesize": 2858800,
+					"megapixels": 5.65915,
+					"lossless": true,
+					"aspect": 1.954
 				}
 			]
 		}
@@ -43,14 +259,14 @@
 			"path": [
 				"Aeos Island"
 			],
-			"id": "GRP_10115",
+			"id": "GRP_10036",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Aeos Island 2",
-					"id": "SET_10101",
+					"id": "SET_10022",
 					"enumeratedName": "Aeos Island\\Aeos Island 2",
 					"maxMegapixels": 1.089246,
 					"singular": true,
@@ -61,7 +277,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10102",
+							"id": "IMG_10023",
 							"fileName": "Aeos Island 2",
 							"filePath": "Aeos Island\\Aeos Island 2.jpg",
 							"extension": "jpg",
@@ -77,7 +293,7 @@
 				{
 					"_": "ImgSET",
 					"name": "Comic",
-					"id": "SET_10114",
+					"id": "SET_10035",
 					"enumeratedName": "Aeos Island\\Comic",
 					"maxMegapixels": 18.837532,
 					"singular": true,
@@ -89,7 +305,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Aeos Island",
-							"id": "IMG_10113",
+							"id": "IMG_10034",
 							"filePath": "Aeos Island\\_Comic\\Aeos Island.webp",
 							"extension": "webp",
 							"width": 5002,
@@ -111,14 +327,14 @@
 						"Aeos Island",
 						"Stadiums"
 					],
-					"id": "GRP_10112",
+					"id": "GRP_10033",
 					"notes": "",
 					"isMinor": true,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Remoat Stadium - Night",
-							"id": "SET_10103",
+							"id": "SET_10024",
 							"enumeratedName": "Aeos Island\\Stadiums\\Remoat Stadium - Night",
 							"maxMegapixels": 8.24832,
 							"singular": true,
@@ -129,7 +345,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10104",
+									"id": "IMG_10025",
 									"fileName": "Remoat Stadium - Night",
 									"filePath": "Aeos Island\\Stadiums\\Remoat Stadium - Night.jpg",
 									"extension": "jpg",
@@ -145,7 +361,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Remoat Stadium - Sunset",
-							"id": "SET_10105",
+							"id": "SET_10026",
 							"enumeratedName": "Aeos Island\\Stadiums\\Remoat Stadium - Sunset",
 							"maxMegapixels": 8.24832,
 							"singular": true,
@@ -156,7 +372,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10106",
+									"id": "IMG_10027",
 									"fileName": "Remoat Stadium - Sunset",
 									"filePath": "Aeos Island\\Stadiums\\Remoat Stadium - Sunset.jpg",
 									"extension": "jpg",
@@ -172,7 +388,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Remoat Stadium",
-							"id": "SET_10111",
+							"id": "SET_10032",
 							"enumeratedName": "Aeos Island\\Stadiums\\Remoat Stadium",
 							"maxMegapixels": 29.020068,
 							"singular": false,
@@ -184,7 +400,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "croptest",
-									"id": "IMG_10107",
+									"id": "IMG_10028",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\croptest.jpg",
 									"extension": "jpg",
 									"width": 1754,
@@ -197,7 +413,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "half",
-									"id": "IMG_10108",
+									"id": "IMG_10029",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\half.jpg",
 									"extension": "jpg",
 									"width": 3654,
@@ -210,7 +426,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "Remoat Stadium",
-									"id": "IMG_10109",
+									"id": "IMG_10030",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.jpg",
 									"extension": "jpg",
 									"width": 7308,
@@ -223,7 +439,7 @@
 								{
 									"_": "ImgFILE",
 									"fileName": "Remoat Stadium",
-									"id": "IMG_10110",
+									"id": "IMG_10031",
 									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.webp",
 									"extension": "webp",
 									"width": 7308,
@@ -247,14 +463,14 @@
 			"path": [
 				"Almia"
 			],
-			"id": "GRP_10121",
+			"id": "GRP_10042",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Almia Cloudy",
-					"id": "SET_10116",
+					"id": "SET_10037",
 					"enumeratedName": "Almia\\Almia Cloudy",
 					"maxMegapixels": 16.697604,
 					"singular": true,
@@ -265,7 +481,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10117",
+							"id": "IMG_10038",
 							"fileName": "Almia Cloudy",
 							"filePath": "Almia\\Almia Cloudy.jpg",
 							"extension": "jpg",
@@ -281,7 +497,7 @@
 				{
 					"_": "ImgSET",
 					"name": "Almia",
-					"id": "SET_10120",
+					"id": "SET_10041",
 					"enumeratedName": "Almia\\Almia",
 					"maxMegapixels": 1.083,
 					"singular": false,
@@ -293,7 +509,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Almia",
-							"id": "IMG_10118",
+							"id": "IMG_10039",
 							"filePath": "Almia\\_Almia\\Almia.jpg",
 							"extension": "jpg",
 							"width": 1083,
@@ -306,7 +522,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Almia",
-							"id": "IMG_10119",
+							"id": "IMG_10040",
 							"filePath": "Almia\\_Almia\\Almia.webp",
 							"extension": "webp",
 							"width": 1083,
@@ -328,14 +544,14 @@
 			"path": [
 				"Alola"
 			],
-			"id": "GRP_10152",
+			"id": "GRP_10073",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Poke_Pelago",
-					"id": "SET_10122",
+					"id": "SET_10043",
 					"enumeratedName": "Alola\\Poke_Pelago",
 					"maxMegapixels": 8.69984,
 					"singular": true,
@@ -346,7 +562,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10123",
+							"id": "IMG_10044",
 							"fileName": "Poke_Pelago",
 							"filePath": "Alola\\Poke_Pelago.webp",
 							"extension": "webp",
@@ -362,7 +578,7 @@
 				{
 					"_": "ImgSET",
 					"name": "Mindscape",
-					"id": "SET_10147",
+					"id": "SET_10068",
 					"enumeratedName": "Alola\\Mindscape",
 					"maxMegapixels": 0.393216,
 					"singular": false,
@@ -374,7 +590,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "original",
-							"id": "IMG_10145",
+							"id": "IMG_10066",
 							"filePath": "Alola\\_Mindscape\\original.png",
 							"extension": "png",
 							"width": 512,
@@ -387,7 +603,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Upscale",
-							"id": "IMG_10146",
+							"id": "IMG_10067",
 							"filePath": "Alola\\_Mindscape\\Upscale.jpg",
 							"extension": "jpg",
 							"width": 768,
@@ -402,7 +618,7 @@
 				{
 					"_": "ImgSET",
 					"name": "SunMoon",
-					"id": "SET_10151",
+					"id": "SET_10072",
 					"enumeratedName": "Alola\\SunMoon",
 					"maxMegapixels": 142.374144,
 					"singular": false,
@@ -414,7 +630,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "largeish",
-							"id": "IMG_10148",
+							"id": "IMG_10069",
 							"filePath": "Alola\\_SunMoon\\largeish.jpg",
 							"extension": "jpg",
 							"width": 14192,
@@ -427,7 +643,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "mid",
-							"id": "IMG_10149",
+							"id": "IMG_10070",
 							"filePath": "Alola\\_SunMoon\\mid.jpg",
 							"extension": "jpg",
 							"width": 7096,
@@ -440,7 +656,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Verylarge",
-							"id": "IMG_10150",
+							"id": "IMG_10071",
 							"filePath": "Alola\\_SunMoon\\Verylarge.webp",
 							"extension": "webp",
 							"width": 14192,
@@ -462,14 +678,14 @@
 						"Alola",
 						"Island Flat Art"
 					],
-					"id": "GRP_10134",
+					"id": "GRP_10055",
 					"notes": "",
 					"isMinor": true,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Aether",
-							"id": "SET_10124",
+							"id": "SET_10045",
 							"enumeratedName": "Alola\\Island Flat Art\\Aether",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -480,7 +696,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10125",
+									"id": "IMG_10046",
 									"fileName": "Aether",
 									"filePath": "Alola\\Island Flat Art\\Aether.png",
 									"extension": "png",
@@ -496,7 +712,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Akala",
-							"id": "SET_10126",
+							"id": "SET_10047",
 							"enumeratedName": "Alola\\Island Flat Art\\Akala",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -507,7 +723,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10127",
+									"id": "IMG_10048",
 									"fileName": "Akala",
 									"filePath": "Alola\\Island Flat Art\\Akala.png",
 									"extension": "png",
@@ -523,7 +739,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Melemele",
-							"id": "SET_10128",
+							"id": "SET_10049",
 							"enumeratedName": "Alola\\Island Flat Art\\Melemele",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -534,7 +750,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10129",
+									"id": "IMG_10050",
 									"fileName": "Melemele",
 									"filePath": "Alola\\Island Flat Art\\Melemele.png",
 									"extension": "png",
@@ -550,7 +766,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Poni",
-							"id": "SET_10130",
+							"id": "SET_10051",
 							"enumeratedName": "Alola\\Island Flat Art\\Poni",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -561,7 +777,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10131",
+									"id": "IMG_10052",
 									"fileName": "Poni",
 									"filePath": "Alola\\Island Flat Art\\Poni.png",
 									"extension": "png",
@@ -577,7 +793,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Ula'ula",
-							"id": "SET_10132",
+							"id": "SET_10053",
 							"enumeratedName": "Alola\\Island Flat Art\\Ula'ula",
 							"maxMegapixels": 1.3516,
 							"singular": true,
@@ -588,7 +804,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10133",
+									"id": "IMG_10054",
 									"fileName": "Ula'ula",
 									"filePath": "Alola\\Island Flat Art\\Ula'ula.png",
 									"extension": "png",
@@ -612,14 +828,14 @@
 						"Alola",
 						"Locations"
 					],
-					"id": "GRP_10141",
+					"id": "GRP_10062",
 					"notes": "",
 					"isMinor": true,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Hau'oli City",
-							"id": "SET_10135",
+							"id": "SET_10056",
 							"enumeratedName": "Alola\\Locations\\Hau'oli City",
 							"maxMegapixels": 9.130029,
 							"singular": true,
@@ -630,7 +846,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10136",
+									"id": "IMG_10057",
 									"fileName": "Hau'oli City",
 									"filePath": "Alola\\Locations\\Hau'oli City.jpg",
 									"extension": "jpg",
@@ -646,7 +862,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Iki Town",
-							"id": "SET_10137",
+							"id": "SET_10058",
 							"enumeratedName": "Alola\\Locations\\Iki Town",
 							"maxMegapixels": 30.95352,
 							"singular": true,
@@ -657,7 +873,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10138",
+									"id": "IMG_10059",
 									"fileName": "Iki Town",
 									"filePath": "Alola\\Locations\\Iki Town.jpg",
 									"extension": "jpg",
@@ -673,7 +889,7 @@
 						{
 							"_": "ImgSET",
 							"name": "Ultra Megaopolis",
-							"id": "SET_10139",
+							"id": "SET_10060",
 							"enumeratedName": "Alola\\Locations\\Ultra Megaopolis",
 							"maxMegapixels": 25.452,
 							"singular": true,
@@ -684,7 +900,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10140",
+									"id": "IMG_10061",
 									"fileName": "Ultra Megaopolis",
 									"filePath": "Alola\\Locations\\Ultra Megaopolis.jpg",
 									"extension": "jpg",
@@ -708,14 +924,14 @@
 						"Alola",
 						"UltraSun"
 					],
-					"id": "GRP_10144",
+					"id": "GRP_10065",
 					"notes": "",
 					"isMinor": false,
 					"imgs": [
 						{
 							"_": "ImgSET",
 							"name": "Alola USUM",
-							"id": "SET_10142",
+							"id": "SET_10063",
 							"enumeratedName": "Alola\\UltraSun\\Alola USUM",
 							"maxMegapixels": 142.374144,
 							"singular": true,
@@ -726,7 +942,7 @@
 							"files": [
 								{
 									"_": "ImgFILE",
-									"id": "IMG_10143",
+									"id": "IMG_10064",
 									"fileName": "Alola USUM",
 									"filePath": "Alola\\UltraSun\\Alola USUM.jpg",
 									"extension": "jpg",
@@ -751,14 +967,14 @@
 			"path": [
 				"Blueberry Academy"
 			],
-			"id": "GRP_10162",
+			"id": "GRP_10083",
 			"notes": "",
 			"isMinor": false,
 			"imgs": [
 				{
 					"_": "ImgSET",
 					"name": "Blueberry Academy",
-					"id": "SET_10153",
+					"id": "SET_10074",
 					"enumeratedName": "Blueberry Academy\\Blueberry Academy",
 					"maxMegapixels": 0.828,
 					"singular": true,
@@ -769,7 +985,7 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"id": "IMG_10154",
+							"id": "IMG_10075",
 							"fileName": "Blueberry Academy",
 							"filePath": "Blueberry Academy\\Blueberry Academy.webp",
 							"extension": "webp",
@@ -785,7 +1001,7 @@
 				{
 					"_": "ImgSET",
 					"name": "Map",
-					"id": "SET_10161",
+					"id": "SET_10082",
 					"enumeratedName": "Blueberry Academy\\Map",
 					"maxMegapixels": 104.04,
 					"singular": false,
@@ -797,7 +1013,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Large)",
-							"id": "IMG_10155",
+							"id": "IMG_10076",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).jpg",
 							"extension": "jpg",
 							"width": 10200,
@@ -810,7 +1026,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Large)",
-							"id": "IMG_10156",
+							"id": "IMG_10077",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).webp",
 							"extension": "webp",
 							"width": 10200,
@@ -823,7 +1039,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Medium)",
-							"id": "IMG_10157",
+							"id": "IMG_10078",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Medium).jpg",
 							"extension": "jpg",
 							"width": 6600,
@@ -836,7 +1052,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Medium)",
-							"id": "IMG_10158",
+							"id": "IMG_10079",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Medium).webp",
 							"extension": "webp",
 							"width": 6600,
@@ -849,7 +1065,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Small)",
-							"id": "IMG_10159",
+							"id": "IMG_10080",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Small).jpg",
 							"extension": "jpg",
 							"width": 3600,
@@ -862,7 +1078,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Small)",
-							"id": "IMG_10160",
+							"id": "IMG_10081",
 							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Small).webp",
 							"extension": "webp",
 							"width": 3600,
@@ -876,6 +1092,4593 @@
 				}
 			],
 			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Fiore",
+			"depth": 1,
+			"path": [
+				"Fiore"
+			],
+			"id": "GRP_10092",
+			"notes": "hello world\r\n\r\ntesting\r\n\r\n",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Fiore 2",
+					"id": "SET_10084",
+					"enumeratedName": "Fiore\\Fiore 2",
+					"maxMegapixels": 7.623408,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Fiore\\Fiore 2.jpg",
+					"thumbnailPath": "thumbs\\Fiore\\Fiore 2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10085",
+							"fileName": "Fiore 2",
+							"filePath": "Fiore\\Fiore 2.jpg",
+							"extension": "jpg",
+							"width": 3858,
+							"height": 1976,
+							"filesize": 2489048,
+							"megapixels": 7.623408,
+							"lossless": false,
+							"aspect": 1.952
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Fiore",
+					"id": "SET_10086",
+					"enumeratedName": "Fiore\\Fiore",
+					"maxMegapixels": 0.889,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Fiore\\Fiore.webp",
+					"thumbnailPath": "thumbs\\Fiore\\Fiore.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10087",
+							"fileName": "Fiore",
+							"filePath": "Fiore\\Fiore.webp",
+							"extension": "webp",
+							"width": 1000,
+							"height": 889,
+							"filesize": 622570,
+							"megapixels": 0.889,
+							"lossless": true,
+							"aspect": 1.125
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Fiore_-_Pokemon_Ranger-COLORFIX-Fiore",
+					"id": "SET_10088",
+					"enumeratedName": "Fiore\\Fiore_-_Pokemon_Ranger-COLORFIX-Fiore",
+					"maxMegapixels": 18,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Fiore\\Fiore_-_Pokemon_Ranger-COLORFIX-Fiore.png",
+					"thumbnailPath": "thumbs\\Fiore\\Fiore_-_Pokemon_Ranger-COLORFIX-Fiore.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10089",
+							"fileName": "Fiore_-_Pokemon_Ranger-COLORFIX-Fiore",
+							"filePath": "Fiore\\Fiore_-_Pokemon_Ranger-COLORFIX-Fiore.png",
+							"extension": "png",
+							"width": 4500,
+							"height": 4000,
+							"filesize": 16058594,
+							"megapixels": 18,
+							"lossless": true,
+							"aspect": 1.125
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Fiore_-_Pokemon_Ranger",
+					"id": "SET_10090",
+					"enumeratedName": "Fiore\\Fiore_-_Pokemon_Ranger",
+					"maxMegapixels": 18,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Fiore\\Fiore_-_Pokemon_Ranger.jpg",
+					"thumbnailPath": "thumbs\\Fiore\\Fiore_-_Pokemon_Ranger.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10091",
+							"fileName": "Fiore_-_Pokemon_Ranger",
+							"filePath": "Fiore\\Fiore_-_Pokemon_Ranger.jpg",
+							"extension": "jpg",
+							"width": 4500,
+							"height": 4000,
+							"filesize": 3577700,
+							"megapixels": 18,
+							"lossless": false,
+							"aspect": 1.125
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Galar",
+			"depth": 1,
+			"path": [
+				"Galar"
+			],
+			"id": "GRP_10107",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Art",
+					"id": "SET_10093",
+					"enumeratedName": "Galar\\Art",
+					"maxMegapixels": 17.406696,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Galar\\Art.webp",
+					"thumbnailPath": "thumbs\\Galar\\Art.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10094",
+							"fileName": "Art",
+							"filePath": "Galar\\Art.webp",
+							"extension": "webp",
+							"width": 3508,
+							"height": 4962,
+							"filesize": 16523038,
+							"megapixels": 17.406696,
+							"lossless": true,
+							"aspect": 0.707
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Crown Tundra",
+					"id": "SET_10095",
+					"enumeratedName": "Galar\\Crown Tundra",
+					"maxMegapixels": 17.406696,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Galar\\Crown Tundra.webp",
+					"thumbnailPath": "thumbs\\Galar\\Crown Tundra.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10096",
+							"fileName": "Crown Tundra",
+							"filePath": "Galar\\Crown Tundra.webp",
+							"extension": "webp",
+							"width": 4962,
+							"height": 3508,
+							"filesize": 17305352,
+							"megapixels": 17.406696,
+							"lossless": true,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Isle Of Armor",
+					"id": "SET_10097",
+					"enumeratedName": "Galar\\Isle Of Armor",
+					"maxMegapixels": 17.406696,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Galar\\Isle Of Armor.webp",
+					"thumbnailPath": "thumbs\\Galar\\Isle Of Armor.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10098",
+							"fileName": "Isle Of Armor",
+							"filePath": "Galar\\Isle Of Armor.webp",
+							"extension": "webp",
+							"width": 4962,
+							"height": 3508,
+							"filesize": 20758848,
+							"megapixels": 17.406696,
+							"lossless": true,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Overmap",
+					"id": "SET_10099",
+					"enumeratedName": "Galar\\Overmap",
+					"maxMegapixels": 24.388096,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Galar\\Overmap.webp",
+					"thumbnailPath": "thumbs\\Galar\\Overmap.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10100",
+							"fileName": "Overmap",
+							"filePath": "Galar\\Overmap.webp",
+							"extension": "webp",
+							"width": 3488,
+							"height": 6992,
+							"filesize": 769844,
+							"megapixels": 24.388096,
+							"lossless": true,
+							"aspect": 0.4989
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape",
+					"id": "SET_10106",
+					"enumeratedName": "Galar\\Mindscape",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Galar\\_Mindscape\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Galar\\Mindscape.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10104",
+							"filePath": "Galar\\_Mindscape\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 383457,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10105",
+							"filePath": "Galar\\_Mindscape\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 225433,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Galar",
+						"Locations"
+					],
+					"id": "GRP_10103",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Wild Area",
+							"id": "SET_10101",
+							"enumeratedName": "Galar\\Locations\\Wild Area",
+							"maxMegapixels": 22.018986,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Galar\\Locations\\Wild Area.png",
+							"thumbnailPath": "thumbs\\Galar\\Locations\\Wild Area.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10102",
+									"fileName": "Wild Area",
+									"filePath": "Galar\\Locations\\Wild Area.png",
+									"extension": "png",
+									"width": 5853,
+									"height": 3762,
+									"filesize": 23039084,
+									"megapixels": 22.018986,
+									"lossless": true,
+									"aspect": 1.556
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Hisui",
+			"depth": 1,
+			"path": [
+				"Hisui"
+			],
+			"id": "GRP_10119",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Hisui",
+					"id": "SET_10108",
+					"enumeratedName": "Hisui\\Hisui",
+					"maxMegapixels": 18.079145,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hisui\\Hisui.webp",
+					"thumbnailPath": "thumbs\\Hisui\\Hisui.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10109",
+							"fileName": "Hisui",
+							"filePath": "Hisui\\Hisui.webp",
+							"extension": "webp",
+							"width": 5705,
+							"height": 3169,
+							"filesize": 27209756,
+							"megapixels": 18.079145,
+							"lossless": true,
+							"aspect": 1.8
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Hisui 2",
+					"id": "SET_10118",
+					"enumeratedName": "Hisui\\Hisui 2",
+					"maxMegapixels": 0.9216,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hisui\\_Hisui 2\\Hisui2.webp",
+					"thumbnailPath": "thumbs\\Hisui\\Hisui 2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Hisui2",
+							"id": "IMG_10117",
+							"filePath": "Hisui\\_Hisui 2\\Hisui2.webp",
+							"extension": "webp",
+							"width": 1280,
+							"height": 720,
+							"filesize": 1125232,
+							"megapixels": 0.9216,
+							"lossless": true,
+							"aspect": 1.778
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Hisui",
+						"Locations"
+					],
+					"id": "GRP_10116",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Base Camp",
+							"id": "SET_10110",
+							"enumeratedName": "Hisui\\Locations\\Base Camp",
+							"maxMegapixels": 11.845142,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hisui\\Locations\\Base Camp.png",
+							"thumbnailPath": "thumbs\\Hisui\\Locations\\Base Camp.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10111",
+									"fileName": "Base Camp",
+									"filePath": "Hisui\\Locations\\Base Camp.png",
+									"extension": "png",
+									"width": 4093,
+									"height": 2894,
+									"filesize": 8707335,
+									"megapixels": 11.845142,
+									"lossless": true,
+									"aspect": 1.414
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Cobalt Coastlands",
+							"id": "SET_10112",
+							"enumeratedName": "Hisui\\Locations\\Cobalt Coastlands",
+							"maxMegapixels": 21.063375,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hisui\\Locations\\Cobalt Coastlands.png",
+							"thumbnailPath": "thumbs\\Hisui\\Locations\\Cobalt Coastlands.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10113",
+									"fileName": "Cobalt Coastlands",
+									"filePath": "Hisui\\Locations\\Cobalt Coastlands.png",
+									"extension": "png",
+									"width": 5925,
+									"height": 3555,
+									"filesize": 28793777,
+									"megapixels": 21.063375,
+									"lossless": true,
+									"aspect": 1.667
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Mount Coronet",
+							"id": "SET_10114",
+							"enumeratedName": "Hisui\\Locations\\Mount Coronet",
+							"maxMegapixels": 10.18458,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hisui\\Locations\\Mount Coronet.jpg",
+							"thumbnailPath": "thumbs\\Hisui\\Locations\\Mount Coronet.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10115",
+									"fileName": "Mount Coronet",
+									"filePath": "Hisui\\Locations\\Mount Coronet.jpg",
+									"extension": "jpg",
+									"width": 4130,
+									"height": 2466,
+									"filesize": 2841393,
+									"megapixels": 10.18458,
+									"lossless": false,
+									"aspect": 1.675
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Hoenn",
+			"depth": 1,
+			"path": [
+				"Hoenn"
+			],
+			"id": "GRP_10144",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Angled",
+					"id": "SET_10120",
+					"enumeratedName": "Hoenn\\Angled",
+					"maxMegapixels": 0.96,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hoenn\\Angled.jpg",
+					"thumbnailPath": "thumbs\\Hoenn\\Angled.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10121",
+							"fileName": "Angled",
+							"filePath": "Hoenn\\Angled.jpg",
+							"extension": "jpg",
+							"width": 1200,
+							"height": 800,
+							"filesize": 1401431,
+							"megapixels": 0.96,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Hoenn 2",
+					"id": "SET_10122",
+					"enumeratedName": "Hoenn\\Hoenn 2",
+					"maxMegapixels": 4.63104,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hoenn\\Hoenn 2.webp",
+					"thumbnailPath": "thumbs\\Hoenn\\Hoenn 2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10123",
+							"fileName": "Hoenn 2",
+							"filePath": "Hoenn\\Hoenn 2.webp",
+							"extension": "webp",
+							"width": 2560,
+							"height": 1809,
+							"filesize": 5744708,
+							"megapixels": 4.63104,
+							"lossless": true,
+							"aspect": 1.415
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Hoenn",
+					"id": "SET_10124",
+					"enumeratedName": "Hoenn\\Hoenn",
+					"maxMegapixels": 1.06624,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hoenn\\Hoenn.webp",
+					"thumbnailPath": "thumbs\\Hoenn\\Hoenn.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10125",
+							"fileName": "Hoenn",
+							"filePath": "Hoenn\\Hoenn.webp",
+							"extension": "webp",
+							"width": 1280,
+							"height": 833,
+							"filesize": 1039992,
+							"megapixels": 1.06624,
+							"lossless": true,
+							"aspect": 1.537
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Simple",
+					"id": "SET_10126",
+					"enumeratedName": "Hoenn\\Simple",
+					"maxMegapixels": 2.0736,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hoenn\\Simple.jpg",
+					"thumbnailPath": "thumbs\\Hoenn\\Simple.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10127",
+							"fileName": "Simple",
+							"filePath": "Hoenn\\Simple.jpg",
+							"extension": "jpg",
+							"width": 1920,
+							"height": 1080,
+							"filesize": 895370,
+							"megapixels": 2.0736,
+							"lossless": false,
+							"aspect": 1.778
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Soaring Texture",
+					"id": "SET_10128",
+					"enumeratedName": "Hoenn\\Soaring Texture",
+					"maxMegapixels": 12.49924,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hoenn\\Soaring Texture.png",
+					"thumbnailPath": "thumbs\\Hoenn\\Soaring Texture.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10129",
+							"fileName": "Soaring Texture",
+							"filePath": "Hoenn\\Soaring Texture.png",
+							"extension": "png",
+							"width": 4472,
+							"height": 2795,
+							"filesize": 13052252,
+							"megapixels": 12.49924,
+							"lossless": true,
+							"aspect": 1.6
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape",
+					"id": "SET_10143",
+					"enumeratedName": "Hoenn\\Mindscape",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Hoenn\\_Mindscape\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Hoenn\\Mindscape.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10141",
+							"filePath": "Hoenn\\_Mindscape\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 395501,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10142",
+							"filePath": "Hoenn\\_Mindscape\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 229182,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Hoenn",
+						"Locations"
+					],
+					"id": "GRP_10140",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Battle Frontier",
+							"id": "SET_10130",
+							"enumeratedName": "Hoenn\\Locations\\Battle Frontier",
+							"maxMegapixels": 2.764398,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Battle Frontier.jpg",
+							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Battle Frontier.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10131",
+									"fileName": "Battle Frontier",
+									"filePath": "Hoenn\\Locations\\Battle Frontier.jpg",
+									"extension": "jpg",
+									"width": 2158,
+									"height": 1281,
+									"filesize": 1936472,
+									"megapixels": 2.764398,
+									"lossless": false,
+									"aspect": 1.685
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Fortree_City",
+							"id": "SET_10132",
+							"enumeratedName": "Hoenn\\Locations\\Fortree_City",
+							"maxMegapixels": 0.30162,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Fortree_City.png",
+							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Fortree_City.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10133",
+									"fileName": "Fortree_City",
+									"filePath": "Hoenn\\Locations\\Fortree_City.png",
+									"extension": "png",
+									"width": 660,
+									"height": 457,
+									"filesize": 472786,
+									"megapixels": 0.30162,
+									"lossless": true,
+									"aspect": 1.444
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Mauville City",
+							"id": "SET_10134",
+							"enumeratedName": "Hoenn\\Locations\\Mauville City",
+							"maxMegapixels": 2.48832,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Mauville City.webp",
+							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Mauville City.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10135",
+									"fileName": "Mauville City",
+									"filePath": "Hoenn\\Locations\\Mauville City.webp",
+									"extension": "webp",
+									"width": 1920,
+									"height": 1296,
+									"filesize": 2742362,
+									"megapixels": 2.48832,
+									"lossless": true,
+									"aspect": 1.481
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Slateport City & Mt Chimney",
+							"id": "SET_10136",
+							"enumeratedName": "Hoenn\\Locations\\Slateport City & Mt Chimney",
+							"maxMegapixels": 8.703348,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Slateport City & Mt Chimney.webp",
+							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Slateport City & Mt Chimney.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10137",
+									"fileName": "Slateport City & Mt Chimney",
+									"filePath": "Hoenn\\Locations\\Slateport City & Mt Chimney.webp",
+									"extension": "webp",
+									"width": 2481,
+									"height": 3508,
+									"filesize": 8537014,
+									"megapixels": 8.703348,
+									"lossless": true,
+									"aspect": 0.7072
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Wilderness",
+							"id": "SET_10138",
+							"enumeratedName": "Hoenn\\Locations\\Wilderness",
+							"maxMegapixels": 23.682098,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Wilderness.webp",
+							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Wilderness.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10139",
+									"fileName": "Wilderness",
+									"filePath": "Hoenn\\Locations\\Wilderness.webp",
+									"extension": "webp",
+									"width": 4093,
+									"height": 5786,
+									"filesize": 19360626,
+									"megapixels": 23.682098,
+									"lossless": true,
+									"aspect": 0.7074
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Holon",
+			"depth": 1,
+			"path": [
+				"Holon"
+			],
+			"id": "GRP_10149",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "GZycC1iWkAAiUMA",
+					"id": "SET_10145",
+					"enumeratedName": "Holon\\GZycC1iWkAAiUMA",
+					"maxMegapixels": 2.965504,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Holon\\GZycC1iWkAAiUMA.jpg",
+					"thumbnailPath": "thumbs\\Holon\\GZycC1iWkAAiUMA.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10146",
+							"fileName": "GZycC1iWkAAiUMA",
+							"filePath": "Holon\\GZycC1iWkAAiUMA.jpg",
+							"extension": "jpg",
+							"width": 2048,
+							"height": 1448,
+							"filesize": 749899,
+							"megapixels": 2.965504,
+							"lossless": false,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Holon",
+					"id": "SET_10147",
+					"enumeratedName": "Holon\\Holon",
+					"maxMegapixels": 3.868706,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Holon\\Holon.jpg",
+					"thumbnailPath": "thumbs\\Holon\\Holon.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10148",
+							"fileName": "Holon",
+							"filePath": "Holon\\Holon.jpg",
+							"extension": "jpg",
+							"width": 2339,
+							"height": 1654,
+							"filesize": 1366944,
+							"megapixels": 3.868706,
+							"lossless": false,
+							"aspect": 1.414
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Johto",
+			"depth": 1,
+			"path": [
+				"Johto"
+			],
+			"id": "GRP_10164",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Gold & Silver",
+					"id": "SET_10150",
+					"enumeratedName": "Johto\\Gold & Silver",
+					"maxMegapixels": 24.123008,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Johto\\Gold & Silver.jpg",
+					"thumbnailPath": "thumbs\\Johto\\Gold & Silver.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10151",
+							"fileName": "Gold & Silver",
+							"filePath": "Johto\\Gold & Silver.jpg",
+							"extension": "jpg",
+							"width": 5824,
+							"height": 4142,
+							"filesize": 2277062,
+							"megapixels": 24.123008,
+							"lossless": false,
+							"aspect": 1.406
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Johto",
+					"id": "SET_10152",
+					"enumeratedName": "Johto\\Johto",
+					"maxMegapixels": 41.24624,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Johto\\Johto.jpg",
+					"thumbnailPath": "thumbs\\Johto\\Johto.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10153",
+							"fileName": "Johto",
+							"filePath": "Johto\\Johto.jpg",
+							"extension": "jpg",
+							"width": 7840,
+							"height": 5261,
+							"filesize": 13247822,
+							"megapixels": 41.24624,
+							"lossless": false,
+							"aspect": 1.49
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Simple",
+					"id": "SET_10154",
+					"enumeratedName": "Johto\\Simple",
+					"maxMegapixels": 2.0736,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Johto\\Simple.jpg",
+					"thumbnailPath": "thumbs\\Johto\\Simple.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10155",
+							"fileName": "Simple",
+							"filePath": "Johto\\Simple.jpg",
+							"extension": "jpg",
+							"width": 1920,
+							"height": 1080,
+							"filesize": 949885,
+							"megapixels": 2.0736,
+							"lossless": false,
+							"aspect": 1.778
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape",
+					"id": "SET_10163",
+					"enumeratedName": "Johto\\Mindscape",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Johto\\_Mindscape\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Johto\\Mindscape.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10161",
+							"filePath": "Johto\\_Mindscape\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 433517,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10162",
+							"filePath": "Johto\\_Mindscape\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 237675,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Johto",
+						"Locations"
+					],
+					"id": "GRP_10160",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Ecruteak City",
+							"id": "SET_10156",
+							"enumeratedName": "Johto\\Locations\\Ecruteak City",
+							"maxMegapixels": 47.571348,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Johto\\Locations\\Ecruteak City.jpg",
+							"thumbnailPath": "thumbs\\Johto\\Locations\\Ecruteak City.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10157",
+									"fileName": "Ecruteak City",
+									"filePath": "Johto\\Locations\\Ecruteak City.jpg",
+									"extension": "jpg",
+									"width": 7244,
+									"height": 6567,
+									"filesize": 12182880,
+									"megapixels": 47.571348,
+									"lossless": false,
+									"aspect": 1.103
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Mt Silver",
+							"id": "SET_10158",
+							"enumeratedName": "Johto\\Locations\\Mt Silver",
+							"maxMegapixels": 0.952,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Johto\\Locations\\Mt Silver.webp",
+							"thumbnailPath": "thumbs\\Johto\\Locations\\Mt Silver.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10159",
+									"fileName": "Mt Silver",
+									"filePath": "Johto\\Locations\\Mt Silver.webp",
+									"extension": "webp",
+									"width": 800,
+									"height": 1190,
+									"filesize": 1144654,
+									"megapixels": 0.952,
+									"lossless": true,
+									"aspect": 0.6723
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Kalos",
+			"depth": 1,
+			"path": [
+				"Kalos"
+			],
+			"id": "GRP_10185",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Kalos Clear",
+					"id": "SET_10165",
+					"enumeratedName": "Kalos\\Kalos Clear",
+					"maxMegapixels": 0.697632,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kalos\\Kalos Clear.webp",
+					"thumbnailPath": "thumbs\\Kalos\\Kalos Clear.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10166",
+							"fileName": "Kalos Clear",
+							"filePath": "Kalos\\Kalos Clear.webp",
+							"extension": "webp",
+							"width": 1032,
+							"height": 676,
+							"filesize": 1283080,
+							"megapixels": 0.697632,
+							"lossless": true,
+							"aspect": 1.527
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Kalos",
+					"id": "SET_10167",
+					"enumeratedName": "Kalos\\Kalos",
+					"maxMegapixels": 2.72073,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kalos\\Kalos.jpg",
+					"thumbnailPath": "thumbs\\Kalos\\Kalos.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10168",
+							"fileName": "Kalos",
+							"filePath": "Kalos\\Kalos.jpg",
+							"extension": "jpg",
+							"width": 2038,
+							"height": 1335,
+							"filesize": 1064236,
+							"megapixels": 2.72073,
+							"lossless": false,
+							"aspect": 1.527
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "lumiose 1",
+					"id": "SET_10169",
+					"enumeratedName": "Kalos\\lumiose 1",
+					"maxMegapixels": 6.746976,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kalos\\lumiose 1.webp",
+					"thumbnailPath": "thumbs\\Kalos\\lumiose 1.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10170",
+							"fileName": "lumiose 1",
+							"filePath": "Kalos\\lumiose 1.webp",
+							"extension": "webp",
+							"width": 3078,
+							"height": 2192,
+							"filesize": 8460048,
+							"megapixels": 6.746976,
+							"lossless": true,
+							"aspect": 1.404
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "lumiose 2",
+					"id": "SET_10171",
+					"enumeratedName": "Kalos\\lumiose 2",
+					"maxMegapixels": 6.746976,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kalos\\lumiose 2.webp",
+					"thumbnailPath": "thumbs\\Kalos\\lumiose 2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10172",
+							"fileName": "lumiose 2",
+							"filePath": "Kalos\\lumiose 2.webp",
+							"extension": "webp",
+							"width": 3078,
+							"height": 2192,
+							"filesize": 5656434,
+							"megapixels": 6.746976,
+							"lossless": true,
+							"aspect": 1.404
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Simple",
+					"id": "SET_10173",
+					"enumeratedName": "Kalos\\Simple",
+					"maxMegapixels": 2.0736,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kalos\\Simple.jpg",
+					"thumbnailPath": "thumbs\\Kalos\\Simple.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10174",
+							"fileName": "Simple",
+							"filePath": "Kalos\\Simple.jpg",
+							"extension": "jpg",
+							"width": 1920,
+							"height": 1080,
+							"filesize": 913962,
+							"megapixels": 2.0736,
+							"lossless": false,
+							"aspect": 1.778
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape",
+					"id": "SET_10184",
+					"enumeratedName": "Kalos\\Mindscape",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kalos\\_Mindscape\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Kalos\\Mindscape.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10182",
+							"filePath": "Kalos\\_Mindscape\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 386884,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10183",
+							"filePath": "Kalos\\_Mindscape\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 233567,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Kalos",
+						"Locations"
+					],
+					"id": "GRP_10181",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Lumiose City 2",
+							"id": "SET_10175",
+							"enumeratedName": "Kalos\\Locations\\Lumiose City 2",
+							"maxMegapixels": 0.915,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kalos\\Locations\\Lumiose City 2.webp",
+							"thumbnailPath": "thumbs\\Kalos\\Locations\\Lumiose City 2.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10176",
+									"fileName": "Lumiose City 2",
+									"filePath": "Kalos\\Locations\\Lumiose City 2.webp",
+									"extension": "webp",
+									"width": 1500,
+									"height": 610,
+									"filesize": 1265306,
+									"megapixels": 0.915,
+									"lossless": true,
+									"aspect": 2.459
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Lumiose City",
+							"id": "SET_10177",
+							"enumeratedName": "Kalos\\Locations\\Lumiose City",
+							"maxMegapixels": 4.036157,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kalos\\Locations\\Lumiose City.jpg",
+							"thumbnailPath": "thumbs\\Kalos\\Locations\\Lumiose City.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10178",
+									"fileName": "Lumiose City",
+									"filePath": "Kalos\\Locations\\Lumiose City.jpg",
+									"extension": "jpg",
+									"width": 1733,
+									"height": 2329,
+									"filesize": 1024437,
+									"megapixels": 4.036157,
+									"lossless": false,
+									"aspect": 0.7441
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Lumiose Scene",
+							"id": "SET_10179",
+							"enumeratedName": "Kalos\\Locations\\Lumiose Scene",
+							"maxMegapixels": 4.982521,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kalos\\Locations\\Lumiose Scene.jpg",
+							"thumbnailPath": "thumbs\\Kalos\\Locations\\Lumiose Scene.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10180",
+									"fileName": "Lumiose Scene",
+									"filePath": "Kalos\\Locations\\Lumiose Scene.jpg",
+									"extension": "jpg",
+									"width": 2621,
+									"height": 1901,
+									"filesize": 1032475,
+									"megapixels": 4.982521,
+									"lossless": false,
+									"aspect": 1.379
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Kanto",
+			"depth": 1,
+			"path": [
+				"Kanto"
+			],
+			"id": "GRP_10201",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "31695378059",
+					"id": "SET_10186",
+					"enumeratedName": "Kanto\\31695378059",
+					"maxMegapixels": 4.99456,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto\\31695378059.jpg",
+					"thumbnailPath": "thumbs\\Kanto\\31695378059.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10187",
+							"fileName": "31695378059",
+							"filePath": "Kanto\\31695378059.jpg",
+							"extension": "jpg",
+							"width": 2560,
+							"height": 1951,
+							"filesize": 1070833,
+							"megapixels": 4.99456,
+							"lossless": false,
+							"aspect": 1.312
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Calendar",
+					"id": "SET_10188",
+					"enumeratedName": "Kanto\\Calendar",
+					"maxMegapixels": 17.465422,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto\\Calendar.jpg",
+					"thumbnailPath": "thumbs\\Kanto\\Calendar.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10189",
+							"fileName": "Calendar",
+							"filePath": "Kanto\\Calendar.jpg",
+							"extension": "jpg",
+							"width": 3517,
+							"height": 4966,
+							"filesize": 20306902,
+							"megapixels": 17.465422,
+							"lossless": false,
+							"aspect": 0.7082
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Kanto (Go)",
+					"id": "SET_10190",
+					"enumeratedName": "Kanto\\Kanto (Go)",
+					"maxMegapixels": 4.674078,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto\\Kanto (Go).webp",
+					"thumbnailPath": "thumbs\\Kanto\\Kanto (Go).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10191",
+							"fileName": "Kanto (Go)",
+							"filePath": "Kanto\\Kanto (Go).webp",
+							"extension": "webp",
+							"width": 2571,
+							"height": 1818,
+							"filesize": 6785358,
+							"megapixels": 4.674078,
+							"lossless": true,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Kanto",
+					"id": "SET_10192",
+					"enumeratedName": "Kanto\\Kanto",
+					"maxMegapixels": 0.75,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto\\Kanto.jpg",
+					"thumbnailPath": "thumbs\\Kanto\\Kanto.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10193",
+							"fileName": "Kanto",
+							"filePath": "Kanto\\Kanto.jpg",
+							"extension": "jpg",
+							"width": 1000,
+							"height": 750,
+							"filesize": 324728,
+							"megapixels": 0.75,
+							"lossless": false,
+							"aspect": 1.333
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Pokemon Green Map",
+					"id": "SET_10194",
+					"enumeratedName": "Kanto\\Pokemon Green Map",
+					"maxMegapixels": 6.108683,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto\\Pokemon Green Map.jpg",
+					"thumbnailPath": "thumbs\\Kanto\\Pokemon Green Map.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10195",
+							"fileName": "Pokemon Green Map",
+							"filePath": "Kanto\\Pokemon Green Map.jpg",
+							"extension": "jpg",
+							"width": 2891,
+							"height": 2113,
+							"filesize": 3640771,
+							"megapixels": 6.108683,
+							"lossless": false,
+							"aspect": 1.368
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Simple",
+					"id": "SET_10196",
+					"enumeratedName": "Kanto\\Simple",
+					"maxMegapixels": 2.0736,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto\\Simple.jpg",
+					"thumbnailPath": "thumbs\\Kanto\\Simple.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10197",
+							"fileName": "Simple",
+							"filePath": "Kanto\\Simple.jpg",
+							"extension": "jpg",
+							"width": 1920,
+							"height": 1080,
+							"filesize": 944145,
+							"megapixels": 2.0736,
+							"lossless": false,
+							"aspect": 1.778
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape",
+					"id": "SET_10200",
+					"enumeratedName": "Kanto\\Mindscape",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto\\_Mindscape\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Kanto\\Mindscape.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10198",
+							"filePath": "Kanto\\_Mindscape\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 403134,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10199",
+							"filePath": "Kanto\\_Mindscape\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 220240,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Kanto & Johto",
+			"depth": 1,
+			"path": [
+				"Kanto & Johto"
+			],
+			"id": "GRP_10206",
+			"notes": "Together",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Kanto & Johto 2",
+					"id": "SET_10202",
+					"enumeratedName": "Kanto & Johto\\Kanto & Johto 2",
+					"maxMegapixels": 15.78,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto & Johto\\Kanto & Johto 2.jpg",
+					"thumbnailPath": "thumbs\\Kanto & Johto\\Kanto & Johto 2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10203",
+							"fileName": "Kanto & Johto 2",
+							"filePath": "Kanto & Johto\\Kanto & Johto 2.jpg",
+							"extension": "jpg",
+							"width": 6000,
+							"height": 2630,
+							"filesize": 1705230,
+							"megapixels": 15.78,
+							"lossless": false,
+							"aspect": 2.281
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Kanto & Johto",
+					"id": "SET_10204",
+					"enumeratedName": "Kanto & Johto\\Kanto & Johto",
+					"maxMegapixels": 4.80899,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kanto & Johto\\Kanto & Johto.webp",
+					"thumbnailPath": "thumbs\\Kanto & Johto\\Kanto & Johto.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10205",
+							"fileName": "Kanto & Johto",
+							"filePath": "Kanto & Johto\\Kanto & Johto.webp",
+							"extension": "webp",
+							"width": 3370,
+							"height": 1427,
+							"filesize": 5977802,
+							"megapixels": 4.80899,
+							"lossless": true,
+							"aspect": 2.362
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Kitakami",
+			"depth": 1,
+			"path": [
+				"Kitakami"
+			],
+			"id": "GRP_10222",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Kitakami",
+					"id": "SET_10207",
+					"enumeratedName": "Kitakami\\Kitakami",
+					"maxMegapixels": 10.735616,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Kitakami\\Kitakami.jpg",
+					"thumbnailPath": "thumbs\\Kitakami\\Kitakami.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10208",
+							"fileName": "Kitakami",
+							"filePath": "Kitakami\\Kitakami.jpg",
+							"extension": "jpg",
+							"width": 2621,
+							"height": 4096,
+							"filesize": 1882339,
+							"megapixels": 10.735616,
+							"lossless": false,
+							"aspect": 0.6399
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Map",
+					"depth": 2,
+					"path": [
+						"Kitakami",
+						"Map"
+					],
+					"id": "GRP_10221",
+					"notes": "",
+					"isMinor": false,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Kitakami (Large)",
+							"id": "SET_10209",
+							"enumeratedName": "Kitakami\\Map\\Kitakami (Large)",
+							"maxMegapixels": 104.04,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kitakami\\Map\\Kitakami (Large).jpg",
+							"thumbnailPath": "thumbs\\Kitakami\\Map\\Kitakami (Large).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10210",
+									"fileName": "Kitakami (Large)",
+									"filePath": "Kitakami\\Map\\Kitakami (Large).jpg",
+									"extension": "jpg",
+									"width": 10200,
+									"height": 10200,
+									"filesize": 4101014,
+									"megapixels": 104.04,
+									"lossless": false,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Kitakami (Large)",
+							"id": "SET_10211",
+							"enumeratedName": "Kitakami\\Map\\Kitakami (Large)",
+							"maxMegapixels": 104.04,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kitakami\\Map\\Kitakami (Large).webp",
+							"thumbnailPath": "thumbs\\Kitakami\\Map\\Kitakami (Large).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10212",
+									"fileName": "Kitakami (Large)",
+									"filePath": "Kitakami\\Map\\Kitakami (Large).webp",
+									"extension": "webp",
+									"width": 10200,
+									"height": 10200,
+									"filesize": 11159314,
+									"megapixels": 104.04,
+									"lossless": true,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Kitakami (Medium)",
+							"id": "SET_10213",
+							"enumeratedName": "Kitakami\\Map\\Kitakami (Medium)",
+							"maxMegapixels": 43.56,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kitakami\\Map\\Kitakami (Medium).jpg",
+							"thumbnailPath": "thumbs\\Kitakami\\Map\\Kitakami (Medium).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10214",
+									"fileName": "Kitakami (Medium)",
+									"filePath": "Kitakami\\Map\\Kitakami (Medium).jpg",
+									"extension": "jpg",
+									"width": 6600,
+									"height": 6600,
+									"filesize": 2236000,
+									"megapixels": 43.56,
+									"lossless": false,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Kitakami (Medium)",
+							"id": "SET_10215",
+							"enumeratedName": "Kitakami\\Map\\Kitakami (Medium)",
+							"maxMegapixels": 43.56,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kitakami\\Map\\Kitakami (Medium).webp",
+							"thumbnailPath": "thumbs\\Kitakami\\Map\\Kitakami (Medium).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10216",
+									"fileName": "Kitakami (Medium)",
+									"filePath": "Kitakami\\Map\\Kitakami (Medium).webp",
+									"extension": "webp",
+									"width": 6600,
+									"height": 6600,
+									"filesize": 4607740,
+									"megapixels": 43.56,
+									"lossless": true,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Kitakami (Small)",
+							"id": "SET_10217",
+							"enumeratedName": "Kitakami\\Map\\Kitakami (Small)",
+							"maxMegapixels": 12.96,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kitakami\\Map\\Kitakami (Small).jpg",
+							"thumbnailPath": "thumbs\\Kitakami\\Map\\Kitakami (Small).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10218",
+									"fileName": "Kitakami (Small)",
+									"filePath": "Kitakami\\Map\\Kitakami (Small).jpg",
+									"extension": "jpg",
+									"width": 3600,
+									"height": 3600,
+									"filesize": 1027741,
+									"megapixels": 12.96,
+									"lossless": false,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Kitakami (Small)",
+							"id": "SET_10219",
+							"enumeratedName": "Kitakami\\Map\\Kitakami (Small)",
+							"maxMegapixels": 12.96,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Kitakami\\Map\\Kitakami (Small).webp",
+							"thumbnailPath": "thumbs\\Kitakami\\Map\\Kitakami (Small).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10220",
+									"fileName": "Kitakami (Small)",
+									"filePath": "Kitakami\\Map\\Kitakami (Small).webp",
+									"extension": "webp",
+									"width": 3600,
+									"height": 3600,
+									"filesize": 1716344,
+									"megapixels": 12.96,
+									"lossless": true,
+									"aspect": 1
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Lental",
+			"depth": 1,
+			"path": [
+				"Lental"
+			],
+			"id": "GRP_10238",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Lental",
+					"id": "SET_10223",
+					"enumeratedName": "Lental\\Lental",
+					"maxMegapixels": 2.0736,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Lental\\Lental.webp",
+					"thumbnailPath": "thumbs\\Lental\\Lental.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10224",
+							"fileName": "Lental",
+							"filePath": "Lental\\Lental.webp",
+							"extension": "webp",
+							"width": 1920,
+							"height": 1080,
+							"filesize": 1181468,
+							"megapixels": 2.0736,
+							"lossless": true,
+							"aspect": 1.778
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Islands",
+					"depth": 2,
+					"path": [
+						"Lental",
+						"Islands"
+					],
+					"id": "GRP_10237",
+					"notes": "",
+					"isMinor": false,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Aurus_Island",
+							"id": "SET_10225",
+							"enumeratedName": "Lental\\Islands\\Aurus_Island",
+							"maxMegapixels": 0.60736,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Lental\\Islands\\Aurus_Island.png",
+							"thumbnailPath": "thumbs\\Lental\\Islands\\Aurus_Island.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10226",
+									"fileName": "Aurus_Island",
+									"filePath": "Lental\\Islands\\Aurus_Island.png",
+									"extension": "png",
+									"width": 1040,
+									"height": 584,
+									"filesize": 550546,
+									"megapixels": 0.60736,
+									"lossless": true,
+									"aspect": 1.781
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Belusylva_Island",
+							"id": "SET_10227",
+							"enumeratedName": "Lental\\Islands\\Belusylva_Island",
+							"maxMegapixels": 0.60736,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Lental\\Islands\\Belusylva_Island.png",
+							"thumbnailPath": "thumbs\\Lental\\Islands\\Belusylva_Island.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10228",
+									"fileName": "Belusylva_Island",
+									"filePath": "Lental\\Islands\\Belusylva_Island.png",
+									"extension": "png",
+									"width": 1040,
+									"height": 584,
+									"filesize": 599680,
+									"megapixels": 0.60736,
+									"lossless": true,
+									"aspect": 1.781
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Durice_Island",
+							"id": "SET_10229",
+							"enumeratedName": "Lental\\Islands\\Durice_Island",
+							"maxMegapixels": 0.60736,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Lental\\Islands\\Durice_Island.png",
+							"thumbnailPath": "thumbs\\Lental\\Islands\\Durice_Island.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10230",
+									"fileName": "Durice_Island",
+									"filePath": "Lental\\Islands\\Durice_Island.png",
+									"extension": "png",
+									"width": 1040,
+									"height": 584,
+									"filesize": 635595,
+									"megapixels": 0.60736,
+									"lossless": true,
+									"aspect": 1.781
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Florio_Island",
+							"id": "SET_10231",
+							"enumeratedName": "Lental\\Islands\\Florio_Island",
+							"maxMegapixels": 0.60736,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Lental\\Islands\\Florio_Island.png",
+							"thumbnailPath": "thumbs\\Lental\\Islands\\Florio_Island.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10232",
+									"fileName": "Florio_Island",
+									"filePath": "Lental\\Islands\\Florio_Island.png",
+									"extension": "png",
+									"width": 1040,
+									"height": 584,
+									"filesize": 570561,
+									"megapixels": 0.60736,
+									"lossless": true,
+									"aspect": 1.781
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Maricopia_Islands",
+							"id": "SET_10233",
+							"enumeratedName": "Lental\\Islands\\Maricopia_Islands",
+							"maxMegapixels": 0.60736,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Lental\\Islands\\Maricopia_Islands.png",
+							"thumbnailPath": "thumbs\\Lental\\Islands\\Maricopia_Islands.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10234",
+									"fileName": "Maricopia_Islands",
+									"filePath": "Lental\\Islands\\Maricopia_Islands.png",
+									"extension": "png",
+									"width": 1040,
+									"height": 584,
+									"filesize": 577979,
+									"megapixels": 0.60736,
+									"lossless": true,
+									"aspect": 1.781
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Voluca_Island",
+							"id": "SET_10235",
+							"enumeratedName": "Lental\\Islands\\Voluca_Island",
+							"maxMegapixels": 0.60736,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Lental\\Islands\\Voluca_Island.png",
+							"thumbnailPath": "thumbs\\Lental\\Islands\\Voluca_Island.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10236",
+									"fileName": "Voluca_Island",
+									"filePath": "Lental\\Islands\\Voluca_Island.png",
+									"extension": "png",
+									"width": 1040,
+									"height": 584,
+									"filesize": 620195,
+									"megapixels": 0.60736,
+									"lossless": true,
+									"aspect": 1.781
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Mystery Dungeon",
+			"depth": 1,
+			"path": [
+				"Mystery Dungeon"
+			],
+			"id": "GRP_10275",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Air Continent (Rescue Team DX)",
+					"id": "SET_10239",
+					"enumeratedName": "Mystery Dungeon\\Air Continent (Rescue Team DX)",
+					"maxMegapixels": 42,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10240",
+							"fileName": "Air Continent (Rescue Team DX)",
+							"filePath": "Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
+							"extension": "webp",
+							"width": 7000,
+							"height": 6000,
+							"filesize": 26374452,
+							"megapixels": 42,
+							"lossless": true,
+							"aspect": 1.167
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Air Continent (Rescue Team)",
+					"id": "SET_10241",
+					"enumeratedName": "Mystery Dungeon\\Air Continent (Rescue Team)",
+					"maxMegapixels": 0.15328,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent (Rescue Team).webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent (Rescue Team).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10242",
+							"fileName": "Air Continent (Rescue Team)",
+							"filePath": "Mystery Dungeon\\Air Continent (Rescue Team).webp",
+							"extension": "webp",
+							"width": 479,
+							"height": 320,
+							"filesize": 26560,
+							"megapixels": 0.15328,
+							"lossless": true,
+							"aspect": 1.497
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Air Continent - Baram Town",
+					"id": "SET_10243",
+					"enumeratedName": "Mystery Dungeon\\Air Continent - Baram Town",
+					"maxMegapixels": 0.3378,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent - Baram Town.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent - Baram Town.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10244",
+							"fileName": "Air Continent - Baram Town",
+							"filePath": "Mystery Dungeon\\Air Continent - Baram Town.webp",
+							"extension": "webp",
+							"width": 600,
+							"height": 563,
+							"filesize": 638430,
+							"megapixels": 0.3378,
+							"lossless": true,
+							"aspect": 1.066
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Air Continent - Pokemon Square",
+					"id": "SET_10245",
+					"enumeratedName": "Mystery Dungeon\\Air Continent - Pokemon Square",
+					"maxMegapixels": 0.4528,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent - Pokemon Square.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent - Pokemon Square.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10246",
+							"fileName": "Air Continent - Pokemon Square",
+							"filePath": "Mystery Dungeon\\Air Continent - Pokemon Square.webp",
+							"extension": "webp",
+							"width": 800,
+							"height": 566,
+							"filesize": 816448,
+							"megapixels": 0.4528,
+							"lossless": true,
+							"aspect": 1.413
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Air Continent Friend Area",
+					"id": "SET_10247",
+					"enumeratedName": "Mystery Dungeon\\Air Continent Friend Area",
+					"maxMegapixels": 1.19556,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent Friend Area.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent Friend Area.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10248",
+							"fileName": "Air Continent Friend Area",
+							"filePath": "Mystery Dungeon\\Air Continent Friend Area.webp",
+							"extension": "webp",
+							"width": 1458,
+							"height": 820,
+							"filesize": 1943790,
+							"megapixels": 1.19556,
+							"lossless": true,
+							"aspect": 1.778
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Grass Continent - Blizzard Island (Future)",
+					"id": "SET_10249",
+					"enumeratedName": "Mystery Dungeon\\Grass Continent - Blizzard Island (Future)",
+					"maxMegapixels": 0.049152,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Blizzard Island (Future).webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent - Blizzard Island (Future).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10250",
+							"fileName": "Grass Continent - Blizzard Island (Future)",
+							"filePath": "Mystery Dungeon\\Grass Continent - Blizzard Island (Future).webp",
+							"extension": "webp",
+							"width": 256,
+							"height": 192,
+							"filesize": 21338,
+							"megapixels": 0.049152,
+							"lossless": true,
+							"aspect": 1.333
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Grass Continent - Hidden Land (Future)",
+					"id": "SET_10251",
+					"enumeratedName": "Mystery Dungeon\\Grass Continent - Hidden Land (Future)",
+					"maxMegapixels": 0.049152,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Hidden Land (Future).webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent - Hidden Land (Future).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10252",
+							"fileName": "Grass Continent - Hidden Land (Future)",
+							"filePath": "Mystery Dungeon\\Grass Continent - Hidden Land (Future).webp",
+							"extension": "webp",
+							"width": 256,
+							"height": 192,
+							"filesize": 22498,
+							"megapixels": 0.049152,
+							"lossless": true,
+							"aspect": 1.333
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Grass Continent - Prairie",
+					"id": "SET_10253",
+					"enumeratedName": "Mystery Dungeon\\Grass Continent - Prairie",
+					"maxMegapixels": 0.073728,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Prairie.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent - Prairie.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10254",
+							"fileName": "Grass Continent - Prairie",
+							"filePath": "Mystery Dungeon\\Grass Continent - Prairie.webp",
+							"extension": "webp",
+							"width": 384,
+							"height": 192,
+							"filesize": 25268,
+							"megapixels": 0.073728,
+							"lossless": true,
+							"aspect": 2
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Grass Continent - Treasure Town",
+					"id": "SET_10255",
+					"enumeratedName": "Mystery Dungeon\\Grass Continent - Treasure Town",
+					"maxMegapixels": 2.828,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Treasure Town.jpg",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent - Treasure Town.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10256",
+							"fileName": "Grass Continent - Treasure Town",
+							"filePath": "Mystery Dungeon\\Grass Continent - Treasure Town.jpg",
+							"extension": "jpg",
+							"width": 2000,
+							"height": 1414,
+							"filesize": 1024827,
+							"megapixels": 2.828,
+							"lossless": false,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Grass Continent 2",
+					"id": "SET_10257",
+					"enumeratedName": "Mystery Dungeon\\Grass Continent 2",
+					"maxMegapixels": 0.162972,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent 2.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent 2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10258",
+							"fileName": "Grass Continent 2",
+							"filePath": "Mystery Dungeon\\Grass Continent 2.webp",
+							"extension": "webp",
+							"width": 503,
+							"height": 324,
+							"filesize": 31448,
+							"megapixels": 0.162972,
+							"lossless": true,
+							"aspect": 1.552
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Grass Continent",
+					"id": "SET_10259",
+					"enumeratedName": "Mystery Dungeon\\Grass Continent",
+					"maxMegapixels": 0.169344,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10260",
+							"fileName": "Grass Continent",
+							"filePath": "Mystery Dungeon\\Grass Continent.webp",
+							"extension": "webp",
+							"width": 504,
+							"height": 336,
+							"filesize": 31320,
+							"megapixels": 0.169344,
+							"lossless": true,
+							"aspect": 1.5
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mist Continent (Gates to Infinity) v2",
+					"id": "SET_10261",
+					"enumeratedName": "Mystery Dungeon\\Mist Continent (Gates to Infinity) v2",
+					"maxMegapixels": 1.048576,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10262",
+							"fileName": "Mist Continent (Gates to Infinity) v2",
+							"filePath": "Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
+							"extension": "webp",
+							"width": 1024,
+							"height": 1024,
+							"filesize": 1108550,
+							"megapixels": 1.048576,
+							"lossless": true,
+							"aspect": 1
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mist Continent (Gates to Infinity)",
+					"id": "SET_10263",
+					"enumeratedName": "Mystery Dungeon\\Mist Continent (Gates to Infinity)",
+					"maxMegapixels": 1.048576,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity).webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Mist Continent (Gates to Infinity).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10264",
+							"fileName": "Mist Continent (Gates to Infinity)",
+							"filePath": "Mystery Dungeon\\Mist Continent (Gates to Infinity).webp",
+							"extension": "webp",
+							"width": 1024,
+							"height": 1024,
+							"filesize": 1106362,
+							"megapixels": 1.048576,
+							"lossless": true,
+							"aspect": 1
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mist Continent - Post Town",
+					"id": "SET_10265",
+					"enumeratedName": "Mystery Dungeon\\Mist Continent - Post Town",
+					"maxMegapixels": 1.7145,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Mist Continent - Post Town.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Mist Continent - Post Town.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10266",
+							"fileName": "Mist Continent - Post Town",
+							"filePath": "Mystery Dungeon\\Mist Continent - Post Town.webp",
+							"extension": "webp",
+							"width": 1500,
+							"height": 1143,
+							"filesize": 2361426,
+							"megapixels": 1.7145,
+							"lossless": true,
+							"aspect": 1.312
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Pokemon Paradise",
+					"id": "SET_10267",
+					"enumeratedName": "Mystery Dungeon\\Pokemon Paradise",
+					"maxMegapixels": 0.3072,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Pokemon Paradise.jpg",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Pokemon Paradise.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10268",
+							"fileName": "Pokemon Paradise",
+							"filePath": "Mystery Dungeon\\Pokemon Paradise.jpg",
+							"extension": "jpg",
+							"width": 640,
+							"height": 480,
+							"filesize": 81190,
+							"megapixels": 0.3072,
+							"lossless": false,
+							"aspect": 1.333
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Super Mystery Dungeon",
+					"id": "SET_10269",
+					"enumeratedName": "Mystery Dungeon\\Super Mystery Dungeon",
+					"maxMegapixels": 3.145728,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Super Mystery Dungeon.webp",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Super Mystery Dungeon.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10270",
+							"fileName": "Super Mystery Dungeon",
+							"filePath": "Mystery Dungeon\\Super Mystery Dungeon.webp",
+							"extension": "webp",
+							"width": 2048,
+							"height": 1536,
+							"filesize": 4017950,
+							"megapixels": 3.145728,
+							"lossless": true,
+							"aspect": 1.333
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Water Continent - Lively Town",
+					"id": "SET_10271",
+					"enumeratedName": "Mystery Dungeon\\Water Continent - Lively Town",
+					"maxMegapixels": 0.2706,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Water Continent - Lively Town.jpg",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Water Continent - Lively Town.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10272",
+							"fileName": "Water Continent - Lively Town",
+							"filePath": "Mystery Dungeon\\Water Continent - Lively Town.jpg",
+							"extension": "jpg",
+							"width": 600,
+							"height": 451,
+							"filesize": 90642,
+							"megapixels": 0.2706,
+							"lossless": false,
+							"aspect": 1.33
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Water Continent - Serene Village",
+					"id": "SET_10273",
+					"enumeratedName": "Mystery Dungeon\\Water Continent - Serene Village",
+					"maxMegapixels": 10.48576,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Water Continent - Serene Village.jpg",
+					"thumbnailPath": "thumbs\\Mystery Dungeon\\Water Continent - Serene Village.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10274",
+							"fileName": "Water Continent - Serene Village",
+							"filePath": "Mystery Dungeon\\Water Continent - Serene Village.jpg",
+							"extension": "jpg",
+							"width": 4096,
+							"height": 2560,
+							"filesize": 2399488,
+							"megapixels": 10.48576,
+							"lossless": false,
+							"aspect": 1.6
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Orre",
+			"depth": 1,
+			"path": [
+				"Orre"
+			],
+			"id": "GRP_10286",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "arrows-view",
+					"id": "SET_10276",
+					"enumeratedName": "Orre\\arrows-view",
+					"maxMegapixels": 24.64512,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Orre\\arrows-view.webp",
+					"thumbnailPath": "thumbs\\Orre\\arrows-view.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10277",
+							"fileName": "arrows-view",
+							"filePath": "Orre\\arrows-view.webp",
+							"extension": "webp",
+							"width": 6418,
+							"height": 3840,
+							"filesize": 18843744,
+							"megapixels": 24.64512,
+							"lossless": true,
+							"aspect": 1.671
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "clean map",
+					"id": "SET_10278",
+					"enumeratedName": "Orre\\clean map",
+					"maxMegapixels": 0.3072,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Orre\\clean map.png",
+					"thumbnailPath": "thumbs\\Orre\\clean map.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10279",
+							"fileName": "clean map",
+							"filePath": "Orre\\clean map.png",
+							"extension": "png",
+							"width": 640,
+							"height": 480,
+							"filesize": 384173,
+							"megapixels": 0.3072,
+							"lossless": true,
+							"aspect": 1.333
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "clean-view",
+					"id": "SET_10280",
+					"enumeratedName": "Orre\\clean-view",
+					"maxMegapixels": 24.64512,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Orre\\clean-view.webp",
+					"thumbnailPath": "thumbs\\Orre\\clean-view.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10281",
+							"fileName": "clean-view",
+							"filePath": "Orre\\clean-view.webp",
+							"extension": "webp",
+							"width": 6418,
+							"height": 3840,
+							"filesize": 18842528,
+							"megapixels": 24.64512,
+							"lossless": true,
+							"aspect": 1.671
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "map",
+					"id": "SET_10282",
+					"enumeratedName": "Orre\\map",
+					"maxMegapixels": 0.3072,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Orre\\map.webp",
+					"thumbnailPath": "thumbs\\Orre\\map.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10283",
+							"fileName": "map",
+							"filePath": "Orre\\map.webp",
+							"extension": "webp",
+							"width": 640,
+							"height": 480,
+							"filesize": 241572,
+							"megapixels": 0.3072,
+							"lossless": true,
+							"aspect": 1.333
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "upscaled map",
+					"id": "SET_10284",
+					"enumeratedName": "Orre\\upscaled map",
+					"maxMegapixels": 0.864,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Orre\\upscaled map.jpg",
+					"thumbnailPath": "thumbs\\Orre\\upscaled map.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10285",
+							"fileName": "upscaled map",
+							"filePath": "Orre\\upscaled map.jpg",
+							"extension": "jpg",
+							"width": 960,
+							"height": 900,
+							"filesize": 328354,
+							"megapixels": 0.864,
+							"lossless": false,
+							"aspect": 1.067
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Paldea",
+			"depth": 1,
+			"path": [
+				"Paldea"
+			],
+			"id": "GRP_10305",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Paldea",
+					"id": "SET_10287",
+					"enumeratedName": "Paldea\\Paldea",
+					"maxMegapixels": 47.366595,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Paldea\\Paldea.jpg",
+					"thumbnailPath": "thumbs\\Paldea\\Paldea.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10288",
+							"fileName": "Paldea",
+							"filePath": "Paldea\\Paldea.jpg",
+							"extension": "jpg",
+							"width": 8185,
+							"height": 5787,
+							"filesize": 8722760,
+							"megapixels": 47.366595,
+							"lossless": false,
+							"aspect": 1.414
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Paldea",
+						"Locations"
+					],
+					"id": "GRP_10291",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Academy",
+							"id": "SET_10289",
+							"enumeratedName": "Paldea\\Locations\\Academy",
+							"maxMegapixels": 0.512,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Paldea\\Locations\\Academy.png",
+							"thumbnailPath": "thumbs\\Paldea\\Locations\\Academy.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10290",
+									"fileName": "Academy",
+									"filePath": "Paldea\\Locations\\Academy.png",
+									"extension": "png",
+									"width": 640,
+									"height": 800,
+									"filesize": 239924,
+									"megapixels": 0.512,
+									"lossless": true,
+									"aspect": 0.8
+								}
+							]
+						}
+					],
+					"childGroups": []
+				},
+				{
+					"_": "GROUPING",
+					"name": "Map",
+					"depth": 2,
+					"path": [
+						"Paldea",
+						"Map"
+					],
+					"id": "GRP_10304",
+					"notes": "",
+					"isMinor": false,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Paldea (Large)",
+							"id": "SET_10292",
+							"enumeratedName": "Paldea\\Map\\Paldea (Large)",
+							"maxMegapixels": 243.36,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Paldea\\Map\\Paldea (Large).jpg",
+							"thumbnailPath": "thumbs\\Paldea\\Map\\Paldea (Large).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10293",
+									"fileName": "Paldea (Large)",
+									"filePath": "Paldea\\Map\\Paldea (Large).jpg",
+									"extension": "jpg",
+									"width": 15600,
+									"height": 15600,
+									"filesize": 11457972,
+									"megapixels": 243.36,
+									"lossless": false,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Paldea (Large)",
+							"id": "SET_10294",
+							"enumeratedName": "Paldea\\Map\\Paldea (Large)",
+							"maxMegapixels": 243.36,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Paldea\\Map\\Paldea (Large).webp",
+							"thumbnailPath": "thumbs\\Paldea\\Map\\Paldea (Large).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10295",
+									"fileName": "Paldea (Large)",
+									"filePath": "Paldea\\Map\\Paldea (Large).webp",
+									"extension": "webp",
+									"width": 15600,
+									"height": 15600,
+									"filesize": 28081702,
+									"megapixels": 243.36,
+									"lossless": true,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Paldea (Medium)",
+							"id": "SET_10296",
+							"enumeratedName": "Paldea\\Map\\Paldea (Medium)",
+							"maxMegapixels": 70.56,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Paldea\\Map\\Paldea (Medium).jpg",
+							"thumbnailPath": "thumbs\\Paldea\\Map\\Paldea (Medium).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10297",
+									"fileName": "Paldea (Medium)",
+									"filePath": "Paldea\\Map\\Paldea (Medium).jpg",
+									"extension": "jpg",
+									"width": 8400,
+									"height": 8400,
+									"filesize": 5115088,
+									"megapixels": 70.56,
+									"lossless": false,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Paldea (Medium)",
+							"id": "SET_10298",
+							"enumeratedName": "Paldea\\Map\\Paldea (Medium)",
+							"maxMegapixels": 70.56,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Paldea\\Map\\Paldea (Medium).webp",
+							"thumbnailPath": "thumbs\\Paldea\\Map\\Paldea (Medium).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10299",
+									"fileName": "Paldea (Medium)",
+									"filePath": "Paldea\\Map\\Paldea (Medium).webp",
+									"extension": "webp",
+									"width": 8400,
+									"height": 8400,
+									"filesize": 7153002,
+									"megapixels": 70.56,
+									"lossless": true,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Paldea (Small)",
+							"id": "SET_10300",
+							"enumeratedName": "Paldea\\Map\\Paldea (Small)",
+							"maxMegapixels": 12.96,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Paldea\\Map\\Paldea (Small).jpg",
+							"thumbnailPath": "thumbs\\Paldea\\Map\\Paldea (Small).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10301",
+									"fileName": "Paldea (Small)",
+									"filePath": "Paldea\\Map\\Paldea (Small).jpg",
+									"extension": "jpg",
+									"width": 3600,
+									"height": 3600,
+									"filesize": 1544283,
+									"megapixels": 12.96,
+									"lossless": false,
+									"aspect": 1
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Paldea (Small)",
+							"id": "SET_10302",
+							"enumeratedName": "Paldea\\Map\\Paldea (Small)",
+							"maxMegapixels": 12.96,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Paldea\\Map\\Paldea (Small).webp",
+							"thumbnailPath": "thumbs\\Paldea\\Map\\Paldea (Small).webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10303",
+									"fileName": "Paldea (Small)",
+									"filePath": "Paldea\\Map\\Paldea (Small).webp",
+									"extension": "webp",
+									"width": 3600,
+									"height": 3600,
+									"filesize": 2413076,
+									"megapixels": 12.96,
+									"lossless": true,
+									"aspect": 1
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Pokemon Island",
+			"depth": 1,
+			"path": [
+				"Pokemon Island"
+			],
+			"id": "GRP_10312",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Drawing (large)",
+					"id": "SET_10306",
+					"enumeratedName": "Pokemon Island\\Drawing (large)",
+					"maxMegapixels": 1.088005,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Pokemon Island\\Drawing (large).jpg",
+					"thumbnailPath": "thumbs\\Pokemon Island\\Drawing (large).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10307",
+							"fileName": "Drawing (large)",
+							"filePath": "Pokemon Island\\Drawing (large).jpg",
+							"extension": "jpg",
+							"width": 1303,
+							"height": 835,
+							"filesize": 509770,
+							"megapixels": 1.088005,
+							"lossless": false,
+							"aspect": 1.56
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Drawing (small)",
+					"id": "SET_10308",
+					"enumeratedName": "Pokemon Island\\Drawing (small)",
+					"maxMegapixels": 0.1084,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Pokemon Island\\Drawing (small).webp",
+					"thumbnailPath": "thumbs\\Pokemon Island\\Drawing (small).webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10309",
+							"fileName": "Drawing (small)",
+							"filePath": "Pokemon Island\\Drawing (small).webp",
+							"extension": "webp",
+							"width": 400,
+							"height": 271,
+							"filesize": 155220,
+							"megapixels": 0.1084,
+							"lossless": true,
+							"aspect": 1.476
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Texture",
+					"id": "SET_10310",
+					"enumeratedName": "Pokemon Island\\Texture",
+					"maxMegapixels": 0.0768,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Pokemon Island\\Texture.webp",
+					"thumbnailPath": "thumbs\\Pokemon Island\\Texture.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10311",
+							"fileName": "Texture",
+							"filePath": "Pokemon Island\\Texture.webp",
+							"extension": "webp",
+							"width": 320,
+							"height": 240,
+							"filesize": 53000,
+							"megapixels": 0.0768,
+							"lossless": true,
+							"aspect": 1.333
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Poketopia",
+			"depth": 1,
+			"path": [
+				"Poketopia"
+			],
+			"id": "GRP_10317",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "PokeTopia",
+					"id": "SET_10313",
+					"enumeratedName": "Poketopia\\PokeTopia",
+					"maxMegapixels": 0.3648,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Poketopia\\PokeTopia.webp",
+					"thumbnailPath": "thumbs\\Poketopia\\PokeTopia.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10314",
+							"fileName": "PokeTopia",
+							"filePath": "Poketopia\\PokeTopia.webp",
+							"extension": "webp",
+							"width": 760,
+							"height": 480,
+							"filesize": 177076,
+							"megapixels": 0.3648,
+							"lossless": true,
+							"aspect": 1.583
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "View",
+					"id": "SET_10315",
+					"enumeratedName": "Poketopia\\View",
+					"maxMegapixels": 6.681774,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Poketopia\\View.webp",
+					"thumbnailPath": "thumbs\\Poketopia\\View.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10316",
+							"fileName": "View",
+							"filePath": "Poketopia\\View.webp",
+							"extension": "webp",
+							"width": 3491,
+							"height": 1914,
+							"filesize": 2785002,
+							"megapixels": 6.681774,
+							"lossless": true,
+							"aspect": 1.824
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Ransei",
+			"depth": 1,
+			"path": [
+				"Ransei"
+			],
+			"id": "GRP_10324",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "ransei-locations",
+					"id": "SET_10318",
+					"enumeratedName": "Ransei\\ransei-locations",
+					"maxMegapixels": 0.243712,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ransei\\ransei-locations.png",
+					"thumbnailPath": "thumbs\\Ransei\\ransei-locations.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10319",
+							"fileName": "ransei-locations",
+							"filePath": "Ransei\\ransei-locations.png",
+							"extension": "png",
+							"width": 544,
+							"height": 448,
+							"filesize": 257081,
+							"megapixels": 0.243712,
+							"lossless": true,
+							"aspect": 1.214
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Ransei",
+					"id": "SET_10320",
+					"enumeratedName": "Ransei\\Ransei",
+					"maxMegapixels": 0.243712,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ransei\\Ransei.png",
+					"thumbnailPath": "thumbs\\Ransei\\Ransei.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10321",
+							"fileName": "Ransei",
+							"filePath": "Ransei\\Ransei.png",
+							"extension": "png",
+							"width": 544,
+							"height": 448,
+							"filesize": 115817,
+							"megapixels": 0.243712,
+							"lossless": true,
+							"aspect": 1.214
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Southwest",
+					"id": "SET_10322",
+					"enumeratedName": "Ransei\\Southwest",
+					"maxMegapixels": 0.243712,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ransei\\Southwest.png",
+					"thumbnailPath": "thumbs\\Ransei\\Southwest.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10323",
+							"fileName": "Southwest",
+							"filePath": "Ransei\\Southwest.png",
+							"extension": "png",
+							"width": 544,
+							"height": 448,
+							"filesize": 100392,
+							"megapixels": 0.243712,
+							"lossless": true,
+							"aspect": 1.214
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Ryme City",
+			"depth": 1,
+			"path": [
+				"Ryme City"
+			],
+			"id": "GRP_10335",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "alleyway",
+					"id": "SET_10325",
+					"enumeratedName": "Ryme City\\alleyway",
+					"maxMegapixels": 11.32544,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ryme City\\alleyway.jpg",
+					"thumbnailPath": "thumbs\\Ryme City\\alleyway.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10326",
+							"fileName": "alleyway",
+							"filePath": "Ryme City\\alleyway.jpg",
+							"extension": "jpg",
+							"width": 2765,
+							"height": 4096,
+							"filesize": 1059082,
+							"megapixels": 11.32544,
+							"lossless": false,
+							"aspect": 0.675
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "approach",
+					"id": "SET_10327",
+					"enumeratedName": "Ryme City\\approach",
+					"maxMegapixels": 6.1824,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ryme City\\approach.jpg",
+					"thumbnailPath": "thumbs\\Ryme City\\approach.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10328",
+							"fileName": "approach",
+							"filePath": "Ryme City\\approach.jpg",
+							"extension": "jpg",
+							"width": 3840,
+							"height": 1610,
+							"filesize": 1040727,
+							"megapixels": 6.1824,
+							"lossless": false,
+							"aspect": 2.385
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "city",
+					"id": "SET_10329",
+					"enumeratedName": "Ryme City\\city",
+					"maxMegapixels": 6.1824,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ryme City\\city.jpg",
+					"thumbnailPath": "thumbs\\Ryme City\\city.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10330",
+							"fileName": "city",
+							"filePath": "Ryme City\\city.jpg",
+							"extension": "jpg",
+							"width": 3840,
+							"height": 1610,
+							"filesize": 1409335,
+							"megapixels": 6.1824,
+							"lossless": false,
+							"aspect": 2.385
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Island",
+					"id": "SET_10331",
+					"enumeratedName": "Ryme City\\Island",
+					"maxMegapixels": 3.872,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ryme City\\Island.jpg",
+					"thumbnailPath": "thumbs\\Ryme City\\Island.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10332",
+							"fileName": "Island",
+							"filePath": "Ryme City\\Island.jpg",
+							"extension": "jpg",
+							"width": 3025,
+							"height": 1280,
+							"filesize": 822659,
+							"megapixels": 3.872,
+							"lossless": false,
+							"aspect": 2.363
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Ryme City Game",
+					"id": "SET_10333",
+					"enumeratedName": "Ryme City\\Ryme City Game",
+					"maxMegapixels": 4.194304,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Ryme City\\Ryme City Game.png",
+					"thumbnailPath": "thumbs\\Ryme City\\Ryme City Game.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10334",
+							"fileName": "Ryme City Game",
+							"filePath": "Ryme City\\Ryme City Game.png",
+							"extension": "png",
+							"width": 2048,
+							"height": 2048,
+							"filesize": 3648261,
+							"megapixels": 4.194304,
+							"lossless": true,
+							"aspect": 1
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Sevii Islands",
+			"depth": 1,
+			"path": [
+				"Sevii Islands"
+			],
+			"id": "GRP_10340",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Sevii_Islands",
+					"id": "SET_10336",
+					"enumeratedName": "Sevii Islands\\Sevii_Islands",
+					"maxMegapixels": 0.4448,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sevii Islands\\Sevii_Islands.webp",
+					"thumbnailPath": "thumbs\\Sevii Islands\\Sevii_Islands.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10337",
+							"fileName": "Sevii_Islands",
+							"filePath": "Sevii Islands\\Sevii_Islands.webp",
+							"extension": "webp",
+							"width": 556,
+							"height": 800,
+							"filesize": 452214,
+							"megapixels": 0.4448,
+							"lossless": true,
+							"aspect": 0.695
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Sevii_Islands_upscale",
+					"id": "SET_10338",
+					"enumeratedName": "Sevii Islands\\Sevii_Islands_upscale",
+					"maxMegapixels": 1.7792,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sevii Islands\\Sevii_Islands_upscale.webp",
+					"thumbnailPath": "thumbs\\Sevii Islands\\Sevii_Islands_upscale.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10339",
+							"fileName": "Sevii_Islands_upscale",
+							"filePath": "Sevii Islands\\Sevii_Islands_upscale.webp",
+							"extension": "webp",
+							"width": 1112,
+							"height": 1600,
+							"filesize": 1350458,
+							"megapixels": 1.7792,
+							"lossless": true,
+							"aspect": 0.695
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Sinnoh",
+			"depth": 1,
+			"path": [
+				"Sinnoh"
+			],
+			"id": "GRP_10389",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Grand Underground",
+					"id": "SET_10341",
+					"enumeratedName": "Sinnoh\\Grand Underground",
+					"maxMegapixels": 34.65,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\Grand Underground.webp",
+					"thumbnailPath": "thumbs\\Sinnoh\\Grand Underground.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10342",
+							"fileName": "Grand Underground",
+							"filePath": "Sinnoh\\Grand Underground.webp",
+							"extension": "webp",
+							"width": 7000,
+							"height": 4950,
+							"filesize": 44607506,
+							"megapixels": 34.65,
+							"lossless": true,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Overview",
+					"id": "SET_10343",
+					"enumeratedName": "Sinnoh\\Overview",
+					"maxMegapixels": 10.742888,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\Overview.jpg",
+					"thumbnailPath": "thumbs\\Sinnoh\\Overview.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10344",
+							"fileName": "Overview",
+							"filePath": "Sinnoh\\Overview.jpg",
+							"extension": "jpg",
+							"width": 3898,
+							"height": 2756,
+							"filesize": 5166454,
+							"megapixels": 10.742888,
+							"lossless": false,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Platinum",
+					"id": "SET_10345",
+					"enumeratedName": "Sinnoh\\Platinum",
+					"maxMegapixels": 39.161983,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\Platinum.jpg",
+					"thumbnailPath": "thumbs\\Sinnoh\\Platinum.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10346",
+							"fileName": "Platinum",
+							"filePath": "Sinnoh\\Platinum.jpg",
+							"extension": "jpg",
+							"width": 7441,
+							"height": 5263,
+							"filesize": 6240602,
+							"megapixels": 39.161983,
+							"lossless": false,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Simple",
+					"id": "SET_10347",
+					"enumeratedName": "Sinnoh\\Simple",
+					"maxMegapixels": 2.0736,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\Simple.jpg",
+					"thumbnailPath": "thumbs\\Sinnoh\\Simple.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10348",
+							"fileName": "Simple",
+							"filePath": "Sinnoh\\Simple.jpg",
+							"extension": "jpg",
+							"width": 1920,
+							"height": 1080,
+							"filesize": 969482,
+							"megapixels": 2.0736,
+							"lossless": false,
+							"aspect": 1.778
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Sinnoh Map",
+					"id": "SET_10349",
+					"enumeratedName": "Sinnoh\\Sinnoh Map",
+					"maxMegapixels": 0.930712,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\Sinnoh Map.png",
+					"thumbnailPath": "thumbs\\Sinnoh\\Sinnoh Map.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10350",
+							"fileName": "Sinnoh Map",
+							"filePath": "Sinnoh\\Sinnoh Map.png",
+							"extension": "png",
+							"width": 1268,
+							"height": 734,
+							"filesize": 436649,
+							"megapixels": 0.930712,
+							"lossless": true,
+							"aspect": 1.728
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Sinnoh Unlabelled",
+					"id": "SET_10351",
+					"enumeratedName": "Sinnoh\\Sinnoh Unlabelled",
+					"maxMegapixels": 34.65,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\Sinnoh Unlabelled.webp",
+					"thumbnailPath": "thumbs\\Sinnoh\\Sinnoh Unlabelled.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10352",
+							"fileName": "Sinnoh Unlabelled",
+							"filePath": "Sinnoh\\Sinnoh Unlabelled.webp",
+							"extension": "webp",
+							"width": 7000,
+							"height": 4950,
+							"filesize": 35430756,
+							"megapixels": 34.65,
+							"lossless": true,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Diamond-Pearl",
+					"id": "SET_10382",
+					"enumeratedName": "Sinnoh\\Diamond-Pearl",
+					"maxMegapixels": 39.161983,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\_Diamond-Pearl\\Orig 1.jpg",
+					"thumbnailPath": "thumbs\\Sinnoh\\Diamond-Pearl.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Orig 1",
+							"id": "IMG_10380",
+							"filePath": "Sinnoh\\_Diamond-Pearl\\Orig 1.jpg",
+							"extension": "jpg",
+							"width": 1753,
+							"height": 1240,
+							"filesize": 337949,
+							"megapixels": 2.17372,
+							"lossless": false,
+							"aspect": 1.414
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Orig 2",
+							"id": "IMG_10381",
+							"filePath": "Sinnoh\\_Diamond-Pearl\\Orig 2.jpg",
+							"extension": "jpg",
+							"width": 7441,
+							"height": 5263,
+							"filesize": 8914921,
+							"megapixels": 39.161983,
+							"lossless": false,
+							"aspect": 1.414
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape",
+					"id": "SET_10385",
+					"enumeratedName": "Sinnoh\\Mindscape",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\_Mindscape\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Sinnoh\\Mindscape.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10383",
+							"filePath": "Sinnoh\\_Mindscape\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 437521,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10384",
+							"filePath": "Sinnoh\\_Mindscape\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 266468,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Sinnoh Labelled",
+					"id": "SET_10388",
+					"enumeratedName": "Sinnoh\\Sinnoh Labelled",
+					"maxMegapixels": 34.65,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Sinnoh\\_Sinnoh Labelled\\Orig.png",
+					"thumbnailPath": "thumbs\\Sinnoh\\Sinnoh Labelled.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "Orig",
+							"id": "IMG_10386",
+							"filePath": "Sinnoh\\_Sinnoh Labelled\\Orig.png",
+							"extension": "png",
+							"width": 1355,
+							"height": 958,
+							"filesize": 2006336,
+							"megapixels": 1.29809,
+							"lossless": true,
+							"aspect": 1.414
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Sinnoh Labelled",
+							"id": "IMG_10387",
+							"filePath": "Sinnoh\\_Sinnoh Labelled\\Sinnoh Labelled.webp",
+							"extension": "webp",
+							"width": 7000,
+							"height": 4950,
+							"filesize": 35439160,
+							"megapixels": 34.65,
+							"lossless": true,
+							"aspect": 1.414
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Battle Frontier",
+					"depth": 2,
+					"path": [
+						"Sinnoh",
+						"Battle Frontier"
+					],
+					"id": "GRP_10368",
+					"notes": "",
+					"isMinor": false,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Battle Frontier",
+							"id": "SET_10353",
+							"enumeratedName": "Sinnoh\\Battle Frontier\\Battle Frontier",
+							"maxMegapixels": 23.21676,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Sinnoh\\Battle Frontier\\Battle Frontier.jpg",
+							"thumbnailPath": "thumbs\\Sinnoh\\Battle Frontier\\Battle Frontier.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10354",
+									"fileName": "Battle Frontier",
+									"filePath": "Sinnoh\\Battle Frontier\\Battle Frontier.jpg",
+									"extension": "jpg",
+									"width": 6142,
+									"height": 3780,
+									"filesize": 6040053,
+									"megapixels": 23.21676,
+									"lossless": false,
+									"aspect": 1.625
+								}
+							]
+						}
+					],
+					"childGroups": [
+						{
+							"_": "GROUPING",
+							"name": "Facilities",
+							"depth": 3,
+							"path": [
+								"Sinnoh",
+								"Battle Frontier",
+								"Facilities"
+							],
+							"id": "GRP_10367",
+							"notes": "",
+							"isMinor": false,
+							"imgs": [
+								{
+									"_": "ImgSET",
+									"name": "Battle Arcade",
+									"id": "SET_10355",
+									"enumeratedName": "Sinnoh\\Battle Frontier\\Facilities\\Battle Arcade",
+									"maxMegapixels": 4.646184,
+									"singular": true,
+									"notes": "",
+									"isMinor": false,
+									"thumbnailSrcPath": "regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Arcade.jpg",
+									"thumbnailPath": "thumbs\\Sinnoh\\Battle Frontier\\Facilities\\Battle Arcade.webp",
+									"files": [
+										{
+											"_": "ImgFILE",
+											"id": "IMG_10356",
+											"fileName": "Battle Arcade",
+											"filePath": "Sinnoh\\Battle Frontier\\Facilities\\Battle Arcade.jpg",
+											"extension": "jpg",
+											"width": 2622,
+											"height": 1772,
+											"filesize": 3624139,
+											"megapixels": 4.646184,
+											"lossless": false,
+											"aspect": 1.48
+										}
+									]
+								},
+								{
+									"_": "ImgSET",
+									"name": "Battle Castle",
+									"id": "SET_10357",
+									"enumeratedName": "Sinnoh\\Battle Frontier\\Facilities\\Battle Castle",
+									"maxMegapixels": 4.646184,
+									"singular": true,
+									"notes": "",
+									"isMinor": false,
+									"thumbnailSrcPath": "regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Castle.jpg",
+									"thumbnailPath": "thumbs\\Sinnoh\\Battle Frontier\\Facilities\\Battle Castle.webp",
+									"files": [
+										{
+											"_": "ImgFILE",
+											"id": "IMG_10358",
+											"fileName": "Battle Castle",
+											"filePath": "Sinnoh\\Battle Frontier\\Facilities\\Battle Castle.jpg",
+											"extension": "jpg",
+											"width": 2622,
+											"height": 1772,
+											"filesize": 3753040,
+											"megapixels": 4.646184,
+											"lossless": false,
+											"aspect": 1.48
+										}
+									]
+								},
+								{
+									"_": "ImgSET",
+									"name": "Battle Factory",
+									"id": "SET_10359",
+									"enumeratedName": "Sinnoh\\Battle Frontier\\Facilities\\Battle Factory",
+									"maxMegapixels": 2.064388,
+									"singular": true,
+									"notes": "",
+									"isMinor": false,
+									"thumbnailSrcPath": "regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Factory.jpg",
+									"thumbnailPath": "thumbs\\Sinnoh\\Battle Frontier\\Facilities\\Battle Factory.webp",
+									"files": [
+										{
+											"_": "ImgFILE",
+											"id": "IMG_10360",
+											"fileName": "Battle Factory",
+											"filePath": "Sinnoh\\Battle Frontier\\Facilities\\Battle Factory.jpg",
+											"extension": "jpg",
+											"width": 1748,
+											"height": 1181,
+											"filesize": 1928573,
+											"megapixels": 2.064388,
+											"lossless": false,
+											"aspect": 1.48
+										}
+									]
+								},
+								{
+									"_": "ImgSET",
+									"name": "Battle Hall",
+									"id": "SET_10361",
+									"enumeratedName": "Sinnoh\\Battle Frontier\\Facilities\\Battle Hall",
+									"maxMegapixels": 4.646184,
+									"singular": true,
+									"notes": "",
+									"isMinor": false,
+									"thumbnailSrcPath": "regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Hall.jpg",
+									"thumbnailPath": "thumbs\\Sinnoh\\Battle Frontier\\Facilities\\Battle Hall.webp",
+									"files": [
+										{
+											"_": "ImgFILE",
+											"id": "IMG_10362",
+											"fileName": "Battle Hall",
+											"filePath": "Sinnoh\\Battle Frontier\\Facilities\\Battle Hall.jpg",
+											"extension": "jpg",
+											"width": 2622,
+											"height": 1772,
+											"filesize": 3774289,
+											"megapixels": 4.646184,
+											"lossless": false,
+											"aspect": 1.48
+										}
+									]
+								},
+								{
+									"_": "ImgSET",
+									"name": "Battle Tower",
+									"id": "SET_10363",
+									"enumeratedName": "Sinnoh\\Battle Frontier\\Facilities\\Battle Tower",
+									"maxMegapixels": 4.646184,
+									"singular": true,
+									"notes": "",
+									"isMinor": false,
+									"thumbnailSrcPath": "regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Tower.jpg",
+									"thumbnailPath": "thumbs\\Sinnoh\\Battle Frontier\\Facilities\\Battle Tower.webp",
+									"files": [
+										{
+											"_": "ImgFILE",
+											"id": "IMG_10364",
+											"fileName": "Battle Tower",
+											"filePath": "Sinnoh\\Battle Frontier\\Facilities\\Battle Tower.jpg",
+											"extension": "jpg",
+											"width": 2622,
+											"height": 1772,
+											"filesize": 3610212,
+											"megapixels": 4.646184,
+											"lossless": false,
+											"aspect": 1.48
+										}
+									]
+								},
+								{
+									"_": "ImgSET",
+									"name": "Entrance",
+									"id": "SET_10365",
+									"enumeratedName": "Sinnoh\\Battle Frontier\\Facilities\\Entrance",
+									"maxMegapixels": 5.87776,
+									"singular": true,
+									"notes": "",
+									"isMinor": false,
+									"thumbnailSrcPath": "regions\\Sinnoh\\Battle Frontier\\Facilities\\Entrance.jpg",
+									"thumbnailPath": "thumbs\\Sinnoh\\Battle Frontier\\Facilities\\Entrance.webp",
+									"files": [
+										{
+											"_": "ImgFILE",
+											"id": "IMG_10366",
+											"fileName": "Entrance",
+											"filePath": "Sinnoh\\Battle Frontier\\Facilities\\Entrance.jpg",
+											"extension": "jpg",
+											"width": 2240,
+											"height": 2624,
+											"filesize": 2868902,
+											"megapixels": 5.87776,
+											"lossless": false,
+											"aspect": 0.8537
+										}
+									]
+								}
+							],
+							"childGroups": []
+						}
+					]
+				},
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Sinnoh",
+						"Locations"
+					],
+					"id": "GRP_10379",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Amity Square",
+							"id": "SET_10369",
+							"enumeratedName": "Sinnoh\\Locations\\Amity Square",
+							"maxMegapixels": 11.845142,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Sinnoh\\Locations\\Amity Square.png",
+							"thumbnailPath": "thumbs\\Sinnoh\\Locations\\Amity Square.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10370",
+									"fileName": "Amity Square",
+									"filePath": "Sinnoh\\Locations\\Amity Square.png",
+									"extension": "png",
+									"width": 4093,
+									"height": 2894,
+									"filesize": 13053804,
+									"megapixels": 11.845142,
+									"lossless": true,
+									"aspect": 1.414
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Distortion World",
+							"id": "SET_10371",
+							"enumeratedName": "Sinnoh\\Locations\\Distortion World",
+							"maxMegapixels": 2.1048,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Sinnoh\\Locations\\Distortion World.jpg",
+							"thumbnailPath": "thumbs\\Sinnoh\\Locations\\Distortion World.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10372",
+									"fileName": "Distortion World",
+									"filePath": "Sinnoh\\Locations\\Distortion World.jpg",
+									"extension": "jpg",
+									"width": 1200,
+									"height": 1754,
+									"filesize": 137715,
+									"megapixels": 2.1048,
+									"lossless": false,
+									"aspect": 0.6842
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Flower Paradise",
+							"id": "SET_10373",
+							"enumeratedName": "Sinnoh\\Locations\\Flower Paradise",
+							"maxMegapixels": 8.703348,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Sinnoh\\Locations\\Flower Paradise.jpg",
+							"thumbnailPath": "thumbs\\Sinnoh\\Locations\\Flower Paradise.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10374",
+									"fileName": "Flower Paradise",
+									"filePath": "Sinnoh\\Locations\\Flower Paradise.jpg",
+									"extension": "jpg",
+									"width": 3508,
+									"height": 2481,
+									"filesize": 4485429,
+									"megapixels": 8.703348,
+									"lossless": false,
+									"aspect": 1.414
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Mt Coronet",
+							"id": "SET_10375",
+							"enumeratedName": "Sinnoh\\Locations\\Mt Coronet",
+							"maxMegapixels": 1.528912,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Sinnoh\\Locations\\Mt Coronet.jpg",
+							"thumbnailPath": "thumbs\\Sinnoh\\Locations\\Mt Coronet.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10376",
+									"fileName": "Mt Coronet",
+									"filePath": "Sinnoh\\Locations\\Mt Coronet.jpg",
+									"extension": "jpg",
+									"width": 1232,
+									"height": 1241,
+									"filesize": 125212,
+									"megapixels": 1.528912,
+									"lossless": false,
+									"aspect": 0.9927
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Stratospheric Room",
+							"id": "SET_10377",
+							"enumeratedName": "Sinnoh\\Locations\\Stratospheric Room",
+							"maxMegapixels": 0.693,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Sinnoh\\Locations\\Stratospheric Room.png",
+							"thumbnailPath": "thumbs\\Sinnoh\\Locations\\Stratospheric Room.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10378",
+									"fileName": "Stratospheric Room",
+									"filePath": "Sinnoh\\Locations\\Stratospheric Room.png",
+									"extension": "png",
+									"width": 700,
+									"height": 990,
+									"filesize": 935416,
+									"megapixels": 0.693,
+									"lossless": true,
+									"aspect": 0.7071
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
+		},
+		{
+			"_": "GROUPING",
+			"name": "Tumblecube Island",
+			"depth": 1,
+			"path": [
+				"Tumblecube Island"
+			],
+			"id": "GRP_10396",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "map-2",
+					"id": "SET_10390",
+					"enumeratedName": "Tumblecube Island\\map-2",
+					"maxMegapixels": 9.291429,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Tumblecube Island\\map-2.webp",
+					"thumbnailPath": "thumbs\\Tumblecube Island\\map-2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10391",
+							"fileName": "map-2",
+							"filePath": "Tumblecube Island\\map-2.webp",
+							"extension": "webp",
+							"width": 3969,
+							"height": 2341,
+							"filesize": 1351308,
+							"megapixels": 9.291429,
+							"lossless": true,
+							"aspect": 1.695
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Map",
+					"id": "SET_10392",
+					"enumeratedName": "Tumblecube Island\\Map",
+					"maxMegapixels": 9.291429,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Tumblecube Island\\Map.webp",
+					"thumbnailPath": "thumbs\\Tumblecube Island\\Map.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10393",
+							"fileName": "Map",
+							"filePath": "Tumblecube Island\\Map.webp",
+							"extension": "webp",
+							"width": 3969,
+							"height": 2341,
+							"filesize": 1251074,
+							"megapixels": 9.291429,
+							"lossless": true,
+							"aspect": 1.695
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Tumblecube Island",
+					"id": "SET_10394",
+					"enumeratedName": "Tumblecube Island\\Tumblecube Island",
+					"maxMegapixels": 4.42368,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Tumblecube Island\\Tumblecube Island.webp",
+					"thumbnailPath": "thumbs\\Tumblecube Island\\Tumblecube Island.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10395",
+							"fileName": "Tumblecube Island",
+							"filePath": "Tumblecube Island\\Tumblecube Island.webp",
+							"extension": "webp",
+							"width": 3072,
+							"height": 1440,
+							"filesize": 1081518,
+							"megapixels": 4.42368,
+							"lossless": true,
+							"aspect": 2.133
+						}
+					]
+				}
+			],
+			"childGroups": []
+		},
+		{
+			"_": "GROUPING",
+			"name": "Unova",
+			"depth": 1,
+			"path": [
+				"Unova"
+			],
+			"id": "GRP_10420",
+			"notes": "",
+			"isMinor": false,
+			"imgs": [
+				{
+					"_": "ImgSET",
+					"name": "Simple",
+					"id": "SET_10397",
+					"enumeratedName": "Unova\\Simple",
+					"maxMegapixels": 2.0736,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Unova\\Simple.jpg",
+					"thumbnailPath": "thumbs\\Unova\\Simple.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10398",
+							"fileName": "Simple",
+							"filePath": "Unova\\Simple.jpg",
+							"extension": "jpg",
+							"width": 1920,
+							"height": 1080,
+							"filesize": 940523,
+							"megapixels": 2.0736,
+							"lossless": false,
+							"aspect": 1.778
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Unova BW cloudy",
+					"id": "SET_10399",
+					"enumeratedName": "Unova\\Unova BW cloudy",
+					"maxMegapixels": 78.2866,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Unova\\Unova BW cloudy.webp",
+					"thumbnailPath": "thumbs\\Unova\\Unova BW cloudy.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10400",
+							"fileName": "Unova BW cloudy",
+							"filePath": "Unova\\Unova BW cloudy.webp",
+							"extension": "webp",
+							"width": 11144,
+							"height": 7025,
+							"filesize": 49269700,
+							"megapixels": 78.2866,
+							"lossless": true,
+							"aspect": 1.586
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Unova BW",
+					"id": "SET_10401",
+					"enumeratedName": "Unova\\Unova BW",
+					"maxMegapixels": 7.74826,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Unova\\Unova BW.webp",
+					"thumbnailPath": "thumbs\\Unova\\Unova BW.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10402",
+							"fileName": "Unova BW",
+							"filePath": "Unova\\Unova BW.webp",
+							"extension": "webp",
+							"width": 3506,
+							"height": 2210,
+							"filesize": 8554456,
+							"megapixels": 7.74826,
+							"lossless": true,
+							"aspect": 1.586
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Unova BW2 Frosted",
+					"id": "SET_10403",
+					"enumeratedName": "Unova\\Unova BW2 Frosted",
+					"maxMegapixels": 24.981956,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Unova\\Unova BW2 Frosted.jpg",
+					"thumbnailPath": "thumbs\\Unova\\Unova BW2 Frosted.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10404",
+							"fileName": "Unova BW2 Frosted",
+							"filePath": "Unova\\Unova BW2 Frosted.jpg",
+							"extension": "jpg",
+							"width": 6068,
+							"height": 4117,
+							"filesize": 6348172,
+							"megapixels": 24.981956,
+							"lossless": false,
+							"aspect": 1.474
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Unova BW2",
+					"id": "SET_10405",
+					"enumeratedName": "Unova\\Unova BW2",
+					"maxMegapixels": 7.73104,
+					"singular": true,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Unova\\Unova BW2.webp",
+					"thumbnailPath": "thumbs\\Unova\\Unova BW2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"id": "IMG_10406",
+							"fileName": "Unova BW2",
+							"filePath": "Unova\\Unova BW2.webp",
+							"extension": "webp",
+							"width": 3376,
+							"height": 2290,
+							"filesize": 7877750,
+							"megapixels": 7.73104,
+							"lossless": true,
+							"aspect": 1.474
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape",
+					"id": "SET_10416",
+					"enumeratedName": "Unova\\Mindscape",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Unova\\_Mindscape\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Unova\\Mindscape.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10414",
+							"filePath": "Unova\\_Mindscape\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 384103,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10415",
+							"filePath": "Unova\\_Mindscape\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 230715,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				},
+				{
+					"_": "ImgSET",
+					"name": "Mindscape 2",
+					"id": "SET_10419",
+					"enumeratedName": "Unova\\Mindscape 2",
+					"maxMegapixels": 0.393216,
+					"singular": false,
+					"notes": "",
+					"isMinor": false,
+					"thumbnailSrcPath": "regions\\Unova\\_Mindscape 2\\Upscale.jpg",
+					"thumbnailPath": "thumbs\\Unova\\Mindscape 2.webp",
+					"files": [
+						{
+							"_": "ImgFILE",
+							"fileName": "original",
+							"id": "IMG_10417",
+							"filePath": "Unova\\_Mindscape 2\\original.png",
+							"extension": "png",
+							"width": 512,
+							"height": 512,
+							"filesize": 266799,
+							"megapixels": 0.262144,
+							"lossless": true,
+							"aspect": 1
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "Upscale",
+							"id": "IMG_10418",
+							"filePath": "Unova\\_Mindscape 2\\Upscale.jpg",
+							"extension": "jpg",
+							"width": 768,
+							"height": 512,
+							"filesize": 198836,
+							"megapixels": 0.393216,
+							"lossless": false,
+							"aspect": 1.5
+						}
+					]
+				}
+			],
+			"childGroups": [
+				{
+					"_": "GROUPING",
+					"name": "Locations",
+					"depth": 2,
+					"path": [
+						"Unova",
+						"Locations"
+					],
+					"id": "GRP_10413",
+					"notes": "",
+					"isMinor": true,
+					"imgs": [
+						{
+							"_": "ImgSET",
+							"name": "Battle Subway",
+							"id": "SET_10407",
+							"enumeratedName": "Unova\\Locations\\Battle Subway",
+							"maxMegapixels": 15.723351,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Unova\\Locations\\Battle Subway.png",
+							"thumbnailPath": "thumbs\\Unova\\Locations\\Battle Subway.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10408",
+									"fileName": "Battle Subway",
+									"filePath": "Unova\\Locations\\Battle Subway.png",
+									"extension": "png",
+									"width": 4709,
+									"height": 3339,
+									"filesize": 10777552,
+									"megapixels": 15.723351,
+									"lossless": true,
+									"aspect": 1.41
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Black City & White Forest",
+							"id": "SET_10409",
+							"enumeratedName": "Unova\\Locations\\Black City & White Forest",
+							"maxMegapixels": 53.8893,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Unova\\Locations\\Black City & White Forest.jpg",
+							"thumbnailPath": "thumbs\\Unova\\Locations\\Black City & White Forest.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10410",
+									"fileName": "Black City & White Forest",
+									"filePath": "Unova\\Locations\\Black City & White Forest.jpg",
+									"extension": "jpg",
+									"width": 8100,
+									"height": 6653,
+									"filesize": 6624074,
+									"megapixels": 53.8893,
+									"lossless": false,
+									"aspect": 1.217
+								}
+							]
+						},
+						{
+							"_": "ImgSET",
+							"name": "Castelia City",
+							"id": "SET_10411",
+							"enumeratedName": "Unova\\Locations\\Castelia City",
+							"maxMegapixels": 52.174944,
+							"singular": true,
+							"notes": "",
+							"isMinor": false,
+							"thumbnailSrcPath": "regions\\Unova\\Locations\\Castelia City.jpg",
+							"thumbnailPath": "thumbs\\Unova\\Locations\\Castelia City.webp",
+							"files": [
+								{
+									"_": "ImgFILE",
+									"id": "IMG_10412",
+									"fileName": "Castelia City",
+									"filePath": "Unova\\Locations\\Castelia City.jpg",
+									"extension": "jpg",
+									"width": 8352,
+									"height": 6247,
+									"filesize": 10107996,
+									"megapixels": 52.174944,
+									"lossless": false,
+									"aspect": 1.337
+								}
+							]
+						}
+					],
+					"childGroups": []
+				}
+			]
 		}
 	]
 }

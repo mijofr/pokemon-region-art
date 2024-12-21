@@ -308,12 +308,12 @@ template {
 }
 
 html, body {
-  font-family: "Open Sans";
+  font-family: "Nunito Sans";
   background-color: hsl(222, 22%, 10%);
   color: hsl(222, 12%, 79%);
   padding: 12px;
   scroll-behavior: smooth;
-  font-family: "Open Sans", serif;
+  font-family: "Nunito Sans", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -572,7 +572,7 @@ span.format > span {
 
 .lossless-tag {
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "Nunito Sans";
   font-variation-settings: "wdth" 75;
 }
 
@@ -581,12 +581,12 @@ span.format > span {
 }
 .megapix span:nth-child(1) {
   font-size: 0.9em;
-  font-weight: 200;
 }
 .megapix span:nth-child(2) {
   font-size: 0.8em;
-  font-weight: 200;
+  font-weight: 500;
   margin-left: 0.25ch;
+  font-variation-settings: "wdth" 100;
 }
 
 .groupNode.is-minor div.img-container {
@@ -598,23 +598,41 @@ span.format > span {
   flex-basis: 175px;
 }
 
-.fileLink .pageIcon > div {
+.img-desc .resolution-set .resolution-set-head {
+  margin: 4px 0 2px 0;
+}
+.img-desc .resolution-set .resolution-set-files {
+  display: flex;
+  flex-direction: row;
+}
+.img-desc .resolution-set .resolution-set-files a.fileLink {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 6px;
+}
+.img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon {
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 35px;
+}
+.img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon > div {
   background-color: rgba(255, 255, 255, 0.6666666667);
   border: 1px solid var(--file-type-color);
   border-radius: 4px;
-  padding: 0 2px;
-  font-size: 10px;
+  padding: 0 3px;
+  font-size: 12px;
   font-weight: 900;
-  bottom: 2px;
+  bottom: 3px;
   position: absolute;
   left: 3px;
-  line-height: 9px;
+  line-height: 12px;
   overflow: hidden;
-  min-width: 28px;
+  min-width: 20px;
   text-align: center;
+  font-variation-settings: "wdth" 90;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.6666666667);
 }
-
-.fileLink .pageIcon > div:before {
+.img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon > div:before {
   position: absolute;
   content: "";
   top: 0;
@@ -623,6 +641,13 @@ span.format > span {
   right: 0;
   background-color: var(--file-type-color);
   z-index: -1;
+}
+.img-desc .resolution-set .resolution-set-files a.fileLink .fileData {
+  flex: 1 1 auto;
+}
+.img-desc .resolution-set .resolution-set-files a.fileLink .fileData .size {
+  padding-top: 1px;
+  font-weight: 600;
 }
 
 #pageContents {
@@ -769,6 +794,78 @@ div.group-children div.groupNode {
 }
 .notes > p:last-child {
   margin-bottom: 0;
+}
+
+.weight-100 {
+  font-weight: 100;
+}
+
+.weight-200 {
+  font-weight: 200;
+}
+
+.weight-300 {
+  font-weight: 300;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+.weight-800 {
+  font-weight: 800;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
+.weight-100 {
+  font-variation-settings: "wdth" 75;
+}
+
+.weight-200 {
+  font-variation-settings: "wdth" 78;
+}
+
+.weight-300 {
+  font-variation-settings: "wdth" 81;
+}
+
+.weight-400 {
+  font-variation-settings: "wdth" 84;
+}
+
+.weight-500 {
+  font-variation-settings: "wdth" 88;
+}
+
+.weight-600 {
+  font-variation-settings: "wdth" 91;
+}
+
+.weight-700 {
+  font-variation-settings: "wdth" 94;
+}
+
+.weight-800 {
+  font-variation-settings: "wdth" 97;
+}
+
+.weight-900 {
+  font-variation-settings: "wdth" 100;
 }
 
 /*# sourceMappingURL=styles.css.map */

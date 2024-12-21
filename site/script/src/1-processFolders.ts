@@ -15,7 +15,7 @@ import { rootDirectory, regionsDir, thumbnailsDir } from "./bits/utils";
 
 const sizeOfPromise = promisify(sizeOf.imageSize)
 
-const LIMITSIZE: boolean = true;
+const LIMITSIZE: boolean = false;
 const LIMITTO: number = 2;
 
 const imgFormats: string[] = 

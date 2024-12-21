@@ -140,8 +140,12 @@ function translateImage(imgSet: ImgSet): XmlNd {
         .addAttr("class", "img-desc")
         .addChild(
             (new XmlNd("h3")).addChild(new XmlNdText(imgSet.name)))
+
+    let megaGrade = Math.floor((1.25 * Math.pow((imgSet.maxMegapixels*3),0.363636363)) + 1);
+    megaGrade = megaGrade < 1 ? 1 : megaGrade;
+    megaGrade = megaGrade > 9 ? 9 : megaGrade;
         
-    descNode.addChild(new XmlNd("div", false, [["class", "megapix"]])
+    descNode.addChild(new XmlNd("div", false, [["class", `megapix weight-${megaGrade}00`]])
     .addTextChild(`<span>${megaPixels}</span><span>megapixels</span>`));
 
     if (!IsNullOrWhitespace(imgSet.notes)) {
@@ -315,6 +319,7 @@ export async function main() {
 
     
     await fsAccess.writeFile("./../../indexMk2.html", resultString);
+
 
 
 }
