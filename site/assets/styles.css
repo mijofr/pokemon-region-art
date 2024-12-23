@@ -408,134 +408,6 @@ h5 {
   color: hsl(222, 12%, 69%);
 }
 
-div.img-container {
-  position: relative;
-  background-color: hsl(222, 21%, 11%);
-  border: 1px solid hsl(222, 21%, 14%);
-  border-radius: 10px;
-  padding: 6px;
-  width: 700px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-div.img-container:before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-  content: "";
-  background-color: hsl(222, 21%, 12%);
-  height: 60px;
-  border-bottom: 1px solid hsl(222, 21%, 14%);
-}
-div.img-container > * {
-  position: relative;
-  z-index: 2;
-}
-div.img-container .img-frame {
-  width: 350px;
-  height: 280px;
-  flex: 0 0 350px;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: hsl(222, 21%, 24%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-div.img-container .img-frame > .thumb-bg {
-  position: absolute;
-  background-color: rgba(48, 56, 74, 0.26);
-  top: -5%;
-  left: -5%;
-  width: 110%;
-  height: 110%;
-  object-fit: cover;
-  opacity: 0.7;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-}
-div.img-container .img-frame > .thumb {
-  background-image: url("./pixel-grid.png");
-  background-color: rgba(28, 33, 43, 0.3);
-  display: block;
-  z-index: 1;
-  border: 1px solid rgba(198, 201, 210, 0.4);
-  box-sizing: content-box;
-  max-width: 100%;
-  max-height: 100%;
-}
-div.img-container .img-desc {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  flex: 1 1 auto;
-}
-div.img-container .img-desc h3 {
-  margin: 0.1em 0 0.25em 0;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-div.img-container .img-desc div.line {
-  margin: 0.5em 0;
-  height: 2px;
-  width: 100%;
-  background-color: hsl(222, 21%, 14%);
-}
-
-.svg.pageIcon-svg {
-  overflow: visible;
-}
-
-.fileLink {
-  display: flex;
-  flex-direction: row;
-  gap: 1em;
-  color: hsl(222, 12%, 79%);
-  text-decoration: none;
-  padding: 6px;
-  border-radius: 6px;
-  margin-left: -6px;
-  margin-right: -2px;
-  font-size: 14px;
-  background-blend-mode: multiply;
-  transition: background-color 0.2s;
-}
-.fileLink:hover {
-  background-color: rgba(255, 255, 255, 0.0666666667);
-}
-.fileLink:active {
-  background-color: rgba(255, 255, 255, 0.1333333333);
-}
-.fileLink .pageIcon {
-  position: relative;
-  display: block;
-  height: 36px;
-  flex: 0 0 auto;
-  color: var(--file-type-color);
-}
-.fileLink .pageIcon svg.pageIcon-svg {
-  overflow: visible;
-  height: 100%;
-}
-.fileLink .fileData {
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.fileLink .fileData > div {
-  display: flex;
-  gap: 1ch;
-  align-items: center;
-  justify-content: flex-start;
-  line-height: 1.05;
-}
-
 span.size {
   color: hsl(222, 12%, 69%);
   font-weight: 400;
@@ -545,8 +417,8 @@ span.size > span {
 }
 
 span.resolution {
-  font-weight: 700;
-  font-family: "DM Mono";
+  font-weight: 600;
+  font-family: "Sometype Mono";
 }
 
 span.format {
@@ -598,24 +470,134 @@ span.format > span {
   flex-basis: 175px;
 }
 
-.img-desc .resolution-set .resolution-set-head {
-  margin: 4px 0 2px 0;
-}
-.img-desc .resolution-set .resolution-set-files {
+div.img-container {
+  position: relative;
+  background-color: hsl(222, 21%, 12%);
+  border: 1px solid hsl(222, 21%, 18%);
+  border-radius: 10px;
+  padding: 6px;
+  width: 700px;
   display: flex;
   flex-direction: row;
+  gap: 10px;
+  overflow: hidden;
 }
-.img-desc .resolution-set .resolution-set-files a.fileLink {
+div.img-container:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+  background-color: hsl(222, 21%, 15%);
+  height: 51px;
+  border-bottom: 1px solid hsl(222, 21%, 18%);
+}
+div.img-container > * {
+  position: relative;
+  z-index: 2;
+}
+div.img-container .img-frame {
+  width: 350px;
+  height: 280px;
+  flex: 0 0 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: hsl(222, 21%, 30%);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+div.img-container .img-frame > .thumb-bg {
+  position: absolute;
+  background-color: rgba(60, 70, 93, 0.26);
+  top: -5%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  opacity: 0.7;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+div.img-container .img-frame > .thumb {
+  background-image: url("./pixel-grid.png");
+  background-color: rgba(36, 42, 56, 0.3);
+  display: block;
+  z-index: 1;
+  border: 1px solid rgba(198, 201, 210, 0.4);
+  box-sizing: content-box;
+  max-width: 100%;
+  max-height: 100%;
+}
+div.img-container .img-desc {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   flex: 1 1 auto;
+}
+div.img-container .img-desc div.heading {
+  margin-bottom: 10px;
+}
+div.img-container .img-desc div.heading > h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+div.img-container .img-desc div.heading > .megapix {
+  margin-bottom: 0;
+}
+div.img-container .img-desc div.heading > .megapix > span:nth-child(1) {
+  font-size: 1em;
+}
+div.img-container .img-desc div.heading > .megapix > span:nth-child(1) {
+  font-size: 0.85em;
+}
+div.img-container .img-desc .resolution-set .resolution-set-head {
+  margin: 0 0 2px 0;
+}
+div.img-container .img-desc .resolution-set .resolution-set-files {
+  display: flex;
+  flex-direction: row;
   gap: 6px;
 }
-.img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon {
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  color: hsl(222, 12%, 79%);
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 6px;
+  margin-left: -6px;
+  margin-right: -2px;
+  font-size: 14px;
+  background-blend-mode: multiply;
+  transition: background-color 0.2s;
+}
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink:hover {
+  background-color: rgba(255, 255, 255, 0.0666666667);
+}
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink:active {
+  background-color: rgba(255, 255, 255, 0.1333333333);
+}
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon {
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
+  color: var(--file-type-color);
   flex-grow: 0;
   flex-shrink: 0;
   height: 35px;
 }
-.img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon > div {
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon svg.pageIcon-svg {
+  overflow: visible;
+  height: 100%;
+}
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon > div {
   background-color: rgba(255, 255, 255, 0.6666666667);
   border: 1px solid var(--file-type-color);
   border-radius: 4px;
@@ -632,7 +614,7 @@ span.format > span {
   font-variation-settings: "wdth" 90;
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.6666666667);
 }
-.img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon > div:before {
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon > div:before {
   position: absolute;
   content: "";
   top: 0;
@@ -642,12 +624,29 @@ span.format > span {
   background-color: var(--file-type-color);
   z-index: -1;
 }
-.img-desc .resolution-set .resolution-set-files a.fileLink .fileData {
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .fileData {
   flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
-.img-desc .resolution-set .resolution-set-files a.fileLink .fileData .size {
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .fileData > div {
+  display: flex;
+  gap: 1ch;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 1.05;
+}
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .fileData .size {
   padding-top: 1px;
   font-weight: 600;
+}
+div.img-container .img-desc div.line {
+  margin: 7px 0 5px 0;
+  height: 2px;
+  width: 100%;
+  background-color: hsl(222, 21%, 18%);
 }
 
 #pageContents {
@@ -733,7 +732,7 @@ div.group-children {
 }
 div.group-children div.groupNode {
   margin-top: 10px;
-  border-left: 4px solid hsl(222, 21%, 16%);
+  border-left: 4px solid hsl(222, 21%, 21%);
 }
 
 .groupNode.node-level-0 > .group-children {
@@ -752,7 +751,7 @@ div.group-children div.groupNode {
 .groupNode.node-level-1 > h2 {
   margin-left: 0;
   padding: 0.5em 0 16px 0.5em;
-  background-color: hsl(222, 21%, 16%);
+  background-color: hsl(222, 21%, 21%);
 }
 
 .groupNode > .notes {
