@@ -2,16 +2,6 @@
 
 
 
-.fileLink {
-
-    .pageIcon {
-    }
-
-    .fileData {
-
-    }
-}
-
 span.size {
 
     color: $grey5;
@@ -23,8 +13,9 @@ span.size {
 }
 
 span.resolution {
-    font-weight: 600;
-    font-family: "Sometype Mono";
+    font-weight: 800;
+    font-size: 15px;
+    font-variation-settings: "wdth" 115;
 }
 
 span.format {
@@ -218,19 +209,22 @@ div.img-container {
 
 
                 a.fileLink {
+
+                    width: 100%;
+
                     flex: 1 1 auto;
 
                                     
                     display: flex;
                     flex-direction: row;
-                    gap: 1em;
+                    gap: 6px;
 
                     color: $grey3;
                     text-decoration: none;
                     padding: 6px;
                     border-radius: 6px;
                     margin-left: -6px;
-                    margin-right: -2px;
+                    margin-right: 0px;
                     font-size: 14px;
 
                     background-blend-mode: multiply;
@@ -257,7 +251,7 @@ div.img-container {
                 
                         flex-grow: 0;
                         flex-shrink: 0;
-                        height: 35px;
+                        height: 36px;
 
                         svg.pageIcon-svg {
                             overflow: visible;
@@ -309,16 +303,20 @@ div.img-container {
                         align-items: flex-start;
                         justify-content: space-between;
                         & > div {
-                            display: flex;
-                            gap: 1ch;
-                            align-items: center;
-                            justify-content: flex-start;
-                            line-height: 1.05;
+                            line-height: 1;
+                            &:first-child {
+                                margin-top:2px;
+                            }
+                            &:nth-child(2) {
+                                font-size: 0.9em;
+                                margin-left: 4px;
+                                margin-bottom: 2px;
+                                font-weight: 200;
+                            }
                         }
                 
 
                         .size {
-                            padding-top: 1px;
                             font-weight: 600;
                         }
                     }
@@ -327,11 +325,33 @@ div.img-container {
         }
 
         div.line {
-            margin: 7px 0 5px 0;
+            margin: 6px 0 5px 0;
             height:2px;
             width:100%;
             background-color: $dark3;
         }
 
     }
+}
+
+.tag {
+    font-size: 0.8em;
+    height: 1.25em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    display: inline-block;
+    background-color: #880033;
+    color: white;
+    font-weight: 800;
+    border-radius: 1em;
+    position: relative;
+    top: -0.16666666666em;
+
+    box-sizing: border-box;
+    border:1px solid #880033;
+
+    &.hollow {
+        background-color:rgba(255,255,255,0.05);
+    }
+    
 }
