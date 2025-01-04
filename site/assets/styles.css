@@ -341,7 +341,7 @@ body {
 }
 
 .webp {
-  --file-type-color: #8ae234;
+  --file-type-color: #4e9a06;
 }
 
 .jpg {
@@ -536,7 +536,13 @@ div.img-container .img-desc {
   display: flex;
   flex-direction: column;
   height: 100%;
+  max-height: 280px;
   flex: 1 1 auto;
+}
+div.img-container .img-desc .growBuffer {
+  display: block;
+  width: 100%;
+  flex: 0 1 5px;
 }
 div.img-container .img-desc div.heading {
   margin-bottom: 10px;

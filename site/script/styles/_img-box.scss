@@ -171,7 +171,14 @@ div.img-container {
         display: flex;
         flex-direction: column;
         height: 100%;
+        max-height: 280px;
         flex: 1 1 auto;
+
+        .growBuffer {
+            display: block;
+            width: 100%;
+            flex: 0 1 5px;
+        }
 
 
         div.heading {

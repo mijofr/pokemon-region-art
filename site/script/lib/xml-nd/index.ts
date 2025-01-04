@@ -1,6 +1,66 @@
 export interface IXmlNd {
     getOutput(depth: number): string;
+    type: 'node' | 'txt';
 }
+
+
+export interface XmlNdOpts {
+    selfTerminating?: boolean;
+    attrs?: [string, string][] | any;
+    props?: string[];
+    id?: string;
+    class?: string;
+}
+
+
+function IsNullOrWhitespace(str: string) {
+    return ((str == null) || str.trim() == "")
+}
+  
+
+export function NewXnd(
+    tag: string, opts: XmlNdOpts = {}, children: IXmlNd[] | string = []
+) {
+
+
+    let attributes: [string, string][] = [];
+    if (opts.attrs == undefined) {
+        attributes = []
+    } else if (opts.attrs instanceof Array) {
+        attributes = opts.attrs ?? [];
+    } else {
+        let keys = Object.getOwnPropertyNames(opts.attrs);
+        attributes = keys.map(n => {
+            return [n, opts.attrs[n]];
+        });
+    }
+
+    if (opts.id !== undefined && !IsNullOrWhitespace(opts.id)) {
+        attributes.push(["id", opts.id])
+    }
+    if (opts.class !== undefined && !IsNullOrWhitespace(opts.class)) {
+        attributes.push(["class", opts.class])
+    }
+
+    let childs: IXmlNd[] = [];
+    if (typeof children === 'string' || children instanceof String) {
+        childs = [new XmlNdText(children.toString())];
+    } else {
+        childs = children;
+    }
+
+
+    return new XmlNd(tag, 
+        opts.selfTerminating ?? false, 
+        attributes ?? [], 
+        opts.props ?? [], 
+        childs)
+}
+
+export function NewXNdText(text: string, splitTextTabs: boolean | null = null): XmlNdText {
+    return new XmlNdText(text, splitTextTabs);
+}
+
 
 export class XmlNd implements IXmlNd {
     constructor(
@@ -9,8 +69,9 @@ export class XmlNd implements IXmlNd {
         private attributes: [string, string][] = [],
         private properties: string[] = [],
         private children: IXmlNd[] = []) {
-
     }
+
+    type: 'node';
 
     public getOutput(depth: number = 0): string {
 
@@ -50,8 +111,10 @@ export class XmlNd implements IXmlNd {
         return this;
     }
 
-    public addChild(c: IXmlNd): XmlNd {
-        this.children.push(c);
+    public addChild(...childs: IXmlNd[]): XmlNd {
+        for (let c of childs) {
+            this.children.push(c);
+        }
         return this;
     }
 
@@ -70,6 +133,9 @@ export class XmlNdText implements IXmlNd {
     constructor(public text: string, public splitTextTabs: boolean | null = null) {
         
     }
+
+    type: 'txt';
+
     public getOutput(depth: number = 0, doSplitTextTabs = null): string {
         let tabs: string = "\t".repeat(depth);
 

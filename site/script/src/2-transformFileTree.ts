@@ -20,6 +20,12 @@ function ensureUniqueId(inp: string): string {
     return inp;
 }
 
+export interface Size2P extends Size2 {
+    w: number;
+    h: number;
+    megapixels: number;
+}
+
 
 export interface Grouping {
     _: "GROUPING";
@@ -45,6 +51,7 @@ export interface ImgSet {
     singular: boolean;
     notes: string;
     isMinor: boolean;
+    sizes: Size2P[];
 
     files: ImgFile[];
 
@@ -84,6 +91,8 @@ function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
         maxMegapixels: (img.width * img.height) / 1000000,
         singular: true,
         notes: "",
+        sizes: [{w: img.width, h: img.height, 
+            megapixels: (img.width * img.height) / 1000000}],
         isMinor: false,
         thumbnailSrcPath: path.join("regions", img.relPath),
         thumbnailPath: path.join("thumbs", enumeratedName + ".webp"),
@@ -120,6 +129,26 @@ function getThumbnailSrcPath(files: ImgFile[], maxMegapixels: number): string {
 
 }
 
+function getSizes(files: ImgFile[]): Size2P[] {
+    let f = files.map(f => `${f.width.toString()}x${f.height.toString()}`);
+    let uniques = new Set(f);
+
+    let sizes: Size2P[] = (Array.from(uniques)).map(n => {
+        let spl = n.split("x");
+
+        let w = parseInt(spl[0]);
+        let h = parseInt(spl[1]);
+        return {
+             w, 
+             h, 
+             megapixels: (w * h) / 1000000
+        };
+    })
+    .sort((a,b) => (b.megapixels - a.megapixels));
+    return sizes;
+
+}
+
 function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): ImgSet {
 
 
@@ -143,11 +172,15 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): Im
 
     let thumbSrcPath = getThumbnailSrcPath(files, maxMegapixels);
 
+
+    
+
     return {
         _: "ImgSET",
         name: name,
         id: `SET_${getUniqueId()}`,
         enumeratedName: enumeratedName,
+        sizes: getSizes(files),
         maxMegapixels: maxMegapixels,
         singular: (dataset.items.length <= 1),
         notes: dataset.metadata.note ?? "",

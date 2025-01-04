@@ -1,6 +1,6 @@
 import path from "path";
 import { NodeFsAccess } from "./bits/node-fs-access";
-import { IXmlNd, XmlNd, XmlNdText } from "../lib/xml-nd";
+import { IXmlNd, NewXnd, NewXNdText, XmlNd, XmlNdText } from "../lib/xml-nd";
 import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
 import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
@@ -24,6 +24,63 @@ function addTextChunk(inp: string): string {
 
     return `<div class="notes">${inp}</div>`
 }
+
+function generateLink4(itemUrl: string, 
+    res: Size2, size: FileSizeDesc, fileFormat: string) {
+
+    let linkItem = NewXnd("a", { attrs: { href: itemUrl }}, [
+            NewXnd("div", {class: "pageIcon"}, [
+                NewXNdText(`<svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol"></use></svg>`),
+                NewXnd("div", {}, [NewXNdText(fileFormat.toLocaleUpperCase())])
+            ])
+    ]);
+
+    let fileDataNode = NewXnd("div", {class: "fileData"});
+    
+    let nDiv = NewXnd("div", {}, [
+        NewXnd("span", {}, [
+            NewXNdText(size.size.toString()),
+            NewXnd("span", {}, [NewXNdText(size.unit)])
+        ])
+    ]);
+
+    let nDiv2 = NewXnd("div", {}, "Note 2");
+
+    fileDataNode.addChild(nDiv);
+    fileDataNode.addChild(nDiv2);
+
+}
+
+
+function generateLink5(itemUrl: string, 
+    res: Size2, size: FileSizeDesc, fileFormat: string) {
+
+        let note: string = "";
+        if (size.unit.toLocaleLowerCase() == "mb" && size.size > 45) {
+            note = `<div class="tag">very large file</div>`
+        }
+
+        let sizeWarning = "";
+        if (size.unit.toLocaleLowerCase() == "mb" && size.size > 65) {
+            sizeWarning = `<div class="warning"></div>`
+        }
+
+
+return `        <a href="${itemUrl}" class="fileLink ${fileFormat}">
+          <div class="pageIcon">
+            <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol"></use></svg>
+            <div>${fileFormat.toLocaleUpperCase()}</div>
+          </div>
+          <div class="fileData">
+            <div>
+              <span class="size">${sizeWarning}${size.size}<span>${size.unit}</span>${sizeWarning}</span>
+            </div>
+            <div>
+              Note 2 ${note}&nbsp;
+            </div>
+          </div>
+        </a>`
+    }
 
 function generateLink(itemUrl: string, 
     res: Size2, size: FileSizeDesc, fileFormat: string) {
@@ -97,15 +154,58 @@ function translateImgLink(img: ImgFile): IXmlNd {
 
 
     let fformat = img.extension.toLocaleLowerCase();
+
+    /*
     if (fformat == "webp" && img.lossless) {
         fformat = "webp-lossless";
     }
+    */
 
     let filePath = path.join("..", "regions", img.filePath);
 
     return new XmlNdText(
-        generateLink(filePath ,{w: img.width, h: img.height}, getSizeString(img.filesize), fformat)
+        generateLink5(filePath ,{w: img.width, h: img.height}, getSizeString(img.filesize), fformat)
     );
+}
+
+function translateSizes(imgSet: ImgSet): IXmlNd[] {
+
+    let items: IXmlNd[] = [];
+
+    let i = 0;
+
+    items.push(NewXnd("div", {class: "growBuffer"}))
+    
+    for (let size of imgSet.sizes) {
+
+        if (i > 0) {
+            items.push(new XmlNd("div", false, [["class", "line"]]));
+        }
+        i++;
+
+
+        let res = NewXnd("span", {class: "resolution"}, `${size.w}×${size.h}`);
+        let head = NewXnd("div", {class: "resolution-set-head"}, [res]);
+
+
+        let resFiles = NewXnd("div", {class: "resolution-set-files"});
+
+        
+
+        let filesOfSize = imgSet.files.filter(n => { 
+            return n.width == size.w && n.height == size.h
+        });
+
+        for (let f of filesOfSize) {
+            resFiles.addChild(translateImgLink(f))
+        }
+
+        let resSet = NewXnd("div", {class: "resolution-set"}, [head, resFiles]);
+        items.push(resSet);
+    }
+
+    return items;
+
 }
 
 function translateImage(imgSet: ImgSet): XmlNd {
@@ -136,21 +236,29 @@ function translateImage(imgSet: ImgSet): XmlNd {
         .addAttr("src", thumbPath)
         .addAttr("class", "thumb"))
 
-    let descNode = new XmlNd("div")
-        .addAttr("class", "img-desc")
-        .addChild(
-            (new XmlNd("h3")).addChild(new XmlNdText(imgSet.name)))
+    let descNode = NewXnd("div", {class: "img-desc"});
+
+    let headingWrapNode = NewXnd("div", {class: "heading"});
+    descNode.addChild(headingWrapNode);
+
+    headingWrapNode.addChild(
+        (new XmlNd("h3")).addChild(new XmlNdText(imgSet.name)));
 
     let megaGrade = Math.floor((1.25 * Math.pow((imgSet.maxMegapixels*3),0.363636363)) + 1);
     megaGrade = megaGrade < 1 ? 1 : megaGrade;
     megaGrade = megaGrade > 9 ? 9 : megaGrade;
         
-    descNode.addChild(new XmlNd("div", false, [["class", `megapix weight-${megaGrade}00`]])
+    headingWrapNode.addChild(new XmlNd("div", false, [["class", `megapix weight-${megaGrade}00`]])
     .addTextChild(`<span>${megaPixels}</span><span>megapixels</span>`));
 
     if (!IsNullOrWhitespace(imgSet.notes)) {
         descNode.addChild(new XmlNdText(addTextChunk(imgSet.notes), false));
     }
+
+    descNode.addChild(...translateSizes(imgSet));
+
+
+    /*
 
     let li = 0;
     for (let f of imgSet.files) {
@@ -160,6 +268,8 @@ function translateImage(imgSet: ImgSet): XmlNd {
         descNode.addChild(translateImgLink(f));
         li++;
     }
+
+    */
 
 
     imgContainerNode.addChild(imgNode).addChild(descNode);
