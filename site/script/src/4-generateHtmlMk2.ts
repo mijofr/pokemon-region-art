@@ -3,7 +3,7 @@ import { NodeFsAccess } from "./bits/node-fs-access";
 import { IXmlNd, NewXnd, NewXNdText, XmlNd, XmlNdText } from "../lib/xml-nd";
 import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
-import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
+import { execPromise, fsAccess, getUniqueId, roundTo } from "./bits/utils";
 import { Grouping, ImgFile, ImgSet } from "./2-transformFileTree";
 import { IsNullOrWhitespace } from "./bits/utils";
 
@@ -76,7 +76,7 @@ return `        <a href="${itemUrl}" class="fileLink ${fileFormat}">
               <span class="size">${sizeWarning}${size.size}<span>${size.unit}</span>${sizeWarning}</span>
             </div>
             <div>
-              Note 2 ${note}&nbsp;
+              <span class="format-spacer">${fileFormat.toLocaleUpperCase()}</span>Note 2 ${note}&nbsp;
             </div>
           </div>
         </a>`
@@ -185,7 +185,16 @@ function translateSizes(imgSet: ImgSet): IXmlNd[] {
 
 
         let res = NewXnd("span", {class: "resolution"}, `${size.w}×${size.h}`);
-        let head = NewXnd("div", {class: "resolution-set-head"}, [res]);
+
+        let aspect = roundTo(size.w/size.h,3);
+
+        let aspectDemo = NewXnd("div", { class: "aspect-demo-outer"}, [
+            NewXnd("div", {}, [
+                NewXnd("div", {attrs: {style: `aspect-ratio:${aspect.toString()}`}})
+            ])
+        ]);
+
+        let head = NewXnd("div", {class: "resolution-set-head"}, [res, aspectDemo]);
 
 
         let resFiles = NewXnd("div", {class: "resolution-set-files"});

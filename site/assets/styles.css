@@ -415,6 +415,12 @@ span.size {
 span.size > span {
   font-size: 0.85em;
 }
+span.size .warning {
+  line-height: 14px;
+  vertical-align: top;
+  margin-top: -3px;
+  top: 0;
+}
 
 span.resolution {
   font-weight: 800;
@@ -542,7 +548,7 @@ div.img-container .img-desc {
 div.img-container .img-desc .growBuffer {
   display: block;
   width: 100%;
-  flex: 0 1 5px;
+  flex: 0 1 4px;
 }
 div.img-container .img-desc div.heading {
   margin-bottom: 10px;
@@ -562,8 +568,23 @@ div.img-container .img-desc div.heading > .megapix > span:nth-child(1) {
 div.img-container .img-desc div.heading > .megapix > span:nth-child(1) {
   font-size: 0.85em;
 }
+div.img-container .img-desc .resolution-set {
+  margin-bottom: 3px;
+}
+div.img-container .img-desc .resolution-set:last-child {
+  margin-bottom: 0;
+}
 div.img-container .img-desc .resolution-set .resolution-set-head {
-  margin: 0 0 2px 0;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.0666666667);
+  padding: 3px 3px 2px 6px;
+  border-radius: 6px;
+  margin: 0 0 3px -4px;
+  /*
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  */
 }
 div.img-container .img-desc .resolution-set .resolution-set-files {
   display: flex;
@@ -593,6 +614,7 @@ div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink:act
   background-color: rgba(255, 255, 255, 0.1333333333);
 }
 div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .pageIcon {
+  z-index: 9;
   position: relative;
   display: block;
   flex: 0 0 auto;
@@ -647,14 +669,21 @@ div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .fi
 }
 div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .fileData > div:nth-child(2) {
   font-size: 0.9em;
-  margin-left: 4px;
+  margin-left: -25px;
   margin-bottom: 2px;
   font-weight: 200;
+}
+div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .fileData > div:nth-child(2) .format-spacer {
+  visibility: hidden;
+  font-size: 12px;
+  font-weight: 900;
+  margin-right: 0.5em;
 }
 div.img-container .img-desc .resolution-set .resolution-set-files a.fileLink .fileData .size {
   font-weight: 600;
 }
 div.img-container .img-desc div.line {
+  display: none;
   margin: 6px 0 5px 0;
   height: 2px;
   width: 100%;
@@ -680,6 +709,34 @@ div.img-container .img-desc div.line {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.aspect-demo-outer {
+  float: right;
+  width: 24px;
+  position: absolute;
+  right: 6px;
+  top: 3px;
+  bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aspect-demo-outer > div {
+  width: 100%;
+}
+.aspect-demo-outer > div > div {
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  background-color: rgba(255, 255, 255, 0.2666666667);
+  box-shadow: 1.5px 1.5px 2.5px rgba(0, 0, 0, 0.6666666667);
+  mix-blend-mode: luminosity;
+}
+
 #pageContents {
   display: flex;
   align-items: center;
@@ -687,14 +744,33 @@ div.img-container .img-desc div.line {
 }
 #pageContents > div {
   display: inline-block;
+  columns: 500px auto;
+  column-span: all;
+  width: 80%;
+}
+#pageContents > div ul.idxLevel0 {
+  margin-top: 0;
+}
+#pageContents > div ul.idxLevel0 > li:first-child {
+  margin-top: 0;
+}
+#pageContents > div ul.idxLevel0 > li {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.0666666667);
+  list-style-type: disc;
+}
+#pageContents > div ul.idxLevel0 > li.singleImgIndexLink {
+  list-style-type: circle;
 }
 #pageContents > div li {
-  margin-top: 0.6em;
+  margin-top: 0.3em;
 }
 #pageContents > div li a {
   text-decoration: none;
   color: hsl(222, 12%, 79%);
   font-weight: 700;
+  white-space: nowrap;
+  line-height: 1.2em;
 }
 #pageContents > div li a .count {
   position: relative;
@@ -710,6 +786,7 @@ div.img-container .img-desc div.line {
   padding: 0 0.5em;
   vertical-align: middle;
   margin-left: 0.5em;
+  line-height: 1.25em;
 }
 #pageContents > div li a:hover, #pageContents > div li a:focus {
   color: hsl(222, 12%, 89%);
@@ -736,6 +813,8 @@ div.img-container .img-desc div.line {
   display: flex;
   list-style-type: none;
   gap: 1em;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 div.groupNode {
@@ -816,8 +895,8 @@ div.group-children div.groupNode {
   margin: 0 0 1em 0;
 }
 .notes p {
-  margin-block-start: 0.75em;
-  margin-block-end: 0.75em;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
 }
 .notes > p:first-child {
   margin-top: 0;

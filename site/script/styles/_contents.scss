@@ -8,13 +8,40 @@
     & > div {
         display: inline-block;
 
+        columns: 500px auto;
+        column-span: all;
+        width: 80%;
+
+        ul.idxLevel0 {
+            margin-top: 0;
+
+            & > li:first-child {
+                margin-top: 0;
+            }
+
+            & > li {
+                padding-bottom: 0.3em;
+                border-bottom: 1px solid #FFFFFF11;
+
+                list-style-type: disc;
+                &.singleImgIndexLink {
+                    list-style-type: circle;
+                }
+            }
+
+        }
+
         li {
-            margin-top: 0.6em;
+            margin-top: 0.3em;
+
+
 
             a {
                 text-decoration: none;
                 color: $grey3;
                 font-weight: 700;
+                white-space: nowrap;
+                line-height: 1.2em;
         
                 &.isMinor {
         
@@ -34,6 +61,7 @@
                     padding: 0 0.5em;
                     vertical-align: middle;
                     margin-left: 0.5em;
+                    line-height: 1.25em;
                 }
         
                 &:hover, &:focus {
@@ -74,6 +102,8 @@
             display: flex;
             list-style-type: none;
             gap: 1em;
+            justify-content: flex-start;
+            align-items: flex-start;        
         }
                 
     }
