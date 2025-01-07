@@ -42,3 +42,22 @@ export interface DirInfo {
 }
 
 Redo warning sign for height 17;
+
+
+
+
+
+Filter-repo:
+
+Removing a directory
+git filter-repo --path node_modules/electron/dist/ --invert-paths
+
+
+Do this for the whole dir and then recommit with PNGs?
+Wait, already have a file in LFS, filter repo may have an issue there.
+
+Just purge list of files.
+git filter-repo --invert-paths --paths-from-file ../DELETED_FILENAMES.txt
+
+
+
