@@ -23,18 +23,18 @@
 				}
 			],
 			"isMinor": false,
-			"thumbnailSrcPath": "regions\\Carmonte Island.webp",
+			"thumbnailSrcPath": "regions\\Carmonte Island.png",
 			"thumbnailPath": "thumbs\\Carmonte Island.webp",
 			"files": [
 				{
 					"_": "ImgFILE",
 					"id": "IMG_10005",
 					"fileName": "Carmonte Island",
-					"filePath": "Carmonte Island.webp",
-					"extension": "webp",
+					"filePath": "Carmonte Island.png",
+					"extension": "png",
 					"width": 1600,
 					"height": 835,
-					"filesize": 1080394,
+					"filesize": 1367148,
 					"megapixels": 1.336,
 					"lossless": true,
 					"aspect": 1.916
@@ -57,18 +57,18 @@
 				}
 			],
 			"isMinor": false,
-			"thumbnailSrcPath": "regions\\Ferrum.webp",
+			"thumbnailSrcPath": "regions\\Ferrum.png",
 			"thumbnailPath": "thumbs\\Ferrum.webp",
 			"files": [
 				{
 					"_": "ImgFILE",
 					"id": "IMG_10007",
 					"fileName": "Ferrum",
-					"filePath": "Ferrum.webp",
-					"extension": "webp",
+					"filePath": "Ferrum.png",
+					"extension": "png",
 					"width": 2700,
 					"height": 2000,
-					"filesize": 3550452,
+					"filesize": 5055351,
 					"megapixels": 5.4,
 					"lossless": true,
 					"aspect": 1.35
@@ -125,18 +125,18 @@
 				}
 			],
 			"isMinor": false,
-			"thumbnailSrcPath": "regions\\Orange Islands.webp",
+			"thumbnailSrcPath": "regions\\Orange Islands.png",
 			"thumbnailPath": "thumbs\\Orange Islands.webp",
 			"files": [
 				{
 					"_": "ImgFILE",
 					"id": "IMG_10011",
 					"fileName": "Orange Islands",
-					"filePath": "Orange Islands.webp",
-					"extension": "webp",
+					"filePath": "Orange Islands.png",
+					"extension": "png",
 					"width": 1231,
 					"height": 1694,
-					"filesize": 3207182,
+					"filesize": 4341083,
 					"megapixels": 2.085314,
 					"lossless": true,
 					"aspect": 0.7267
@@ -159,18 +159,18 @@
 				}
 			],
 			"isMinor": false,
-			"thumbnailSrcPath": "regions\\Pasio.webp",
+			"thumbnailSrcPath": "regions\\Pasio.png",
 			"thumbnailPath": "thumbs\\Pasio.webp",
 			"files": [
 				{
 					"_": "ImgFILE",
 					"id": "IMG_10013",
 					"fileName": "Pasio",
-					"filePath": "Pasio.webp",
-					"extension": "webp",
+					"filePath": "Pasio.png",
+					"extension": "png",
 					"width": 852,
 					"height": 1386,
-					"filesize": 1331946,
+					"filesize": 1912738,
 					"megapixels": 1.180872,
 					"lossless": true,
 					"aspect": 0.6147
@@ -227,18 +227,18 @@
 				}
 			],
 			"isMinor": false,
-			"thumbnailSrcPath": "regions\\Puzzle Village.webp",
+			"thumbnailSrcPath": "regions\\Puzzle Village.png",
 			"thumbnailPath": "thumbs\\Puzzle Village.webp",
 			"files": [
 				{
 					"_": "ImgFILE",
 					"id": "IMG_10017",
 					"fileName": "Puzzle Village",
-					"filePath": "Puzzle Village.webp",
-					"extension": "webp",
+					"filePath": "Puzzle Village.png",
+					"extension": "png",
 					"width": 320,
 					"height": 240,
-					"filesize": 118862,
+					"filesize": 146585,
 					"megapixels": 0.0768,
 					"lossless": true,
 					"aspect": 1.333
@@ -396,11 +396,11 @@
 							"_": "ImgFILE",
 							"fileName": "Aeos Island",
 							"id": "IMG_10035",
-							"filePath": "Aeos Island\\_Comic\\Aeos Island.webp",
-							"extension": "webp",
+							"filePath": "Aeos Island\\_Comic\\Aeos Island.png",
+							"extension": "png",
 							"width": 2501,
 							"height": 1882,
-							"filesize": 3860242,
+							"filesize": 4920100,
 							"megapixels": 4.706882,
 							"lossless": true,
 							"aspect": 1.329
@@ -561,11 +561,11 @@
 									"_": "ImgFILE",
 									"fileName": "Remoat Stadium",
 									"id": "IMG_10031",
-									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.webp",
-									"extension": "webp",
+									"filePath": "Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.png",
+									"extension": "png",
 									"width": 7308,
 									"height": 3971,
-									"filesize": 21521850,
+									"filesize": 27799344,
 									"megapixels": 29.020068,
 									"lossless": true,
 									"aspect": 1.84
@@ -658,11 +658,11 @@
 							"_": "ImgFILE",
 							"fileName": "Almia",
 							"id": "IMG_10041",
-							"filePath": "Almia\\_Almia\\Almia.webp",
-							"extension": "webp",
+							"filePath": "Almia\\_Almia\\Almia.png",
+							"extension": "png",
 							"width": 1083,
 							"height": 1000,
-							"filesize": 1325624,
+							"filesize": 1674816,
 							"megapixels": 1.083,
 							"lossless": true,
 							"aspect": 1.083
@@ -699,18 +699,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Alola\\Poke_Pelago.webp",
+					"thumbnailSrcPath": "regions\\Alola\\Poke_Pelago.png",
 					"thumbnailPath": "thumbs\\Alola\\Poke_Pelago.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10045",
 							"fileName": "Poke_Pelago",
-							"filePath": "Alola\\Poke_Pelago.webp",
-							"extension": "webp",
+							"filePath": "Alola\\Poke_Pelago.png",
+							"extension": "png",
 							"width": 3508,
 							"height": 2480,
-							"filesize": 5859514,
+							"filesize": 8483522,
 							"megapixels": 8.69984,
 							"lossless": true,
 							"aspect": 1.415
@@ -795,8 +795,21 @@
 					"files": [
 						{
 							"_": "ImgFILE",
-							"fileName": "largeish",
+							"fileName": "alola-full",
 							"id": "IMG_10067",
+							"filePath": "Alola\\_SunMoon\\alola-full.png",
+							"extension": "png",
+							"width": 14192,
+							"height": 10032,
+							"filesize": 158684491,
+							"megapixels": 142.374144,
+							"lossless": true,
+							"aspect": 1.415
+						},
+						{
+							"_": "ImgFILE",
+							"fileName": "largeish",
+							"id": "IMG_10068",
 							"filePath": "Alola\\_SunMoon\\largeish.jpg",
 							"extension": "jpg",
 							"width": 14192,
@@ -809,7 +822,7 @@
 						{
 							"_": "ImgFILE",
 							"fileName": "mid",
-							"id": "IMG_10068",
+							"id": "IMG_10069",
 							"filePath": "Alola\\_SunMoon\\mid.jpg",
 							"extension": "jpg",
 							"width": 7096,
@@ -817,19 +830,6 @@
 							"filesize": 3400892,
 							"megapixels": 35.593536,
 							"lossless": false,
-							"aspect": 1.415
-						},
-						{
-							"_": "ImgFILE",
-							"fileName": "Verylarge",
-							"id": "IMG_10069",
-							"filePath": "Alola\\_SunMoon\\Verylarge.webp",
-							"extension": "webp",
-							"width": 14192,
-							"height": 10032,
-							"filesize": 103022914,
-							"megapixels": 142.374144,
-							"lossless": true,
 							"aspect": 1.415
 						}
 					]
@@ -1201,18 +1201,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Blueberry Academy\\Blueberry Academy.webp",
+					"thumbnailSrcPath": "regions\\Blueberry Academy\\Blueberry Academy.png",
 					"thumbnailPath": "thumbs\\Blueberry Academy\\Blueberry Academy.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10075",
 							"fileName": "Blueberry Academy",
-							"filePath": "Blueberry Academy\\Blueberry Academy.webp",
-							"extension": "webp",
+							"filePath": "Blueberry Academy\\Blueberry Academy.png",
+							"extension": "png",
 							"width": 900,
 							"height": 920,
-							"filesize": 170768,
+							"filesize": 215403,
 							"megapixels": 0.828,
 							"lossless": true,
 							"aspect": 0.9783
@@ -1265,11 +1265,11 @@
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Large)",
 							"id": "IMG_10077",
-							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).webp",
-							"extension": "webp",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Large).png",
+							"extension": "png",
 							"width": 10200,
 							"height": 10200,
-							"filesize": 10471416,
+							"filesize": 15705410,
 							"megapixels": 104.04,
 							"lossless": true,
 							"aspect": 1
@@ -1291,11 +1291,11 @@
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Medium)",
 							"id": "IMG_10079",
-							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Medium).webp",
-							"extension": "webp",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Medium).png",
+							"extension": "png",
 							"width": 6600,
 							"height": 6600,
-							"filesize": 4881724,
+							"filesize": 7654840,
 							"megapixels": 43.56,
 							"lossless": true,
 							"aspect": 1
@@ -1317,11 +1317,11 @@
 							"_": "ImgFILE",
 							"fileName": "Blueberry Academy (Small)",
 							"id": "IMG_10081",
-							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Small).webp",
-							"extension": "webp",
+							"filePath": "Blueberry Academy\\_Map\\Blueberry Academy (Small).png",
+							"extension": "png",
 							"width": 3600,
 							"height": 3600,
-							"filesize": 1618250,
+							"filesize": 2665343,
 							"megapixels": 12.96,
 							"lossless": true,
 							"aspect": 1
@@ -1392,18 +1392,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Fiore\\Fiore.webp",
+					"thumbnailSrcPath": "regions\\Fiore\\Fiore.png",
 					"thumbnailPath": "thumbs\\Fiore\\Fiore.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10087",
 							"fileName": "Fiore",
-							"filePath": "Fiore\\Fiore.webp",
-							"extension": "webp",
+							"filePath": "Fiore\\Fiore.png",
+							"extension": "png",
 							"width": 1000,
 							"height": 889,
-							"filesize": 622570,
+							"filesize": 774754,
 							"megapixels": 0.889,
 							"lossless": true,
 							"aspect": 1.125
@@ -1508,18 +1508,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Galar\\Art.webp",
+					"thumbnailSrcPath": "regions\\Galar\\Art.png",
 					"thumbnailPath": "thumbs\\Galar\\Art.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10094",
 							"fileName": "Art",
-							"filePath": "Galar\\Art.webp",
-							"extension": "webp",
+							"filePath": "Galar\\Art.png",
+							"extension": "png",
 							"width": 3508,
 							"height": 4962,
-							"filesize": 16523038,
+							"filesize": 20000431,
 							"megapixels": 17.406696,
 							"lossless": true,
 							"aspect": 0.707
@@ -1542,18 +1542,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Galar\\Crown Tundra.webp",
+					"thumbnailSrcPath": "regions\\Galar\\Crown Tundra.png",
 					"thumbnailPath": "thumbs\\Galar\\Crown Tundra.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10096",
 							"fileName": "Crown Tundra",
-							"filePath": "Galar\\Crown Tundra.webp",
-							"extension": "webp",
+							"filePath": "Galar\\Crown Tundra.png",
+							"extension": "png",
 							"width": 4962,
 							"height": 3508,
-							"filesize": 17305352,
+							"filesize": 20590901,
 							"megapixels": 17.406696,
 							"lossless": true,
 							"aspect": 1.414
@@ -1576,18 +1576,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Galar\\Isle Of Armor.webp",
+					"thumbnailSrcPath": "regions\\Galar\\Isle Of Armor.png",
 					"thumbnailPath": "thumbs\\Galar\\Isle Of Armor.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10098",
 							"fileName": "Isle Of Armor",
-							"filePath": "Galar\\Isle Of Armor.webp",
-							"extension": "webp",
+							"filePath": "Galar\\Isle Of Armor.png",
+							"extension": "png",
 							"width": 4962,
 							"height": 3508,
-							"filesize": 20758848,
+							"filesize": 26590747,
 							"megapixels": 17.406696,
 							"lossless": true,
 							"aspect": 1.414
@@ -1610,18 +1610,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Galar\\Overmap.webp",
+					"thumbnailSrcPath": "regions\\Galar\\Overmap.png",
 					"thumbnailPath": "thumbs\\Galar\\Overmap.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10100",
 							"fileName": "Overmap",
-							"filePath": "Galar\\Overmap.webp",
-							"extension": "webp",
+							"filePath": "Galar\\Overmap.png",
+							"extension": "png",
 							"width": 3488,
 							"height": 6992,
-							"filesize": 769844,
+							"filesize": 1387913,
 							"megapixels": 24.388096,
 							"lossless": true,
 							"aspect": 0.4989
@@ -1760,18 +1760,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Hisui\\Hisui.webp",
+					"thumbnailSrcPath": "regions\\Hisui\\Hisui.png",
 					"thumbnailPath": "thumbs\\Hisui\\Hisui.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10109",
 							"fileName": "Hisui",
-							"filePath": "Hisui\\Hisui.webp",
-							"extension": "webp",
+							"filePath": "Hisui\\Hisui.png",
+							"extension": "png",
 							"width": 5705,
 							"height": 3169,
-							"filesize": 27209756,
+							"filesize": 33280715,
 							"megapixels": 18.079145,
 							"lossless": true,
 							"aspect": 1.8
@@ -1794,18 +1794,18 @@
 					"singular": true,
 					"notes": "",
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Hisui\\_Hisui 2\\Hisui2.webp",
+					"thumbnailSrcPath": "regions\\Hisui\\_Hisui 2\\Hisui2.png",
 					"thumbnailPath": "thumbs\\Hisui\\Hisui 2.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"fileName": "Hisui2",
 							"id": "IMG_10117",
-							"filePath": "Hisui\\_Hisui 2\\Hisui2.webp",
-							"extension": "webp",
+							"filePath": "Hisui\\_Hisui 2\\Hisui2.png",
+							"extension": "png",
 							"width": 1280,
 							"height": 720,
-							"filesize": 1125232,
+							"filesize": 1465441,
 							"megapixels": 0.9216,
 							"lossless": true,
 							"aspect": 1.778
@@ -1994,18 +1994,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Hoenn\\Hoenn 2.webp",
+					"thumbnailSrcPath": "regions\\Hoenn\\Hoenn 2.png",
 					"thumbnailPath": "thumbs\\Hoenn\\Hoenn 2.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10123",
 							"fileName": "Hoenn 2",
-							"filePath": "Hoenn\\Hoenn 2.webp",
-							"extension": "webp",
+							"filePath": "Hoenn\\Hoenn 2.png",
+							"extension": "png",
 							"width": 2560,
 							"height": 1809,
-							"filesize": 5744708,
+							"filesize": 7381027,
 							"megapixels": 4.63104,
 							"lossless": true,
 							"aspect": 1.415
@@ -2028,18 +2028,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Hoenn\\Hoenn.webp",
+					"thumbnailSrcPath": "regions\\Hoenn\\Hoenn.png",
 					"thumbnailPath": "thumbs\\Hoenn\\Hoenn.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10125",
 							"fileName": "Hoenn",
-							"filePath": "Hoenn\\Hoenn.webp",
-							"extension": "webp",
+							"filePath": "Hoenn\\Hoenn.png",
+							"extension": "png",
 							"width": 1280,
 							"height": 833,
-							"filesize": 1039992,
+							"filesize": 1407389,
 							"megapixels": 1.06624,
 							"lossless": true,
 							"aspect": 1.537
@@ -2264,18 +2264,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Mauville City.webp",
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Mauville City.png",
 							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Mauville City.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10135",
 									"fileName": "Mauville City",
-									"filePath": "Hoenn\\Locations\\Mauville City.webp",
-									"extension": "webp",
+									"filePath": "Hoenn\\Locations\\Mauville City.png",
+									"extension": "png",
 									"width": 1920,
 									"height": 1296,
-									"filesize": 2742362,
+									"filesize": 3304104,
 									"megapixels": 2.48832,
 									"lossless": true,
 									"aspect": 1.481
@@ -2298,18 +2298,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Slateport City & Mt Chimney.webp",
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Slateport City & Mt Chimney.png",
 							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Slateport City & Mt Chimney.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10137",
 									"fileName": "Slateport City & Mt Chimney",
-									"filePath": "Hoenn\\Locations\\Slateport City & Mt Chimney.webp",
-									"extension": "webp",
+									"filePath": "Hoenn\\Locations\\Slateport City & Mt Chimney.png",
+									"extension": "png",
 									"width": 2481,
 									"height": 3508,
-									"filesize": 8537014,
+									"filesize": 10117162,
 									"megapixels": 8.703348,
 									"lossless": true,
 									"aspect": 0.7072
@@ -2332,18 +2332,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Wilderness.webp",
+							"thumbnailSrcPath": "regions\\Hoenn\\Locations\\Wilderness.png",
 							"thumbnailPath": "thumbs\\Hoenn\\Locations\\Wilderness.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10139",
 									"fileName": "Wilderness",
-									"filePath": "Hoenn\\Locations\\Wilderness.webp",
-									"extension": "webp",
+									"filePath": "Hoenn\\Locations\\Wilderness.png",
+									"extension": "png",
 									"width": 4093,
 									"height": 5786,
-									"filesize": 19360626,
+									"filesize": 23312392,
 									"megapixels": 23.682098,
 									"lossless": true,
 									"aspect": 0.7074
@@ -2666,18 +2666,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Johto\\Locations\\Mt Silver.webp",
+							"thumbnailSrcPath": "regions\\Johto\\Locations\\Mt Silver.png",
 							"thumbnailPath": "thumbs\\Johto\\Locations\\Mt Silver.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10159",
 									"fileName": "Mt Silver",
-									"filePath": "Johto\\Locations\\Mt Silver.webp",
-									"extension": "webp",
+									"filePath": "Johto\\Locations\\Mt Silver.png",
+									"extension": "png",
 									"width": 800,
 									"height": 1190,
-									"filesize": 1144654,
+									"filesize": 1561536,
 									"megapixels": 0.952,
 									"lossless": true,
 									"aspect": 0.6723
@@ -2716,18 +2716,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Kalos\\Kalos Clear.webp",
+					"thumbnailSrcPath": "regions\\Kalos\\Kalos Clear.png",
 					"thumbnailPath": "thumbs\\Kalos\\Kalos Clear.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10166",
 							"fileName": "Kalos Clear",
-							"filePath": "Kalos\\Kalos Clear.webp",
-							"extension": "webp",
+							"filePath": "Kalos\\Kalos Clear.png",
+							"extension": "png",
 							"width": 1032,
 							"height": 676,
-							"filesize": 1283080,
+							"filesize": 1474903,
 							"megapixels": 0.697632,
 							"lossless": true,
 							"aspect": 1.527
@@ -2784,18 +2784,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Kalos\\lumiose 1.webp",
+					"thumbnailSrcPath": "regions\\Kalos\\lumiose 1.png",
 					"thumbnailPath": "thumbs\\Kalos\\lumiose 1.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10170",
 							"fileName": "lumiose 1",
-							"filePath": "Kalos\\lumiose 1.webp",
-							"extension": "webp",
+							"filePath": "Kalos\\lumiose 1.png",
+							"extension": "png",
 							"width": 3078,
 							"height": 2192,
-							"filesize": 8460048,
+							"filesize": 11681391,
 							"megapixels": 6.746976,
 							"lossless": true,
 							"aspect": 1.404
@@ -2818,18 +2818,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Kalos\\lumiose 2.webp",
+					"thumbnailSrcPath": "regions\\Kalos\\lumiose 2.png",
 					"thumbnailPath": "thumbs\\Kalos\\lumiose 2.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10172",
 							"fileName": "lumiose 2",
-							"filePath": "Kalos\\lumiose 2.webp",
-							"extension": "webp",
+							"filePath": "Kalos\\lumiose 2.png",
+							"extension": "png",
 							"width": 3078,
 							"height": 2192,
-							"filesize": 5656434,
+							"filesize": 7263045,
 							"megapixels": 6.746976,
 							"lossless": true,
 							"aspect": 1.404
@@ -2952,18 +2952,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Kalos\\Locations\\Lumiose City 2.webp",
+							"thumbnailSrcPath": "regions\\Kalos\\Locations\\Lumiose City 2.png",
 							"thumbnailPath": "thumbs\\Kalos\\Locations\\Lumiose City 2.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10176",
 									"fileName": "Lumiose City 2",
-									"filePath": "Kalos\\Locations\\Lumiose City 2.webp",
-									"extension": "webp",
+									"filePath": "Kalos\\Locations\\Lumiose City 2.png",
+									"extension": "png",
 									"width": 1500,
 									"height": 610,
-									"filesize": 1265306,
+									"filesize": 1585083,
 									"megapixels": 0.915,
 									"lossless": true,
 									"aspect": 2.459
@@ -3138,18 +3138,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Kanto\\Kanto (Go).webp",
+					"thumbnailSrcPath": "regions\\Kanto\\Kanto (Go).png",
 					"thumbnailPath": "thumbs\\Kanto\\Kanto (Go).webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10191",
 							"fileName": "Kanto (Go)",
-							"filePath": "Kanto\\Kanto (Go).webp",
-							"extension": "webp",
+							"filePath": "Kanto\\Kanto (Go).png",
+							"extension": "png",
 							"width": 2571,
 							"height": 1818,
-							"filesize": 6785358,
+							"filesize": 8168848,
 							"megapixels": 4.674078,
 							"lossless": true,
 							"aspect": 1.414
@@ -3374,18 +3374,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Kanto & Johto\\Kanto & Johto.webp",
+					"thumbnailSrcPath": "regions\\Kanto & Johto\\Kanto & Johto.png",
 					"thumbnailPath": "thumbs\\Kanto & Johto\\Kanto & Johto.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10205",
 							"fileName": "Kanto & Johto",
-							"filePath": "Kanto & Johto\\Kanto & Johto.webp",
-							"extension": "webp",
+							"filePath": "Kanto & Johto\\Kanto & Johto.png",
+							"extension": "png",
 							"width": 3370,
 							"height": 1427,
-							"filesize": 5977802,
+							"filesize": 7536231,
 							"megapixels": 4.80899,
 							"lossless": true,
 							"aspect": 2.362
@@ -3486,11 +3486,11 @@
 							"_": "ImgFILE",
 							"fileName": "Kitakami (Large)",
 							"id": "IMG_10210",
-							"filePath": "Kitakami\\_Map\\Kitakami (Large).webp",
-							"extension": "webp",
+							"filePath": "Kitakami\\_Map\\Kitakami (Large).png",
+							"extension": "png",
 							"width": 10200,
 							"height": 10200,
-							"filesize": 11159314,
+							"filesize": 17455546,
 							"megapixels": 104.04,
 							"lossless": true,
 							"aspect": 1
@@ -3512,11 +3512,11 @@
 							"_": "ImgFILE",
 							"fileName": "Kitakami (Medium)",
 							"id": "IMG_10212",
-							"filePath": "Kitakami\\_Map\\Kitakami (Medium).webp",
-							"extension": "webp",
+							"filePath": "Kitakami\\_Map\\Kitakami (Medium).png",
+							"extension": "png",
 							"width": 6600,
 							"height": 6600,
-							"filesize": 4607740,
+							"filesize": 7390908,
 							"megapixels": 43.56,
 							"lossless": true,
 							"aspect": 1
@@ -3538,11 +3538,11 @@
 							"_": "ImgFILE",
 							"fileName": "Kitakami (Small)",
 							"id": "IMG_10214",
-							"filePath": "Kitakami\\_Map\\Kitakami (Small).webp",
-							"extension": "webp",
+							"filePath": "Kitakami\\_Map\\Kitakami (Small).png",
+							"extension": "png",
 							"width": 3600,
 							"height": 3600,
-							"filesize": 1716344,
+							"filesize": 2838842,
 							"megapixels": 12.96,
 							"lossless": true,
 							"aspect": 1
@@ -3579,18 +3579,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Lental\\Lental.webp",
+					"thumbnailSrcPath": "regions\\Lental\\Lental.png",
 					"thumbnailPath": "thumbs\\Lental\\Lental.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10218",
 							"fileName": "Lental",
-							"filePath": "Lental\\Lental.webp",
-							"extension": "webp",
+							"filePath": "Lental\\Lental.png",
+							"extension": "png",
 							"width": 1920,
 							"height": 1080,
-							"filesize": 1181468,
+							"filesize": 1580135,
 							"megapixels": 2.0736,
 							"lossless": true,
 							"aspect": 1.778
@@ -3847,18 +3847,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent (Rescue Team DX).png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10234",
 							"fileName": "Air Continent (Rescue Team DX)",
-							"filePath": "Mystery Dungeon\\Air Continent (Rescue Team DX).webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Air Continent (Rescue Team DX).png",
+							"extension": "png",
 							"width": 7000,
 							"height": 6000,
-							"filesize": 26374452,
+							"filesize": 32503319,
 							"megapixels": 42,
 							"lossless": true,
 							"aspect": 1.167
@@ -3881,18 +3881,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent (Rescue Team).webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent (Rescue Team).png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent (Rescue Team).webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10236",
 							"fileName": "Air Continent (Rescue Team)",
-							"filePath": "Mystery Dungeon\\Air Continent (Rescue Team).webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Air Continent (Rescue Team).png",
+							"extension": "png",
 							"width": 479,
 							"height": 320,
-							"filesize": 26560,
+							"filesize": 30728,
 							"megapixels": 0.15328,
 							"lossless": true,
 							"aspect": 1.497
@@ -3915,18 +3915,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent Friend Area.webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Air Continent Friend Area.png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Air Continent Friend Area.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10238",
 							"fileName": "Air Continent Friend Area",
-							"filePath": "Mystery Dungeon\\Air Continent Friend Area.webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Air Continent Friend Area.png",
+							"extension": "png",
 							"width": 1458,
 							"height": 820,
-							"filesize": 1943790,
+							"filesize": 2287777,
 							"megapixels": 1.19556,
 							"lossless": true,
 							"aspect": 1.778
@@ -3949,18 +3949,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Blizzard Island (Future).webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Blizzard Island (Future).png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent - Blizzard Island (Future).webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10240",
 							"fileName": "Grass Continent - Blizzard Island (Future)",
-							"filePath": "Mystery Dungeon\\Grass Continent - Blizzard Island (Future).webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Grass Continent - Blizzard Island (Future).png",
+							"extension": "png",
 							"width": 256,
 							"height": 192,
-							"filesize": 21338,
+							"filesize": 26822,
 							"megapixels": 0.049152,
 							"lossless": true,
 							"aspect": 1.333
@@ -3983,18 +3983,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Hidden Land (Future).webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Hidden Land (Future).png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent - Hidden Land (Future).webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10242",
 							"fileName": "Grass Continent - Hidden Land (Future)",
-							"filePath": "Mystery Dungeon\\Grass Continent - Hidden Land (Future).webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Grass Continent - Hidden Land (Future).png",
+							"extension": "png",
 							"width": 256,
 							"height": 192,
-							"filesize": 22498,
+							"filesize": 28858,
 							"megapixels": 0.049152,
 							"lossless": true,
 							"aspect": 1.333
@@ -4017,18 +4017,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Prairie.webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent - Prairie.png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent - Prairie.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10244",
 							"fileName": "Grass Continent - Prairie",
-							"filePath": "Mystery Dungeon\\Grass Continent - Prairie.webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Grass Continent - Prairie.png",
+							"extension": "png",
 							"width": 384,
 							"height": 192,
-							"filesize": 25268,
+							"filesize": 29725,
 							"megapixels": 0.073728,
 							"lossless": true,
 							"aspect": 2
@@ -4051,18 +4051,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent 2.webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent 2.png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent 2.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10246",
 							"fileName": "Grass Continent 2",
-							"filePath": "Mystery Dungeon\\Grass Continent 2.webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Grass Continent 2.png",
+							"extension": "png",
 							"width": 503,
 							"height": 324,
-							"filesize": 31448,
+							"filesize": 37791,
 							"megapixels": 0.162972,
 							"lossless": true,
 							"aspect": 1.552
@@ -4085,18 +4085,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent.webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Grass Continent.png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Grass Continent.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10248",
 							"fileName": "Grass Continent",
-							"filePath": "Mystery Dungeon\\Grass Continent.webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Grass Continent.png",
+							"extension": "png",
 							"width": 504,
 							"height": 336,
-							"filesize": 31320,
+							"filesize": 35930,
 							"megapixels": 0.169344,
 							"lossless": true,
 							"aspect": 1.5
@@ -4119,18 +4119,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10250",
 							"fileName": "Mist Continent (Gates to Infinity) v2",
-							"filePath": "Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.png",
+							"extension": "png",
 							"width": 1024,
 							"height": 1024,
-							"filesize": 1108550,
+							"filesize": 1398020,
 							"megapixels": 1.048576,
 							"lossless": true,
 							"aspect": 1
@@ -4153,18 +4153,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity).webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity).png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Mist Continent (Gates to Infinity).webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10252",
 							"fileName": "Mist Continent (Gates to Infinity)",
-							"filePath": "Mystery Dungeon\\Mist Continent (Gates to Infinity).webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Mist Continent (Gates to Infinity).png",
+							"extension": "png",
 							"width": 1024,
 							"height": 1024,
-							"filesize": 1106362,
+							"filesize": 1395653,
 							"megapixels": 1.048576,
 							"lossless": true,
 							"aspect": 1
@@ -4187,18 +4187,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Super Mystery Dungeon.webp",
+					"thumbnailSrcPath": "regions\\Mystery Dungeon\\Super Mystery Dungeon.png",
 					"thumbnailPath": "thumbs\\Mystery Dungeon\\Super Mystery Dungeon.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10254",
 							"fileName": "Super Mystery Dungeon",
-							"filePath": "Mystery Dungeon\\Super Mystery Dungeon.webp",
-							"extension": "webp",
+							"filePath": "Mystery Dungeon\\Super Mystery Dungeon.png",
+							"extension": "png",
 							"width": 2048,
 							"height": 1536,
-							"filesize": 4017950,
+							"filesize": 4817118,
 							"megapixels": 3.145728,
 							"lossless": true,
 							"aspect": 1.333
@@ -4235,18 +4235,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Mystery Dungeon\\Towns\\Air Continent - Baram Town.webp",
+							"thumbnailSrcPath": "regions\\Mystery Dungeon\\Towns\\Air Continent - Baram Town.png",
 							"thumbnailPath": "thumbs\\Mystery Dungeon\\Towns\\Air Continent - Baram Town.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10256",
 									"fileName": "Air Continent - Baram Town",
-									"filePath": "Mystery Dungeon\\Towns\\Air Continent - Baram Town.webp",
-									"extension": "webp",
+									"filePath": "Mystery Dungeon\\Towns\\Air Continent - Baram Town.png",
+									"extension": "png",
 									"width": 600,
 									"height": 563,
-									"filesize": 638430,
+									"filesize": 746241,
 									"megapixels": 0.3378,
 									"lossless": true,
 									"aspect": 1.066
@@ -4269,18 +4269,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Mystery Dungeon\\Towns\\Air Continent - Pokemon Square.webp",
+							"thumbnailSrcPath": "regions\\Mystery Dungeon\\Towns\\Air Continent - Pokemon Square.png",
 							"thumbnailPath": "thumbs\\Mystery Dungeon\\Towns\\Air Continent - Pokemon Square.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10258",
 									"fileName": "Air Continent - Pokemon Square",
-									"filePath": "Mystery Dungeon\\Towns\\Air Continent - Pokemon Square.webp",
-									"extension": "webp",
+									"filePath": "Mystery Dungeon\\Towns\\Air Continent - Pokemon Square.png",
+									"extension": "png",
 									"width": 800,
 									"height": 566,
-									"filesize": 816448,
+									"filesize": 1014675,
 									"megapixels": 0.4528,
 									"lossless": true,
 									"aspect": 1.413
@@ -4337,18 +4337,18 @@
 								}
 							],
 							"isMinor": false,
-							"thumbnailSrcPath": "regions\\Mystery Dungeon\\Towns\\Mist Continent - Post Town.webp",
+							"thumbnailSrcPath": "regions\\Mystery Dungeon\\Towns\\Mist Continent - Post Town.png",
 							"thumbnailPath": "thumbs\\Mystery Dungeon\\Towns\\Mist Continent - Post Town.webp",
 							"files": [
 								{
 									"_": "ImgFILE",
 									"id": "IMG_10262",
 									"fileName": "Mist Continent - Post Town",
-									"filePath": "Mystery Dungeon\\Towns\\Mist Continent - Post Town.webp",
-									"extension": "webp",
+									"filePath": "Mystery Dungeon\\Towns\\Mist Continent - Post Town.png",
+									"extension": "png",
 									"width": 1500,
 									"height": 1143,
-									"filesize": 2361426,
+									"filesize": 2694037,
 									"megapixels": 1.7145,
 									"lossless": true,
 									"aspect": 1.312
@@ -4489,18 +4489,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Orre\\arrows-view.webp",
+					"thumbnailSrcPath": "regions\\Orre\\arrows-view.png",
 					"thumbnailPath": "thumbs\\Orre\\arrows-view.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10272",
 							"fileName": "arrows-view",
-							"filePath": "Orre\\arrows-view.webp",
-							"extension": "webp",
+							"filePath": "Orre\\arrows-view.png",
+							"extension": "png",
 							"width": 6418,
 							"height": 3840,
-							"filesize": 18843744,
+							"filesize": 25492431,
 							"megapixels": 24.64512,
 							"lossless": true,
 							"aspect": 1.671
@@ -4557,18 +4557,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Orre\\clean-view.webp",
+					"thumbnailSrcPath": "regions\\Orre\\clean-view.png",
 					"thumbnailPath": "thumbs\\Orre\\clean-view.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10276",
 							"fileName": "clean-view",
-							"filePath": "Orre\\clean-view.webp",
-							"extension": "webp",
+							"filePath": "Orre\\clean-view.png",
+							"extension": "png",
 							"width": 6418,
 							"height": 3840,
-							"filesize": 18842528,
+							"filesize": 25496419,
 							"megapixels": 24.64512,
 							"lossless": true,
 							"aspect": 1.671
@@ -4591,18 +4591,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Orre\\map.webp",
+					"thumbnailSrcPath": "regions\\Orre\\map.png",
 					"thumbnailPath": "thumbs\\Orre\\map.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10278",
 							"fileName": "map",
-							"filePath": "Orre\\map.webp",
-							"extension": "webp",
+							"filePath": "Orre\\map.png",
+							"extension": "png",
 							"width": 640,
 							"height": 480,
-							"filesize": 241572,
+							"filesize": 311902,
 							"megapixels": 0.3072,
 							"lossless": true,
 							"aspect": 1.333
@@ -4737,11 +4737,11 @@
 							"_": "ImgFILE",
 							"fileName": "Paldea (Large)",
 							"id": "IMG_10288",
-							"filePath": "Paldea\\_Map\\Paldea (Large).webp",
-							"extension": "webp",
+							"filePath": "Paldea\\_Map\\Paldea (Large).png",
+							"extension": "png",
 							"width": 15600,
 							"height": 15600,
-							"filesize": 28081702,
+							"filesize": 46696022,
 							"megapixels": 243.36,
 							"lossless": true,
 							"aspect": 1
@@ -4763,11 +4763,11 @@
 							"_": "ImgFILE",
 							"fileName": "Paldea (Medium)",
 							"id": "IMG_10290",
-							"filePath": "Paldea\\_Map\\Paldea (Medium).webp",
-							"extension": "webp",
+							"filePath": "Paldea\\_Map\\Paldea (Medium).png",
+							"extension": "png",
 							"width": 8400,
 							"height": 8400,
-							"filesize": 7153002,
+							"filesize": 13015794,
 							"megapixels": 70.56,
 							"lossless": true,
 							"aspect": 1
@@ -4789,11 +4789,11 @@
 							"_": "ImgFILE",
 							"fileName": "Paldea (Small)",
 							"id": "IMG_10292",
-							"filePath": "Paldea\\_Map\\Paldea (Small).webp",
-							"extension": "webp",
+							"filePath": "Paldea\\_Map\\Paldea (Small).png",
+							"extension": "png",
 							"width": 3600,
 							"height": 3600,
-							"filesize": 2413076,
+							"filesize": 3881790,
 							"megapixels": 12.96,
 							"lossless": true,
 							"aspect": 1
@@ -4914,18 +4914,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Pokemon Island\\Drawing (small).webp",
+					"thumbnailSrcPath": "regions\\Pokemon Island\\Drawing (small).png",
 					"thumbnailPath": "thumbs\\Pokemon Island\\Drawing (small).webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10298",
 							"fileName": "Drawing (small)",
-							"filePath": "Pokemon Island\\Drawing (small).webp",
-							"extension": "webp",
+							"filePath": "Pokemon Island\\Drawing (small).png",
+							"extension": "png",
 							"width": 400,
 							"height": 271,
-							"filesize": 155220,
+							"filesize": 219434,
 							"megapixels": 0.1084,
 							"lossless": true,
 							"aspect": 1.476
@@ -4948,18 +4948,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Pokemon Island\\Texture.webp",
+					"thumbnailSrcPath": "regions\\Pokemon Island\\Texture.png",
 					"thumbnailPath": "thumbs\\Pokemon Island\\Texture.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10300",
 							"fileName": "Texture",
-							"filePath": "Pokemon Island\\Texture.webp",
-							"extension": "webp",
+							"filePath": "Pokemon Island\\Texture.png",
+							"extension": "png",
 							"width": 320,
 							"height": 240,
-							"filesize": 53000,
+							"filesize": 64717,
 							"megapixels": 0.0768,
 							"lossless": true,
 							"aspect": 1.333
@@ -4996,18 +4996,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Poketopia\\PokeTopia.webp",
+					"thumbnailSrcPath": "regions\\Poketopia\\PokeTopia.png",
 					"thumbnailPath": "thumbs\\Poketopia\\PokeTopia.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10303",
 							"fileName": "PokeTopia",
-							"filePath": "Poketopia\\PokeTopia.webp",
-							"extension": "webp",
+							"filePath": "Poketopia\\PokeTopia.png",
+							"extension": "png",
 							"width": 760,
 							"height": 480,
-							"filesize": 177076,
+							"filesize": 218228,
 							"megapixels": 0.3648,
 							"lossless": true,
 							"aspect": 1.583
@@ -5030,18 +5030,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Poketopia\\View.webp",
+					"thumbnailSrcPath": "regions\\Poketopia\\View.png",
 					"thumbnailPath": "thumbs\\Poketopia\\View.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10305",
 							"fileName": "View",
-							"filePath": "Poketopia\\View.webp",
-							"extension": "webp",
+							"filePath": "Poketopia\\View.png",
+							"extension": "png",
 							"width": 3491,
 							"height": 1914,
-							"filesize": 2785002,
+							"filesize": 3725869,
 							"megapixels": 6.681774,
 							"lossless": true,
 							"aspect": 1.824
@@ -5448,18 +5448,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Sevii Islands\\Sevii_Islands.webp",
+					"thumbnailSrcPath": "regions\\Sevii Islands\\Sevii_Islands.png",
 					"thumbnailPath": "thumbs\\Sevii Islands\\Sevii_Islands.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10330",
 							"fileName": "Sevii_Islands",
-							"filePath": "Sevii Islands\\Sevii_Islands.webp",
-							"extension": "webp",
+							"filePath": "Sevii Islands\\Sevii_Islands.png",
+							"extension": "png",
 							"width": 556,
 							"height": 800,
-							"filesize": 452214,
+							"filesize": 596699,
 							"megapixels": 0.4448,
 							"lossless": true,
 							"aspect": 0.695
@@ -5482,18 +5482,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Sevii Islands\\Sevii_Islands_upscale.webp",
+					"thumbnailSrcPath": "regions\\Sevii Islands\\Sevii_Islands_upscale.png",
 					"thumbnailPath": "thumbs\\Sevii Islands\\Sevii_Islands_upscale.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10332",
 							"fileName": "Sevii_Islands_upscale",
-							"filePath": "Sevii Islands\\Sevii_Islands_upscale.webp",
-							"extension": "webp",
+							"filePath": "Sevii Islands\\Sevii_Islands_upscale.png",
+							"extension": "png",
 							"width": 1112,
 							"height": 1600,
-							"filesize": 1350458,
+							"filesize": 1704208,
 							"megapixels": 1.7792,
 							"lossless": true,
 							"aspect": 0.695
@@ -5530,18 +5530,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Sinnoh\\Grand Underground.webp",
+					"thumbnailSrcPath": "regions\\Sinnoh\\Grand Underground.png",
 					"thumbnailPath": "thumbs\\Sinnoh\\Grand Underground.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10335",
 							"fileName": "Grand Underground",
-							"filePath": "Sinnoh\\Grand Underground.webp",
-							"extension": "webp",
+							"filePath": "Sinnoh\\Grand Underground.png",
+							"extension": "png",
 							"width": 7000,
 							"height": 4950,
-							"filesize": 44607506,
+							"filesize": 60795816,
 							"megapixels": 34.65,
 							"lossless": true,
 							"aspect": 1.414
@@ -5700,18 +5700,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Sinnoh\\Sinnoh Unlabelled.webp",
+					"thumbnailSrcPath": "regions\\Sinnoh\\Sinnoh Unlabelled.png",
 					"thumbnailPath": "thumbs\\Sinnoh\\Sinnoh Unlabelled.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10345",
 							"fileName": "Sinnoh Unlabelled",
-							"filePath": "Sinnoh\\Sinnoh Unlabelled.webp",
-							"extension": "webp",
+							"filePath": "Sinnoh\\Sinnoh Unlabelled.png",
+							"extension": "png",
 							"width": 7000,
 							"height": 4950,
-							"filesize": 35430756,
+							"filesize": 42892899,
 							"megapixels": 34.65,
 							"lossless": true,
 							"aspect": 1.414
@@ -5863,11 +5863,11 @@
 							"_": "ImgFILE",
 							"fileName": "Sinnoh Labelled",
 							"id": "IMG_10380",
-							"filePath": "Sinnoh\\_Sinnoh Labelled\\Sinnoh Labelled.webp",
-							"extension": "webp",
+							"filePath": "Sinnoh\\_Sinnoh Labelled\\Sinnoh Labelled.png",
+							"extension": "png",
 							"width": 7000,
 							"height": 4950,
-							"filesize": 35439160,
+							"filesize": 43056295,
 							"megapixels": 34.65,
 							"lossless": true,
 							"aspect": 1.414
@@ -6360,18 +6360,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Tumblecube Island\\map-2.webp",
+					"thumbnailSrcPath": "regions\\Tumblecube Island\\map-2.png",
 					"thumbnailPath": "thumbs\\Tumblecube Island\\map-2.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10384",
 							"fileName": "map-2",
-							"filePath": "Tumblecube Island\\map-2.webp",
-							"extension": "webp",
+							"filePath": "Tumblecube Island\\map-2.png",
+							"extension": "png",
 							"width": 3969,
 							"height": 2341,
-							"filesize": 1351308,
+							"filesize": 2098728,
 							"megapixels": 9.291429,
 							"lossless": true,
 							"aspect": 1.695
@@ -6394,18 +6394,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Tumblecube Island\\Map.webp",
+					"thumbnailSrcPath": "regions\\Tumblecube Island\\Map.png",
 					"thumbnailPath": "thumbs\\Tumblecube Island\\Map.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10386",
 							"fileName": "Map",
-							"filePath": "Tumblecube Island\\Map.webp",
-							"extension": "webp",
+							"filePath": "Tumblecube Island\\Map.png",
+							"extension": "png",
 							"width": 3969,
 							"height": 2341,
-							"filesize": 1251074,
+							"filesize": 2212370,
 							"megapixels": 9.291429,
 							"lossless": true,
 							"aspect": 1.695
@@ -6428,18 +6428,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Tumblecube Island\\Tumblecube Island.webp",
+					"thumbnailSrcPath": "regions\\Tumblecube Island\\Tumblecube Island.png",
 					"thumbnailPath": "thumbs\\Tumblecube Island\\Tumblecube Island.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10388",
 							"fileName": "Tumblecube Island",
-							"filePath": "Tumblecube Island\\Tumblecube Island.webp",
-							"extension": "webp",
+							"filePath": "Tumblecube Island\\Tumblecube Island.png",
+							"extension": "png",
 							"width": 3072,
 							"height": 1440,
-							"filesize": 1081518,
+							"filesize": 1369640,
 							"megapixels": 4.42368,
 							"lossless": true,
 							"aspect": 2.133
@@ -6510,18 +6510,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Unova\\Unova BW cloudy.webp",
+					"thumbnailSrcPath": "regions\\Unova\\Unova BW cloudy.png",
 					"thumbnailPath": "thumbs\\Unova\\Unova BW cloudy.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10393",
 							"fileName": "Unova BW cloudy",
-							"filePath": "Unova\\Unova BW cloudy.webp",
-							"extension": "webp",
+							"filePath": "Unova\\Unova BW cloudy.png",
+							"extension": "png",
 							"width": 11144,
 							"height": 7025,
-							"filesize": 49269700,
+							"filesize": 67820539,
 							"megapixels": 78.2866,
 							"lossless": true,
 							"aspect": 1.586
@@ -6544,18 +6544,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Unova\\Unova BW.webp",
+					"thumbnailSrcPath": "regions\\Unova\\Unova BW.png",
 					"thumbnailPath": "thumbs\\Unova\\Unova BW.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10395",
 							"fileName": "Unova BW",
-							"filePath": "Unova\\Unova BW.webp",
-							"extension": "webp",
+							"filePath": "Unova\\Unova BW.png",
+							"extension": "png",
 							"width": 3506,
 							"height": 2210,
-							"filesize": 8554456,
+							"filesize": 10789040,
 							"megapixels": 7.74826,
 							"lossless": true,
 							"aspect": 1.586
@@ -6612,18 +6612,18 @@
 						}
 					],
 					"isMinor": false,
-					"thumbnailSrcPath": "regions\\Unova\\Unova BW2.webp",
+					"thumbnailSrcPath": "regions\\Unova\\Unova BW2.png",
 					"thumbnailPath": "thumbs\\Unova\\Unova BW2.webp",
 					"files": [
 						{
 							"_": "ImgFILE",
 							"id": "IMG_10399",
 							"fileName": "Unova BW2",
-							"filePath": "Unova\\Unova BW2.webp",
-							"extension": "webp",
+							"filePath": "Unova\\Unova BW2.png",
+							"extension": "png",
 							"width": 3376,
 							"height": 2290,
-							"filesize": 7877750,
+							"filesize": 9978752,
 							"megapixels": 7.73104,
 							"lossless": true,
 							"aspect": 1.474
