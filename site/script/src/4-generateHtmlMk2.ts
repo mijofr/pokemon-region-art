@@ -52,21 +52,33 @@ function generateLink4(itemUrl: string,
 }
 
 
-function generateLink5(itemUrl: string, 
-    res: Size2, size: FileSizeDesc, fileFormat: string) {
+function generateLink5(img: ImgFile) {
+
+
+        let fileFormat = img.extension.toLocaleLowerCase();
+        let itemUrl = path.join("..", "regions", img.filePath);
+        let size = getSizeString(img.filesize);
+
+
 
         let note: string = "";
-        if (size.unit.toLocaleLowerCase() == "mb" && size.size > 45) {
-            note = `<div class="tag">very large file</div>`
-        }
-
         let sizeWarning = "";
-        if (size.unit.toLocaleLowerCase() == "mb" && size.size > 65) {
+
+        if (img.filesize > 68157440) {
+            note += `<div class="tag tag-a">very large file</div>`
             sizeWarning = `<div class="warning"></div>`
+        } else if (img.filesize > 47185920) {
+            note += `<div class="tag tag-b">large file</div>`
+        }
+        if (img.metatags.includes("UPSCALE")) {
+            note += `<div class="tag tag-d">upscale</div>`
+        }
+        if (img.metatags.includes("DOWNSCALE")) {
+            note += `<div class="tag tag-g">downscale</div>`
         }
 
-
-return `        <a href="${itemUrl}" class="fileLink ${fileFormat}">
+        return `
+        <a href="${itemUrl}" class="fileLink ${fileFormat}">
           <div class="pageIcon">
             <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol"></use></svg>
             <div>${fileFormat.toLocaleUpperCase()}</div>
@@ -76,45 +88,11 @@ return `        <a href="${itemUrl}" class="fileLink ${fileFormat}">
               <span class="size">${sizeWarning}${size.size}<span>${size.unit}</span>${sizeWarning}</span>
             </div>
             <div>
-              <span class="format-spacer">${fileFormat.toLocaleUpperCase()}</span>Note 2 ${note}&nbsp;
+              <span class="format-spacer">${fileFormat.toLocaleUpperCase()}</span>${note}&nbsp;
             </div>
           </div>
-        </a>`
+        </a>`;
     }
-
-function generateLink(itemUrl: string, 
-    res: Size2, size: FileSizeDesc, fileFormat: string) {
-
-        let fileFormatDesc = fileFormat;
-        if (fileFormat == "webp-lossless") {
-            fileFormatDesc = `webp <span class="lossless-tag">(lossless)</span>`
-        }
-        if (fileFormat == "png") {
-                fileFormatDesc = `png <span class="lossless-tag">(lossless)</span>`
-        }
-
-        let sizeWarning = "";
-        if (size.unit.toLocaleLowerCase() == "mb" && size.size > 45) {
-            sizeWarning = `<div class="warning"></div>`
-        }
-
-return `
-<a href="${itemUrl}" class="fileLink ${fileFormat}">
-    <div class="pageIcon">
-        <svg class="pageIcon-svg" viewBox="0 0 60 85"><use href="#pageSymbol" /></svg>
-    </div>
-    <div class="fileData">
-        <div>
-            <span class="resolution">${res.w}×${res.h}</span>
-            <span class="format"><span>${fileFormatDesc}</span></span>
-        </div>
-        <div>
-            <span class="size">${sizeWarning}${size.size}<span>${size.unit}</span>${sizeWarning}</span>
-        </div>
-    </div>
-</a>
-`
-}
 
 function roundToThree(number): number {
     return (Math.round(number * 100)/100)
@@ -153,19 +131,11 @@ function getSizeString(fsize: number): FileSizeDesc {
 function translateImgLink(img: ImgFile): IXmlNd {
 
 
-    let fformat = img.extension.toLocaleLowerCase();
-
-    /*
-    if (fformat == "webp" && img.lossless) {
-        fformat = "webp-lossless";
-    }
-    */
-
-    let filePath = path.join("..", "regions", img.filePath);
-
     return new XmlNdText(
-        generateLink5(filePath ,{w: img.width, h: img.height}, getSizeString(img.filesize), fformat)
+        generateLink5(img)
     );
+
+
 }
 
 function translateSizes(imgSet: ImgSet): IXmlNd[] {

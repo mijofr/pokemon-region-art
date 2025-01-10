@@ -7,14 +7,24 @@ $grey3: hsl(222, 12%, 79%);
 $grey4: hsl(222, 12%, 74%);
 $grey5: hsl(222, 12%, 69%);
 
+$hue-a:	012; $col-a: hsl(012,50%,50%);
+$hue-b:	042; $col-b: hsl(042,50%,50%);
+$hue-c:	072; $col-c: hsl(072,50%,50%);
+$hue-d:	102; $col-d: hsl(102,50%,50%);
+$hue-e:	132; $col-e: hsl(132,50%,50%);
+$hue-f:	162; $col-f: hsl(162,50%,50%);
+$hue-g:	192; $col-g: hsl(192,50%,50%);
+$hue-h:	222; $col-h: hsl(222,50%,50%);
+$hue-i:	252; $col-i: hsl(252,50%,50%);
+$hue-j:	282; $col-j: hsl(282,50%,50%);
+$hue-k:	312; $col-k: hsl(312,50%,50%);
+$hue-l:	342; $col-l: hsl(342,50%,50%);
 
-$unknown-file: #454978;
-$webp-dark: #4e9a06;
-$webp-light: #8ae234;
-$jpg: #7e301e;
-$png: #673466;
-
-
+$unknown-file: hsl(222, 27%, 37%);
+$webp-dark: #569906;
+$webp-light: #8ce236;
+$jpg: #80321e;
+$png: #66335c;
 
 
 $background-color: hsl(222, 22%, 10%);

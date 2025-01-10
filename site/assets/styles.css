@@ -333,23 +333,23 @@ body {
 }
 
 :root {
-  --file-type-color: #454978;
+  --file-type-color: hsl(222, 27%, 37%);
 }
 
 .webp-lossless {
-  --file-type-color: #4e9a06;
+  --file-type-color: #569906;
 }
 
 .webp {
-  --file-type-color: #4e9a06;
+  --file-type-color: #569906;
 }
 
 .jpg {
-  --file-type-color: #7e301e;
+  --file-type-color: #80321e;
 }
 
 .png {
-  --file-type-color: #673466;
+  --file-type-color: #66335c;
 }
 
 h1 {
@@ -692,7 +692,10 @@ div.img-container .img-desc div.line {
 
 .tag {
   font-size: 0.8em;
+  font-size: 0.9em;
   height: 1.25em;
+  height: 1em;
+  line-height: 0.9em;
   padding-left: 0.3em;
   padding-right: 0.3em;
   display: inline-block;
@@ -702,6 +705,7 @@ div.img-container .img-desc div.line {
   border-radius: 1em;
   position: relative;
   top: -0.1666666667em;
+  top: -0.1333333333em;
   box-sizing: border-box;
   border: 1px solid #880033;
 }
@@ -975,6 +979,66 @@ div.group-children div.groupNode {
 
 .weight-900 {
   font-variation-settings: "wdth" 100;
+}
+
+.tag.tag-a {
+  border: 1px solid hsl(12, 100%, 27%);
+  background-color: hsl(12, 100%, 27%);
+}
+
+.tag.tag-b {
+  border: 1px solid hsl(42, 100%, 27%);
+  background-color: hsl(42, 100%, 27%);
+}
+
+.tag.tag-c {
+  border: 1px solid hsl(72, 100%, 27%);
+  background-color: hsl(72, 100%, 27%);
+}
+
+.tag.tag-d {
+  border: 1px solid hsl(102, 100%, 27%);
+  background-color: hsl(102, 100%, 27%);
+}
+
+.tag.tag-e {
+  border: 1px solid hsl(132, 100%, 27%);
+  background-color: hsl(132, 100%, 27%);
+}
+
+.tag.tag-f {
+  border: 1px solid hsl(162, 100%, 27%);
+  background-color: hsl(162, 100%, 27%);
+}
+
+.tag.tag-g {
+  border: 1px solid hsl(192, 100%, 27%);
+  background-color: hsl(192, 100%, 27%);
+}
+
+.tag.tag-h {
+  border: 1px solid hsl(222, 100%, 27%);
+  background-color: hsl(222, 100%, 27%);
+}
+
+.tag.tag-i {
+  border: 1px solid hsl(252, 100%, 27%);
+  background-color: hsl(252, 100%, 27%);
+}
+
+.tag.tag-j {
+  border: 1px solid hsl(282, 100%, 27%);
+  background-color: hsl(282, 100%, 27%);
+}
+
+.tag.tag-k {
+  border: 1px solid hsl(312, 100%, 27%);
+  background-color: hsl(312, 100%, 27%);
+}
+
+.tag.tag-l {
+  border: 1px solid hsl(342, 100%, 27%);
+  background-color: hsl(342, 100%, 27%);
 }
 
 /*# sourceMappingURL=styles.css.map */

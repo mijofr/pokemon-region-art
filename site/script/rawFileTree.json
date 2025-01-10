@@ -2,7 +2,7 @@
 	"name": "regions",
 	"path": [],
 	"metadata": {
-		"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions",
+		"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions",
 		"uniqueIdString": "10004",
 		"depth": 0,
 		"isMinor": false
@@ -14,7 +14,7 @@
 				"Aeos Island"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island",
 				"uniqueIdString": "10005",
 				"depth": 1,
 				"isMinor": false
@@ -27,7 +27,7 @@
 						"Stadiums"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums",
 						"uniqueIdString": "10031",
 						"depth": 2,
 						"isMinor": true
@@ -41,23 +41,23 @@
 								"_Remoat Stadium"
 							],
 							"metadata": {
-								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium",
-								"uniqueIdString": "10065",
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium",
+								"uniqueIdString": "10066",
 								"depth": 3,
 								"isMinor": false
 							},
 							"children": [],
 							"items": [
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\croptest.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\half.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.png"
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\croptest.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\half.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.png"
 							]
 						}
 					],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\Remoat Stadium - Night.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Stadiums\\Remoat Stadium - Sunset.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\Remoat Stadium - Night.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\Remoat Stadium - Sunset.jpg"
 					]
 				},
 				{
@@ -67,7 +67,7 @@
 						"_Comic"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic",
 						"uniqueIdString": "10032",
 						"depth": 2,
 						"isMinor": false,
@@ -82,25 +82,25 @@
 								"Upscale"
 							],
 							"metadata": {
-								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic\\Upscale",
-								"uniqueIdString": "10066",
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic\\Upscale",
+								"uniqueIdString": "10067",
 								"depth": 3,
 								"isMinor": false
 							},
 							"children": [],
 							"items": [
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic\\Upscale\\comic-upscale.jpg"
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic\\Upscale\\comic-upscale.jpg"
 							]
 						}
 					],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic\\Aeos Island.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\_Comic\\Aeos Island.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic\\Aeos Island.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic\\Aeos Island.png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Aeos Island\\Aeos Island 2.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Aeos Island 2.jpg"
 			]
 		},
 		{
@@ -109,7 +109,7 @@
 				"Almia"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia",
 				"uniqueIdString": "10006",
 				"depth": 1,
 				"isMinor": false
@@ -122,20 +122,20 @@
 						"_Almia"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\_Almia",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia",
 						"uniqueIdString": "10033",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\_Almia\\Almia.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\_Almia\\Almia.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia\\Almia.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia\\Almia.png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Almia\\Almia Cloudy.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\Almia Cloudy.jpg"
 			]
 		},
 		{
@@ -144,7 +144,7 @@
 				"Alola"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola",
 				"uniqueIdString": "10007",
 				"depth": 1,
 				"isMinor": false
@@ -157,18 +157,18 @@
 						"Island Flat Art"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Island Flat Art",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art",
 						"uniqueIdString": "10034",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Island Flat Art\\Aether.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Island Flat Art\\Akala.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Island Flat Art\\Melemele.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Island Flat Art\\Poni.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Island Flat Art\\Ula'ula.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art\\Aether.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art\\Akala.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art\\Melemele.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art\\Poni.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art\\Ula'ula.png"
 					]
 				},
 				{
@@ -178,16 +178,16 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Locations",
 						"uniqueIdString": "10035",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations\\Hau'oli City.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations\\Iki Town.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Locations\\Ultra Megaopolis.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Locations\\Hau'oli City.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Locations\\Iki Town.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Locations\\Ultra Megaopolis.jpg"
 					]
 				},
 				{
@@ -197,15 +197,15 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_Mindscape",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape",
 						"uniqueIdString": "10036",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape\\Upscale.jpg"
 					]
 				},
 				{
@@ -215,16 +215,16 @@
 						"_SunMoon"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon",
 						"uniqueIdString": "10037",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\alola-full.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\largeish.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_SunMoon\\mid.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\alola-full.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\largeish.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\mid.jpg"
 					]
 				},
 				{
@@ -234,19 +234,19 @@
 						"_UltraSun"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_UltraSun",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSun",
 						"uniqueIdString": "10038",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\_UltraSun\\Alola USUM.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSun\\Alola USUM.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Alola\\Poke_Pelago.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Poke_Pelago.png"
 			]
 		},
 		{
@@ -255,7 +255,7 @@
 				"Blueberry Academy"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy",
 				"uniqueIdString": "10008",
 				"depth": 1,
 				"isMinor": false
@@ -268,24 +268,24 @@
 						"_Map"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map",
 						"uniqueIdString": "10039",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Large).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Large).png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Medium).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Medium).png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Large).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Large).png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Medium).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Medium).png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map\\Blueberry Academy (Small).png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Blueberry Academy\\Blueberry Academy.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\Blueberry Academy.png"
 			]
 		},
 		{
@@ -294,7 +294,7 @@
 				"Fiore"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Fiore",
 				"uniqueIdString": "10009",
 				"depth": 1,
 				"isMinor": false,
@@ -302,10 +302,10 @@
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore\\Fiore 2.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore\\Fiore.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore\\Fiore_-_Pokemon_Ranger-COLORFIX-Fiore.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Fiore\\Fiore_-_Pokemon_Ranger.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Fiore\\Fiore 2.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Fiore\\Fiore.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Fiore\\Fiore_-_Pokemon_Ranger-COLORFIX-Fiore.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Fiore\\Fiore_-_Pokemon_Ranger.jpg"
 			]
 		},
 		{
@@ -314,7 +314,7 @@
 				"Galar"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar",
 				"uniqueIdString": "10010",
 				"depth": 1,
 				"isMinor": false
@@ -327,14 +327,14 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Locations",
 						"uniqueIdString": "10040",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Locations\\Wild Area.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Locations\\Wild Area.png"
 					]
 				},
 				{
@@ -344,23 +344,23 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\_Mindscape",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape",
 						"uniqueIdString": "10041",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape\\Upscale.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Art.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Crown Tundra.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Isle Of Armor.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Galar\\Overmap.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Art.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Crown Tundra.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Isle Of Armor.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Overmap.png"
 			]
 		},
 		{
@@ -369,7 +369,7 @@
 				"Hisui"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui",
 				"uniqueIdString": "10011",
 				"depth": 1,
 				"isMinor": false
@@ -382,16 +382,16 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Locations",
 						"uniqueIdString": "10042",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Locations\\Base Camp.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Locations\\Cobalt Coastlands.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Locations\\Mount Coronet.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Locations\\Base Camp.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Locations\\Cobalt Coastlands.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Locations\\Mount Coronet.jpg"
 					]
 				},
 				{
@@ -401,7 +401,7 @@
 						"_Hisui 2"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\_Hisui 2",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2",
 						"uniqueIdString": "10043",
 						"depth": 2,
 						"isMinor": false
@@ -415,24 +415,24 @@
 								"Upscale"
 							],
 							"metadata": {
-								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\_Hisui 2\\Upscale",
-								"uniqueIdString": "10067",
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2\\Upscale",
+								"uniqueIdString": "10068",
 								"depth": 3,
 								"isMinor": false
 							},
 							"children": [],
 							"items": [
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\_Hisui 2\\Upscale\\Hisui2-upscale.jpg"
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2\\Upscale\\Hisui2-upscale.jpg"
 							]
 						}
 					],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\_Hisui 2\\Hisui2.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2\\Hisui2.png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hisui\\Hisui.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Hisui.png"
 			]
 		},
 		{
@@ -441,7 +441,7 @@
 				"Hoenn"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn",
 				"uniqueIdString": "10012",
 				"depth": 1,
 				"isMinor": false
@@ -454,18 +454,18 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations",
 						"uniqueIdString": "10044",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Battle Frontier.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Fortree_City.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Mauville City.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Slateport City & Mt Chimney.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Locations\\Wilderness.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Battle Frontier.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Fortree_City.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Mauville City.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Slateport City & Mt Chimney.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Wilderness.png"
 					]
 				},
 				{
@@ -475,24 +475,24 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\_Mindscape",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape",
 						"uniqueIdString": "10045",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape\\Upscale.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Angled.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Hoenn 2.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Hoenn.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Simple.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Hoenn\\Soaring Texture.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Angled.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Hoenn 2.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Hoenn.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Simple.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Soaring Texture.png"
 			]
 		},
 		{
@@ -501,15 +501,15 @@
 				"Holon"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Holon",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Holon",
 				"uniqueIdString": "10013",
 				"depth": 1,
 				"isMinor": false
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Holon\\GZycC1iWkAAiUMA.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Holon\\Holon.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Holon\\GZycC1iWkAAiUMA.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Holon\\Holon.jpg"
 			]
 		},
 		{
@@ -518,7 +518,7 @@
 				"Johto"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto",
 				"uniqueIdString": "10014",
 				"depth": 1,
 				"isMinor": false
@@ -531,15 +531,15 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations",
 						"uniqueIdString": "10046",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Locations\\Ecruteak City.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Locations\\Mt Silver.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\Ecruteak City.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\Mt Silver.png"
 					]
 				},
 				{
@@ -549,22 +549,22 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\_Mindscape",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape",
 						"uniqueIdString": "10047",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape\\Upscale.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Gold & Silver.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Johto.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Johto\\Simple.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Gold & Silver.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Johto.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Simple.jpg"
 			]
 		},
 		{
@@ -573,7 +573,7 @@
 				"Kalos"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos",
 				"uniqueIdString": "10015",
 				"depth": 1,
 				"isMinor": false
@@ -586,16 +586,16 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Locations",
 						"uniqueIdString": "10048",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Locations\\Lumiose City 2.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Locations\\Lumiose City.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Locations\\Lumiose Scene.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Locations\\Lumiose City 2.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Locations\\Lumiose City.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Locations\\Lumiose Scene.jpg"
 					]
 				},
 				{
@@ -605,24 +605,24 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\_Mindscape",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape",
 						"uniqueIdString": "10049",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape\\Upscale.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Kalos Clear.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Kalos.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\lumiose 1.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\lumiose 2.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kalos\\Simple.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Kalos Clear.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Kalos.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\lumiose 1.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\lumiose 2.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Simple.jpg"
 			]
 		},
 		{
@@ -631,7 +631,7 @@
 				"Kanto"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto",
 				"uniqueIdString": "10016",
 				"depth": 1,
 				"isMinor": false
@@ -644,25 +644,25 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\_Mindscape",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape",
 						"uniqueIdString": "10050",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape\\Upscale.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\31695378059.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\Calendar.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\Kanto (Go).png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\Kanto.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\Pokemon Green Map.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto\\Simple.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\31695378059.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\Calendar.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\Kanto (Go).png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\Kanto.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\Pokemon Green Map.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\Simple.jpg"
 			]
 		},
 		{
@@ -671,7 +671,7 @@
 				"Kanto & Johto"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto & Johto",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto & Johto",
 				"uniqueIdString": "10017",
 				"depth": 1,
 				"isMinor": false,
@@ -679,8 +679,8 @@
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto & Johto\\Kanto & Johto 2.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kanto & Johto\\Kanto & Johto.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto & Johto\\Kanto & Johto 2.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto & Johto\\Kanto & Johto.png"
 			]
 		},
 		{
@@ -689,7 +689,7 @@
 				"Kitakami"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami",
 				"uniqueIdString": "10018",
 				"depth": 1,
 				"isMinor": false
@@ -702,24 +702,24 @@
 						"_Map"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\_Map",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map",
 						"uniqueIdString": "10051",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\_Map\\Kitakami (Large).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\_Map\\Kitakami (Large).png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\_Map\\Kitakami (Medium).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\_Map\\Kitakami (Medium).png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\_Map\\Kitakami (Small).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\_Map\\Kitakami (Small).png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map\\Kitakami (Large).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map\\Kitakami (Large).png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map\\Kitakami (Medium).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map\\Kitakami (Medium).png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map\\Kitakami (Small).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map\\Kitakami (Small).png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Kitakami\\Kitakami.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\Kitakami.jpg"
 			]
 		},
 		{
@@ -728,7 +728,7 @@
 				"Lental"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental",
 				"uniqueIdString": "10019",
 				"depth": 1,
 				"isMinor": false
@@ -741,24 +741,24 @@
 						"Islands"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Islands",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands",
 						"uniqueIdString": "10052",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Islands\\Aurus_Island.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Islands\\Belusylva_Island.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Islands\\Durice_Island.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Islands\\Florio_Island.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Islands\\Maricopia_Islands.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Islands\\Voluca_Island.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Aurus_Island.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Belusylva_Island.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Durice_Island.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Florio_Island.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Maricopia_Islands.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Voluca_Island.png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Lental\\Lental.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Lental.png"
 			]
 		},
 		{
@@ -767,7 +767,7 @@
 				"Mystery Dungeon"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon",
 				"uniqueIdString": "10020",
 				"depth": 1,
 				"isMinor": false
@@ -780,35 +780,35 @@
 						"Towns"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns",
 						"uniqueIdString": "10053",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns\\Air Continent - Baram Town.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns\\Air Continent - Pokemon Square.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns\\Grass Continent - Treasure Town.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns\\Mist Continent - Post Town.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns\\Pokemon Paradise.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns\\Water Continent - Lively Town.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Towns\\Water Continent - Serene Village.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns\\Air Continent - Baram Town.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns\\Air Continent - Pokemon Square.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns\\Grass Continent - Treasure Town.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns\\Mist Continent - Post Town.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns\\Pokemon Paradise.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns\\Water Continent - Lively Town.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns\\Water Continent - Serene Village.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Air Continent (Rescue Team DX).png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Air Continent (Rescue Team).png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Air Continent Friend Area.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Grass Continent - Blizzard Island (Future).png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Grass Continent - Hidden Land (Future).png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Grass Continent - Prairie.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Grass Continent 2.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Grass Continent.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity).png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Mystery Dungeon\\Super Mystery Dungeon.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Air Continent (Rescue Team DX).png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Air Continent (Rescue Team).png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Air Continent Friend Area.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Grass Continent - Blizzard Island (Future).png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Grass Continent - Hidden Land (Future).png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Grass Continent - Prairie.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Grass Continent 2.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Grass Continent.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity) v2.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Mist Continent (Gates to Infinity).png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Super Mystery Dungeon.png"
 			]
 		},
 		{
@@ -817,18 +817,18 @@
 				"Orre"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre",
 				"uniqueIdString": "10021",
 				"depth": 1,
 				"isMinor": false
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\arrows-view.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\clean map.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\clean-view.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\map.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orre\\upscaled map.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\arrows-view.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\clean map.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\clean-view.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\map.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\upscaled map.jpg"
 			]
 		},
 		{
@@ -837,7 +837,7 @@
 				"Paldea"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea",
 				"uniqueIdString": "10022",
 				"depth": 1,
 				"isMinor": false
@@ -850,14 +850,14 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\Locations",
 						"uniqueIdString": "10054",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\Locations\\Academy.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\Locations\\Academy.png"
 					]
 				},
 				{
@@ -867,24 +867,24 @@
 						"_Map"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\_Map",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map",
 						"uniqueIdString": "10055",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\_Map\\Paldea (Large).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\_Map\\Paldea (Large).png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\_Map\\Paldea (Medium).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\_Map\\Paldea (Medium).png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\_Map\\Paldea (Small).jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\_Map\\Paldea (Small).png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map\\Paldea (Large).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map\\Paldea (Large).png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map\\Paldea (Medium).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map\\Paldea (Medium).png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map\\Paldea (Small).jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map\\Paldea (Small).png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Paldea\\Paldea.jpg"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\Paldea.jpg"
 			]
 		},
 		{
@@ -893,16 +893,16 @@
 				"Pokemon Island"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pokemon Island",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Pokemon Island",
 				"uniqueIdString": "10023",
 				"depth": 1,
 				"isMinor": false
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pokemon Island\\Drawing (large).jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pokemon Island\\Drawing (small).png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pokemon Island\\Texture.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Pokemon Island\\Drawing (large).jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Pokemon Island\\Drawing (small).png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Pokemon Island\\Texture.png"
 			]
 		},
 		{
@@ -911,15 +911,15 @@
 				"Poketopia"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Poketopia",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia",
 				"uniqueIdString": "10024",
 				"depth": 1,
 				"isMinor": false
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Poketopia\\PokeTopia.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Poketopia\\View.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia\\PokeTopia.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia\\View.png"
 			]
 		},
 		{
@@ -928,16 +928,16 @@
 				"Ransei"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ransei",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei",
 				"uniqueIdString": "10025",
 				"depth": 1,
 				"isMinor": false
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ransei\\ransei-locations.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ransei\\Ransei.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ransei\\Southwest.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei\\ransei-locations.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei\\Ransei.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei\\Southwest.png"
 			]
 		},
 		{
@@ -946,7 +946,7 @@
 				"Ryme City"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City",
 				"uniqueIdString": "10026",
 				"depth": 1,
 				"isMinor": false
@@ -959,25 +959,25 @@
 						"_Map"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\_Map",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\_Map",
 						"uniqueIdString": "10056",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\_Map\\lrg.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\_Map\\med.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\_Map\\small.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\_Map\\lrg.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\_Map\\med.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\_Map\\small.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\alleyway.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\approach.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\city.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\Island.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ryme City\\Ryme City Game.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\alleyway.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\approach.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\city.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\Island.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\Ryme City Game.png"
 			]
 		},
 		{
@@ -986,15 +986,15 @@
 				"Sevii Islands"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sevii Islands",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sevii Islands",
 				"uniqueIdString": "10027",
 				"depth": 1,
 				"isMinor": false
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sevii Islands\\Sevii_Islands.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sevii Islands\\Sevii_Islands_upscale.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sevii Islands\\Sevii_Islands.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sevii Islands\\Sevii_Islands_upscale.png"
 			]
 		},
 		{
@@ -1003,7 +1003,7 @@
 				"Sinnoh"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh",
 				"uniqueIdString": "10028",
 				"depth": 1,
 				"isMinor": false
@@ -1016,7 +1016,7 @@
 						"Battle Frontier"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier",
 						"uniqueIdString": "10057",
 						"depth": 2,
 						"isMinor": false
@@ -1030,24 +1030,24 @@
 								"Facilities"
 							],
 							"metadata": {
-								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Facilities",
-								"uniqueIdString": "10068",
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities",
+								"uniqueIdString": "10069",
 								"depth": 3,
 								"isMinor": true
 							},
 							"children": [],
 							"items": [
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Arcade.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Castle.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Factory.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Hall.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Tower.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Entrance.jpg"
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Arcade.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Castle.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Factory.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Hall.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Battle Tower.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities\\Entrance.jpg"
 							]
 						}
 					],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Battle Frontier\\Battle Frontier.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Battle Frontier.jpg"
 					]
 				},
 				{
@@ -1057,18 +1057,18 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations",
 						"uniqueIdString": "10058",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations\\Amity Square.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations\\Distortion World.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations\\Flower Paradise.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations\\Mt Coronet.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Locations\\Stratospheric Room.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations\\Amity Square.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations\\Distortion World.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations\\Flower Paradise.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations\\Mt Coronet.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations\\Stratospheric Room.png"
 					]
 				},
 				{
@@ -1078,15 +1078,15 @@
 						"_Diamond-Pearl"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Diamond-Pearl",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Diamond-Pearl",
 						"uniqueIdString": "10059",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Diamond-Pearl\\Orig 1.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Diamond-Pearl\\Orig 2.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Diamond-Pearl\\Orig 1.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Diamond-Pearl\\Orig 2.jpg"
 					]
 				},
 				{
@@ -1096,15 +1096,15 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Mindscape",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape",
 						"uniqueIdString": "10060",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape\\Upscale.jpg"
 					]
 				},
 				{
@@ -1114,45 +1114,61 @@
 						"_Sinnoh Labelled"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Sinnoh Labelled",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled",
 						"uniqueIdString": "10061",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [
 						{
-							"name": "downscales",
+							"name": "downscale",
 							"path": [
 								"Sinnoh",
 								"_Sinnoh Labelled",
-								"downscales"
+								"downscale"
 							],
 							"metadata": {
-								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Sinnoh Labelled\\downscales",
-								"uniqueIdString": "10069",
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled\\downscale",
+								"uniqueIdString": "10070",
 								"depth": 3,
 								"isMinor": false
 							},
 							"children": [],
 							"items": [
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Sinnoh Labelled\\downscales\\half.jpg",
-								"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Sinnoh Labelled\\downscales\\i3.jpg"
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled\\downscale\\half.jpg",
+								"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled\\downscale\\i3.jpg"
 							]
 						}
 					],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Sinnoh Labelled\\Orig.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\_Sinnoh Labelled\\Sinnoh Labelled.png"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled\\Sinnoh Labelled.png"
+					]
+				},
+				{
+					"name": "_Sinnoh Unlabelled",
+					"path": [
+						"Sinnoh",
+						"_Sinnoh Unlabelled"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Unlabelled",
+						"uniqueIdString": "10062",
+						"depth": 2,
+						"isMinor": false
+					},
+					"children": [],
+					"items": [
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Unlabelled\\Orig.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Unlabelled\\Sinnoh Unlabelled.png"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Grand Underground.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Overview.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Platinum.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Simple.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Sinnoh Map.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Sinnoh\\Sinnoh Unlabelled.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Grand Underground.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Overview.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Platinum.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Simple.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Sinnoh Map.png"
 			]
 		},
 		{
@@ -1161,16 +1177,16 @@
 				"Tumblecube Island"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Tumblecube Island",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Tumblecube Island",
 				"uniqueIdString": "10029",
 				"depth": 1,
 				"isMinor": false
 			},
 			"children": [],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Tumblecube Island\\map-2.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Tumblecube Island\\Map.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Tumblecube Island\\Tumblecube Island.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Tumblecube Island\\map-2.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Tumblecube Island\\Map.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Tumblecube Island\\Tumblecube Island.png"
 			]
 		},
 		{
@@ -1179,7 +1195,7 @@
 				"Unova"
 			],
 			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova",
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova",
 				"uniqueIdString": "10030",
 				"depth": 1,
 				"isMinor": false
@@ -1192,16 +1208,16 @@
 						"Locations"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Locations",
-						"uniqueIdString": "10062",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Locations",
+						"uniqueIdString": "10063",
 						"depth": 2,
 						"isMinor": true
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Locations\\Battle Subway.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Locations\\Black City & White Forest.jpg",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Locations\\Castelia City.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Locations\\Battle Subway.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Locations\\Black City & White Forest.jpg",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Locations\\Castelia City.jpg"
 					]
 				},
 				{
@@ -1211,15 +1227,15 @@
 						"_Mindscape"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\_Mindscape",
-						"uniqueIdString": "10063",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape",
+						"uniqueIdString": "10064",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\_Mindscape\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\_Mindscape\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape\\Upscale.jpg"
 					]
 				},
 				{
@@ -1229,36 +1245,36 @@
 						"_Mindscape 2"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\_Mindscape 2",
-						"uniqueIdString": "10064",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2",
+						"uniqueIdString": "10065",
 						"depth": 2,
 						"isMinor": false
 					},
 					"children": [],
 					"items": [
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\_Mindscape 2\\original.png",
-						"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\_Mindscape 2\\Upscale.jpg"
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2\\original.png",
+						"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2\\Upscale.jpg"
 					]
 				}
 			],
 			"items": [
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Simple.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Unova BW cloudy.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Unova BW.png",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Unova BW2 Frosted.jpg",
-				"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Unova\\Unova BW2.png"
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Simple.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Unova BW cloudy.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Unova BW.png",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Unova BW2 Frosted.jpg",
+				"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Unova BW2.png"
 			]
 		}
 	],
 	"items": [
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Carmonte Island.png",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Ferrum.png",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Oblivia.jpg",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Orange Islands.png",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Pasio.png",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\PokéPark.jpg",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Puzzle Village.png",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Virtual Fest!.jpg",
-		"D:\\Users\\Michael\\repos\\pokemon-regions\\regions\\Vivillon on Earth.png"
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Carmonte Island.png",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ferrum.png",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Oblivia.jpg",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orange Islands.png",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Pasio.png",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\PokéPark.jpg",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Puzzle Village.png",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Virtual Fest!.jpg",
+		"D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Vivillon on Earth.png"
 	]
 }

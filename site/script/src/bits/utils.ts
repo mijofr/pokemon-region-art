@@ -20,6 +20,11 @@ export function getUniqueId() {
     return idStart;
 }
 
+
+export function strEq(a: string, b: string): boolean {
+    return (a ?? "").toLocaleLowerCase().trim() == (b ?? "").toLocaleLowerCase().trim()
+}
+
 export function IsNullOrWhitespace(str: string) {
     return ((str == null) || str.trim() == "")
   }

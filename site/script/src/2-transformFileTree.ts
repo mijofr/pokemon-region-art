@@ -1,6 +1,6 @@
 import { TreeNode } from "../lib/tree-node";
 import { DirInfo, FileSizeDesc, ImgInfo, Size2 } from "src/types";
-import { execPromise, fsAccess, getUniqueId } from "./bits/utils";
+import { execPromise, fsAccess, getUniqueId, strEq } from "./bits/utils";
 import path from "path";
 import { XmlNd } from "lib/xml-nd";
 import { IsNullOrWhitespace } from "notes/util_set";
@@ -71,6 +71,7 @@ export interface ImgFile {
     megapixels: number;
     lossless: boolean;
     aspect: number;
+    metatags: string[];
 
 }
 
@@ -107,7 +108,8 @@ function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
             filesize: img.filesize,
             megapixels: (img.width * img.height) / 1000000,
             lossless: img.lossless,
-            aspect: img.aspect
+            aspect: img.aspect,
+            metatags: []
         
         }]
     }
@@ -149,6 +151,14 @@ function getSizes(files: ImgFile[]): Size2P[] {
 
 }
 
+function transformSubdir(dataset: TreeNode<ImgInfo, DirInfo>) {
+    if (dataset.children.length > 0) {
+        console.warn(`Unexpected extra children of ${dataset.path.toString()}`);
+    }
+    let results = dataset.items.map(i => transformImgSetImg(i))
+    return results;
+}
+
 function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): ImgSet {
 
 
@@ -163,7 +173,22 @@ function transformImgSet(dataset: TreeNode<ImgInfo, DirInfo>, pth: string[]): Im
         files.push(transformImgSetImg(i));
     }
     if (dataset.children.length > 0) {
-        console.warn("Extra children of " + dataset.path.toString());
+
+        for (let c of dataset.children) {
+            let cName = c.name.toLocaleUpperCase();
+            if (cName == "UPSCALE") {
+                let subItems = transformSubdir(c);
+                subItems.forEach(i => {i.metatags.push("UPSCALE")});
+                files.push(...subItems);
+
+            } else if (cName == "DOWNSCALE") {
+                let subItems = transformSubdir(c);
+                subItems.forEach(i => {i.metatags.push("DOWNSCALE")});
+                files.push(...subItems);
+            } else {
+                console.warn(`Unexpected extra child ${c.name} of ${dataset.path.toString()}`);
+            }
+        }
     }
 
     let maxMegapixels = Math.max(...files.map(n => n.megapixels));
@@ -202,7 +227,8 @@ function transformImgSetImg(img: ImgInfo): ImgFile {
         filesize: img.filesize,
         megapixels: (img.width * img.height) / 1000000,
         lossless: img.lossless,
-        aspect: img.aspect
+        aspect: img.aspect,
+        metatags: []
     }
 }
 

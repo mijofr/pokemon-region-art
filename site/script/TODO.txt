@@ -1,3 +1,11 @@
+DELETE: 
+D:\Users\Michael\repos\pokemon-regions
+D:\Users\Michael\repos\pmonreg-temp
+D:\TMP\pokemon-regions
+
+Also delete the old repo on github
+
+
 Flip the ordering of images and sub-nodes in the first level.
 
 add ID values
