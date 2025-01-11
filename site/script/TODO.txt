@@ -5,6 +5,12 @@ D:\TMP\pokemon-regions
 
 Also delete the old repo on github
 
+in ordering, florio island 2 should come after florio island.
+
+Use collapsables summary/detail element for
+
+deal with minor items with more than one file
+
 
 Flip the ordering of images and sub-nodes in the first level.
 

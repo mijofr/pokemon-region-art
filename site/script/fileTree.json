@@ -216,39 +216,11 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium",
-								"uniqueIdString": "10066",
+								"uniqueIdString": "10079",
 								"depth": 3,
 								"isMinor": false
 							},
 							"items": [
-								{
-									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\croptest.jpg",
-									"enumeratedName": "Aeos Island\\Stadiums\\_Remoat Stadium\\croptest",
-									"relPath": "Aeos Island\\Stadiums\\_Remoat Stadium\\croptest.jpg",
-									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Aeos Island\\Stadiums\\_Remoat Stadium\\croptest.jpg",
-									"name": "croptest",
-									"extension": "jpg",
-									"width": 1754,
-									"height": 1938,
-									"lossless": false,
-									"filesize": 910555,
-									"quality": -1,
-									"aspect": 0.9051
-								},
-								{
-									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\half.jpg",
-									"enumeratedName": "Aeos Island\\Stadiums\\_Remoat Stadium\\half",
-									"relPath": "Aeos Island\\Stadiums\\_Remoat Stadium\\half.jpg",
-									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Aeos Island\\Stadiums\\_Remoat Stadium\\half.jpg",
-									"name": "half",
-									"extension": "jpg",
-									"width": 3654,
-									"height": 1986,
-									"lossless": false,
-									"filesize": 1300064,
-									"quality": -1,
-									"aspect": 1.84
-								},
 								{
 									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\Remoat Stadium.jpg",
 									"enumeratedName": "Aeos Island\\Stadiums\\_Remoat Stadium\\remoat-stadium",
@@ -278,7 +250,40 @@
 									"aspect": 1.84
 								}
 							],
-							"children": []
+							"children": [
+								{
+									"name": "downscale",
+									"path": [
+										"Aeos Island",
+										"Stadiums",
+										"_Remoat Stadium",
+										"downscale"
+									],
+									"metadata": {
+										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\downscale",
+										"uniqueIdString": "10109",
+										"depth": 4,
+										"isMinor": false
+									},
+									"items": [
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\downscale\\half.jpg",
+											"enumeratedName": "Aeos Island\\Stadiums\\_Remoat Stadium\\downscale\\half",
+											"relPath": "Aeos Island\\Stadiums\\_Remoat Stadium\\downscale\\half.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Aeos Island\\Stadiums\\_Remoat Stadium\\downscale\\half.jpg",
+											"name": "half",
+											"extension": "jpg",
+											"width": 3654,
+											"height": 1986,
+											"lossless": false,
+											"filesize": 1300064,
+											"quality": -1,
+											"aspect": 1.84
+										}
+									],
+									"children": []
+								}
+							]
 						}
 					]
 				},
@@ -335,7 +340,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic\\Upscale",
-								"uniqueIdString": "10067",
+								"uniqueIdString": "10080",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -372,22 +377,7 @@
 				"depth": 1,
 				"isMinor": false
 			},
-			"items": [
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\Almia Cloudy.jpg",
-					"enumeratedName": "Almia\\almia-cloudy",
-					"relPath": "Almia\\Almia Cloudy.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\Almia Cloudy.jpg",
-					"name": "Almia Cloudy",
-					"extension": "jpg",
-					"width": 4252,
-					"height": 3927,
-					"lossless": false,
-					"filesize": 3425957,
-					"quality": -1,
-					"aspect": 1.083
-				}
-			],
+			"items": [],
 			"children": [
 				{
 					"name": "_Almia",
@@ -432,6 +422,82 @@
 						}
 					],
 					"children": []
+				},
+				{
+					"name": "_Almia Cloudy",
+					"path": [
+						"Almia",
+						"_Almia Cloudy"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy",
+						"uniqueIdString": "10034",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\Almia Cloudy.jpg",
+							"enumeratedName": "Almia\\_Almia Cloudy\\almia-cloudy",
+							"relPath": "Almia\\_Almia Cloudy\\Almia Cloudy.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia Cloudy\\Almia Cloudy.jpg",
+							"name": "Almia Cloudy",
+							"extension": "jpg",
+							"width": 4252,
+							"height": 3927,
+							"lossless": false,
+							"filesize": 3425957,
+							"quality": -1,
+							"aspect": 1.083
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Almia",
+								"_Almia Cloudy",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\downscale",
+								"uniqueIdString": "10081",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\downscale\\half.jpg",
+									"enumeratedName": "Almia\\_Almia Cloudy\\downscale\\half",
+									"relPath": "Almia\\_Almia Cloudy\\downscale\\half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia Cloudy\\downscale\\half.jpg",
+									"name": "half",
+									"extension": "jpg",
+									"width": 2126,
+									"height": 1964,
+									"lossless": false,
+									"filesize": 854529,
+									"quality": -1,
+									"aspect": 1.082
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\downscale\\small.jpg",
+									"enumeratedName": "Almia\\_Almia Cloudy\\downscale\\small",
+									"relPath": "Almia\\_Almia Cloudy\\downscale\\small.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia Cloudy\\downscale\\small.jpg",
+									"name": "small",
+									"extension": "jpg",
+									"width": 1083,
+									"height": 1000,
+									"lossless": false,
+									"filesize": 304605,
+									"quality": -1,
+									"aspect": 1.083
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -448,11 +514,39 @@
 			},
 			"items": [
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Poke_Pelago.png",
-					"enumeratedName": "Alola\\poke_pelago",
-					"relPath": "Alola\\Poke_Pelago.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\Poke_Pelago.jpg",
-					"name": "Poke_Pelago",
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Map - Sun Moon.png",
+					"enumeratedName": "Alola\\map---sun-moon",
+					"relPath": "Alola\\Map - Sun Moon.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\Map - Sun Moon.jpg",
+					"name": "Map - Sun Moon",
+					"extension": "png",
+					"width": 3072,
+					"height": 1792,
+					"lossless": true,
+					"filesize": 2707398,
+					"quality": -1,
+					"aspect": 1.714
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Map - UltraSun UltraMoon.png",
+					"enumeratedName": "Alola\\map---ultrasun-ultramoon",
+					"relPath": "Alola\\Map - UltraSun UltraMoon.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\Map - UltraSun UltraMoon.jpg",
+					"name": "Map - UltraSun UltraMoon",
+					"extension": "png",
+					"width": 3072,
+					"height": 1792,
+					"lossless": true,
+					"filesize": 2680488,
+					"quality": -1,
+					"aspect": 1.714
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Poke-Pelago.png",
+					"enumeratedName": "Alola\\poke-pelago",
+					"relPath": "Alola\\Poke-Pelago.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\Poke-Pelago.jpg",
+					"name": "Poke-Pelago",
 					"extension": "png",
 					"width": 3508,
 					"height": 2480,
@@ -471,7 +565,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art",
-						"uniqueIdString": "10034",
+						"uniqueIdString": "10035",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -557,7 +651,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Locations",
-						"uniqueIdString": "10035",
+						"uniqueIdString": "10036",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -615,7 +709,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape",
-						"uniqueIdString": "10036",
+						"uniqueIdString": "10037",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -633,23 +727,41 @@
 							"filesize": 392811,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Alola\\_Mindscape\\upscale",
-							"relPath": "Alola\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 201239,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Alola",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape\\upscale",
+								"uniqueIdString": "10082",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Alola\\_Mindscape\\upscale\\upscale",
+									"relPath": "Alola\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 201239,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
 				},
 				{
 					"name": "_SunMoon",
@@ -659,11 +771,25 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon",
-						"uniqueIdString": "10037",
+						"uniqueIdString": "10038",
 						"depth": 2,
 						"isMinor": false
 					},
 					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\alola-full.jpg",
+							"enumeratedName": "Alola\\_SunMoon\\alola-full",
+							"relPath": "Alola\\_SunMoon\\alola-full.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_SunMoon\\alola-full.jpg",
+							"name": "alola-full",
+							"extension": "jpg",
+							"width": 14192,
+							"height": 10032,
+							"lossless": false,
+							"filesize": 13732512,
+							"quality": -1,
+							"aspect": 1.415
+						},
 						{
 							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\alola-full.png",
 							"enumeratedName": "Alola\\_SunMoon\\alola-full",
@@ -677,56 +803,74 @@
 							"filesize": 158684491,
 							"quality": -1,
 							"aspect": 1.415
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\largeish.jpg",
-							"enumeratedName": "Alola\\_SunMoon\\largeish",
-							"relPath": "Alola\\_SunMoon\\largeish.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_SunMoon\\largeish.jpg",
-							"name": "largeish",
-							"extension": "jpg",
-							"width": 14192,
-							"height": 10032,
-							"lossless": false,
-							"filesize": 12211610,
-							"quality": -1,
-							"aspect": 1.415
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\mid.jpg",
-							"enumeratedName": "Alola\\_SunMoon\\mid",
-							"relPath": "Alola\\_SunMoon\\mid.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_SunMoon\\mid.jpg",
-							"name": "mid",
-							"extension": "jpg",
-							"width": 7096,
-							"height": 5016,
-							"lossless": false,
-							"filesize": 3400892,
-							"quality": -1,
-							"aspect": 1.415
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Alola",
+								"_SunMoon",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\downscale",
+								"uniqueIdString": "10083",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\downscale\\half.jpg",
+									"enumeratedName": "Alola\\_SunMoon\\downscale\\half",
+									"relPath": "Alola\\_SunMoon\\downscale\\half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_SunMoon\\downscale\\half.jpg",
+									"name": "half",
+									"extension": "jpg",
+									"width": 7096,
+									"height": 5016,
+									"lossless": false,
+									"filesize": 4737186,
+									"quality": -1,
+									"aspect": 1.415
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\downscale\\quarter.jpg",
+									"enumeratedName": "Alola\\_SunMoon\\downscale\\quarter",
+									"relPath": "Alola\\_SunMoon\\downscale\\quarter.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_SunMoon\\downscale\\quarter.jpg",
+									"name": "quarter",
+									"extension": "jpg",
+									"width": 3548,
+									"height": 2508,
+									"lossless": false,
+									"filesize": 1609632,
+									"quality": -1,
+									"aspect": 1.415
+								}
+							],
+							"children": []
+						}
+					]
 				},
 				{
-					"name": "_UltraSun",
+					"name": "_UltraSunUltraMoon",
 					"path": [
 						"Alola",
-						"_UltraSun"
+						"_UltraSunUltraMoon"
 					],
 					"metadata": {
-						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSun",
-						"uniqueIdString": "10038",
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSunUltraMoon",
+						"uniqueIdString": "10039",
 						"depth": 2,
 						"isMinor": false
 					},
 					"items": [
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSun\\Alola USUM.jpg",
-							"enumeratedName": "Alola\\_UltraSun\\alola-usum",
-							"relPath": "Alola\\_UltraSun\\Alola USUM.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_UltraSun\\Alola USUM.jpg",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSunUltraMoon\\Alola USUM.jpg",
+							"enumeratedName": "Alola\\_UltraSunUltraMoon\\alola-usum",
+							"relPath": "Alola\\_UltraSunUltraMoon\\Alola USUM.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_UltraSunUltraMoon\\Alola USUM.jpg",
 							"name": "Alola USUM",
 							"extension": "jpg",
 							"width": 14192,
@@ -737,7 +881,53 @@
 							"aspect": 1.415
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Alola",
+								"_UltraSunUltraMoon",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSunUltraMoon\\downscale",
+								"uniqueIdString": "10084",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSunUltraMoon\\downscale\\half.jpg",
+									"enumeratedName": "Alola\\_UltraSunUltraMoon\\downscale\\half",
+									"relPath": "Alola\\_UltraSunUltraMoon\\downscale\\half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_UltraSunUltraMoon\\downscale\\half.jpg",
+									"name": "half",
+									"extension": "jpg",
+									"width": 7096,
+									"height": 5016,
+									"lossless": false,
+									"filesize": 5005911,
+									"quality": -1,
+									"aspect": 1.415
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSunUltraMoon\\downscale\\quarter.jpg",
+									"enumeratedName": "Alola\\_UltraSunUltraMoon\\downscale\\quarter",
+									"relPath": "Alola\\_UltraSunUltraMoon\\downscale\\quarter.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Alola\\_UltraSunUltraMoon\\downscale\\quarter.jpg",
+									"name": "quarter",
+									"extension": "jpg",
+									"width": 3548,
+									"height": 2508,
+									"lossless": false,
+									"filesize": 1709668,
+									"quality": -1,
+									"aspect": 1.415
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -777,7 +967,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map",
-						"uniqueIdString": "10039",
+						"uniqueIdString": "10040",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -956,20 +1146,6 @@
 			},
 			"items": [
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Art.png",
-					"enumeratedName": "Galar\\art",
-					"relPath": "Galar\\Art.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Galar\\Art.jpg",
-					"name": "Art",
-					"extension": "png",
-					"width": 3508,
-					"height": 4962,
-					"lossless": true,
-					"filesize": 20000431,
-					"quality": -1,
-					"aspect": 0.707
-				},
-				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Crown Tundra.png",
 					"enumeratedName": "Galar\\crown-tundra",
 					"relPath": "Galar\\Crown Tundra.png",
@@ -1021,7 +1197,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Locations",
-						"uniqueIdString": "10040",
+						"uniqueIdString": "10041",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1044,6 +1220,82 @@
 					"children": []
 				},
 				{
+					"name": "_Art",
+					"path": [
+						"Galar",
+						"_Art"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Art",
+						"uniqueIdString": "10042",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Art\\Art.jpg",
+							"enumeratedName": "Galar\\_Art\\art",
+							"relPath": "Galar\\_Art\\Art.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Galar\\_Art\\Art.jpg",
+							"name": "Art",
+							"extension": "jpg",
+							"width": 3508,
+							"height": 4962,
+							"lossless": false,
+							"filesize": 3212767,
+							"quality": -1,
+							"aspect": 0.707
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Art\\Art.png",
+							"enumeratedName": "Galar\\_Art\\art",
+							"relPath": "Galar\\_Art\\Art.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Galar\\_Art\\Art.jpg",
+							"name": "Art",
+							"extension": "png",
+							"width": 3508,
+							"height": 4962,
+							"lossless": true,
+							"filesize": 20000431,
+							"quality": -1,
+							"aspect": 0.707
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Galar",
+								"_Art",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Art\\downscale",
+								"uniqueIdString": "10085",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Art\\downscale\\Art-half.jpg",
+									"enumeratedName": "Galar\\_Art\\downscale\\art-half",
+									"relPath": "Galar\\_Art\\downscale\\Art-half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Galar\\_Art\\downscale\\Art-half.jpg",
+									"name": "Art-half",
+									"extension": "jpg",
+									"width": 1754,
+									"height": 2481,
+									"lossless": false,
+									"filesize": 1204425,
+									"quality": -1,
+									"aspect": 0.707
+								}
+							],
+							"children": []
+						}
+					]
+				},
+				{
 					"name": "_Mindscape",
 					"path": [
 						"Galar",
@@ -1051,7 +1303,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape",
-						"uniqueIdString": "10041",
+						"uniqueIdString": "10043",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1069,23 +1321,41 @@
 							"filesize": 383457,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Galar\\_Mindscape\\upscale",
-							"relPath": "Galar\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Galar\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 225433,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Galar",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape\\upscale",
+								"uniqueIdString": "10086",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Galar\\_Mindscape\\upscale\\upscale",
+									"relPath": "Galar\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Galar\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 225433,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -1100,22 +1370,7 @@
 				"depth": 1,
 				"isMinor": false
 			},
-			"items": [
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Hisui.png",
-					"enumeratedName": "Hisui\\hisui",
-					"relPath": "Hisui\\Hisui.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hisui\\Hisui.jpg",
-					"name": "Hisui",
-					"extension": "png",
-					"width": 5705,
-					"height": 3169,
-					"lossless": true,
-					"filesize": 33280715,
-					"quality": -1,
-					"aspect": 1.8
-				}
-			],
+			"items": [],
 			"children": [
 				{
 					"name": "Locations",
@@ -1125,7 +1380,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Locations",
-						"uniqueIdString": "10042",
+						"uniqueIdString": "10044",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1176,6 +1431,82 @@
 					"children": []
 				},
 				{
+					"name": "_Hisui",
+					"path": [
+						"Hisui",
+						"_Hisui"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui",
+						"uniqueIdString": "10045",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui\\Hisui.jpg",
+							"enumeratedName": "Hisui\\_Hisui\\hisui",
+							"relPath": "Hisui\\_Hisui\\Hisui.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hisui\\_Hisui\\Hisui.jpg",
+							"name": "Hisui",
+							"extension": "jpg",
+							"width": 5705,
+							"height": 3169,
+							"lossless": false,
+							"filesize": 5627541,
+							"quality": -1,
+							"aspect": 1.8
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui\\Hisui.png",
+							"enumeratedName": "Hisui\\_Hisui\\hisui",
+							"relPath": "Hisui\\_Hisui\\Hisui.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hisui\\_Hisui\\Hisui.jpg",
+							"name": "Hisui",
+							"extension": "png",
+							"width": 5705,
+							"height": 3169,
+							"lossless": true,
+							"filesize": 33280715,
+							"quality": -1,
+							"aspect": 1.8
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Hisui",
+								"_Hisui",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui\\downscale",
+								"uniqueIdString": "10087",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui\\downscale\\Hisui-dwn.jpg",
+									"enumeratedName": "Hisui\\_Hisui\\downscale\\hisui-dwn",
+									"relPath": "Hisui\\_Hisui\\downscale\\Hisui-dwn.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hisui\\_Hisui\\downscale\\Hisui-dwn.jpg",
+									"name": "Hisui-dwn",
+									"extension": "jpg",
+									"width": 1944,
+									"height": 1080,
+									"lossless": false,
+									"filesize": 710435,
+									"quality": -1,
+									"aspect": 1.8
+								}
+							],
+							"children": []
+						}
+					]
+				},
+				{
 					"name": "_Hisui 2",
 					"path": [
 						"Hisui",
@@ -1183,7 +1514,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2",
-						"uniqueIdString": "10043",
+						"uniqueIdString": "10046",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1213,7 +1544,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2\\Upscale",
-								"uniqueIdString": "10068",
+								"uniqueIdString": "10088",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1306,20 +1637,6 @@
 					"filesize": 895370,
 					"quality": -1,
 					"aspect": 1.778
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Soaring Texture.png",
-					"enumeratedName": "Hoenn\\soaring-texture",
-					"relPath": "Hoenn\\Soaring Texture.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Soaring Texture.jpg",
-					"name": "Soaring Texture",
-					"extension": "png",
-					"width": 4472,
-					"height": 2795,
-					"lossless": true,
-					"filesize": 13052252,
-					"quality": -1,
-					"aspect": 1.6
 				}
 			],
 			"children": [
@@ -1331,7 +1648,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations",
-						"uniqueIdString": "10044",
+						"uniqueIdString": "10047",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1351,63 +1668,223 @@
 							"aspect": 1.685
 						},
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Fortree_City.png",
-							"enumeratedName": "Hoenn\\Locations\\fortree_city",
-							"relPath": "Hoenn\\Locations\\Fortree_City.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\Fortree_City.jpg",
-							"name": "Fortree_City",
-							"extension": "png",
-							"width": 660,
-							"height": 457,
-							"lossless": true,
-							"filesize": 472786,
-							"quality": -1,
-							"aspect": 1.444
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Mauville City.png",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Mauville City.jpg",
 							"enumeratedName": "Hoenn\\Locations\\mauville-city",
-							"relPath": "Hoenn\\Locations\\Mauville City.png",
+							"relPath": "Hoenn\\Locations\\Mauville City.jpg",
 							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\Mauville City.jpg",
 							"name": "Mauville City",
-							"extension": "png",
-							"width": 1920,
-							"height": 1296,
-							"lossless": true,
-							"filesize": 3304104,
+							"extension": "jpg",
+							"width": 2048,
+							"height": 1447,
+							"lossless": false,
+							"filesize": 496528,
 							"quality": -1,
-							"aspect": 1.481
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Slateport City & Mt Chimney.png",
-							"enumeratedName": "Hoenn\\Locations\\slateport-city-&-mt-chimney",
-							"relPath": "Hoenn\\Locations\\Slateport City & Mt Chimney.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\Slateport City & Mt Chimney.jpg",
-							"name": "Slateport City & Mt Chimney",
-							"extension": "png",
-							"width": 2481,
-							"height": 3508,
-							"lossless": true,
-							"filesize": 10117162,
-							"quality": -1,
-							"aspect": 0.7072
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\Wilderness.png",
-							"enumeratedName": "Hoenn\\Locations\\wilderness",
-							"relPath": "Hoenn\\Locations\\Wilderness.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\Wilderness.jpg",
-							"name": "Wilderness",
-							"extension": "png",
-							"width": 4093,
-							"height": 5786,
-							"lossless": true,
-							"filesize": 23312392,
-							"quality": -1,
-							"aspect": 0.7074
+							"aspect": 1.415
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "_Fortree City",
+							"path": [
+								"Hoenn",
+								"Locations",
+								"_Fortree City"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Fortree City",
+								"uniqueIdString": "10089",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Fortree City\\Fortree.jpg",
+									"enumeratedName": "Hoenn\\Locations\\_Fortree City\\fortree",
+									"relPath": "Hoenn\\Locations\\_Fortree City\\Fortree.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Fortree City\\Fortree.jpg",
+									"name": "Fortree",
+									"extension": "jpg",
+									"width": 1920,
+									"height": 1353,
+									"lossless": false,
+									"filesize": 788976,
+									"quality": -1,
+									"aspect": 1.419
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Fortree City\\Fortree.png",
+									"enumeratedName": "Hoenn\\Locations\\_Fortree City\\fortree",
+									"relPath": "Hoenn\\Locations\\_Fortree City\\Fortree.png",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Fortree City\\Fortree.jpg",
+									"name": "Fortree",
+									"extension": "png",
+									"width": 1920,
+									"height": 1353,
+									"lossless": true,
+									"filesize": 5218656,
+									"quality": -1,
+									"aspect": 1.419
+								}
+							],
+							"children": []
+						},
+						{
+							"name": "_Slateport City & Mt Chimney",
+							"path": [
+								"Hoenn",
+								"Locations",
+								"_Slateport City & Mt Chimney"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Slateport City & Mt Chimney",
+								"uniqueIdString": "10090",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\slateport.jpg",
+									"enumeratedName": "Hoenn\\Locations\\_Slateport City & Mt Chimney\\slateport",
+									"relPath": "Hoenn\\Locations\\_Slateport City & Mt Chimney\\slateport.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\slateport.jpg",
+									"name": "slateport",
+									"extension": "jpg",
+									"width": 2481,
+									"height": 3508,
+									"lossless": false,
+									"filesize": 1456242,
+									"quality": -1,
+									"aspect": 0.7072
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\Slateport.png",
+									"enumeratedName": "Hoenn\\Locations\\_Slateport City & Mt Chimney\\slateport",
+									"relPath": "Hoenn\\Locations\\_Slateport City & Mt Chimney\\Slateport.png",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\Slateport.jpg",
+									"name": "Slateport",
+									"extension": "png",
+									"width": 2481,
+									"height": 3508,
+									"lossless": true,
+									"filesize": 10117162,
+									"quality": -1,
+									"aspect": 0.7072
+								}
+							],
+							"children": [
+								{
+									"name": "downscale",
+									"path": [
+										"Hoenn",
+										"Locations",
+										"_Slateport City & Mt Chimney",
+										"downscale"
+									],
+									"metadata": {
+										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\downscale",
+										"uniqueIdString": "10110",
+										"depth": 4,
+										"isMinor": false
+									},
+									"items": [
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\downscale\\slateport-down.jpg",
+											"enumeratedName": "Hoenn\\Locations\\_Slateport City & Mt Chimney\\downscale\\slateport-down",
+											"relPath": "Hoenn\\Locations\\_Slateport City & Mt Chimney\\downscale\\slateport-down.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\downscale\\slateport-down.jpg",
+											"name": "slateport-down",
+											"extension": "jpg",
+											"width": 1080,
+											"height": 1527,
+											"lossless": false,
+											"filesize": 461359,
+											"quality": -1,
+											"aspect": 0.7073
+										}
+									],
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "_Wilderness",
+							"path": [
+								"Hoenn",
+								"Locations",
+								"_Wilderness"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Wilderness",
+								"uniqueIdString": "10091",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Wilderness\\Wilderness.jpg",
+									"enumeratedName": "Hoenn\\Locations\\_Wilderness\\wilderness",
+									"relPath": "Hoenn\\Locations\\_Wilderness\\Wilderness.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Wilderness\\Wilderness.jpg",
+									"name": "Wilderness",
+									"extension": "jpg",
+									"width": 4093,
+									"height": 5786,
+									"lossless": false,
+									"filesize": 3962314,
+									"quality": -1,
+									"aspect": 0.7074
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Wilderness\\Wilderness.png",
+									"enumeratedName": "Hoenn\\Locations\\_Wilderness\\wilderness",
+									"relPath": "Hoenn\\Locations\\_Wilderness\\Wilderness.png",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Wilderness\\Wilderness.jpg",
+									"name": "Wilderness",
+									"extension": "png",
+									"width": 4093,
+									"height": 5786,
+									"lossless": true,
+									"filesize": 23312392,
+									"quality": -1,
+									"aspect": 0.7074
+								}
+							],
+							"children": [
+								{
+									"name": "downscale",
+									"path": [
+										"Hoenn",
+										"Locations",
+										"_Wilderness",
+										"downscale"
+									],
+									"metadata": {
+										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Wilderness\\downscale",
+										"uniqueIdString": "10111",
+										"depth": 4,
+										"isMinor": false
+									},
+									"items": [
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Wilderness\\downscale\\Wilderness-half.jpg",
+											"enumeratedName": "Hoenn\\Locations\\_Wilderness\\downscale\\wilderness-half",
+											"relPath": "Hoenn\\Locations\\_Wilderness\\downscale\\Wilderness-half.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\Locations\\_Wilderness\\downscale\\Wilderness-half.jpg",
+											"name": "Wilderness-half",
+											"extension": "jpg",
+											"width": 2048,
+											"height": 2895,
+											"lossless": false,
+											"filesize": 1401569,
+											"quality": -1,
+											"aspect": 0.7074
+										}
+									],
+									"children": []
+								}
+							]
+						}
+					]
 				},
 				{
 					"name": "_Mindscape",
@@ -1417,7 +1894,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape",
-						"uniqueIdString": "10045",
+						"uniqueIdString": "10048",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1435,23 +1912,117 @@
 							"filesize": 395501,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Hoenn\\_Mindscape\\upscale",
-							"relPath": "Hoenn\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 229182,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Hoenn",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape\\upscale",
+								"uniqueIdString": "10092",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Hoenn\\_Mindscape\\upscale\\upscale",
+									"relPath": "Hoenn\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 229182,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "_Soaring",
+					"path": [
+						"Hoenn",
+						"_Soaring"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Soaring",
+						"uniqueIdString": "10049",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Soaring\\Soaring.jpg",
+							"enumeratedName": "Hoenn\\_Soaring\\soaring",
+							"relPath": "Hoenn\\_Soaring\\Soaring.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\_Soaring\\Soaring.jpg",
+							"name": "Soaring",
+							"extension": "jpg",
+							"width": 4472,
+							"height": 2795,
+							"lossless": false,
+							"filesize": 1696679,
+							"quality": -1,
+							"aspect": 1.6
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Soaring\\Soaring.png",
+							"enumeratedName": "Hoenn\\_Soaring\\soaring",
+							"relPath": "Hoenn\\_Soaring\\Soaring.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\_Soaring\\Soaring.jpg",
+							"name": "Soaring",
+							"extension": "png",
+							"width": 4472,
+							"height": 2795,
+							"lossless": true,
+							"filesize": 13052252,
+							"quality": -1,
+							"aspect": 1.6
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Hoenn",
+								"_Soaring",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Soaring\\downscale",
+								"uniqueIdString": "10093",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Soaring\\downscale\\soaring-half.jpg",
+									"enumeratedName": "Hoenn\\_Soaring\\downscale\\soaring-half",
+									"relPath": "Hoenn\\_Soaring\\downscale\\soaring-half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Hoenn\\_Soaring\\downscale\\soaring-half.jpg",
+									"name": "soaring-half",
+									"extension": "jpg",
+									"width": 2236,
+									"height": 1398,
+									"lossless": false,
+									"filesize": 491613,
+									"quality": -1,
+									"aspect": 1.599
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -1468,11 +2039,11 @@
 			},
 			"items": [
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Holon\\GZycC1iWkAAiUMA.jpg",
-					"enumeratedName": "Holon\\gzycc1iwkaaiuma",
-					"relPath": "Holon\\GZycC1iWkAAiUMA.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Holon\\GZycC1iWkAAiUMA.jpg",
-					"name": "GZycC1iWkAAiUMA",
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Holon\\Holon.jpg",
+					"enumeratedName": "Holon\\holon",
+					"relPath": "Holon\\Holon.jpg",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Holon\\Holon.jpg",
+					"name": "Holon",
 					"extension": "jpg",
 					"width": 2048,
 					"height": 1448,
@@ -1482,11 +2053,11 @@
 					"aspect": 1.414
 				},
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Holon\\Holon.jpg",
-					"enumeratedName": "Holon\\holon",
-					"relPath": "Holon\\Holon.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Holon\\Holon.jpg",
-					"name": "Holon",
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Holon\\Research Tower.jpg",
+					"enumeratedName": "Holon\\research-tower",
+					"relPath": "Holon\\Research Tower.jpg",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Holon\\Research Tower.jpg",
+					"name": "Research Tower",
 					"extension": "jpg",
 					"width": 2339,
 					"height": 1654,
@@ -1525,20 +2096,6 @@
 					"aspect": 1.406
 				},
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Johto.jpg",
-					"enumeratedName": "Johto\\johto",
-					"relPath": "Johto\\Johto.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\Johto.jpg",
-					"name": "Johto",
-					"extension": "jpg",
-					"width": 7840,
-					"height": 5261,
-					"lossless": false,
-					"filesize": 13247822,
-					"quality": -1,
-					"aspect": 1.49
-				},
-				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Simple.jpg",
 					"enumeratedName": "Johto\\simple",
 					"relPath": "Johto\\Simple.jpg",
@@ -1562,41 +2119,154 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations",
-						"uniqueIdString": "10046",
+						"uniqueIdString": "10050",
 						"depth": 2,
 						"isMinor": true
 					},
 					"items": [
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\Ecruteak City.jpg",
-							"enumeratedName": "Johto\\Locations\\ecruteak-city",
-							"relPath": "Johto\\Locations\\Ecruteak City.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\Locations\\Ecruteak City.jpg",
-							"name": "Ecruteak City",
-							"extension": "jpg",
-							"width": 7244,
-							"height": 6567,
-							"lossless": false,
-							"filesize": 12182880,
-							"quality": -1,
-							"aspect": 1.103
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\Mt Silver.png",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\Mt Silver.jpg",
 							"enumeratedName": "Johto\\Locations\\mt-silver",
-							"relPath": "Johto\\Locations\\Mt Silver.png",
+							"relPath": "Johto\\Locations\\Mt Silver.jpg",
 							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\Locations\\Mt Silver.jpg",
 							"name": "Mt Silver",
-							"extension": "png",
-							"width": 800,
-							"height": 1190,
-							"lossless": true,
-							"filesize": 1561536,
+							"extension": "jpg",
+							"width": 880,
+							"height": 1310,
+							"lossless": false,
+							"filesize": 1343632,
 							"quality": -1,
-							"aspect": 0.6723
+							"aspect": 0.6718
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "_Ecruteak City",
+							"path": [
+								"Johto",
+								"Locations",
+								"_Ecruteak City"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\_Ecruteak City",
+								"uniqueIdString": "10094",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\_Ecruteak City\\Ecruteak City.jpg",
+									"enumeratedName": "Johto\\Locations\\_Ecruteak City\\ecruteak-city",
+									"relPath": "Johto\\Locations\\_Ecruteak City\\Ecruteak City.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\Locations\\_Ecruteak City\\Ecruteak City.jpg",
+									"name": "Ecruteak City",
+									"extension": "jpg",
+									"width": 7244,
+									"height": 6567,
+									"lossless": false,
+									"filesize": 12182880,
+									"quality": -1,
+									"aspect": 1.103
+								}
+							],
+							"children": [
+								{
+									"name": "downscale",
+									"path": [
+										"Johto",
+										"Locations",
+										"_Ecruteak City",
+										"downscale"
+									],
+									"metadata": {
+										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\_Ecruteak City\\downscale",
+										"uniqueIdString": "10112",
+										"depth": 4,
+										"isMinor": false
+									},
+									"items": [
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\_Ecruteak City\\downscale\\Ecruteak City.jpg",
+											"enumeratedName": "Johto\\Locations\\_Ecruteak City\\downscale\\ecruteak-city",
+											"relPath": "Johto\\Locations\\_Ecruteak City\\downscale\\Ecruteak City.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\Locations\\_Ecruteak City\\downscale\\Ecruteak City.jpg",
+											"name": "Ecruteak City",
+											"extension": "jpg",
+											"width": 3622,
+											"height": 3284,
+											"lossless": false,
+											"filesize": 2438747,
+											"quality": -1,
+											"aspect": 1.103
+										}
+									],
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "_Johto",
+					"path": [
+						"Johto",
+						"_Johto"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Johto",
+						"uniqueIdString": "10051",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Johto\\Johto.jpg",
+							"enumeratedName": "Johto\\_Johto\\johto",
+							"relPath": "Johto\\_Johto\\Johto.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\_Johto\\Johto.jpg",
+							"name": "Johto",
+							"extension": "jpg",
+							"width": 7840,
+							"height": 5261,
+							"lossless": false,
+							"filesize": 13247822,
+							"quality": -1,
+							"aspect": 1.49
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Johto",
+								"_Johto",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Johto\\downscale",
+								"uniqueIdString": "10095",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Johto\\downscale\\Johto-half.jpg",
+									"enumeratedName": "Johto\\_Johto\\downscale\\johto-half",
+									"relPath": "Johto\\_Johto\\downscale\\Johto-half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\_Johto\\downscale\\Johto-half.jpg",
+									"name": "Johto-half",
+									"extension": "jpg",
+									"width": 3920,
+									"height": 2631,
+									"lossless": false,
+									"filesize": 2695378,
+									"quality": -1,
+									"aspect": 1.49
+								}
+							],
+							"children": []
+						}
+					]
 				},
 				{
 					"name": "_Mindscape",
@@ -1606,7 +2276,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape",
-						"uniqueIdString": "10047",
+						"uniqueIdString": "10052",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1624,23 +2294,41 @@
 							"filesize": 433517,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Johto\\_Mindscape\\upscale",
-							"relPath": "Johto\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 237675,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Johto",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape\\upscale",
+								"uniqueIdString": "10096",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Johto\\_Mindscape\\upscale\\upscale",
+									"relPath": "Johto\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Johto\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 237675,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -1685,34 +2373,6 @@
 					"aspect": 1.527
 				},
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\lumiose 1.png",
-					"enumeratedName": "Kalos\\lumiose-1",
-					"relPath": "Kalos\\lumiose 1.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\lumiose 1.jpg",
-					"name": "lumiose 1",
-					"extension": "png",
-					"width": 3078,
-					"height": 2192,
-					"lossless": true,
-					"filesize": 11681391,
-					"quality": -1,
-					"aspect": 1.404
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\lumiose 2.png",
-					"enumeratedName": "Kalos\\lumiose-2",
-					"relPath": "Kalos\\lumiose 2.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\lumiose 2.jpg",
-					"name": "lumiose 2",
-					"extension": "png",
-					"width": 3078,
-					"height": 2192,
-					"lossless": true,
-					"filesize": 7263045,
-					"quality": -1,
-					"aspect": 1.404
-				},
-				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Simple.jpg",
 					"enumeratedName": "Kalos\\simple",
 					"relPath": "Kalos\\Simple.jpg",
@@ -1736,7 +2396,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Locations",
-						"uniqueIdString": "10048",
+						"uniqueIdString": "10053",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1787,6 +2447,94 @@
 					"children": []
 				},
 				{
+					"name": "_Lumiose 1",
+					"path": [
+						"Kalos",
+						"_Lumiose 1"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 1",
+						"uniqueIdString": "10054",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 1\\lumiose 1.jpg",
+							"enumeratedName": "Kalos\\_Lumiose 1\\lumiose-1",
+							"relPath": "Kalos\\_Lumiose 1\\lumiose 1.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\_Lumiose 1\\lumiose 1.jpg",
+							"name": "lumiose 1",
+							"extension": "jpg",
+							"width": 3078,
+							"height": 2192,
+							"lossless": false,
+							"filesize": 1670694,
+							"quality": -1,
+							"aspect": 1.404
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 1\\lumiose 1.png",
+							"enumeratedName": "Kalos\\_Lumiose 1\\lumiose-1",
+							"relPath": "Kalos\\_Lumiose 1\\lumiose 1.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\_Lumiose 1\\lumiose 1.jpg",
+							"name": "lumiose 1",
+							"extension": "png",
+							"width": 3078,
+							"height": 2192,
+							"lossless": true,
+							"filesize": 11681391,
+							"quality": -1,
+							"aspect": 1.404
+						}
+					],
+					"children": []
+				},
+				{
+					"name": "_Lumiose 2",
+					"path": [
+						"Kalos",
+						"_Lumiose 2"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 2",
+						"uniqueIdString": "10055",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 2\\lumiose 2.jpg",
+							"enumeratedName": "Kalos\\_Lumiose 2\\lumiose-2",
+							"relPath": "Kalos\\_Lumiose 2\\lumiose 2.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\_Lumiose 2\\lumiose 2.jpg",
+							"name": "lumiose 2",
+							"extension": "jpg",
+							"width": 3078,
+							"height": 2192,
+							"lossless": false,
+							"filesize": 1588240,
+							"quality": -1,
+							"aspect": 1.404
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 2\\lumiose 2.png",
+							"enumeratedName": "Kalos\\_Lumiose 2\\lumiose-2",
+							"relPath": "Kalos\\_Lumiose 2\\lumiose 2.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\_Lumiose 2\\lumiose 2.jpg",
+							"name": "lumiose 2",
+							"extension": "png",
+							"width": 3078,
+							"height": 2192,
+							"lossless": true,
+							"filesize": 7263045,
+							"quality": -1,
+							"aspect": 1.404
+						}
+					],
+					"children": []
+				},
+				{
 					"name": "_Mindscape",
 					"path": [
 						"Kalos",
@@ -1794,7 +2542,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape",
-						"uniqueIdString": "10049",
+						"uniqueIdString": "10056",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1812,23 +2560,41 @@
 							"filesize": 386884,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Kalos\\_Mindscape\\upscale",
-							"relPath": "Kalos\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 233567,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Kalos",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape\\upscale",
+								"uniqueIdString": "10097",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Kalos\\_Mindscape\\upscale\\upscale",
+									"relPath": "Kalos\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kalos\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 233567,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -1938,7 +2704,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape",
-						"uniqueIdString": "10050",
+						"uniqueIdString": "10057",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1956,23 +2722,41 @@
 							"filesize": 403134,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Kanto\\_Mindscape\\upscale",
-							"relPath": "Kanto\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kanto\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 220240,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Kanto",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape\\upscale",
+								"uniqueIdString": "10098",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Kanto\\_Mindscape\\upscale\\upscale",
+									"relPath": "Kanto\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Kanto\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 220240,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -2056,7 +2840,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map",
-						"uniqueIdString": "10051",
+						"uniqueIdString": "10058",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2175,6 +2959,20 @@
 					"filesize": 1580135,
 					"quality": -1,
 					"aspect": 1.778
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Space.png",
+					"enumeratedName": "Lental\\space",
+					"relPath": "Lental\\Space.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Space.jpg",
+					"name": "Space",
+					"extension": "png",
+					"width": 1920,
+					"height": 1080,
+					"lossless": true,
+					"filesize": 2524437,
+					"quality": -1,
+					"aspect": 1.778
 				}
 			],
 			"children": [
@@ -2186,17 +2984,17 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands",
-						"uniqueIdString": "10052",
+						"uniqueIdString": "10059",
 						"depth": 2,
 						"isMinor": true
 					},
 					"items": [
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Aurus_Island.png",
-							"enumeratedName": "Lental\\Islands\\aurus_island",
-							"relPath": "Lental\\Islands\\Aurus_Island.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Aurus_Island.jpg",
-							"name": "Aurus_Island",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Aurus Island.png",
+							"enumeratedName": "Lental\\Islands\\aurus-island",
+							"relPath": "Lental\\Islands\\Aurus Island.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Aurus Island.jpg",
+							"name": "Aurus Island",
 							"extension": "png",
 							"width": 1040,
 							"height": 584,
@@ -2206,11 +3004,11 @@
 							"aspect": 1.781
 						},
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Belusylva_Island.png",
-							"enumeratedName": "Lental\\Islands\\belusylva_island",
-							"relPath": "Lental\\Islands\\Belusylva_Island.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Belusylva_Island.jpg",
-							"name": "Belusylva_Island",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Belusylva Island.png",
+							"enumeratedName": "Lental\\Islands\\belusylva-island",
+							"relPath": "Lental\\Islands\\Belusylva Island.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Belusylva Island.jpg",
+							"name": "Belusylva Island",
 							"extension": "png",
 							"width": 1040,
 							"height": 584,
@@ -2220,11 +3018,11 @@
 							"aspect": 1.781
 						},
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Durice_Island.png",
-							"enumeratedName": "Lental\\Islands\\durice_island",
-							"relPath": "Lental\\Islands\\Durice_Island.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Durice_Island.jpg",
-							"name": "Durice_Island",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Durice Island.png",
+							"enumeratedName": "Lental\\Islands\\durice-island",
+							"relPath": "Lental\\Islands\\Durice Island.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Durice Island.jpg",
+							"name": "Durice Island",
 							"extension": "png",
 							"width": 1040,
 							"height": 584,
@@ -2234,11 +3032,25 @@
 							"aspect": 1.781
 						},
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Florio_Island.png",
-							"enumeratedName": "Lental\\Islands\\florio_island",
-							"relPath": "Lental\\Islands\\Florio_Island.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Florio_Island.jpg",
-							"name": "Florio_Island",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Florio Island 2.png",
+							"enumeratedName": "Lental\\Islands\\florio-island-2",
+							"relPath": "Lental\\Islands\\Florio Island 2.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Florio Island 2.jpg",
+							"name": "Florio Island 2",
+							"extension": "png",
+							"width": 1450,
+							"height": 1204,
+							"lossless": true,
+							"filesize": 2313987,
+							"quality": -1,
+							"aspect": 1.204
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Florio Island.png",
+							"enumeratedName": "Lental\\Islands\\florio-island",
+							"relPath": "Lental\\Islands\\Florio Island.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Florio Island.jpg",
+							"name": "Florio Island",
 							"extension": "png",
 							"width": 1040,
 							"height": 584,
@@ -2248,11 +3060,11 @@
 							"aspect": 1.781
 						},
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Maricopia_Islands.png",
-							"enumeratedName": "Lental\\Islands\\maricopia_islands",
-							"relPath": "Lental\\Islands\\Maricopia_Islands.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Maricopia_Islands.jpg",
-							"name": "Maricopia_Islands",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Maricopia Islands.png",
+							"enumeratedName": "Lental\\Islands\\maricopia-islands",
+							"relPath": "Lental\\Islands\\Maricopia Islands.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Maricopia Islands.jpg",
+							"name": "Maricopia Islands",
 							"extension": "png",
 							"width": 1040,
 							"height": 584,
@@ -2262,11 +3074,11 @@
 							"aspect": 1.781
 						},
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Voluca_Island.png",
-							"enumeratedName": "Lental\\Islands\\voluca_island",
-							"relPath": "Lental\\Islands\\Voluca_Island.png",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Voluca_Island.jpg",
-							"name": "Voluca_Island",
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands\\Voluca Island.png",
+							"enumeratedName": "Lental\\Islands\\voluca-island",
+							"relPath": "Lental\\Islands\\Voluca Island.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Lental\\Islands\\Voluca Island.jpg",
+							"name": "Voluca Island",
 							"extension": "png",
 							"width": 1040,
 							"height": 584,
@@ -2292,20 +3104,6 @@
 				"isMinor": false
 			},
 			"items": [
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Air Continent (Rescue Team DX).png",
-					"enumeratedName": "Mystery Dungeon\\air-continent-(rescue-team-dx)",
-					"relPath": "Mystery Dungeon\\Air Continent (Rescue Team DX).png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Mystery Dungeon\\Air Continent (Rescue Team DX).jpg",
-					"name": "Air Continent (Rescue Team DX)",
-					"extension": "png",
-					"width": 7000,
-					"height": 6000,
-					"lossless": true,
-					"filesize": 32503319,
-					"quality": -1,
-					"aspect": 1.167
-				},
 				{
 					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Air Continent (Rescue Team).png",
 					"enumeratedName": "Mystery Dungeon\\air-continent-(rescue-team)",
@@ -2456,7 +3254,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns",
-						"uniqueIdString": "10053",
+						"uniqueIdString": "10060",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -2561,6 +3359,82 @@
 						}
 					],
 					"children": []
+				},
+				{
+					"name": "_Air Continent (Rescue Team DX)",
+					"path": [
+						"Mystery Dungeon",
+						"_Air Continent (Rescue Team DX)"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\_Air Continent (Rescue Team DX)",
+						"uniqueIdString": "10061",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\AirContinent.jpg",
+							"enumeratedName": "Mystery Dungeon\\_Air Continent (Rescue Team DX)\\aircontinent",
+							"relPath": "Mystery Dungeon\\_Air Continent (Rescue Team DX)\\AirContinent.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\AirContinent.jpg",
+							"name": "AirContinent",
+							"extension": "jpg",
+							"width": 7000,
+							"height": 6000,
+							"lossless": false,
+							"filesize": 2656128,
+							"quality": -1,
+							"aspect": 1.167
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\AirContinent.png",
+							"enumeratedName": "Mystery Dungeon\\_Air Continent (Rescue Team DX)\\aircontinent",
+							"relPath": "Mystery Dungeon\\_Air Continent (Rescue Team DX)\\AirContinent.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\AirContinent.jpg",
+							"name": "AirContinent",
+							"extension": "png",
+							"width": 7000,
+							"height": 6000,
+							"lossless": true,
+							"filesize": 32503319,
+							"quality": -1,
+							"aspect": 1.167
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Mystery Dungeon",
+								"_Air Continent (Rescue Team DX)",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\downscale",
+								"uniqueIdString": "10099",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\downscale\\half.jpg",
+									"enumeratedName": "Mystery Dungeon\\_Air Continent (Rescue Team DX)\\downscale\\half",
+									"relPath": "Mystery Dungeon\\_Air Continent (Rescue Team DX)\\downscale\\half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\downscale\\half.jpg",
+									"name": "half",
+									"extension": "jpg",
+									"width": 3500,
+									"height": 3000,
+									"lossless": false,
+									"filesize": 1471997,
+									"quality": -1,
+									"aspect": 1.167
+								}
+							],
+							"children": []
+						}
+					]
 				}
 			]
 		},
@@ -2575,79 +3449,303 @@
 				"depth": 1,
 				"isMinor": false
 			},
-			"items": [
+			"items": [],
+			"children": [
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\arrows-view.png",
-					"enumeratedName": "Orre\\arrows-view",
-					"relPath": "Orre\\arrows-view.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\arrows-view.jpg",
-					"name": "arrows-view",
-					"extension": "png",
-					"width": 6418,
-					"height": 3840,
-					"lossless": true,
-					"filesize": 25492431,
-					"quality": -1,
-					"aspect": 1.671
+					"name": "Map",
+					"path": [
+						"Orre",
+						"Map"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map",
+						"uniqueIdString": "10062",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map\\Clean Map.png",
+							"enumeratedName": "Orre\\Map\\clean-map",
+							"relPath": "Orre\\Map\\Clean Map.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\Map\\Clean Map.jpg",
+							"name": "Clean Map",
+							"extension": "png",
+							"width": 640,
+							"height": 480,
+							"lossless": true,
+							"filesize": 384173,
+							"quality": -1,
+							"aspect": 1.333
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map\\Marked Map.png",
+							"enumeratedName": "Orre\\Map\\marked-map",
+							"relPath": "Orre\\Map\\Marked Map.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\Map\\Marked Map.jpg",
+							"name": "Marked Map",
+							"extension": "png",
+							"width": 640,
+							"height": 480,
+							"lossless": true,
+							"filesize": 311902,
+							"quality": -1,
+							"aspect": 1.333
+						}
+					],
+					"children": [
+						{
+							"name": "_Squared Map",
+							"path": [
+								"Orre",
+								"Map",
+								"_Squared Map"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map\\_Squared Map",
+								"uniqueIdString": "10100",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [],
+							"children": [
+								{
+									"name": "upscale",
+									"path": [
+										"Orre",
+										"Map",
+										"_Squared Map",
+										"upscale"
+									],
+									"metadata": {
+										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map\\_Squared Map\\upscale",
+										"uniqueIdString": "10113",
+										"depth": 4,
+										"isMinor": false
+									},
+									"items": [
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map\\_Squared Map\\upscale\\Squared Map.jpg",
+											"enumeratedName": "Orre\\Map\\_Squared Map\\upscale\\squared-map",
+											"relPath": "Orre\\Map\\_Squared Map\\upscale\\Squared Map.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\Map\\_Squared Map\\upscale\\Squared Map.jpg",
+											"name": "Squared Map",
+											"extension": "jpg",
+											"width": 960,
+											"height": 900,
+											"lossless": false,
+											"filesize": 328354,
+											"quality": -1,
+											"aspect": 1.067
+										}
+									],
+									"children": []
+								}
+							]
+						}
+					]
 				},
 				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\clean map.png",
-					"enumeratedName": "Orre\\clean-map",
-					"relPath": "Orre\\clean map.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\clean map.jpg",
-					"name": "clean map",
-					"extension": "png",
-					"width": 640,
-					"height": 480,
-					"lossless": true,
-					"filesize": 384173,
-					"quality": -1,
-					"aspect": 1.333
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\clean-view.png",
-					"enumeratedName": "Orre\\clean-view",
-					"relPath": "Orre\\clean-view.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\clean-view.jpg",
-					"name": "clean-view",
-					"extension": "png",
-					"width": 6418,
-					"height": 3840,
-					"lossless": true,
-					"filesize": 25496419,
-					"quality": -1,
-					"aspect": 1.671
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\map.png",
-					"enumeratedName": "Orre\\map",
-					"relPath": "Orre\\map.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\map.jpg",
-					"name": "map",
-					"extension": "png",
-					"width": 640,
-					"height": 480,
-					"lossless": true,
-					"filesize": 311902,
-					"quality": -1,
-					"aspect": 1.333
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\upscaled map.jpg",
-					"enumeratedName": "Orre\\upscaled-map",
-					"relPath": "Orre\\upscaled map.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\upscaled map.jpg",
-					"name": "upscaled map",
-					"extension": "jpg",
-					"width": 960,
-					"height": 900,
-					"lossless": false,
-					"filesize": 328354,
-					"quality": -1,
-					"aspect": 1.067
+					"name": "View",
+					"path": [
+						"Orre",
+						"View"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View",
+						"uniqueIdString": "10063",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [],
+					"children": [
+						{
+							"name": "_Arrows View",
+							"path": [
+								"Orre",
+								"View",
+								"_Arrows View"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View",
+								"uniqueIdString": "10101",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View\\arrows-view.jpg",
+									"enumeratedName": "Orre\\View\\_Arrows View\\arrows-view",
+									"relPath": "Orre\\View\\_Arrows View\\arrows-view.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Arrows View\\arrows-view.jpg",
+									"name": "arrows-view",
+									"extension": "jpg",
+									"width": 6418,
+									"height": 3840,
+									"lossless": false,
+									"filesize": 3924304,
+									"quality": -1,
+									"aspect": 1.671
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View\\arrows-view.png",
+									"enumeratedName": "Orre\\View\\_Arrows View\\arrows-view",
+									"relPath": "Orre\\View\\_Arrows View\\arrows-view.png",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Arrows View\\arrows-view.jpg",
+									"name": "arrows-view",
+									"extension": "png",
+									"width": 6418,
+									"height": 3840,
+									"lossless": true,
+									"filesize": 25492431,
+									"quality": -1,
+									"aspect": 1.671
+								}
+							],
+							"children": [
+								{
+									"name": "downscale",
+									"path": [
+										"Orre",
+										"View",
+										"_Arrows View",
+										"downscale"
+									],
+									"metadata": {
+										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View\\downscale",
+										"uniqueIdString": "10114",
+										"depth": 4,
+										"isMinor": false
+									},
+									"items": [
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View\\downscale\\arrows-view-half.jpg",
+											"enumeratedName": "Orre\\View\\_Arrows View\\downscale\\arrows-view-half",
+											"relPath": "Orre\\View\\_Arrows View\\downscale\\arrows-view-half.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Arrows View\\downscale\\arrows-view-half.jpg",
+											"name": "arrows-view-half",
+											"extension": "jpg",
+											"width": 3209,
+											"height": 1920,
+											"lossless": false,
+											"filesize": 1234376,
+											"quality": -1,
+											"aspect": 1.671
+										},
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View\\downscale\\arrows-view-small.jpg",
+											"enumeratedName": "Orre\\View\\_Arrows View\\downscale\\arrows-view-small",
+											"relPath": "Orre\\View\\_Arrows View\\downscale\\arrows-view-small.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Arrows View\\downscale\\arrows-view-small.jpg",
+											"name": "arrows-view-small",
+											"extension": "jpg",
+											"width": 1920,
+											"height": 1149,
+											"lossless": false,
+											"filesize": 509467,
+											"quality": -1,
+											"aspect": 1.671
+										}
+									],
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "_Clean View",
+							"path": [
+								"Orre",
+								"View",
+								"_Clean View"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View",
+								"uniqueIdString": "10102",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View\\clean-view.jpg",
+									"enumeratedName": "Orre\\View\\_Clean View\\clean-view",
+									"relPath": "Orre\\View\\_Clean View\\clean-view.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Clean View\\clean-view.jpg",
+									"name": "clean-view",
+									"extension": "jpg",
+									"width": 6418,
+									"height": 3840,
+									"lossless": false,
+									"filesize": 3918243,
+									"quality": -1,
+									"aspect": 1.671
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View\\clean-view.png",
+									"enumeratedName": "Orre\\View\\_Clean View\\clean-view",
+									"relPath": "Orre\\View\\_Clean View\\clean-view.png",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Clean View\\clean-view.jpg",
+									"name": "clean-view",
+									"extension": "png",
+									"width": 6418,
+									"height": 3840,
+									"lossless": true,
+									"filesize": 25496419,
+									"quality": -1,
+									"aspect": 1.671
+								}
+							],
+							"children": [
+								{
+									"name": "downscale",
+									"path": [
+										"Orre",
+										"View",
+										"_Clean View",
+										"downscale"
+									],
+									"metadata": {
+										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View\\downscale",
+										"uniqueIdString": "10115",
+										"depth": 4,
+										"isMinor": false
+									},
+									"items": [
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View\\downscale\\clean-view-half.jpg",
+											"enumeratedName": "Orre\\View\\_Clean View\\downscale\\clean-view-half",
+											"relPath": "Orre\\View\\_Clean View\\downscale\\clean-view-half.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Clean View\\downscale\\clean-view-half.jpg",
+											"name": "clean-view-half",
+											"extension": "jpg",
+											"width": 3209,
+											"height": 1920,
+											"lossless": false,
+											"filesize": 1230359,
+											"quality": -1,
+											"aspect": 1.671
+										},
+										{
+											"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View\\downscale\\clean-view-small.jpg",
+											"enumeratedName": "Orre\\View\\_Clean View\\downscale\\clean-view-small",
+											"relPath": "Orre\\View\\_Clean View\\downscale\\clean-view-small.jpg",
+											"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orre\\View\\_Clean View\\downscale\\clean-view-small.jpg",
+											"name": "clean-view-small",
+											"extension": "jpg",
+											"width": 1920,
+											"height": 1149,
+											"lossless": false,
+											"filesize": 506976,
+											"quality": -1,
+											"aspect": 1.671
+										}
+									],
+									"children": []
+								}
+							]
+						}
+					]
 				}
-			],
-			"children": []
+			]
 		},
 		{
 			"name": "Paldea",
@@ -2660,22 +3758,7 @@
 				"depth": 1,
 				"isMinor": false
 			},
-			"items": [
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\Paldea.jpg",
-					"enumeratedName": "Paldea\\paldea",
-					"relPath": "Paldea\\Paldea.jpg",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Paldea\\Paldea.jpg",
-					"name": "Paldea",
-					"extension": "jpg",
-					"width": 8185,
-					"height": 5787,
-					"lossless": false,
-					"filesize": 8722760,
-					"quality": -1,
-					"aspect": 1.414
-				}
-			],
+			"items": [],
 			"children": [
 				{
 					"name": "Locations",
@@ -2685,7 +3768,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\Locations",
-						"uniqueIdString": "10054",
+						"uniqueIdString": "10064",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -2708,6 +3791,82 @@
 					"children": []
 				},
 				{
+					"name": "_Art",
+					"path": [
+						"Paldea",
+						"_Art"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Art",
+						"uniqueIdString": "10065",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Art\\Paldea.jpg",
+							"enumeratedName": "Paldea\\_Art\\paldea",
+							"relPath": "Paldea\\_Art\\Paldea.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Paldea\\_Art\\Paldea.jpg",
+							"name": "Paldea",
+							"extension": "jpg",
+							"width": 8185,
+							"height": 5787,
+							"lossless": false,
+							"filesize": 8722760,
+							"quality": -1,
+							"aspect": 1.414
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Paldea",
+								"_Art",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Art\\downscale",
+								"uniqueIdString": "10103",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Art\\downscale\\half.jpg",
+									"enumeratedName": "Paldea\\_Art\\downscale\\half",
+									"relPath": "Paldea\\_Art\\downscale\\half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Paldea\\_Art\\downscale\\half.jpg",
+									"name": "half",
+									"extension": "jpg",
+									"width": 4093,
+									"height": 2894,
+									"lossless": false,
+									"filesize": 3086006,
+									"quality": -1,
+									"aspect": 1.414
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Art\\downscale\\third.jpg",
+									"enumeratedName": "Paldea\\_Art\\downscale\\third",
+									"relPath": "Paldea\\_Art\\downscale\\third.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Paldea\\_Art\\downscale\\third.jpg",
+									"name": "third",
+									"extension": "jpg",
+									"width": 2716,
+									"height": 1920,
+									"lossless": false,
+									"filesize": 1779197,
+									"quality": -1,
+									"aspect": 1.415
+								}
+							],
+							"children": []
+						}
+					]
+				},
+				{
 					"name": "_Map",
 					"path": [
 						"Paldea",
@@ -2715,7 +3874,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map",
-						"uniqueIdString": "10055",
+						"uniqueIdString": "10066",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2891,23 +4050,54 @@
 					"filesize": 218228,
 					"quality": -1,
 					"aspect": 1.583
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia\\View.png",
-					"enumeratedName": "Poketopia\\view",
-					"relPath": "Poketopia\\View.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Poketopia\\View.jpg",
-					"name": "View",
-					"extension": "png",
-					"width": 3491,
-					"height": 1914,
-					"lossless": true,
-					"filesize": 3725869,
-					"quality": -1,
-					"aspect": 1.824
 				}
 			],
-			"children": []
+			"children": [
+				{
+					"name": "_Waterfront",
+					"path": [
+						"Poketopia",
+						"_Waterfront"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia\\_Waterfront",
+						"uniqueIdString": "10067",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia\\_Waterfront\\View.jpg",
+							"enumeratedName": "Poketopia\\_Waterfront\\view",
+							"relPath": "Poketopia\\_Waterfront\\View.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Poketopia\\_Waterfront\\View.jpg",
+							"name": "View",
+							"extension": "jpg",
+							"width": 3491,
+							"height": 1914,
+							"lossless": false,
+							"filesize": 745974,
+							"quality": -1,
+							"aspect": 1.824
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia\\_Waterfront\\View.png",
+							"enumeratedName": "Poketopia\\_Waterfront\\view",
+							"relPath": "Poketopia\\_Waterfront\\View.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Poketopia\\_Waterfront\\View.jpg",
+							"name": "View",
+							"extension": "png",
+							"width": 3491,
+							"height": 1914,
+							"lossless": true,
+							"filesize": 3725869,
+							"quality": -1,
+							"aspect": 1.824
+						}
+					],
+					"children": []
+				}
+			]
 		},
 		{
 			"name": "Ransei",
@@ -3058,7 +4248,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\_Map",
-						"uniqueIdString": "10056",
+						"uniqueIdString": "10068",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3111,56 +4301,13 @@
 			]
 		},
 		{
-			"name": "Sevii Islands",
-			"path": [
-				"Sevii Islands"
-			],
-			"metadata": {
-				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sevii Islands",
-				"uniqueIdString": "10027",
-				"depth": 1,
-				"isMinor": false
-			},
-			"items": [
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sevii Islands\\Sevii_Islands.png",
-					"enumeratedName": "Sevii Islands\\sevii_islands",
-					"relPath": "Sevii Islands\\Sevii_Islands.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Sevii Islands\\Sevii_Islands.jpg",
-					"name": "Sevii_Islands",
-					"extension": "png",
-					"width": 556,
-					"height": 800,
-					"lossless": true,
-					"filesize": 596699,
-					"quality": -1,
-					"aspect": 0.695
-				},
-				{
-					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sevii Islands\\Sevii_Islands_upscale.png",
-					"enumeratedName": "Sevii Islands\\sevii_islands_upscale",
-					"relPath": "Sevii Islands\\Sevii_Islands_upscale.png",
-					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Sevii Islands\\Sevii_Islands_upscale.jpg",
-					"name": "Sevii_Islands_upscale",
-					"extension": "png",
-					"width": 1112,
-					"height": 1600,
-					"lossless": true,
-					"filesize": 1704208,
-					"quality": -1,
-					"aspect": 0.695
-				}
-			],
-			"children": []
-		},
-		{
 			"name": "Sinnoh",
 			"path": [
 				"Sinnoh"
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh",
-				"uniqueIdString": "10028",
+				"uniqueIdString": "10027",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -3245,7 +4392,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier",
-						"uniqueIdString": "10057",
+						"uniqueIdString": "10069",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3275,7 +4422,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities",
-								"uniqueIdString": "10069",
+								"uniqueIdString": "10104",
 								"depth": 3,
 								"isMinor": true
 							},
@@ -3377,7 +4524,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations",
-						"uniqueIdString": "10058",
+						"uniqueIdString": "10070",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -3463,7 +4610,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Diamond-Pearl",
-						"uniqueIdString": "10059",
+						"uniqueIdString": "10071",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3507,7 +4654,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape",
-						"uniqueIdString": "10060",
+						"uniqueIdString": "10072",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3525,23 +4672,41 @@
 							"filesize": 437521,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Sinnoh\\_Mindscape\\upscale",
-							"relPath": "Sinnoh\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Sinnoh\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 266468,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Sinnoh",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape\\upscale",
+								"uniqueIdString": "10105",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Sinnoh\\_Mindscape\\upscale\\upscale",
+									"relPath": "Sinnoh\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Sinnoh\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 266468,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
 				},
 				{
 					"name": "_Sinnoh Labelled",
@@ -3551,7 +4716,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled",
-						"uniqueIdString": "10061",
+						"uniqueIdString": "10073",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3581,7 +4746,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled\\downscale",
-								"uniqueIdString": "10070",
+								"uniqueIdString": "10106",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -3627,7 +4792,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Unlabelled",
-						"uniqueIdString": "10062",
+						"uniqueIdString": "10074",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3672,7 +4837,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Tumblecube Island",
-				"uniqueIdString": "10029",
+				"uniqueIdString": "10028",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -3729,7 +4894,7 @@
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova",
-				"uniqueIdString": "10030",
+				"uniqueIdString": "10029",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -3814,7 +4979,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Locations",
-						"uniqueIdString": "10063",
+						"uniqueIdString": "10075",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -3872,7 +5037,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape",
-						"uniqueIdString": "10064",
+						"uniqueIdString": "10076",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3890,23 +5055,41 @@
 							"filesize": 384103,
 							"quality": -1,
 							"aspect": 1
-						},
-						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape\\Upscale.jpg",
-							"enumeratedName": "Unova\\_Mindscape\\upscale",
-							"relPath": "Unova\\_Mindscape\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Unova\\_Mindscape\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 230715,
-							"quality": -1,
-							"aspect": 1.5
 						}
 					],
-					"children": []
+					"children": [
+						{
+							"name": "upscale",
+							"path": [
+								"Unova",
+								"_Mindscape",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape\\upscale",
+								"uniqueIdString": "10107",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape\\upscale\\Upscale.jpg",
+									"enumeratedName": "Unova\\_Mindscape\\upscale\\upscale",
+									"relPath": "Unova\\_Mindscape\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Unova\\_Mindscape\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 230715,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
 				},
 				{
 					"name": "_Mindscape 2",
@@ -3916,7 +5099,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2",
-						"uniqueIdString": "10065",
+						"uniqueIdString": "10077",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3934,20 +5117,98 @@
 							"filesize": 266799,
 							"quality": -1,
 							"aspect": 1
-						},
+						}
+					],
+					"children": [
 						{
-							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2\\Upscale.jpg",
-							"enumeratedName": "Unova\\_Mindscape 2\\upscale",
-							"relPath": "Unova\\_Mindscape 2\\Upscale.jpg",
-							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Unova\\_Mindscape 2\\Upscale.jpg",
-							"name": "Upscale",
-							"extension": "jpg",
-							"width": 768,
-							"height": 512,
-							"lossless": false,
-							"filesize": 198836,
+							"name": "upscale",
+							"path": [
+								"Unova",
+								"_Mindscape 2",
+								"upscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2\\upscale",
+								"uniqueIdString": "10108",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2\\upscale\\Upscale.jpg",
+									"enumeratedName": "Unova\\_Mindscape 2\\upscale\\upscale",
+									"relPath": "Unova\\_Mindscape 2\\upscale\\Upscale.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Unova\\_Mindscape 2\\upscale\\Upscale.jpg",
+									"name": "Upscale",
+									"extension": "jpg",
+									"width": 768,
+									"height": 512,
+									"lossless": false,
+									"filesize": 198836,
+									"quality": -1,
+									"aspect": 1.5
+								}
+							],
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "_Sevii Islands",
+			"path": [
+				"_Sevii Islands"
+			],
+			"metadata": {
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Sevii Islands",
+				"uniqueIdString": "10030",
+				"depth": 1,
+				"isMinor": false
+			},
+			"items": [
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Sevii Islands\\Sevii_Islands.png",
+					"enumeratedName": "_Sevii Islands\\sevii_islands",
+					"relPath": "_Sevii Islands\\Sevii_Islands.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\_Sevii Islands\\Sevii_Islands.jpg",
+					"name": "Sevii_Islands",
+					"extension": "png",
+					"width": 556,
+					"height": 800,
+					"lossless": true,
+					"filesize": 596699,
+					"quality": -1,
+					"aspect": 0.695
+				}
+			],
+			"children": [
+				{
+					"name": "upscale",
+					"path": [
+						"_Sevii Islands",
+						"upscale"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Sevii Islands\\upscale",
+						"uniqueIdString": "10078",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Sevii Islands\\upscale\\Sevii_Islands_upscale.png",
+							"enumeratedName": "_Sevii Islands\\upscale\\sevii_islands_upscale",
+							"relPath": "_Sevii Islands\\upscale\\Sevii_Islands_upscale.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\_Sevii Islands\\upscale\\Sevii_Islands_upscale.jpg",
+							"name": "Sevii_Islands_upscale",
+							"extension": "png",
+							"width": 1112,
+							"height": 1600,
+							"lossless": true,
+							"filesize": 1704208,
 							"quality": -1,
-							"aspect": 1.5
+							"aspect": 0.695
 						}
 					],
 					"children": []
