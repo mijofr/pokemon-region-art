@@ -74,7 +74,7 @@ function generateLink5(img: ImgFile) {
             note += `<div class="tag tag-d">upscale</div>`
         }
         if (img.metatags.includes("DOWNSCALE")) {
-            note += `<div class="tag tag-g">downscale</div>`
+            // note += `<div class="tag tag-g">downscale</div>`
         }
 
         return `

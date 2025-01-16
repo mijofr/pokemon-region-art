@@ -1,4 +1,16 @@
-DELETE: 
+Current region stuff to do:
+
+new sinnoh ai based inpaint
+kanto yellow map with new sources
+orange islands map
+orange islands illustration
+pokemon snap lineart
+
+the new johto/kanto art from the guidebook
+
+
+
+DELETE:
 D:\Users\Michael\repos\pokemon-regions
 D:\Users\Michael\repos\pmonreg-temp
 D:\TMP\pokemon-regions

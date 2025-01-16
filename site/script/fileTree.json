@@ -51,20 +51,6 @@
 			"aspect": 1.415
 		},
 		{
-			"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orange Islands.png",
-			"enumeratedName": "orange-islands",
-			"relPath": "Orange Islands.png",
-			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Orange Islands.jpg",
-			"name": "Orange Islands",
-			"extension": "png",
-			"width": 1231,
-			"height": 1694,
-			"lossless": true,
-			"filesize": 4341083,
-			"quality": -1,
-			"aspect": 0.7267
-		},
-		{
 			"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Pasio.png",
 			"enumeratedName": "pasio",
 			"relPath": "Pasio.png",
@@ -172,7 +158,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums",
-						"uniqueIdString": "10031",
+						"uniqueIdString": "10032",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -216,7 +202,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium",
-								"uniqueIdString": "10079",
+								"uniqueIdString": "10081",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -261,7 +247,7 @@
 									],
 									"metadata": {
 										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\Stadiums\\_Remoat Stadium\\downscale",
-										"uniqueIdString": "10109",
+										"uniqueIdString": "10111",
 										"depth": 4,
 										"isMinor": false
 									},
@@ -295,7 +281,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic",
-						"uniqueIdString": "10032",
+						"uniqueIdString": "10033",
 						"depth": 2,
 						"isMinor": false,
 						"note": "rescaled, some reconstruction on the left of the city\r\n\r\nalso run through cleanup filters"
@@ -340,7 +326,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Aeos Island\\_Comic\\Upscale",
-								"uniqueIdString": "10080",
+								"uniqueIdString": "10082",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -387,7 +373,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia",
-						"uniqueIdString": "10033",
+						"uniqueIdString": "10034",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -431,7 +417,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy",
-						"uniqueIdString": "10034",
+						"uniqueIdString": "10035",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -461,7 +447,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\downscale",
-								"uniqueIdString": "10081",
+								"uniqueIdString": "10083",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -565,7 +551,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Island Flat Art",
-						"uniqueIdString": "10035",
+						"uniqueIdString": "10036",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -651,7 +637,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\Locations",
-						"uniqueIdString": "10036",
+						"uniqueIdString": "10037",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -709,7 +695,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape",
-						"uniqueIdString": "10037",
+						"uniqueIdString": "10038",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -739,7 +725,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_Mindscape\\upscale",
-								"uniqueIdString": "10082",
+								"uniqueIdString": "10084",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -771,7 +757,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon",
-						"uniqueIdString": "10038",
+						"uniqueIdString": "10039",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -815,7 +801,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_SunMoon\\downscale",
-								"uniqueIdString": "10083",
+								"uniqueIdString": "10085",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -861,7 +847,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSunUltraMoon",
-						"uniqueIdString": "10039",
+						"uniqueIdString": "10040",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -891,7 +877,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Alola\\_UltraSunUltraMoon\\downscale",
-								"uniqueIdString": "10084",
+								"uniqueIdString": "10086",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -967,7 +953,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Blueberry Academy\\_Map",
-						"uniqueIdString": "10040",
+						"uniqueIdString": "10041",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1197,7 +1183,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\Locations",
-						"uniqueIdString": "10041",
+						"uniqueIdString": "10042",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1227,7 +1213,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Art",
-						"uniqueIdString": "10042",
+						"uniqueIdString": "10043",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1271,7 +1257,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Art\\downscale",
-								"uniqueIdString": "10085",
+								"uniqueIdString": "10087",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1303,7 +1289,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape",
-						"uniqueIdString": "10043",
+						"uniqueIdString": "10044",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1333,7 +1319,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Galar\\_Mindscape\\upscale",
-								"uniqueIdString": "10086",
+								"uniqueIdString": "10088",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1380,7 +1366,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\Locations",
-						"uniqueIdString": "10044",
+						"uniqueIdString": "10045",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1438,7 +1424,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui",
-						"uniqueIdString": "10045",
+						"uniqueIdString": "10046",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1482,7 +1468,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui\\downscale",
-								"uniqueIdString": "10087",
+								"uniqueIdString": "10089",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1514,7 +1500,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2",
-						"uniqueIdString": "10046",
+						"uniqueIdString": "10047",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1544,7 +1530,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hisui\\_Hisui 2\\Upscale",
-								"uniqueIdString": "10088",
+								"uniqueIdString": "10090",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1648,7 +1634,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations",
-						"uniqueIdString": "10047",
+						"uniqueIdString": "10048",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -1692,7 +1678,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Fortree City",
-								"uniqueIdString": "10089",
+								"uniqueIdString": "10091",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1737,7 +1723,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Slateport City & Mt Chimney",
-								"uniqueIdString": "10090",
+								"uniqueIdString": "10092",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1782,7 +1768,7 @@
 									],
 									"metadata": {
 										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Slateport City & Mt Chimney\\downscale",
-										"uniqueIdString": "10110",
+										"uniqueIdString": "10112",
 										"depth": 4,
 										"isMinor": false
 									},
@@ -1815,7 +1801,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Wilderness",
-								"uniqueIdString": "10091",
+								"uniqueIdString": "10093",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1860,7 +1846,7 @@
 									],
 									"metadata": {
 										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\Locations\\_Wilderness\\downscale",
-										"uniqueIdString": "10111",
+										"uniqueIdString": "10113",
 										"depth": 4,
 										"isMinor": false
 									},
@@ -1894,7 +1880,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape",
-						"uniqueIdString": "10048",
+						"uniqueIdString": "10049",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -1924,7 +1910,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Mindscape\\upscale",
-								"uniqueIdString": "10092",
+								"uniqueIdString": "10094",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -1956,7 +1942,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Soaring",
-						"uniqueIdString": "10049",
+						"uniqueIdString": "10050",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2000,7 +1986,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Hoenn\\_Soaring\\downscale",
-								"uniqueIdString": "10093",
+								"uniqueIdString": "10095",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -2119,7 +2105,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations",
-						"uniqueIdString": "10050",
+						"uniqueIdString": "10051",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -2149,7 +2135,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\_Ecruteak City",
-								"uniqueIdString": "10094",
+								"uniqueIdString": "10096",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -2180,7 +2166,7 @@
 									],
 									"metadata": {
 										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\Locations\\_Ecruteak City\\downscale",
-										"uniqueIdString": "10112",
+										"uniqueIdString": "10114",
 										"depth": 4,
 										"isMinor": false
 									},
@@ -2214,7 +2200,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Johto",
-						"uniqueIdString": "10051",
+						"uniqueIdString": "10052",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2244,7 +2230,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Johto\\downscale",
-								"uniqueIdString": "10095",
+								"uniqueIdString": "10097",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -2276,7 +2262,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape",
-						"uniqueIdString": "10052",
+						"uniqueIdString": "10053",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2306,7 +2292,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Johto\\_Mindscape\\upscale",
-								"uniqueIdString": "10096",
+								"uniqueIdString": "10098",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -2396,7 +2382,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\Locations",
-						"uniqueIdString": "10053",
+						"uniqueIdString": "10054",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -2454,7 +2440,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 1",
-						"uniqueIdString": "10054",
+						"uniqueIdString": "10055",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2498,7 +2484,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Lumiose 2",
-						"uniqueIdString": "10055",
+						"uniqueIdString": "10056",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2542,7 +2528,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape",
-						"uniqueIdString": "10056",
+						"uniqueIdString": "10057",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2572,7 +2558,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kalos\\_Mindscape\\upscale",
-								"uniqueIdString": "10097",
+								"uniqueIdString": "10099",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -2704,7 +2690,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape",
-						"uniqueIdString": "10057",
+						"uniqueIdString": "10058",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2734,7 +2720,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kanto\\_Mindscape\\upscale",
-								"uniqueIdString": "10098",
+								"uniqueIdString": "10100",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -2840,7 +2826,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Kitakami\\_Map",
-						"uniqueIdString": "10058",
+						"uniqueIdString": "10059",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -2984,7 +2970,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Lental\\Islands",
-						"uniqueIdString": "10059",
+						"uniqueIdString": "10060",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -3254,7 +3240,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\Towns",
-						"uniqueIdString": "10060",
+						"uniqueIdString": "10061",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -3368,7 +3354,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\_Air Continent (Rescue Team DX)",
-						"uniqueIdString": "10061",
+						"uniqueIdString": "10062",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3412,7 +3398,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Mystery Dungeon\\_Air Continent (Rescue Team DX)\\downscale",
-								"uniqueIdString": "10099",
+								"uniqueIdString": "10101",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -3459,7 +3445,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map",
-						"uniqueIdString": "10062",
+						"uniqueIdString": "10063",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3503,7 +3489,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map\\_Squared Map",
-								"uniqueIdString": "10100",
+								"uniqueIdString": "10102",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -3519,7 +3505,7 @@
 									],
 									"metadata": {
 										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\Map\\_Squared Map\\upscale",
-										"uniqueIdString": "10113",
+										"uniqueIdString": "10115",
 										"depth": 4,
 										"isMinor": false
 									},
@@ -3553,7 +3539,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View",
-						"uniqueIdString": "10063",
+						"uniqueIdString": "10064",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3568,7 +3554,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View",
-								"uniqueIdString": "10101",
+								"uniqueIdString": "10103",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -3613,7 +3599,7 @@
 									],
 									"metadata": {
 										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Arrows View\\downscale",
-										"uniqueIdString": "10114",
+										"uniqueIdString": "10116",
 										"depth": 4,
 										"isMinor": false
 									},
@@ -3660,7 +3646,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View",
-								"uniqueIdString": "10102",
+								"uniqueIdString": "10104",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -3705,7 +3691,7 @@
 									],
 									"metadata": {
 										"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Orre\\View\\_Clean View\\downscale",
-										"uniqueIdString": "10115",
+										"uniqueIdString": "10117",
 										"depth": 4,
 										"isMinor": false
 									},
@@ -3768,7 +3754,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\Locations",
-						"uniqueIdString": "10064",
+						"uniqueIdString": "10065",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -3798,7 +3784,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Art",
-						"uniqueIdString": "10065",
+						"uniqueIdString": "10066",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -3828,7 +3814,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Art\\downscale",
-								"uniqueIdString": "10103",
+								"uniqueIdString": "10105",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -3874,7 +3860,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Paldea\\_Map",
-						"uniqueIdString": "10066",
+						"uniqueIdString": "10067",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4061,7 +4047,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Poketopia\\_Waterfront",
-						"uniqueIdString": "10067",
+						"uniqueIdString": "10068",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4248,7 +4234,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ryme City\\_Map",
-						"uniqueIdString": "10068",
+						"uniqueIdString": "10069",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4392,7 +4378,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier",
-						"uniqueIdString": "10069",
+						"uniqueIdString": "10070",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4422,7 +4408,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Battle Frontier\\Facilities",
-								"uniqueIdString": "10104",
+								"uniqueIdString": "10106",
 								"depth": 3,
 								"isMinor": true
 							},
@@ -4524,7 +4510,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\Locations",
-						"uniqueIdString": "10070",
+						"uniqueIdString": "10071",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -4610,7 +4596,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Diamond-Pearl",
-						"uniqueIdString": "10071",
+						"uniqueIdString": "10072",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4654,7 +4640,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape",
-						"uniqueIdString": "10072",
+						"uniqueIdString": "10073",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4684,7 +4670,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Mindscape\\upscale",
-								"uniqueIdString": "10105",
+								"uniqueIdString": "10107",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -4716,7 +4702,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled",
-						"uniqueIdString": "10073",
+						"uniqueIdString": "10074",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4746,7 +4732,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Labelled\\downscale",
-								"uniqueIdString": "10106",
+								"uniqueIdString": "10108",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -4792,7 +4778,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Sinnoh\\_Sinnoh Unlabelled",
-						"uniqueIdString": "10074",
+						"uniqueIdString": "10075",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -4979,7 +4965,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\Locations",
-						"uniqueIdString": "10075",
+						"uniqueIdString": "10076",
 						"depth": 2,
 						"isMinor": true
 					},
@@ -5037,7 +5023,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape",
-						"uniqueIdString": "10076",
+						"uniqueIdString": "10077",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -5067,7 +5053,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape\\upscale",
-								"uniqueIdString": "10107",
+								"uniqueIdString": "10109",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -5099,7 +5085,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2",
-						"uniqueIdString": "10077",
+						"uniqueIdString": "10078",
 						"depth": 2,
 						"isMinor": false
 					},
@@ -5129,7 +5115,7 @@
 							],
 							"metadata": {
 								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Unova\\_Mindscape 2\\upscale",
-								"uniqueIdString": "10108",
+								"uniqueIdString": "10110",
 								"depth": 3,
 								"isMinor": false
 							},
@@ -5156,13 +5142,73 @@
 			]
 		},
 		{
+			"name": "_Orange Islands",
+			"path": [
+				"_Orange Islands"
+			],
+			"metadata": {
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Orange Islands",
+				"uniqueIdString": "10030",
+				"depth": 1,
+				"isMinor": false
+			},
+			"items": [
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Orange Islands\\orange-map.jpg",
+					"enumeratedName": "_Orange Islands\\orange-map",
+					"relPath": "_Orange Islands\\orange-map.jpg",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\_Orange Islands\\orange-map.jpg",
+					"name": "orange-map",
+					"extension": "jpg",
+					"width": 3600,
+					"height": 4800,
+					"lossless": false,
+					"filesize": 4149514,
+					"quality": -1,
+					"aspect": 0.75
+				}
+			],
+			"children": [
+				{
+					"name": "downscale",
+					"path": [
+						"_Orange Islands",
+						"downscale"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Orange Islands\\downscale",
+						"uniqueIdString": "10079",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Orange Islands\\downscale\\half.jpg",
+							"enumeratedName": "_Orange Islands\\downscale\\half",
+							"relPath": "_Orange Islands\\downscale\\half.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\_Orange Islands\\downscale\\half.jpg",
+							"name": "half",
+							"extension": "jpg",
+							"width": 1800,
+							"height": 2400,
+							"lossless": false,
+							"filesize": 1466659,
+							"quality": -1,
+							"aspect": 0.75
+						}
+					],
+					"children": []
+				}
+			]
+		},
+		{
 			"name": "_Sevii Islands",
 			"path": [
 				"_Sevii Islands"
 			],
 			"metadata": {
 				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Sevii Islands",
-				"uniqueIdString": "10030",
+				"uniqueIdString": "10031",
 				"depth": 1,
 				"isMinor": false
 			},
@@ -5191,7 +5237,7 @@
 					],
 					"metadata": {
 						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\_Sevii Islands\\upscale",
-						"uniqueIdString": "10078",
+						"uniqueIdString": "10080",
 						"depth": 2,
 						"isMinor": false
 					},

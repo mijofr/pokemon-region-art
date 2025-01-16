@@ -311,7 +311,7 @@ html, body {
   font-family: "Nunito Sans";
   background-color: hsl(222, 22%, 10%);
   color: hsl(222, 12%, 79%);
-  padding: 12px;
+  padding: 0;
   scroll-behavior: smooth;
   font-family: "Nunito Sans", serif;
   font-optical-sizing: auto;
@@ -322,6 +322,11 @@ html, body {
 
 body {
   opacity: 1;
+  min-height: 100svh;
+}
+
+main {
+  padding: 24px;
 }
 
 #svgDefs {
@@ -1039,6 +1044,44 @@ div.group-children div.groupNode {
 .tag.tag-l {
   border: 1px solid hsl(342, 100%, 27%);
   background-color: hsl(342, 100%, 27%);
+}
+
+footer {
+  background-color: hsl(222, 21%, 12%);
+  border-top: 1px solid hsl(222, 21%, 21%);
+  min-height: 2em;
+  width: 100%;
+  padding: 12px 24px 12px 24px;
+  box-sizing: border-box;
+}
+
+.github-badge {
+  display: inline-flex;
+  flex-direction: row;
+  border: 1px solid hsl(222, 12%, 89%);
+  overflow: hidden;
+  border-radius: 6px;
+  color: hsl(222, 12%, 89%);
+}
+.github-badge div:first-child {
+  flex: 0 0 auto;
+  background-color: hsl(222, 12%, 89%);
+  padding: 2px 4px;
+}
+.github-badge div:first-child div {
+  height: 16px;
+  aspect-ratio: 4.4;
+  background-image: url("./github-badge.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.github-badge div:last-child {
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
