@@ -407,7 +407,7 @@ export async function main() {
     let resultString = await wrapPage(contentString);
 
     
-    await fsAccess.writeFile("./../../indexMk2.html", resultString);
+    await fsAccess.writeFile("./../../index.html", resultString);
 
 
 

@@ -1047,12 +1047,10 @@ div.group-children div.groupNode {
 }
 
 footer {
-  background-color: hsl(222, 21%, 12%);
-  border-top: 1px solid hsl(222, 21%, 21%);
-  min-height: 2em;
   width: 100%;
   padding: 12px 24px 12px 24px;
   box-sizing: border-box;
+  text-align: right;
 }
 
 .github-badge {
@@ -1062,6 +1060,7 @@ footer {
   overflow: hidden;
   border-radius: 6px;
   color: hsl(222, 12%, 89%);
+  text-decoration: none;
 }
 .github-badge div:first-child {
   flex: 0 0 auto;
@@ -1077,7 +1076,7 @@ footer {
   background-position: center center;
 }
 .github-badge div:last-child {
-  padding: 2px 4px;
+  padding: 2px 6px;
   display: flex;
   align-items: center;
   justify-content: center;
