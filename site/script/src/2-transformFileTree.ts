@@ -72,7 +72,7 @@ export interface ImgFile {
     lossless: boolean;
     aspect: number;
     metatags: string[];
-
+    fileHash: string;
 }
 
 function filePathRelative(pth: string): string {
@@ -109,7 +109,8 @@ function transformSingularImage(img: ImgInfo, pth: string[]): ImgSet {
             megapixels: (img.width * img.height) / 1000000,
             lossless: img.lossless,
             aspect: img.aspect,
-            metatags: []
+            metatags: [],
+            fileHash: img.hash
         
         }]
     }
@@ -228,7 +229,8 @@ function transformImgSetImg(img: ImgInfo): ImgFile {
         megapixels: (img.width * img.height) / 1000000,
         lossless: img.lossless,
         aspect: img.aspect,
-        metatags: []
+        metatags: [],
+        fileHash: img.hash
     }
 }
 

@@ -38,7 +38,8 @@
 					"megapixels": 1.336,
 					"lossless": true,
 					"aspect": 1.916,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "2ffff9662eb62044d05f38539bf2eda6"
 				}
 			]
 		},
@@ -73,7 +74,8 @@
 					"megapixels": 5.4,
 					"lossless": true,
 					"aspect": 1.35,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "263e6d05640468847aec3e10c4bbcef9"
 				}
 			]
 		},
@@ -108,7 +110,8 @@
 					"megapixels": 8.69984,
 					"lossless": false,
 					"aspect": 1.415,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "79b897119f7642fe81cff18948b5d4ab"
 				}
 			]
 		},
@@ -143,7 +146,8 @@
 					"megapixels": 1.180872,
 					"lossless": true,
 					"aspect": 0.6147,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "38508e6c9e2fad2a19c87dbbe985025e"
 				}
 			]
 		},
@@ -178,7 +182,8 @@
 					"megapixels": 1.9008,
 					"lossless": false,
 					"aspect": 1.32,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "1a936b25f97011d22a4981e042ff7a6e"
 				}
 			]
 		},
@@ -213,7 +218,8 @@
 					"megapixels": 0.0768,
 					"lossless": true,
 					"aspect": 1.333,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "55c0b33555d35ba15dca8cee0d8c679b"
 				}
 			]
 		},
@@ -248,7 +254,8 @@
 					"megapixels": 3.6864,
 					"lossless": false,
 					"aspect": 1,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "15597d654a789a96272d1f262f65b97d"
 				}
 			]
 		},
@@ -283,7 +290,8 @@
 					"megapixels": 5.65915,
 					"lossless": true,
 					"aspect": 1.954,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "4c239c3af5de310b50f1753921baaff9"
 				}
 			]
 		},
@@ -323,7 +331,8 @@
 					"megapixels": 17.28,
 					"lossless": false,
 					"aspect": 0.75,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "bb7afd2ce02a8a9e6e10c1cf7416b2a1"
 				},
 				{
 					"_": "ImgFILE",
@@ -339,7 +348,8 @@
 					"aspect": 0.75,
 					"metatags": [
 						"DOWNSCALE"
-					]
+					],
+					"fileHash": "2c730f9861c2ebf825410165c48e7f47"
 				}
 			]
 		},
@@ -379,7 +389,8 @@
 					"megapixels": 0.4448,
 					"lossless": true,
 					"aspect": 0.695,
-					"metatags": []
+					"metatags": [],
+					"fileHash": "15b829990d41fe70c07fe342a4834ba5"
 				},
 				{
 					"_": "ImgFILE",
@@ -395,7 +406,8 @@
 					"aspect": 0.695,
 					"metatags": [
 						"UPSCALE"
-					]
+					],
+					"fileHash": "a0d65956a56e4a6259e93b73fd5771ed"
 				}
 			]
 		}
@@ -443,7 +455,8 @@
 							"megapixels": 1.089246,
 							"lossless": false,
 							"aspect": 1.896,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "97c2b571581f95cdd798f57a8a25cd22"
 						}
 					]
 				},
@@ -483,7 +496,8 @@
 							"megapixels": 4.706882,
 							"lossless": false,
 							"aspect": 1.329,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "3f882d66b84e8df3181dd960b2ee5bad"
 						},
 						{
 							"_": "ImgFILE",
@@ -497,7 +511,8 @@
 							"megapixels": 4.706882,
 							"lossless": true,
 							"aspect": 1.329,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "c7348482b129aede1c99e1531d3d5852"
 						},
 						{
 							"_": "ImgFILE",
@@ -513,7 +528,8 @@
 							"aspect": 1.329,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "2e3ce642b204480a3e8987c9576b16dc"
 						}
 					]
 				}
@@ -562,7 +578,8 @@
 									"megapixels": 8.24832,
 									"lossless": false,
 									"aspect": 1.788,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "b97f7a2fe34aa5f366dd86fb348e46fc"
 								}
 							]
 						},
@@ -597,7 +614,8 @@
 									"megapixels": 8.24832,
 									"lossless": false,
 									"aspect": 1.788,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "91785e614ef428ec884cb28111ecc9ca"
 								}
 							]
 						},
@@ -637,7 +655,8 @@
 									"megapixels": 29.020068,
 									"lossless": false,
 									"aspect": 1.84,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "8cf91aa206d745ed3b234351cfa971ea"
 								},
 								{
 									"_": "ImgFILE",
@@ -651,7 +670,8 @@
 									"megapixels": 29.020068,
 									"lossless": true,
 									"aspect": 1.84,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "629b8bd29f047d268a7ef00a0590a4cd"
 								},
 								{
 									"_": "ImgFILE",
@@ -667,7 +687,8 @@
 									"aspect": 1.84,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "8432e4c779317bd6379aa67b5770c116"
 								}
 							]
 						}
@@ -718,7 +739,8 @@
 							"megapixels": 1.083,
 							"lossless": false,
 							"aspect": 1.083,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "f9f44c93bbaa52ae5eb1e71cfcf22160"
 						},
 						{
 							"_": "ImgFILE",
@@ -732,7 +754,8 @@
 							"megapixels": 1.083,
 							"lossless": true,
 							"aspect": 1.083,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "c6f4c652e68ed34ee577b3fe543529b2"
 						}
 					]
 				},
@@ -777,7 +800,8 @@
 							"megapixels": 16.697604,
 							"lossless": false,
 							"aspect": 1.083,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "b9c5c9c297fe02edc07b9ef40014f2a7"
 						},
 						{
 							"_": "ImgFILE",
@@ -793,7 +817,8 @@
 							"aspect": 1.082,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "a43128af3d85358e92d6c9928c550d1c"
 						},
 						{
 							"_": "ImgFILE",
@@ -809,7 +834,8 @@
 							"aspect": 1.083,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "53c1465b19626aac742e33443b2466e2"
 						}
 					]
 				}
@@ -858,7 +884,8 @@
 							"megapixels": 5.505024,
 							"lossless": true,
 							"aspect": 1.714,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "f5573e7a209d53a008d441865b1ce6da"
 						}
 					]
 				},
@@ -893,7 +920,8 @@
 							"megapixels": 5.505024,
 							"lossless": true,
 							"aspect": 1.714,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "29dc02d7ec7e2901258910d56488a0f7"
 						}
 					]
 				},
@@ -928,7 +956,8 @@
 							"megapixels": 8.69984,
 							"lossless": true,
 							"aspect": 1.415,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "6cc68709cee07a503410c1bf03c79bf7"
 						}
 					]
 				},
@@ -968,7 +997,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "9a79cf2395cf58e9385b50077c723602"
 						},
 						{
 							"_": "ImgFILE",
@@ -984,7 +1014,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "f6a1410f0161582fd1b7d4cfc9d307c6"
 						}
 					]
 				},
@@ -1029,7 +1060,8 @@
 							"megapixels": 142.374144,
 							"lossless": false,
 							"aspect": 1.415,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "ef89b9264acf77c55b08acb16fd42d0d"
 						},
 						{
 							"_": "ImgFILE",
@@ -1043,7 +1075,8 @@
 							"megapixels": 142.374144,
 							"lossless": true,
 							"aspect": 1.415,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "4e3575c1e694972edeae37089ac8695b"
 						},
 						{
 							"_": "ImgFILE",
@@ -1059,7 +1092,8 @@
 							"aspect": 1.415,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "636743e4eb861dd04ec378c99834030c"
 						},
 						{
 							"_": "ImgFILE",
@@ -1075,7 +1109,8 @@
 							"aspect": 1.415,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "6b13303b104ce0d8271b5a433b74664d"
 						}
 					]
 				},
@@ -1120,7 +1155,8 @@
 							"megapixels": 142.374144,
 							"lossless": false,
 							"aspect": 1.415,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "53c1b2cb3469d301932026e868f9d20f"
 						},
 						{
 							"_": "ImgFILE",
@@ -1136,7 +1172,8 @@
 							"aspect": 1.415,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "b134ea8c72ed00c161ca994678b7f841"
 						},
 						{
 							"_": "ImgFILE",
@@ -1152,7 +1189,8 @@
 							"aspect": 1.415,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "4f35996232608f40c0a4ec8552e3ee9d"
 						}
 					]
 				}
@@ -1201,7 +1239,8 @@
 									"megapixels": 1.3516,
 									"lossless": true,
 									"aspect": 1.138,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "c9cc7d38c2e812c579db80635a9e8fff"
 								}
 							]
 						},
@@ -1236,7 +1275,8 @@
 									"megapixels": 1.3516,
 									"lossless": true,
 									"aspect": 1.138,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "53008a76e7bf2f5b3b75dfa2697d5d3e"
 								}
 							]
 						},
@@ -1271,7 +1311,8 @@
 									"megapixels": 1.3516,
 									"lossless": true,
 									"aspect": 1.138,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "df401af7689fe63cfdfdf93ffa9d0b11"
 								}
 							]
 						},
@@ -1306,7 +1347,8 @@
 									"megapixels": 1.3516,
 									"lossless": true,
 									"aspect": 1.138,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "5a70bb25e957345989c03509f666cd86"
 								}
 							]
 						},
@@ -1341,7 +1383,8 @@
 									"megapixels": 1.3516,
 									"lossless": true,
 									"aspect": 1.138,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "3c6f553bb367de6b0520421cb97e302a"
 								}
 							]
 						}
@@ -1391,7 +1434,8 @@
 									"megapixels": 9.130029,
 									"lossless": false,
 									"aspect": 0.7128,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "93d04724dcaf271273b830b0ee8301a5"
 								}
 							]
 						},
@@ -1426,7 +1470,8 @@
 									"megapixels": 30.95352,
 									"lossless": false,
 									"aspect": 1.413,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "9b880cdd18dbd65af86b83d39abae75e"
 								}
 							]
 						},
@@ -1461,7 +1506,8 @@
 									"megapixels": 25.452,
 									"lossless": false,
 									"aspect": 0.707,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "f5ce810c051a548a35686e3044b324a3"
 								}
 							]
 						}
@@ -1512,7 +1558,8 @@
 							"megapixels": 0.828,
 							"lossless": true,
 							"aspect": 0.9783,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "bc6783297a67c5f49e82cc061f925070"
 						}
 					]
 				},
@@ -1557,7 +1604,8 @@
 							"megapixels": 104.04,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "5733841a272166795b1541b7ad381920"
 						},
 						{
 							"_": "ImgFILE",
@@ -1571,7 +1619,8 @@
 							"megapixels": 104.04,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "18ea1a8847a05aae52264f184436076a"
 						},
 						{
 							"_": "ImgFILE",
@@ -1585,7 +1634,8 @@
 							"megapixels": 43.56,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "a7dcca7d9c4e612d93cea5c3a6e46e78"
 						},
 						{
 							"_": "ImgFILE",
@@ -1599,7 +1649,8 @@
 							"megapixels": 43.56,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "04deab445591b2f217dd3ca787efe213"
 						},
 						{
 							"_": "ImgFILE",
@@ -1613,7 +1664,8 @@
 							"megapixels": 12.96,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "fb128eaee28f5251294bd234ebb1f780"
 						},
 						{
 							"_": "ImgFILE",
@@ -1627,7 +1679,8 @@
 							"megapixels": 12.96,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "bde2b84ed66ee85834643187e496c65a"
 						}
 					]
 				}
@@ -1676,7 +1729,8 @@
 							"megapixels": 7.623408,
 							"lossless": false,
 							"aspect": 1.952,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "efba571de3dcd3f6119dd4d6b602f878"
 						}
 					]
 				},
@@ -1711,7 +1765,8 @@
 							"megapixels": 0.889,
 							"lossless": true,
 							"aspect": 1.125,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "9bc3b838513e80bb6963e1dc973cd6c6"
 						}
 					]
 				},
@@ -1746,7 +1801,8 @@
 							"megapixels": 18,
 							"lossless": true,
 							"aspect": 1.125,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "cd30986d12b0469daec4a38e81299338"
 						}
 					]
 				},
@@ -1781,7 +1837,8 @@
 							"megapixels": 18,
 							"lossless": false,
 							"aspect": 1.125,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "bd87f02ce1a968754f8615f21c7111a3"
 						}
 					]
 				}
@@ -1830,7 +1887,8 @@
 							"megapixels": 17.406696,
 							"lossless": true,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "29e091becfe8eb88312255d14a0841e6"
 						}
 					]
 				},
@@ -1865,7 +1923,8 @@
 							"megapixels": 17.406696,
 							"lossless": true,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "ff8fd92ad40fe5c4bd9b200b2416b843"
 						}
 					]
 				},
@@ -1900,7 +1959,8 @@
 							"megapixels": 24.388096,
 							"lossless": true,
 							"aspect": 0.4989,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "1f86aa418932c0f3fe0907a9bef1969b"
 						}
 					]
 				},
@@ -1940,7 +2000,8 @@
 							"megapixels": 17.406696,
 							"lossless": false,
 							"aspect": 0.707,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "3748c36d3fe55e6236662d6333ae0a0c"
 						},
 						{
 							"_": "ImgFILE",
@@ -1954,7 +2015,8 @@
 							"megapixels": 17.406696,
 							"lossless": true,
 							"aspect": 0.707,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "f865353fc7d92522c19e51f06a5ba6cd"
 						},
 						{
 							"_": "ImgFILE",
@@ -1970,7 +2032,8 @@
 							"aspect": 0.707,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "08c48d8f9f3cd072bbcfdc932009413d"
 						}
 					]
 				},
@@ -2010,7 +2073,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "108d96fcaaeecb0a4f34d9e2290aac2e"
 						},
 						{
 							"_": "ImgFILE",
@@ -2026,7 +2090,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "614ced679e6e238e525ac77cd512e633"
 						}
 					]
 				}
@@ -2075,7 +2140,8 @@
 									"megapixels": 22.018986,
 									"lossless": true,
 									"aspect": 1.556,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "651441cb0d2d9fb575909ed6f67dae21"
 								}
 							]
 						}
@@ -2131,7 +2197,8 @@
 							"megapixels": 18.079145,
 							"lossless": false,
 							"aspect": 1.8,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "213c8497332d0d90fe457b5a41ae76b0"
 						},
 						{
 							"_": "ImgFILE",
@@ -2145,7 +2212,8 @@
 							"megapixels": 18.079145,
 							"lossless": true,
 							"aspect": 1.8,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "4ad048d5e8f4419a9e1a4f1a6f6069f4"
 						},
 						{
 							"_": "ImgFILE",
@@ -2161,7 +2229,8 @@
 							"aspect": 1.8,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "f0b81fc2deb5d19fcf12fc413abefbe8"
 						}
 					]
 				},
@@ -2201,7 +2270,8 @@
 							"megapixels": 0.9216,
 							"lossless": true,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "9a1f8046504c352ec5e3e5b46dd0a572"
 						},
 						{
 							"_": "ImgFILE",
@@ -2217,7 +2287,8 @@
 							"aspect": 1.778,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "bff0f98820d684a86d203ffe30d3b507"
 						}
 					]
 				}
@@ -2266,7 +2337,8 @@
 									"megapixels": 11.845142,
 									"lossless": true,
 									"aspect": 1.414,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "805fc0cbd5b3faf3e4e1a0a007a34e52"
 								}
 							]
 						},
@@ -2301,7 +2373,8 @@
 									"megapixels": 21.063375,
 									"lossless": true,
 									"aspect": 1.667,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "50eecffa3b00a094aef39ba1dec25015"
 								}
 							]
 						},
@@ -2336,7 +2409,8 @@
 									"megapixels": 10.18458,
 									"lossless": false,
 									"aspect": 1.675,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "1189d5b08d152986947a12532b14a8ba"
 								}
 							]
 						}
@@ -2387,7 +2461,8 @@
 							"megapixels": 0.96,
 							"lossless": false,
 							"aspect": 1.5,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "544192dd01d6b7856fd1759d3877f774"
 						}
 					]
 				},
@@ -2422,7 +2497,8 @@
 							"megapixels": 4.63104,
 							"lossless": true,
 							"aspect": 1.415,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "8638132d2809b7f7966b590ee2352f08"
 						}
 					]
 				},
@@ -2457,7 +2533,8 @@
 							"megapixels": 1.06624,
 							"lossless": true,
 							"aspect": 1.537,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "bdd50245bb67572b44bb335680e5abde"
 						}
 					]
 				},
@@ -2492,7 +2569,8 @@
 							"megapixels": 2.0736,
 							"lossless": false,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "d8c7294e7919d84df216f7771cd546d5"
 						}
 					]
 				},
@@ -2532,7 +2610,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "f083bf2b896b6c124737a6b2abaedc22"
 						},
 						{
 							"_": "ImgFILE",
@@ -2548,7 +2627,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "2a1363adeec617b4a4a954b3f79d31f2"
 						}
 					]
 				},
@@ -2588,7 +2668,8 @@
 							"megapixels": 12.49924,
 							"lossless": false,
 							"aspect": 1.6,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "e1ddd7bce1453c62033deaae8808f447"
 						},
 						{
 							"_": "ImgFILE",
@@ -2602,7 +2683,8 @@
 							"megapixels": 12.49924,
 							"lossless": true,
 							"aspect": 1.6,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "34b1bd7fd985c1a89543cc4267c7a472"
 						},
 						{
 							"_": "ImgFILE",
@@ -2618,7 +2700,8 @@
 							"aspect": 1.599,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "ea155a44c5423c274fa3fcf9b7ff2462"
 						}
 					]
 				}
@@ -2667,7 +2750,8 @@
 									"megapixels": 2.764398,
 									"lossless": false,
 									"aspect": 1.685,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "0b7f2de22f1faac323cfdd5ba441c94f"
 								}
 							]
 						},
@@ -2702,7 +2786,8 @@
 									"megapixels": 2.963456,
 									"lossless": false,
 									"aspect": 1.415,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "a53752560bae4b4ee2f6ebd22dc3e03f"
 								}
 							]
 						},
@@ -2737,7 +2822,8 @@
 									"megapixels": 2.59776,
 									"lossless": false,
 									"aspect": 1.419,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "c23bff9ba3cf3d883e753cb3d788a3f3"
 								},
 								{
 									"_": "ImgFILE",
@@ -2751,7 +2837,8 @@
 									"megapixels": 2.59776,
 									"lossless": true,
 									"aspect": 1.419,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "a0f0369a17725e2630239a83b1a731b1"
 								}
 							]
 						},
@@ -2791,7 +2878,8 @@
 									"megapixels": 8.703348,
 									"lossless": false,
 									"aspect": 0.7072,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "6b0503ec409e2fc3aa5d8edf81b4b365"
 								},
 								{
 									"_": "ImgFILE",
@@ -2805,7 +2893,8 @@
 									"megapixels": 8.703348,
 									"lossless": true,
 									"aspect": 0.7072,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "51c5301d83c73dd79b8c5ef0713a54fd"
 								},
 								{
 									"_": "ImgFILE",
@@ -2821,7 +2910,8 @@
 									"aspect": 0.7073,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "782f6c1cadf3c695a21de2df551703bf"
 								}
 							]
 						},
@@ -2861,7 +2951,8 @@
 									"megapixels": 23.682098,
 									"lossless": false,
 									"aspect": 0.7074,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "555e739c47625f48421e09ce74ee0348"
 								},
 								{
 									"_": "ImgFILE",
@@ -2875,7 +2966,8 @@
 									"megapixels": 23.682098,
 									"lossless": true,
 									"aspect": 0.7074,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "42460d9bc81c8571adb7cb53fe5b5fea"
 								},
 								{
 									"_": "ImgFILE",
@@ -2891,7 +2983,8 @@
 									"aspect": 0.7074,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "85e88cfa64bd24fce08ecb5d458e3ef7"
 								}
 							]
 						}
@@ -2942,7 +3035,8 @@
 							"megapixels": 2.965504,
 							"lossless": false,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0d569518b5e2053dca6732713053652c"
 						}
 					]
 				},
@@ -2977,7 +3071,8 @@
 							"megapixels": 3.868706,
 							"lossless": false,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "18e9bd5c11fbb57f5127c37a9b5984dd"
 						}
 					]
 				}
@@ -3026,7 +3121,8 @@
 							"megapixels": 24.123008,
 							"lossless": false,
 							"aspect": 1.406,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "f582b676ccd94f54b89e401a28279a06"
 						}
 					]
 				},
@@ -3061,7 +3157,8 @@
 							"megapixels": 2.0736,
 							"lossless": false,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "a595ad06ce18a8a070a21d3cbf4ed4c5"
 						}
 					]
 				},
@@ -3101,7 +3198,8 @@
 							"megapixels": 41.24624,
 							"lossless": false,
 							"aspect": 1.49,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "140c273206d82d9a64c47c5fdcd742e1"
 						},
 						{
 							"_": "ImgFILE",
@@ -3117,7 +3215,8 @@
 							"aspect": 1.49,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "644335f0769a06bbecf61baa0461e10e"
 						}
 					]
 				},
@@ -3157,7 +3256,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "00884848cbe7cf47f70fb173cb305bd1"
 						},
 						{
 							"_": "ImgFILE",
@@ -3173,7 +3273,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "8b04843a2f66b9de293b0c070ea0e40c"
 						}
 					]
 				}
@@ -3222,7 +3323,8 @@
 									"megapixels": 1.1528,
 									"lossless": false,
 									"aspect": 0.6718,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "778a95cc21615e01c2cea9f8525e4c27"
 								}
 							]
 						},
@@ -3262,7 +3364,8 @@
 									"megapixels": 47.571348,
 									"lossless": false,
 									"aspect": 1.103,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "779b4fba14a71fc7c81b7ef53faf27c7"
 								},
 								{
 									"_": "ImgFILE",
@@ -3278,7 +3381,8 @@
 									"aspect": 1.103,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "291c00cda8aefd03db24bc6f73b6f782"
 								}
 							]
 						}
@@ -3329,7 +3433,8 @@
 							"megapixels": 0.697632,
 							"lossless": true,
 							"aspect": 1.527,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "db54a184bd1100d8ebc8b429ff611af3"
 						}
 					]
 				},
@@ -3364,7 +3469,8 @@
 							"megapixels": 2.72073,
 							"lossless": false,
 							"aspect": 1.527,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "3b9c8de3cced0f28159d2f4a884c40c7"
 						}
 					]
 				},
@@ -3399,7 +3505,8 @@
 							"megapixels": 2.0736,
 							"lossless": false,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0593b5ca205bca6f5665f6d281d1eff3"
 						}
 					]
 				},
@@ -3434,7 +3541,8 @@
 							"megapixels": 6.746976,
 							"lossless": false,
 							"aspect": 1.404,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "cd2a6bb32bd6a905fe7de83605870a30"
 						},
 						{
 							"_": "ImgFILE",
@@ -3448,7 +3556,8 @@
 							"megapixels": 6.746976,
 							"lossless": true,
 							"aspect": 1.404,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "ce4e3fe2ed4d4708af03df7fda489e63"
 						}
 					]
 				},
@@ -3483,7 +3592,8 @@
 							"megapixels": 6.746976,
 							"lossless": false,
 							"aspect": 1.404,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "4f7f333b14a6c984d8102cda7b931392"
 						},
 						{
 							"_": "ImgFILE",
@@ -3497,7 +3607,8 @@
 							"megapixels": 6.746976,
 							"lossless": true,
 							"aspect": 1.404,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "4b443743ccb56842c115d11222f3d9e4"
 						}
 					]
 				},
@@ -3537,7 +3648,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "c316e4cd781c294e02ac09a58e1c693f"
 						},
 						{
 							"_": "ImgFILE",
@@ -3553,7 +3665,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "0be991288caae8fa6fa83a1b0d139ede"
 						}
 					]
 				}
@@ -3602,7 +3715,8 @@
 									"megapixels": 0.915,
 									"lossless": true,
 									"aspect": 2.459,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "39439501738a29b076653dec7be3ae4e"
 								}
 							]
 						},
@@ -3637,7 +3751,8 @@
 									"megapixels": 4.036157,
 									"lossless": false,
 									"aspect": 0.7441,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "282a64525d25f52abed422b42abd19f9"
 								}
 							]
 						},
@@ -3672,7 +3787,8 @@
 									"megapixels": 4.982521,
 									"lossless": false,
 									"aspect": 1.379,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "6139e4241ae4477a0f760a6a342ff937"
 								}
 							]
 						}
@@ -3723,7 +3839,8 @@
 							"megapixels": 4.99456,
 							"lossless": false,
 							"aspect": 1.312,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "bd1bb94a9949593365c3bb74419b9a0b"
 						}
 					]
 				},
@@ -3758,7 +3875,8 @@
 							"megapixels": 17.465422,
 							"lossless": false,
 							"aspect": 0.7082,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "93bb9dbec5f705298ef198c2f5c4f536"
 						}
 					]
 				},
@@ -3793,7 +3911,8 @@
 							"megapixels": 4.674078,
 							"lossless": true,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "2cccacb6dacc49bec40276898a52e075"
 						}
 					]
 				},
@@ -3828,7 +3947,8 @@
 							"megapixels": 0.75,
 							"lossless": false,
 							"aspect": 1.333,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "ae4a7e8cfeb3175f476fc2f268312f2d"
 						}
 					]
 				},
@@ -3863,7 +3983,8 @@
 							"megapixels": 6.108683,
 							"lossless": false,
 							"aspect": 1.368,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "e94ae18bc5d542c9840daa76053ea9ac"
 						}
 					]
 				},
@@ -3898,7 +4019,8 @@
 							"megapixels": 2.0736,
 							"lossless": false,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0e80633b258f4ddc7cd38dcce2f6f2d5"
 						}
 					]
 				},
@@ -3938,7 +4060,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "99858532e43347cb57d9ef5b4e7259c2"
 						},
 						{
 							"_": "ImgFILE",
@@ -3954,7 +4077,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "2fa2ff3101535a6588857b8cf2de70eb"
 						}
 					]
 				}
@@ -4003,7 +4127,8 @@
 							"megapixels": 15.78,
 							"lossless": false,
 							"aspect": 2.281,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "51280bd3b8ee4fc94091d3889cd677f1"
 						}
 					]
 				},
@@ -4038,7 +4163,8 @@
 							"megapixels": 4.80899,
 							"lossless": true,
 							"aspect": 2.362,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0718500e5ef9c10b6f128a7584ba121d"
 						}
 					]
 				}
@@ -4087,7 +4213,8 @@
 							"megapixels": 10.735616,
 							"lossless": false,
 							"aspect": 0.6399,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "c44318250ea9a787bb83754dafa3fd5e"
 						}
 					]
 				},
@@ -4132,7 +4259,8 @@
 							"megapixels": 104.04,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "aa740e0da930f524237c2a8177fa24fa"
 						},
 						{
 							"_": "ImgFILE",
@@ -4146,7 +4274,8 @@
 							"megapixels": 104.04,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "dedf8729380bfe16512824ce46bb3b2b"
 						},
 						{
 							"_": "ImgFILE",
@@ -4160,7 +4289,8 @@
 							"megapixels": 43.56,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "022aa098fda1ee78df7766199c555be3"
 						},
 						{
 							"_": "ImgFILE",
@@ -4174,7 +4304,8 @@
 							"megapixels": 43.56,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "d1e26b907492eaaf84fe6cc2fb943089"
 						},
 						{
 							"_": "ImgFILE",
@@ -4188,7 +4319,8 @@
 							"megapixels": 12.96,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "2406521fc3675dd74c912b934024d514"
 						},
 						{
 							"_": "ImgFILE",
@@ -4202,7 +4334,8 @@
 							"megapixels": 12.96,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "5c1b2f886ceca0e01b97a90d55ff1b74"
 						}
 					]
 				}
@@ -4251,7 +4384,8 @@
 							"megapixels": 2.0736,
 							"lossless": true,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "b1633aae8cbeafc8d25fd250af70fc3b"
 						}
 					]
 				},
@@ -4286,7 +4420,8 @@
 							"megapixels": 2.0736,
 							"lossless": true,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "504fe4447121276f946ba1096fe5d4cd"
 						}
 					]
 				}
@@ -4335,7 +4470,8 @@
 									"megapixels": 0.60736,
 									"lossless": true,
 									"aspect": 1.781,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "40375bd30f664db36e9c2c19950ce651"
 								}
 							]
 						},
@@ -4370,7 +4506,8 @@
 									"megapixels": 0.60736,
 									"lossless": true,
 									"aspect": 1.781,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "3ffe3fe43fd91f566a7e02d62df239df"
 								}
 							]
 						},
@@ -4405,7 +4542,8 @@
 									"megapixels": 0.60736,
 									"lossless": true,
 									"aspect": 1.781,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "bb3ba0daea7a741d82201690b0fa7260"
 								}
 							]
 						},
@@ -4440,7 +4578,8 @@
 									"megapixels": 1.7458,
 									"lossless": true,
 									"aspect": 1.204,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "c778cce9bc44de4164ba4d274ea77aa4"
 								}
 							]
 						},
@@ -4475,7 +4614,8 @@
 									"megapixels": 0.60736,
 									"lossless": true,
 									"aspect": 1.781,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "43d14ce0c1ecf0901d4ca83795545cd9"
 								}
 							]
 						},
@@ -4510,7 +4650,8 @@
 									"megapixels": 0.60736,
 									"lossless": true,
 									"aspect": 1.781,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "1b724b38a64638ca077f3ec07ae35e9a"
 								}
 							]
 						},
@@ -4545,7 +4686,8 @@
 									"megapixels": 0.60736,
 									"lossless": true,
 									"aspect": 1.781,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "419d26a2d72c258611f106fb4ae88126"
 								}
 							]
 						}
@@ -4596,7 +4738,8 @@
 							"megapixels": 0.15328,
 							"lossless": true,
 							"aspect": 1.497,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "8aed1a7c1163b1dc58d036eab9060633"
 						}
 					]
 				},
@@ -4631,7 +4774,8 @@
 							"megapixels": 1.19556,
 							"lossless": true,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "570e851a07da3f2d5eaa343ef259d139"
 						}
 					]
 				},
@@ -4666,7 +4810,8 @@
 							"megapixels": 0.049152,
 							"lossless": true,
 							"aspect": 1.333,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "cf036f34d1e6863fbe5707ff1cd6430b"
 						}
 					]
 				},
@@ -4701,7 +4846,8 @@
 							"megapixels": 0.049152,
 							"lossless": true,
 							"aspect": 1.333,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "028d98bb9ef32a3c3fff50799af1bbe1"
 						}
 					]
 				},
@@ -4736,7 +4882,8 @@
 							"megapixels": 0.073728,
 							"lossless": true,
 							"aspect": 2,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "e4d97a7940114d742ab359897c9b087f"
 						}
 					]
 				},
@@ -4771,7 +4918,8 @@
 							"megapixels": 0.162972,
 							"lossless": true,
 							"aspect": 1.552,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "da2efd482528796b08af5d323c2194ee"
 						}
 					]
 				},
@@ -4806,7 +4954,8 @@
 							"megapixels": 0.169344,
 							"lossless": true,
 							"aspect": 1.5,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "c8d1981d9ec2e0c740c14e9f3a0d5a8e"
 						}
 					]
 				},
@@ -4841,7 +4990,8 @@
 							"megapixels": 1.048576,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "5fac914e5cbe00d594ec508d156aed58"
 						}
 					]
 				},
@@ -4876,7 +5026,8 @@
 							"megapixels": 1.048576,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "a62a381983e09cfb78a0999dc05942b8"
 						}
 					]
 				},
@@ -4911,7 +5062,8 @@
 							"megapixels": 3.145728,
 							"lossless": true,
 							"aspect": 1.333,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "6cb5c7558586d3b29c95e50469be0cd7"
 						}
 					]
 				},
@@ -4951,7 +5103,8 @@
 							"megapixels": 42,
 							"lossless": false,
 							"aspect": 1.167,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "e25640434baad48aa1cef0ecebd40990"
 						},
 						{
 							"_": "ImgFILE",
@@ -4965,7 +5118,8 @@
 							"megapixels": 42,
 							"lossless": true,
 							"aspect": 1.167,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "6a9b746349877237e93ac956f159e1cb"
 						},
 						{
 							"_": "ImgFILE",
@@ -4981,7 +5135,8 @@
 							"aspect": 1.167,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "d3bd6b3b207db5dc81841063da23caf2"
 						}
 					]
 				}
@@ -5030,7 +5185,8 @@
 									"megapixels": 0.3378,
 									"lossless": true,
 									"aspect": 1.066,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "6cf36fe1363184d5768f6c2406dd05cc"
 								}
 							]
 						},
@@ -5065,7 +5221,8 @@
 									"megapixels": 0.4528,
 									"lossless": true,
 									"aspect": 1.413,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "0f3e89545437bb2f9625929d3f55ff02"
 								}
 							]
 						},
@@ -5100,7 +5257,8 @@
 									"megapixels": 2.828,
 									"lossless": false,
 									"aspect": 1.414,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "1c01bff49ee769499f6b1aff659fd47e"
 								}
 							]
 						},
@@ -5135,7 +5293,8 @@
 									"megapixels": 1.7145,
 									"lossless": true,
 									"aspect": 1.312,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "34b4ebc10c90f256b79108f78ec33086"
 								}
 							]
 						},
@@ -5170,7 +5329,8 @@
 									"megapixels": 0.3072,
 									"lossless": false,
 									"aspect": 1.333,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "143df443ef01edeb8b38e5c6a620bc23"
 								}
 							]
 						},
@@ -5205,7 +5365,8 @@
 									"megapixels": 0.2706,
 									"lossless": false,
 									"aspect": 1.33,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "608b6b6583d6732e0edd07af2fad8315"
 								}
 							]
 						},
@@ -5240,7 +5401,8 @@
 									"megapixels": 10.48576,
 									"lossless": false,
 									"aspect": 1.6,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "a4813bced622f921dea92b68173cb84e"
 								}
 							]
 						}
@@ -5304,7 +5466,8 @@
 									"megapixels": 0.3072,
 									"lossless": true,
 									"aspect": 1.333,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "96736acf81c54af41e98778af4532c1a"
 								}
 							]
 						},
@@ -5339,7 +5502,8 @@
 									"megapixels": 0.3072,
 									"lossless": true,
 									"aspect": 1.333,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "a67cbd01182bb2fe7f102e313e6fecb3"
 								}
 							]
 						},
@@ -5376,7 +5540,8 @@
 									"aspect": 1.067,
 									"metatags": [
 										"UPSCALE"
-									]
+									],
+									"fileHash": "65318eda4eca9fe1a72f72528e51dae6"
 								}
 							]
 						}
@@ -5436,7 +5601,8 @@
 									"megapixels": 24.64512,
 									"lossless": false,
 									"aspect": 1.671,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "2255359b0bf269c043bdf078dda803ca"
 								},
 								{
 									"_": "ImgFILE",
@@ -5450,7 +5616,8 @@
 									"megapixels": 24.64512,
 									"lossless": true,
 									"aspect": 1.671,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "03fe191933103a5e10c3598e3ff2aea9"
 								},
 								{
 									"_": "ImgFILE",
@@ -5466,7 +5633,8 @@
 									"aspect": 1.671,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "e3188e3caee6d1afabbc84b85403942d"
 								},
 								{
 									"_": "ImgFILE",
@@ -5482,7 +5650,8 @@
 									"aspect": 1.671,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "4c5343d6a6ad21679935f1f6bb52ec70"
 								}
 							]
 						},
@@ -5527,7 +5696,8 @@
 									"megapixels": 24.64512,
 									"lossless": false,
 									"aspect": 1.671,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "3badc1d2cb3ff5b770b15f121bef2000"
 								},
 								{
 									"_": "ImgFILE",
@@ -5541,7 +5711,8 @@
 									"megapixels": 24.64512,
 									"lossless": true,
 									"aspect": 1.671,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "aece4cded831c936e669243eb001f711"
 								},
 								{
 									"_": "ImgFILE",
@@ -5557,7 +5728,8 @@
 									"aspect": 1.671,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "174eae512cd36a8d09e6a7ebc74ca333"
 								},
 								{
 									"_": "ImgFILE",
@@ -5573,7 +5745,8 @@
 									"aspect": 1.671,
 									"metatags": [
 										"DOWNSCALE"
-									]
+									],
+									"fileHash": "da94d79677874bff496d91f6bad17028"
 								}
 							]
 						}
@@ -5634,7 +5807,8 @@
 							"megapixels": 47.366595,
 							"lossless": false,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "f9739403e3ea3513a1a6b7770d2ddd2a"
 						},
 						{
 							"_": "ImgFILE",
@@ -5650,7 +5824,8 @@
 							"aspect": 1.414,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "d43278879101280c04b6ea5b041f7237"
 						},
 						{
 							"_": "ImgFILE",
@@ -5666,7 +5841,8 @@
 							"aspect": 1.415,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "5d0c3d71115ed60be3f500c8a4d6c429"
 						}
 					]
 				},
@@ -5711,7 +5887,8 @@
 							"megapixels": 243.36,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "a73b7ed788fbc34a32af3edd08b19dbe"
 						},
 						{
 							"_": "ImgFILE",
@@ -5725,7 +5902,8 @@
 							"megapixels": 243.36,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "1882235dd1d68494e4f621bb1dddf28f"
 						},
 						{
 							"_": "ImgFILE",
@@ -5739,7 +5917,8 @@
 							"megapixels": 70.56,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "d4c563c2d719a2fb4bdf72253ac96c47"
 						},
 						{
 							"_": "ImgFILE",
@@ -5753,7 +5932,8 @@
 							"megapixels": 70.56,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "938e81574309613755a6fde3fcc6f37d"
 						},
 						{
 							"_": "ImgFILE",
@@ -5767,7 +5947,8 @@
 							"megapixels": 12.96,
 							"lossless": false,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "1fac80a7fc9c76cb8cd99de9907ff24f"
 						},
 						{
 							"_": "ImgFILE",
@@ -5781,7 +5962,8 @@
 							"megapixels": 12.96,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "75ab70b6f2a24a8d0391c8943ca2c16d"
 						}
 					]
 				}
@@ -5830,7 +6012,8 @@
 									"megapixels": 0.512,
 									"lossless": true,
 									"aspect": 0.8,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "b5a1e3318d9a694fd5c59d7aee4c60fd"
 								}
 							]
 						}
@@ -5881,7 +6064,8 @@
 							"megapixels": 1.088005,
 							"lossless": false,
 							"aspect": 1.56,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0c6f5facfca491a644bce44be2b781d5"
 						}
 					]
 				},
@@ -5916,7 +6100,8 @@
 							"megapixels": 0.1084,
 							"lossless": true,
 							"aspect": 1.476,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "8d536e7f0a70713975a73df26ac1abdd"
 						}
 					]
 				},
@@ -5951,7 +6136,8 @@
 							"megapixels": 0.0768,
 							"lossless": true,
 							"aspect": 1.333,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "d7ff6062d7e51f85bd4d09d4bf1cc463"
 						}
 					]
 				}
@@ -6000,7 +6186,8 @@
 							"megapixels": 0.3648,
 							"lossless": true,
 							"aspect": 1.583,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0af2b1bd653f3d4c673d3b69e0d194ce"
 						}
 					]
 				},
@@ -6035,7 +6222,8 @@
 							"megapixels": 6.681774,
 							"lossless": false,
 							"aspect": 1.824,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "55cc440b15247e8de7f7d0ee26bda46b"
 						},
 						{
 							"_": "ImgFILE",
@@ -6049,7 +6237,8 @@
 							"megapixels": 6.681774,
 							"lossless": true,
 							"aspect": 1.824,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "f47da12812806191472bcf8916060ee6"
 						}
 					]
 				}
@@ -6098,7 +6287,8 @@
 							"megapixels": 0.243712,
 							"lossless": true,
 							"aspect": 1.214,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "4eecf9a4a207baa2d6d5398de3d7fa94"
 						}
 					]
 				},
@@ -6133,7 +6323,8 @@
 							"megapixels": 0.243712,
 							"lossless": true,
 							"aspect": 1.214,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "2eb9871a16377413845170445d42352a"
 						}
 					]
 				},
@@ -6168,7 +6359,8 @@
 							"megapixels": 0.243712,
 							"lossless": true,
 							"aspect": 1.214,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "e44c9644925522d0d5492307b10c47f1"
 						}
 					]
 				}
@@ -6217,7 +6409,8 @@
 							"megapixels": 11.32544,
 							"lossless": false,
 							"aspect": 0.675,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "23067bb1be04eb54205cd5c5bb715831"
 						}
 					]
 				},
@@ -6252,7 +6445,8 @@
 							"megapixels": 6.1824,
 							"lossless": false,
 							"aspect": 2.385,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "074e9443e1a4882ad8584032e7ebb21b"
 						}
 					]
 				},
@@ -6287,7 +6481,8 @@
 							"megapixels": 6.1824,
 							"lossless": false,
 							"aspect": 2.385,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "935d439daa3d289f4c56424e4b659356"
 						}
 					]
 				},
@@ -6322,7 +6517,8 @@
 							"megapixels": 3.872,
 							"lossless": false,
 							"aspect": 2.363,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "53b6432a07f1827a03bfbf6cdcb31a64"
 						}
 					]
 				},
@@ -6357,7 +6553,8 @@
 							"megapixels": 4.194304,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "8018b93ef1e5fa024e15277febb2bdbc"
 						}
 					]
 				},
@@ -6402,7 +6599,8 @@
 							"megapixels": 58.632704,
 							"lossless": false,
 							"aspect": 1.561,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "6cd68e47aca6faa2c23066c674fa13be"
 						},
 						{
 							"_": "ImgFILE",
@@ -6416,7 +6614,8 @@
 							"megapixels": 14.658176,
 							"lossless": false,
 							"aspect": 1.561,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "85e91cc16ac0955d93862bf59fb00af0"
 						},
 						{
 							"_": "ImgFILE",
@@ -6430,7 +6629,8 @@
 							"megapixels": 5.76,
 							"lossless": false,
 							"aspect": 1.563,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "8b47474b6d498ef91f02b979bc2f7ac4"
 						}
 					]
 				}
@@ -6479,7 +6679,8 @@
 							"megapixels": 34.65,
 							"lossless": true,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "9bf1174b09373c5e04110caa36741025"
 						}
 					]
 				},
@@ -6514,7 +6715,8 @@
 							"megapixels": 10.742888,
 							"lossless": false,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "ef1721ed1b0877be71d0dfa4071719cc"
 						}
 					]
 				},
@@ -6549,7 +6751,8 @@
 							"megapixels": 39.161983,
 							"lossless": false,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "c3a7a55f4cb7cc57b9c1bd224c26aab1"
 						}
 					]
 				},
@@ -6584,7 +6787,8 @@
 							"megapixels": 2.0736,
 							"lossless": false,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0633c2e729bb1ec4f0e571e760aa0b87"
 						}
 					]
 				},
@@ -6619,7 +6823,8 @@
 							"megapixels": 0.930712,
 							"lossless": true,
 							"aspect": 1.728,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "31b63df2eca7753d2837a3e96659e594"
 						}
 					]
 				},
@@ -6659,7 +6864,8 @@
 							"megapixels": 2.17372,
 							"lossless": false,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "1ccc50ddae99b72e6c5a15ba1496248d"
 						},
 						{
 							"_": "ImgFILE",
@@ -6673,7 +6879,8 @@
 							"megapixels": 39.161983,
 							"lossless": false,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "4d3125b762f3e4cb2205fb562bd0bdeb"
 						}
 					]
 				},
@@ -6713,7 +6920,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "0189ff9af49fd06f7870f82203e76f21"
 						},
 						{
 							"_": "ImgFILE",
@@ -6729,7 +6937,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "5763943ad466fa29e00616653b86e47f"
 						}
 					]
 				},
@@ -6769,7 +6978,8 @@
 							"megapixels": 34.65,
 							"lossless": true,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "a34dc8974ec2d2ce10353c00ab5fd02b"
 						},
 						{
 							"_": "ImgFILE",
@@ -6785,7 +6995,8 @@
 							"aspect": 1.414,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "dede87665f510b61023bd2849c70812c"
 						},
 						{
 							"_": "ImgFILE",
@@ -6801,7 +7012,8 @@
 							"aspect": 1.414,
 							"metatags": [
 								"DOWNSCALE"
-							]
+							],
+							"fileHash": "63883cdffaf55cc1892b6eedbebdc1d8"
 						}
 					]
 				},
@@ -6841,7 +7053,8 @@
 							"megapixels": 1.29809,
 							"lossless": true,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "36869b7d0594ac8f12f471dd7020b373"
 						},
 						{
 							"_": "ImgFILE",
@@ -6855,7 +7068,8 @@
 							"megapixels": 34.65,
 							"lossless": true,
 							"aspect": 1.414,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "73d5003be6c4f6ba317ad2721676ab7e"
 						}
 					]
 				}
@@ -6904,7 +7118,8 @@
 									"megapixels": 23.21676,
 									"lossless": false,
 									"aspect": 1.625,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "c6fe4d626e35fe3bdf8f2cba530b81a9"
 								}
 							]
 						}
@@ -6954,7 +7169,8 @@
 											"megapixels": 4.646184,
 											"lossless": false,
 											"aspect": 1.48,
-											"metatags": []
+											"metatags": [],
+											"fileHash": "d42626adb7e123fa3261338adfb021f6"
 										}
 									]
 								},
@@ -6989,7 +7205,8 @@
 											"megapixels": 4.646184,
 											"lossless": false,
 											"aspect": 1.48,
-											"metatags": []
+											"metatags": [],
+											"fileHash": "2a3b953b7ba35cca8fc7bb91ab5619f8"
 										}
 									]
 								},
@@ -7024,7 +7241,8 @@
 											"megapixels": 2.064388,
 											"lossless": false,
 											"aspect": 1.48,
-											"metatags": []
+											"metatags": [],
+											"fileHash": "4942b87ec2601d2886f19a7695a3ffc5"
 										}
 									]
 								},
@@ -7059,7 +7277,8 @@
 											"megapixels": 4.646184,
 											"lossless": false,
 											"aspect": 1.48,
-											"metatags": []
+											"metatags": [],
+											"fileHash": "b1f0922b29944abfc8be1fe46504f43f"
 										}
 									]
 								},
@@ -7094,7 +7313,8 @@
 											"megapixels": 4.646184,
 											"lossless": false,
 											"aspect": 1.48,
-											"metatags": []
+											"metatags": [],
+											"fileHash": "c6e17fd7b923cb4e2143e104c960ea64"
 										}
 									]
 								},
@@ -7129,7 +7349,8 @@
 											"megapixels": 5.87776,
 											"lossless": false,
 											"aspect": 0.8537,
-											"metatags": []
+											"metatags": [],
+											"fileHash": "0b11dbd0f4ac58d7faa8754c9c8cafb1"
 										}
 									]
 								}
@@ -7181,7 +7402,8 @@
 									"megapixels": 11.845142,
 									"lossless": true,
 									"aspect": 1.414,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "82eb2d400f404ea4b8939bcbe126ffd7"
 								}
 							]
 						},
@@ -7216,7 +7438,8 @@
 									"megapixels": 2.1048,
 									"lossless": false,
 									"aspect": 0.6842,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "a7de58b2814edcd8b00e76ad3624eb0d"
 								}
 							]
 						},
@@ -7251,7 +7474,8 @@
 									"megapixels": 8.703348,
 									"lossless": false,
 									"aspect": 1.414,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "25bc338738f86fd3d2750c771d46bd72"
 								}
 							]
 						},
@@ -7286,7 +7510,8 @@
 									"megapixels": 1.528912,
 									"lossless": false,
 									"aspect": 0.9927,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "fab2259040b74e1a99ab1dbd749e8090"
 								}
 							]
 						},
@@ -7321,7 +7546,8 @@
 									"megapixels": 0.693,
 									"lossless": true,
 									"aspect": 0.7071,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "9c6feac3334447a6aa7206a8224d7d06"
 								}
 							]
 						}
@@ -7372,7 +7598,8 @@
 							"megapixels": 9.291429,
 							"lossless": true,
 							"aspect": 1.695,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "c79ef118cee4ec1b53609d699281dbba"
 						}
 					]
 				},
@@ -7407,7 +7634,8 @@
 							"megapixels": 9.291429,
 							"lossless": true,
 							"aspect": 1.695,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "482a2bebdfec59e221448b31f7e5c34b"
 						}
 					]
 				},
@@ -7442,7 +7670,8 @@
 							"megapixels": 4.42368,
 							"lossless": true,
 							"aspect": 2.133,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "90de0baa4e987e28196b1a40f0a96a77"
 						}
 					]
 				}
@@ -7491,7 +7720,8 @@
 							"megapixels": 2.0736,
 							"lossless": false,
 							"aspect": 1.778,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "9790ee80f9de4fec859cfd8ab70e9a3b"
 						}
 					]
 				},
@@ -7526,7 +7756,8 @@
 							"megapixels": 78.2866,
 							"lossless": true,
 							"aspect": 1.586,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "bec532b8bdc9798e58a5161e5a222d34"
 						}
 					]
 				},
@@ -7561,7 +7792,8 @@
 							"megapixels": 7.74826,
 							"lossless": true,
 							"aspect": 1.586,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "b590eb56cb0522982d65f22fc606721a"
 						}
 					]
 				},
@@ -7596,7 +7828,8 @@
 							"megapixels": 24.981956,
 							"lossless": false,
 							"aspect": 1.474,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "b3a293a5d0895185a879b6e01e35d967"
 						}
 					]
 				},
@@ -7631,7 +7864,8 @@
 							"megapixels": 7.73104,
 							"lossless": true,
 							"aspect": 1.474,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "685f5c7e31e4eede912858535290ac74"
 						}
 					]
 				},
@@ -7671,7 +7905,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "163aa1af8d56a6329fe10aa8426f835c"
 						},
 						{
 							"_": "ImgFILE",
@@ -7687,7 +7922,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "35ee3c5006204f0fb6a0e861bfed1f23"
 						}
 					]
 				},
@@ -7727,7 +7963,8 @@
 							"megapixels": 0.262144,
 							"lossless": true,
 							"aspect": 1,
-							"metatags": []
+							"metatags": [],
+							"fileHash": "b8bf048102fb38a6fefc5ceb1dd2b12e"
 						},
 						{
 							"_": "ImgFILE",
@@ -7743,7 +7980,8 @@
 							"aspect": 1.5,
 							"metatags": [
 								"UPSCALE"
-							]
+							],
+							"fileHash": "f9068b6561f9c4b93feb1bcee047ee8a"
 						}
 					]
 				}
@@ -7792,7 +8030,8 @@
 									"megapixels": 15.723351,
 									"lossless": true,
 									"aspect": 1.41,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "b76c5a026e307785e7da5b8db53926ad"
 								}
 							]
 						},
@@ -7827,7 +8066,8 @@
 									"megapixels": 53.8893,
 									"lossless": false,
 									"aspect": 1.217,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "dddef3c8c7886935eee12864890d811a"
 								}
 							]
 						},
@@ -7862,7 +8102,8 @@
 									"megapixels": 52.174944,
 									"lossless": false,
 									"aspect": 1.337,
-									"metatags": []
+									"metatags": [],
+									"fileHash": "77f6e21ce3924d707036d601814f67a9"
 								}
 							]
 						}

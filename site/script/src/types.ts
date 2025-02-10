@@ -45,6 +45,7 @@ export interface ImgInfo extends HasInfo {
     filesize: number;
     quality: number;
     aspect: number;
+    hash: string;
 }
 
 

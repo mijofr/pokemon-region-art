@@ -7,6 +7,7 @@ import { promisify } from "util";
 import { DirInfo, ImgInfo } from "src/types";
 import { execPromise, fsAccess, getUniqueId, roundToSig } from "./bits/utils";
 import { rootDirectory, regionsDir, thumbnailsDir } from "./bits/utils";
+import { getHashFs } from "./bits/file-hash";
 
 //https://www.npmjs.com/package/calipers
 // https://www.npmjs.com/package/image-size
@@ -102,6 +103,8 @@ async function getImageFileInfo(nom: string): Promise<ImgInfo> {
     let thumbDir = path.dirname(path.join(thumbnailsDir, relPath));
     let thumbPath = path.join(thumbDir, name + ".jpg");
 
+    let hash = await getHashFs(nom);
+
 
     return {
         path: nom,
@@ -115,7 +118,8 @@ async function getImageFileInfo(nom: string): Promise<ImgInfo> {
         lossless: formatInfo.lossless,
         filesize: filesize,
         quality: formatInfo.quality,
-        aspect: roundToSig(formatInfo.width / formatInfo.height, 4)
+        aspect: roundToSig(formatInfo.width / formatInfo.height, 4),
+        hash: hash
     }
 }
 

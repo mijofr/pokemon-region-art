@@ -1062,12 +1062,15 @@ footer {
   color: hsl(222, 12%, 89%);
   text-decoration: none;
 }
-.github-badge div:first-child {
+.github-badge > div:first-child {
   flex: 0 0 auto;
   background-color: hsl(222, 12%, 89%);
-  padding: 2px 4px;
+  padding: 2px 3px 2px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.github-badge div:first-child div {
+.github-badge > div:first-child div {
   height: 16px;
   aspect-ratio: 4.4;
   background-image: url("./github-badge.png");
@@ -1075,12 +1078,25 @@ footer {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.github-badge div:last-child {
-  padding: 2px 6px;
+.github-badge > div:last-child {
+  padding: 2px 6px 2px 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
+  line-height: 0.8;
+}
+
+.full-body {
+  width: 100%;
+  min-height: 100%;
+  font-size: 24px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15% 20% 20% 20%;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,4 @@
-import { exec } from "child_process";
+import { exec, ExecOptions } from "child_process";
 import { NodeFsAccess } from "./node-fs-access";
 import path from "path";
 
@@ -63,6 +63,10 @@ export function sortWithOrderedList<T>(toSort: T[], sortOrder: string[], cFunc: 
 
 }
 
+
+export function timeSince(n: number): string {
+    return `${((performance.now() - n)/1000).toPrecision(3)}s`;
+}
 
 export function execPromise(command, opts): Promise<string> {
     return new Promise(function(resolve, reject) {
