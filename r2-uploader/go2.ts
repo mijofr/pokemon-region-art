@@ -2,7 +2,7 @@ import { S3Wrap } from "./S3Wrap";
 
 import * as fs from 'fs';
 
-
+// remember to swap these out and put the new ones in secret storage before public'ing repo
 
 const configItems = {
     accountId: 'b5c037f017d43b6779b432cdf80f8fa0',

@@ -25,10 +25,17 @@
 			"ETag": "\"860036ca13c8b487b27cf14d6d201061\"",
 			"Size": 158030,
 			"StorageClass": "STANDARD"
+		},
+		{
+			"Key": "regions/toRemove.jpg",
+			"LastModified": "2025-02-12T17:54:38.722Z",
+			"ETag": "\"67ad97b199b4ffa1737fcaab1c6bd0b1\"",
+			"Size": 103095,
+			"StorageClass": "STANDARD"
 		}
 	],
 	"IsTruncated": false,
-	"KeyCount": 3,
+	"KeyCount": 4,
 	"MaxKeys": 1000,
 	"Name": "region-art"
 }

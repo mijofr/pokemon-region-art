@@ -4,6 +4,9 @@ import * as fs from 'fs';
 // jurisdiction endpoint: https://b5c037f017d43b6779b432cdf80f8fa0.r2.cloudflarestorage.com
 import { MetricsResponse } from './types';
 
+
+// remember to swap these out and put the new ones in secret storage before public'ing repo
+
 const configTokens = {
     accountId: 'b5c037f017d43b6779b432cdf80f8fa0',
     accessKeyId: '2cef0b99024920aea528136a0163de5f',
