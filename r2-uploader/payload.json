@@ -1,0 +1,156 @@
+{
+    "operationName": "getR2Storage",
+    "variables": {
+        "accountTag": "b5c037f017d43b6779b432cdf80f8fa0",
+        "filter": {
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        },
+        "storageFilterStandard": {
+            "bucketName": "region-art",
+            "storageClass": "Standard",
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        },
+        "classAOpsFilterStandard": {
+            "actionType_in": [
+                "ListBuckets",
+                "PutBucket",
+                "ListObjects",
+                "PutObject",
+                "CopyObject",
+                "CompleteMultipartUpload",
+                "CreateMultipartUpload",
+                "UploadPart",
+                "UploadPartCopy",
+                "PutBucketEncryption",
+                "ListMultipartUploads",
+                "PutBucketCors",
+                "PutBucketLifecycleConfiguration",
+                "ListParts",
+                "PutBucketStorageClass",
+                "LifecycleStorageTierTransition"
+            ],
+            "bucketName": "region-art",
+            "storageClass": "Standard",
+            "actionStatus_in": [
+                "success",
+                "userError"
+            ],
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        },
+        "classBOpsFilterStandard": {
+            "actionType_in": [
+                "HeadBucket",
+                "HeadObject",
+                "GetObject",
+                "ReportUsageSummary",
+                "GetBucketEncryption",
+                "GetBucketLocation",
+                "GetBucketLifecycleConfiguration",
+                "GetBucketCors"
+            ],
+            "bucketName": "region-art",
+            "storageClass": "Standard",
+            "actionStatus_in": [
+                "success",
+                "userError"
+            ],
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        },
+        "storageFilterIA": {
+            "bucketName": "region-art",
+            "storageClass": "InfrequentAccess",
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        },
+        "classAOpsFilterIA": {
+            "actionType_in": [
+                "ListBuckets",
+                "PutBucket",
+                "ListObjects",
+                "PutObject",
+                "CopyObject",
+                "CompleteMultipartUpload",
+                "CreateMultipartUpload",
+                "UploadPart",
+                "UploadPartCopy",
+                "PutBucketEncryption",
+                "ListMultipartUploads",
+                "PutBucketCors",
+                "PutBucketLifecycleConfiguration",
+                "ListParts",
+                "PutBucketStorageClass",
+                "LifecycleStorageTierTransition"
+            ],
+            "bucketName": "region-art",
+            "storageClass": "InfrequentAccess",
+            "actionStatus_in": [
+                "success",
+                "userError"
+            ],
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        },
+        "classBOpsFilterIA": {
+            "actionType_in": [
+                "HeadBucket",
+                "HeadObject",
+                "GetObject",
+                "ReportUsageSummary",
+                "GetBucketEncryption",
+                "GetBucketLocation",
+                "GetBucketLifecycleConfiguration",
+                "GetBucketCors"
+            ],
+            "bucketName": "region-art",
+            "storageClass": "InfrequentAccess",
+            "actionStatus_in": [
+                "success",
+                "userError"
+            ],
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        },
+        "dataRetrievalFilter": {
+            "actionType": "N/A",
+            "AND": [
+                {
+                    "date_leq": "2025-02-08",
+                    "date_geq": "2025-02-01"
+                }
+            ]
+        }
+    },
+    "query": "query getR2Storage($accountTag: string, $storageFilterStandard: AccountR2StorageAdaptiveGroupsFilter_InputObject, $classAOpsFilterStandard: AccountR2OperationsAdaptiveGroupsFilter_InputObject, $classBOpsFilterStandard: AccountR2OperationsAdaptiveGroupsFilter_InputObject, $storageFilterIA: AccountR2StorageAdaptiveGroupsFilter_InputObject, $classAOpsFilterIA: AccountR2OperationsAdaptiveGroupsFilter_InputObject, $classBOpsFilterIA: AccountR2OperationsAdaptiveGroupsFilter_InputObject, $dataRetrievalFilter: AccountR2OperationsAdaptiveGroupsFilter_InputObject) {\n  viewer {\n    accounts(filter: {accountTag: $accountTag}) {\n      storageStandard: r2StorageAdaptiveGroups(limit: 10000, orderBy: [date_DESC], filter: $storageFilterStandard) {\n        max {\n          payloadSize\n          metadataSize\n          __typename\n        }\n        dimensions {\n          storageClass\n          date\n          __typename\n        }\n        __typename\n      }\n      classAOpsStandard: r2OperationsAdaptiveGroups(limit: 10000, filter: $classAOpsFilterStandard) {\n        sum {\n          requests\n          __typename\n        }\n        dimensions {\n          storageClass\n          date\n          __typename\n        }\n        __typename\n      }\n      classBOpsStandard: r2OperationsAdaptiveGroups(limit: 10000, filter: $classBOpsFilterStandard) {\n        sum {\n          requests\n          __typename\n        }\n        dimensions {\n          storageClass\n          date\n          __typename\n        }\n        __typename\n      }\n      storageIA: r2StorageAdaptiveGroups(limit: 10000, orderBy: [date_DESC], filter: $storageFilterIA) {\n        max {\n          payloadSize\n          metadataSize\n          __typename\n        }\n        dimensions {\n          storageClass\n          date\n          __typename\n        }\n        __typename\n      }\n      classAOpsIA: r2OperationsAdaptiveGroups(limit: 10000, filter: $classAOpsFilterIA) {\n        sum {\n          requests\n          __typename\n        }\n        dimensions {\n          storageClass\n          date\n          __typename\n        }\n        __typename\n      }\n      classBOpsIA: r2OperationsAdaptiveGroups(limit: 10000, filter: $classBOpsFilterIA) {\n        sum {\n          requests\n          responseBytes\n          __typename\n        }\n        dimensions {\n          storageClass\n          date\n          __typename\n        }\n        __typename\n      }\n      dataRetrieval: r2OperationsAdaptiveGroups(limit: 10000, filter: $dataRetrievalFilter) {\n        sum {\n          responseBytes\n          __typename\n        }\n        dimensions {\n          date\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"
+}

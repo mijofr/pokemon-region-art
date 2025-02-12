@@ -1,0 +1,352 @@
+{
+    "data": {
+        "viewer": {
+            "__typename": "viewer",
+            "accounts": [
+                {
+                    "__typename": "account",
+                    "classAOpsIA": [],
+                    "classAOpsStandard": [
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-07",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 2
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-08",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 9
+                            }
+                        }
+                    ],
+                    "classBOpsIA": [],
+                    "classBOpsStandard": [
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-05",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 6
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-06",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 1
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-07",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 8
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-08",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 10
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-02",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 25
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-01",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 46
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-04",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 46
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2OperationsAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsDimensions",
+                                "date": "2025-02-03",
+                                "storageClass": "Standard"
+                            },
+                            "sum": {
+                                "__typename": "AccountR2OperationsAdaptiveGroupsSum",
+                                "requests": 34
+                            }
+                        }
+                    ],
+                    "dataRetrieval": [],
+                    "storageIA": [
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-08",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-07",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-06",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-05",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-04",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-03",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-02",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-01",
+                                "storageClass": "InfrequentAccess"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 0,
+                                "payloadSize": 0
+                            }
+                        }
+                    ],
+                    "storageStandard": [
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-08",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-07",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-06",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-05",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-04",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-03",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-02",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        },
+                        {
+                            "__typename": "AccountR2StorageAdaptiveGroups",
+                            "dimensions": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsDimensions",
+                                "date": "2025-02-01",
+                                "storageClass": "Standard"
+                            },
+                            "max": {
+                                "__typename": "AccountR2StorageAdaptiveGroupsMax",
+                                "metadataSize": 21,
+                                "payloadSize": 252242
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "errors": null
+}

@@ -1,0 +1,244 @@
+{
+	"name": "regions",
+	"path": [],
+	"metadata": {
+		"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions",
+		"uniqueIdString": "10004",
+		"depth": 0,
+		"isMinor": false
+	},
+	"items": [
+		{
+			"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\PokéPark.jpg",
+			"enumeratedName": "poképark",
+			"relPath": "PokéPark.jpg",
+			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\PokéPark.jpg",
+			"name": "PokéPark",
+			"extension": "jpg",
+			"width": 1584,
+			"height": 1200,
+			"lossless": false,
+			"filesize": 663621,
+			"quality": -1,
+			"aspect": 1.32,
+			"hash": "1a936b25f97011d22a4981e042ff7a6e"
+		},
+		{
+			"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Puzzle Village.png",
+			"enumeratedName": "puzzle-village",
+			"relPath": "Puzzle Village.png",
+			"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Puzzle Village.jpg",
+			"name": "Puzzle Village",
+			"extension": "png",
+			"width": 320,
+			"height": 240,
+			"lossless": true,
+			"filesize": 146585,
+			"quality": -1,
+			"aspect": 1.333,
+			"hash": "55c0b33555d35ba15dca8cee0d8c679b"
+		}
+	],
+	"children": [
+		{
+			"name": "Almia",
+			"path": [
+				"Almia"
+			],
+			"metadata": {
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia",
+				"uniqueIdString": "10006",
+				"depth": 1,
+				"isMinor": false
+			},
+			"items": [],
+			"children": [
+				{
+					"name": "_Almia",
+					"path": [
+						"Almia",
+						"_Almia"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia",
+						"uniqueIdString": "10034",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia\\Almia.jpg",
+							"enumeratedName": "Almia\\_Almia\\almia",
+							"relPath": "Almia\\_Almia\\Almia.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia\\Almia.jpg",
+							"name": "Almia",
+							"extension": "jpg",
+							"width": 1083,
+							"height": 1000,
+							"lossless": false,
+							"filesize": 341897,
+							"quality": -1,
+							"aspect": 1.083,
+							"hash": "f9f44c93bbaa52ae5eb1e71cfcf22160"
+						},
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia\\Almia.png",
+							"enumeratedName": "Almia\\_Almia\\almia",
+							"relPath": "Almia\\_Almia\\Almia.png",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia\\Almia.jpg",
+							"name": "Almia",
+							"extension": "png",
+							"width": 1083,
+							"height": 1000,
+							"lossless": true,
+							"filesize": 1674816,
+							"quality": -1,
+							"aspect": 1.083,
+							"hash": "c6f4c652e68ed34ee577b3fe543529b2"
+						}
+					],
+					"children": []
+				},
+				{
+					"name": "_Almia Cloudy",
+					"path": [
+						"Almia",
+						"_Almia Cloudy"
+					],
+					"metadata": {
+						"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy",
+						"uniqueIdString": "10035",
+						"depth": 2,
+						"isMinor": false
+					},
+					"items": [
+						{
+							"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\Almia Cloudy.jpg",
+							"enumeratedName": "Almia\\_Almia Cloudy\\almia-cloudy",
+							"relPath": "Almia\\_Almia Cloudy\\Almia Cloudy.jpg",
+							"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia Cloudy\\Almia Cloudy.jpg",
+							"name": "Almia Cloudy",
+							"extension": "jpg",
+							"width": 4252,
+							"height": 3927,
+							"lossless": false,
+							"filesize": 3425957,
+							"quality": -1,
+							"aspect": 1.083,
+							"hash": "b9c5c9c297fe02edc07b9ef40014f2a7"
+						}
+					],
+					"children": [
+						{
+							"name": "downscale",
+							"path": [
+								"Almia",
+								"_Almia Cloudy",
+								"downscale"
+							],
+							"metadata": {
+								"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\downscale",
+								"uniqueIdString": "10083",
+								"depth": 3,
+								"isMinor": false
+							},
+							"items": [
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\downscale\\half.jpg",
+									"enumeratedName": "Almia\\_Almia Cloudy\\downscale\\half",
+									"relPath": "Almia\\_Almia Cloudy\\downscale\\half.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia Cloudy\\downscale\\half.jpg",
+									"name": "half",
+									"extension": "jpg",
+									"width": 2126,
+									"height": 1964,
+									"lossless": false,
+									"filesize": 854529,
+									"quality": -1,
+									"aspect": 1.082,
+									"hash": "a43128af3d85358e92d6c9928c550d1c"
+								},
+								{
+									"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Almia\\_Almia Cloudy\\downscale\\small.jpg",
+									"enumeratedName": "Almia\\_Almia Cloudy\\downscale\\small",
+									"relPath": "Almia\\_Almia Cloudy\\downscale\\small.jpg",
+									"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Almia\\_Almia Cloudy\\downscale\\small.jpg",
+									"name": "small",
+									"extension": "jpg",
+									"width": 1083,
+									"height": 1000,
+									"lossless": false,
+									"filesize": 304605,
+									"quality": -1,
+									"aspect": 1.083,
+									"hash": "53c1465b19626aac742e33443b2466e2"
+								}
+							],
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ransei",
+			"path": [
+				"Ransei"
+			],
+			"metadata": {
+				"fullPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei",
+				"uniqueIdString": "10025",
+				"depth": 1,
+				"isMinor": false
+			},
+			"items": [
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei\\ransei-locations.png",
+					"enumeratedName": "Ransei\\ransei-locations",
+					"relPath": "Ransei\\ransei-locations.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Ransei\\ransei-locations.jpg",
+					"name": "ransei-locations",
+					"extension": "png",
+					"width": 544,
+					"height": 448,
+					"lossless": true,
+					"filesize": 257081,
+					"quality": -1,
+					"aspect": 1.214,
+					"hash": "4eecf9a4a207baa2d6d5398de3d7fa94"
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei\\Ransei.png",
+					"enumeratedName": "Ransei\\ransei",
+					"relPath": "Ransei\\Ransei.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Ransei\\Ransei.jpg",
+					"name": "Ransei",
+					"extension": "png",
+					"width": 544,
+					"height": 448,
+					"lossless": true,
+					"filesize": 115817,
+					"quality": -1,
+					"aspect": 1.214,
+					"hash": "2eb9871a16377413845170445d42352a"
+				},
+				{
+					"path": "D:\\Users\\Michael\\repos\\pokemon-region-art\\regions\\Ransei\\Southwest.png",
+					"enumeratedName": "Ransei\\southwest",
+					"relPath": "Ransei\\Southwest.png",
+					"thumbPath": "D:\\Users\\Michael\\repos\\pokemon-region-art\\thumbnails\\Ransei\\Southwest.jpg",
+					"name": "Southwest",
+					"extension": "png",
+					"width": 544,
+					"height": 448,
+					"lossless": true,
+					"filesize": 100392,
+					"quality": -1,
+					"aspect": 1.214,
+					"hash": "e44c9644925522d0d5492307b10c47f1"
+				}
+			],
+			"children": []
+		}
+	]
+}

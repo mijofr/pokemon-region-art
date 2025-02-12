@@ -1,0 +1,94 @@
+{
+	"data": {
+		"viewer": {
+			"accounts": [
+				{
+					"r2OperationsAdaptiveGroups": [
+						{
+							"dimensions": {
+								"actionType": "ListObjects",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 8
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "GetBucketSippyConfiguration",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 3
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "ListBuckets",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 14
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "GetObject",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 169
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "ListMultipartUploads",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 6
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "HeadObject",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 1
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "HeadBucket",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 4
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "GetBucketCors",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 3
+							}
+						},
+						{
+							"dimensions": {
+								"actionType": "GetBucketLifecycleConfiguration",
+								"storageClass": "Standard"
+							},
+							"sum": {
+								"requests": 3
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"errors": null
+}
